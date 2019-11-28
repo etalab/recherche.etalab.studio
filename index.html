@@ -121,7 +121,7 @@
       <div class="container">
         <div id="datasets-container" class=cards>
           <h1>Cartes</h1>
-          <div class="row list"></div>
+          <div class="list"></div>
         </div>
       </div>
     </section>
@@ -167,42 +167,95 @@
 
   <template id="template-card">
     <div class="card">
-      <div class="card__cover">
+      <!-- <div class="card__cover">
         <img src="https://template.data.gouv.fr/images/template/shiba.jpg" alt="Shiba Inu" />
-      </div>
+      </div> -->
       <div class="card__content">
-        <h3 class=name>{name}</h3>
-        <div class="card__meta"><time>12 avril 2018</time><span class=city>{city}</span></div>
-        <p>The Shiba Inu (柴犬) is the smallest of the six original and distinct spitz breeds of dog from Japan.</p>
+        <h3 class=title>{title}</h3>
+        <div class="card__meta"><time>12 avril 2018</time><span class=time></span></div>
+        <p class=content>{content}</p>
       </div>
-      <div class="card__extra">
-        <div class="label label--active">shiba inu</div>
-        <div class="label label--inactive"><a href="#">dog</a></div>
-        <div class="label">japan</div>
-        <div class="label"><a href="#">wow</a></div>
+      <div class="card__extra text-center">
+        <a class=button href="{url}">Voir le jeu de données</a>
       </div>
     </div>
   </template>
 
 </body>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 <script>
-  var values = [
-      { name: 'Jonny', city: 'Stockholm' }
-      , { name: 'Peter', city: 'Berlin' },
-      , { name: 'Matt', city: 'Berlin' }
-    ];
+  const values = [
+      {
+        "title": "Base Adresse Nationale — BAN",
+        "url": "https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/",
+        "content": "La Base Adresse Nationale est une base de données qui a pour but de référencer l'intégralité des adresses du territoire français."
+      },
+      {
+        "title": "Répertoire National des Associations — RNA",
+        "url": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/",
+        "content": "Le Répertoire National des Associations (RNA) contient l’ensemble des associations relevant de la loi 1901, à savoir toutes les associations de France."
+      },
+      {
+        "title": "Référentiel de l’organisation administrative de l’État",
+        "url": "https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/",
+        "content": "Le Référentiel de l’organisation administrative de l’État comprend toutes les institutions régies par la Constitution de la Ve République et les administrations qui en dépendent, soit environ 6000 organismes."
+      },
+      {
+        "title": "Plan Cadastral Informatisé — PCI",
+        "url": "https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/",
+        "content": "Le plan cadastral est un assemblage d’environ 600 000 feuilles ou planches représentant chacune une section ou une partie d’une section cadastrale. Il couvre la France entière."
+      },
+      {
+        "title": "Registre Parcellaire Graphique — RPG",
+        "url": "https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/",
+        "content": "Le registre parcellaire graphique est une base de données géographiques servant de référence à l’instruction des aides de la politique agricole commune (PAC)."
+      },
+      {
+        "title": "Code Officiel Géographique — COG",
+        "url": "https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/",
+        "content": "Le code officiel géographique rassemble les codes et libellés des communes, des cantons, des arrondissements, des départements, des régions et des pays et territoires étrangers au 1er janvier."
+      },
+      {
+        "title": "Base Sirene des entreprises et de leurs établissements — SIREN, SI",
+        "url": "https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
+        "content": "…"
+      },
+      {
+        "title": "Référentiel à Grande Échelle — RGE",
+        "url": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/",
+        "content": "Le RGE est constitué des composantes orthophotographique, topographique et adresse, parcellaire et altimétrique."
+      },
+      {
+        "title": "Répertoire Opérationnel des Métiers et des Emplois — ROME",
+        "url": "https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/",
+        "content": "Le ROME est un outil au service de la mobilité professionnelle et du rapprochement entre offres et candidats."
+      }
+    ]
   const template = document.querySelector('#template-card')
   const container = document.querySelector('#datasets-container .list')
-  container.innerHTML = values.map(value => {
+  container.innerHTML = values.map((value, i) => {
     return template.innerHTML
-      .replace(/\{name}/g, value.name)
-      .replace(/\{city}/g, value.city)
+      .replace(/\{title}/g, value.title)
+      .replace(/\{content}/g, value.content)
+      .replace(/\{url}/g, value.url)
     }).join('')
 
-  var hackerList = new List('main', { valueNames: ['name', 'city'] });
-
+  var hackerList = new List('main', { valueNames: ['title', 'content'] })
 </script>
+
+<style>
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card {
+    min-width: 250px;
+  }
+  .card .button {
+    margin: inherit;
+  }
+</style>
 
 </html>
