@@ -7,6 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Recherche data.gouv.fr</title>
   <link rel="stylesheet" href="template.css">
+  <style>
+    .section-input {
+      padding: 2rem 0 3rem;
+    }
+    .section-cards {
+      padding: 2rem 0;
+    }
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .cards {
+      margin-top: 0;
+    }
+    .card {
+      min-width: 300px;
+      margin: 0 1rem 1rem 0;
+    }
+    .card .button {
+      margin: inherit;
+    }
+  </style>
 </head>
 
 <body>
@@ -43,7 +66,7 @@
 
   <main role="main" id=main>
 
-    <section class="section section-color">
+    <section class="section section-color section-input">
       <div class="container">
         <div class="form__group">
           <label for="search">Tapez un mot-clé :</label>
@@ -59,10 +82,9 @@
       </div>
     </section>
 
-    <section class="section section-grey">
+    <section class="section section-grey section-cards">
       <div class="container">
         <div id="datasets-container" class=cards>
-          <h1>Cartes</h1>
           <div class="list"></div>
         </div>
       </div>
@@ -86,7 +108,6 @@
         <li><a href="https://www.data.gouv.fr/terms">Conditions générales d'utilisation</a></li>
         <li><a href="https://www.data.gouv.fr/api">API</a></li>
       </ul>
-      <ul class="footer__links"></ul>
     </div>
   </footer>
 
@@ -164,19 +185,5 @@
 
   var hackerList = new List('main', { valueNames: ['title', 'content'] })
 </script>
-
-<style>
-  .list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .card {
-    min-width: 250px;
-  }
-  .card .button {
-    margin: inherit;
-  }
-</style>
 
 </html>
