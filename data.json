@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Base Adresse Nationale — BAN",
+    "url": "https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/",
+    "content": "La Base Adresse Nationale est une base de données qui a pour but de référencer l'intégralité des adresses du territoire français."
+  },
+  {
+    "title": "Répertoire National des Associations — RNA",
+    "url": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/",
+    "content": "Le Répertoire National des Associations (RNA) contient l’ensemble des associations relevant de la loi 1901, à savoir toutes les associations de France."
+  },
+  {
+    "title": "Référentiel de l’organisation administrative de l’État",
+    "url": "https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/",
+    "content": "Le Référentiel de l’organisation administrative de l’État comprend toutes les institutions régies par la Constitution de la Ve République et les administrations qui en dépendent, soit environ 6000 organismes."
+  },
+  {
+    "title": "Plan Cadastral Informatisé — PCI",
+    "url": "https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/",
+    "content": "Le plan cadastral est un assemblage d’environ 600 000 feuilles ou planches représentant chacune une section ou une partie d’une section cadastrale. Il couvre la France entière."
+  },
+  {
+    "title": "Registre Parcellaire Graphique — RPG",
+    "url": "https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/",
+    "content": "Le registre parcellaire graphique est une base de données géographiques servant de référence à l’instruction des aides de la politique agricole commune (PAC)."
+  },
+  {
+    "title": "Code Officiel Géographique — COG",
+    "url": "https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/",
+    "content": "Le code officiel géographique rassemble les codes et libellés des communes, des cantons, des arrondissements, des départements, des régions et des pays et territoires étrangers au 1er janvier."
+  },
+  {
+    "title": "Base Sirene des entreprises et de leurs établissements — SIREN, SI",
+    "url": "https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
+    "content": "…"
+  },
+  {
+    "title": "Référentiel à Grande Échelle — RGE",
+    "url": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/",
+    "content": "Le RGE est constitué des composantes orthophotographique, topographique et adresse, parcellaire et altimétrique."
+  },
+  {
+    "title": "Répertoire Opérationnel des Métiers et des Emplois — ROME",
+    "url": "https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/",
+    "content": "Le ROME est un outil au service de la mobilité professionnelle et du rapprochement entre offres et candidats."
+  }
+]
