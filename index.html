@@ -130,14 +130,14 @@
 <script>
   const template = document.querySelector('#template-card')
   const container = document.querySelector('#datasets-container .list')
-  fetch("data.json")
+  fetch("https://www.data.gouv.fr/api/1/datasets/?page_size=20")
     .then(response => response.json())
     .then(json => {
-      container.innerHTML = json.map((value, i) => {
+      container.innerHTML = json.data.map((value, i) => {
         return template.innerHTML
           .replace(/\{title}/g, value.title)
-          .replace(/\{content}/g, value.content)
-          .replace(/\{url}/g, value.url)
+          .replace(/\{content}/g, value.description)
+          .replace(/\{url}/g, value.page)
         }).join('')
 
       new List('main', { valueNames: ['title', 'content'] })
