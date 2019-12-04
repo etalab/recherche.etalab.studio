@@ -9,8 +9,11 @@
   <link rel="stylesheet" href="template.css">
   <link rel="prefetch" href="data.json">
   <style>
+    label[for=search] {
+      display: none;
+    }
     .section-input {
-      padding: 2rem 0 3rem;
+      padding: 3rem 0;
     }
     .section-cards {
       padding: 2rem 0;
@@ -29,6 +32,11 @@
     }
     .card .button {
       margin: inherit;
+    }
+
+    #more-results {
+      display: block;
+      text-align: center;
     }
   </style>
 </head>
@@ -70,9 +78,9 @@
     <section class="section section-color section-input">
       <div class="container">
         <div class="form__group">
-          <label for="search">Tapez un mot-clé :</label>
+          <label for="search">Rechercher un jeu de données :</label>
           <div class="search__group">
-            <input type="search" class="fuzzy-search" value="" name="search" id="search" placeholder="Trouver de la donnée">
+            <input type="search" class="fuzzy-search" value="" name="search" id="search" placeholder="Trouver de la donnée" onkeyup="updateSearch(this.value)">
             <button class="overlay-button" aria-label="Recherche">
               <svg class="icon icon-search">
                 <use xlink:href="#magnifier"></use>
@@ -88,6 +96,7 @@
         <div id="datasets-container" class=cards>
           <div class="list"></div>
         </div>
+        <a class=button data-href="https://data.gouv.fr/search/?q=%s" href="https://data.gouv.fr/search/" id=more-results>Voir plus de résultats</a>
       </div>
     </section>
   </main>
@@ -131,18 +140,26 @@
 <script>
   const numberOfDatasets = 100
   const ALLOWED_TAGS = ['a', 'em', 'strong', 'ul', 'li']
+  const moreResultsButton = document.querySelector('#more-results')
+
+  function updateSearch(q) {
+    moreResultsButton.href = moreResultsButton.dataset.href.replace('%s', q)
+  }
+
   const truncateString = (string, maxLength = 50) => {
     // TODO: make it smarter, especially for truncated links.
     if (!string) return
     const showDots = string.length > maxLength
     return `${string.substring(0, maxLength)}${showDots ? '…' : ''}`
   }
+
   const prepareDescription = (string) => {
     const truncated = truncateString(string, 250)
     const htmlized = marked(truncated)
     const sanitized = DOMPurify.sanitize(htmlized, {ALLOWED_TAGS: ALLOWED_TAGS})
     return sanitized
   }
+
   const template = document.querySelector('#template-card')
   const container = document.querySelector('#datasets-container .list')
   fetch(`https://www.data.gouv.fr/api/1/datasets/?page_size=${numberOfDatasets}`)
