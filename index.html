@@ -129,6 +129,7 @@
       </div>
       <div class="card__extra text-center">
         <a class=button href="{url}">Voir le jeu de données</a>
+        {extra_link}
       </div>
     </div>
   </template>
@@ -144,7 +145,7 @@
   const searchField = document.querySelector('input[type=search')
   const urlParams = new URLSearchParams(window.location.search)
   const query = urlParams.get('q')
-  let datasets = []
+  let postUrl = ''
 
   if(query) {
     searchField.value = query
@@ -176,7 +177,9 @@
   const relatedPromise = fetch(`https://www.data.gouv.fr/api/1/posts/?page=1&page_size=1&sort=-created_at`)
     .then(response => response.json())
     .then(json => {
-      const uris = json.data[0].datasets.map(d => d.uri)
+      const postData = json.data[0]
+      postUrl = postData.page
+      const uris = postData.datasets.map(d => d.uri)
       const promises = uris.map(uri => fetch(uri).then(r => r.json()))
       return Promise.all(promises)
     })
@@ -186,6 +189,8 @@
     .then(json => json.data)
 
   Promise.all([relatedPromise, popularPromise]).then(datalists => {
+    const [relatedDatasets, popularDatasets] = datalists
+    relatedDatasets.forEach(dataset => dataset.postUrl = postUrl)
     const datasets = datalists.flat()
     container.innerHTML = datasets.map(dataset => {
       return template.innerHTML
@@ -193,6 +198,7 @@
       .replace(/\{acronym}/g, dataset.acronym ? ` — ${dataset.acronym}` : '')
       .replace(/\{content}/g, prepareDescription(dataset.description))
       .replace(/\{url}/g, dataset.page)
+      .replace(/\{extra_link}/g, dataset.postUrl ? `<a class="button secondary" href="${dataset.postUrl}">Voir l’article de blog dédié</a>` : '')
     }).join('')
     const list = new List('main', { valueNames: ['title', 'content'] })
     if(query) list.fuzzySearch(query)
