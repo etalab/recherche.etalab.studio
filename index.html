@@ -136,7 +136,7 @@
     // TODO: make it smarter, especially for truncated links.
     if (!string) return
     const showDots = string.length > maxLength
-    return `${string.substring(0, maxLength)}${showDots ? '...' : ''}`
+    return `${string.substring(0, maxLength)}${showDots ? '…' : ''}`
   }
   const prepareDescription = (string) => {
     const truncated = truncateString(string, 250)
