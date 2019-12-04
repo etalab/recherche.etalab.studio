@@ -115,7 +115,7 @@
   <template id="template-card">
     <div class="card">
       <div class="card__content">
-        <h3 class=title>{title}</h3>
+        <h3 class=title>{title}{acronym}</h3>
         <p class=content>{content}</p>
       </div>
       <div class="card__extra text-center">
@@ -152,6 +152,7 @@
       container.innerHTML = json.data.map((value, i) => {
         return template.innerHTML
           .replace(/\{title}/g, value.title)
+          .replace(/\{acronym}/g, value.acronym ? ` — ${value.acronym}` : '')
           .replace(/\{content}/g, prepareDescription(value.description))
           .replace(/\{url}/g, value.page)
         }).join('')
