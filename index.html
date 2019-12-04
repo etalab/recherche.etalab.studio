@@ -138,12 +138,13 @@
 <script src="js/marked-0-7-0.min.js"></script>
 <script src="js/purify-2-0-7.js"></script>
 <script>
-  const numberOfDatasets = 100
+  const numberOfDatasets = 50
   const ALLOWED_TAGS = ['a', 'em', 'strong', 'ul', 'li']
   const moreResultsButton = document.querySelector('#more-results')
   const searchField = document.querySelector('input[type=search')
   const urlParams = new URLSearchParams(window.location.search)
   const query = urlParams.get('q')
+  let datasets = []
 
   if(query) {
     searchField.value = query
@@ -171,20 +172,33 @@
 
   const template = document.querySelector('#template-card')
   const container = document.querySelector('#datasets-container .list')
-  fetch(`https://www.data.gouv.fr/api/1/datasets/?page_size=${numberOfDatasets}`)
+
+  fetch(`https://www.data.gouv.fr/api/1/posts/?page=1&page_size=1&sort=-created_at`)
     .then(response => response.json())
     .then(json => {
-      container.innerHTML = json.data.map((value, i) => {
-        return template.innerHTML
-          .replace(/\{title}/g, value.title)
-          .replace(/\{acronym}/g, value.acronym ? ` — ${value.acronym}` : '')
-          .replace(/\{content}/g, prepareDescription(value.description))
-          .replace(/\{url}/g, value.page)
+      const uris = json.data[0].datasets.map(d => d.uri)
+      const promises = uris.map(uri => fetch(uri).then(r => r.json()))
+      Promise.all(promises).then(d => {
+        datasets = [...d, ...datasets]
+      })
+
+      fetch(`https://www.data.gouv.fr/api/1/datasets/?page_size=${numberOfDatasets}`)
+      .then(response => response.json())
+      .then(json => {
+        datasets = [...datasets, ...json.data]
+        container.innerHTML = datasets.map((dataset, i) => {
+          console.debug(dataset)
+          return template.innerHTML
+          .replace(/\{title}/g, dataset.title)
+          .replace(/\{acronym}/g, dataset.acronym ? ` — ${dataset.acronym}` : '')
+          .replace(/\{content}/g, prepareDescription(dataset.description))
+          .replace(/\{url}/g, dataset.page)
         }).join('')
 
-      const list = new List('main', { valueNames: ['title', 'content'] })
-      if(query) list.fuzzySearch(query)
-      list.on('searchComplete', list => updateSearch(list.search.arguments[0]))
+        const list = new List('main', { valueNames: ['title', 'content'] })
+        if(query) list.fuzzySearch(query)
+        list.on('searchComplete', list => updateSearch(list.search.arguments[0]))
+      })
     })
     .catch(console.error.bind(console))
 </script>
