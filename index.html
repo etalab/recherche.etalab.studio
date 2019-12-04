@@ -80,7 +80,7 @@
         <div class="form__group">
           <label for="search">Rechercher un jeu de données :</label>
           <div class="search__group">
-            <input type="search" class="fuzzy-search" value="" name="search" id="search" placeholder="Trouver de la donnée" onkeyup="updateSearch(this.value)">
+            <input type="search" class="fuzzy-search" value="" name="search" id="search" placeholder="Trouver de la donnée">
             <button class="overlay-button" aria-label="Recherche">
               <svg class="icon icon-search">
                 <use xlink:href="#magnifier"></use>
@@ -141,19 +141,28 @@
   const numberOfDatasets = 100
   const ALLOWED_TAGS = ['a', 'em', 'strong', 'ul', 'li']
   const moreResultsButton = document.querySelector('#more-results')
+  const searchField = document.querySelector('input[type=search')
+  const urlParams = new URLSearchParams(window.location.search)
+  const query = urlParams.get('q')
+
+  if(query) {
+    searchField.value = query
+    updateSearch(query)
+  }
 
   function updateSearch(q) {
     moreResultsButton.href = moreResultsButton.dataset.href.replace('%s', q)
+    window.history.pushState({}, '', `?q=${q}`)
   }
 
-  const truncateString = (string, maxLength = 50) => {
+  function truncateString (string, maxLength = 50) {
     // TODO: make it smarter, especially for truncated links.
     if (!string) return
     const showDots = string.length > maxLength
     return `${string.substring(0, maxLength)}${showDots ? '…' : ''}`
   }
 
-  const prepareDescription = (string) => {
+  function prepareDescription (string) {
     const truncated = truncateString(string, 250)
     const htmlized = marked(truncated)
     const sanitized = DOMPurify.sanitize(htmlized, {ALLOWED_TAGS: ALLOWED_TAGS})
@@ -173,7 +182,9 @@
           .replace(/\{url}/g, value.page)
         }).join('')
 
-      new List('main', { valueNames: ['title', 'content'] })
+      const list = new List('main', { valueNames: ['title', 'content'] })
+      if(query) list.fuzzySearch(query)
+      list.on('searchComplete', list => updateSearch(list.search.arguments[0]))
     })
     .catch(console.error.bind(console))
 </script>
