@@ -128,6 +128,7 @@
 
 <script src="list.js"></script>
 <script>
+  const numberOfDatasets = 100
   const truncateString = (string, maxLength = 50) => {
     if (!string) return
     const showDots = string.length > maxLength
@@ -135,7 +136,7 @@
   }
   const template = document.querySelector('#template-card')
   const container = document.querySelector('#datasets-container .list')
-  fetch("https://www.data.gouv.fr/api/1/datasets/?page_size=20")
+  fetch(`https://www.data.gouv.fr/api/1/datasets/?page_size=${numberOfDatasets}`)
     .then(response => response.json())
     .then(json => {
       container.innerHTML = json.data.map((value, i) => {
