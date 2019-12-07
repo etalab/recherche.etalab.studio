@@ -170,6 +170,10 @@
     const sanitized = DOMPurify.sanitize(htmlized, {ALLOWED_TAGS: ALLOWED_TAGS})
     return sanitized
   }
+  function removeDuplicates(array, key) {
+    let lookup = new Set()
+    return array.filter(obj => !lookup.has(obj[key]) && lookup.add(obj[key]))
+  }
 
   const template = document.querySelector('#template-card')
   const container = document.querySelector('#datasets-container .list')
@@ -192,7 +196,7 @@
     const [relatedDatasets, popularDatasets] = datalists
     relatedDatasets.forEach(dataset => dataset.postUrl = postUrl)
     const datasets = datalists.flat()
-    container.innerHTML = datasets.map(dataset => {
+    container.innerHTML = removeDuplicates(datasets, 'id').map(dataset => {
       return template.innerHTML
       .replace(/\{title}/g, dataset.title)
       .replace(/\{acronym}/g, dataset.acronym ? ` — ${dataset.acronym}` : '')
