@@ -124,11 +124,11 @@
   <template id="template-card">
     <div class="card">
       <div class="card__content">
-        <h3 class=title>{title}{acronym}</h3>
-        <div class=content>{content}</div>
+        <h3 class="title">{title}{acronym}</h3>
+        <div class="content" data-description="{description}">{content}</div>
       </div>
       <div class="card__extra text-center">
-        <a class=button href="{url}">Voir le jeu de données</a>
+        <a class="button" href="{url}">Voir le jeu de données</a>
         {extra_link}
       </div>
     </div>
@@ -172,7 +172,8 @@
               /\{acronym}/g,
               dataset.acronym ? ` — ${dataset.acronym}` : ''
             )
-            .replace(/\{content}/g, dataset.description_excerpt)
+            .replace(/\{description}/g, dataset.description.replace(/\"/g, ""))
+            .replace(/\{content}/g, dataset.content)
             .replace(/\{url}/g, dataset.page)
             .replace(
               /\{extra_link}/g,
@@ -184,7 +185,13 @@
             )
         })
         .join('')
-      const list = new List('main', { valueNames: ['title', 'content'] })
+      const list = new List('main', {
+        valueNames: ['title', { name: 'content', attr: 'data-description' },],
+        fuzzySearch: {
+          distance: 100,
+          threshold: 0.4
+        }
+      })
       if (query) list.fuzzySearch(query)
       list.on('searchComplete', list => updateSearch(list.search.arguments[0]))
     })

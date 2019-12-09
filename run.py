@@ -20,8 +20,8 @@ class Dataset:
     id: str  # Useful to deduplicate.
     title: str
     description: str
-    acronym: Optional[str]
     page: str
+    acronym: Optional[str]
     post_url: Optional[str]
     description_excerpt: Optional[str] = ""
 
@@ -43,7 +43,7 @@ class Dataset:
             "id": self.id,
             "title": self.title,
             "description": self.description,
-            "description_excerpt": self.description_excerpt,
+            "content": self.description_excerpt,
             "acronym": self.acronym,
             "page": self.page,
             "post_url": self.post_url,
