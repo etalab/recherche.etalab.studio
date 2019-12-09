@@ -286,7 +286,7 @@ async def fetch_blog_datasets_by_nb_hits(nb_blogposts: int) -> List[Dataset]:
 
 
 @minicli.cli
-async def generate_data(nb_datasets: int = 50, nb_blogposts: int = 2) -> None:
+async def generate_data(nb_datasets: int = 100, nb_blogposts: int = 2) -> None:
     popular_datasets_by_nb_hits = await fetch_popular_datasets_by_nb_hits(nb_datasets)
     blog_datasets_by_nb_hits = await fetch_blog_datasets_by_nb_hits(nb_blogposts)
     write_datasets(blog_datasets_by_nb_hits + popular_datasets_by_nb_hits)

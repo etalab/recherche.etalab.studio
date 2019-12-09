@@ -234,6 +234,33 @@
     "post_url": ""
   },
   {
+    "id": "555b5673c751df4821190c78",
+    "title": "Correspondants Informatique et Libert\u00e9s (CIL)",
+    "indexme": "correspondant Informatique Libert\u00e9s CIL charg\u00e9 veiller avant lentr\u00e9e application r\u00e8glement g\u00e9n\u00e9ral protection donn\u00e9es RGPD 25 mai 2018 respect loi Informatique Libert\u00e9s sein lentreprise groupe lassociation ladministration lavait d\u00e9sign\u00e9 d\u00e9signation facultative CNIL publie liste organismes priv\u00e9s publics souhait\u00e9 sengager d\u00e9marche conformit\u00e9 d\u00e9signant CIL avant mise place RGPD d\u00e9l\u00e9gu\u00e9 protection donn\u00e9es DPO",
+    "excerpt": "<p>Le correspondant Informatique et Libert\u00e9s (CIL) \u00e9tait charg\u00e9 de veiller, avant l'entr\u00e9e en application du r\u00e8glement g\u00e9n\u00e9ral sur la protection des donn\u00e9es (RGPD) le 25 mai 2018, au respect de la loi Informatique et Libert\u00e9s au sein de l'entreprise, du groupe, de l'association ou de l'administration qui l'avait d\u00e9sign\u00e9.</p>\n<p>Cette\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/correspondants-informatique-et-libertes-cil/",
+    "post_url": ""
+  },
+  {
+    "id": "58d8d8a0c751df17537c66be",
+    "title": "Registre parcellaire graphique (RPG) : contours des parcelles et \u00eelots culturaux et leur groupe de cultures majoritaire",
+    "indexme": "registre parcellaire graphique base donn\u00e9es g\u00e9ographiques servant r\u00e9f\u00e9rence linstruction aides politique agricole commune PAC version anonymis\u00e9e diffus\u00e9e cadre service public mise disposition donn\u00e9es r\u00e9f\u00e9rence contient donn\u00e9es graphiques parcelles depuis 2015 \u00eelots \u00e9ditions 2014 ant\u00e9rieures munis culture principale donn\u00e9es produites lagence services paiement ASP depuis 2007 r\u00e9utilisation RPG gratuite tous usages compris commerciaux selon termes licence ouverte version 10 \u00e9ditions Registre parcellaire graphique ant\u00e9rieures 2013 2010 2011 2012 datagouvfr disponibles page lAgence service paiement donn\u00e9es anonymes RPG mill\u00e9sim\u00e9es contiennent parcelles \u00eelots correspondant ceux d\u00e9clar\u00e9s campagne situation connue arr\u00eat\u00e9e ladministration g\u00e9n\u00e9ral 1er janvier lann\u00e9e N1 donn\u00e9es couvrent lensemble territoire fran\u00e7ais hors Mayotte compris collectivit\u00e9s doutremer SaintBarth\u00e9lemy SaintMartin Format shapefile Projections disponibles syst\u00e8mes g\u00e9od\u00e9siques l\u00e9gaux m\u00e9tropole RGF93 projection Lambert93 outremer syst\u00e8me l\u00e9gal projections UTM D\u00e9coupages disponibles RPG disponible t\u00e9l\u00e9chargement France enti\u00e8re compter l\u00e9dition 2015 r\u00e9gion compter l\u00e9dition 2015 France enti\u00e8re r\u00e9gion l\u00e9dition 2013 l\u00e9dition 2014 API dacc\u00e8s RPG France enti\u00e8re disponible web service via g\u00e9oservices G\u00e9oportail services consultation standard WMS WMTS services vecteur standard WFS LURL lobtention dune cl\u00e9 dacc\u00e8s indiqu\u00e9e cidessous documentation dutilisation g\u00e9oservices accessible",
+    "excerpt": "<p>Le registre parcellaire graphique est une base de donn\u00e9es g\u00e9ographiques servant de r\u00e9f\u00e9rence \u00e0 l'instruction des aides de la politique agricole commune (PAC).\nLa version anonymis\u00e9e diffus\u00e9e ici dans le cadre du service public de mise \u00e0 disposition des donn\u00e9es de r\u00e9f\u00e9rence contient les donn\u00e9es graphiques des parcelles (depuis 2015)\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/",
+    "post_url": ""
+  },
+  {
+    "id": "536c47bfa3a72933d8d1b3a6",
+    "title": "Monuments Historiques : liste des Immeubles prot\u00e9g\u00e9s au titre des Monuments Historiques",
+    "indexme": "Liste Immeubles prot\u00e9g\u00e9s titre Monuments Historiques total France 2014 44 318 monuments Libell\u00e9s champs REF r\u00e9f\u00e9rence l\u00e9difice base M\u00e9rim\u00e9e ETUD type d\u00e9tude recensement immeubles MH \u00e9ventuellement mention label Xxe LOCA REG DEPT COM localisation l\u00e9difice INSEE code INSEE TICO appellation courante l\u00e9difice ADRS adresse n\u00b0 voie type voie nom voie STAT statut propri\u00e9t\u00e9 type propri\u00e9taire cat\u00e9gorie noms AFFE affectataire utile propri\u00e9t\u00e9s lEtat mentionne nom minist\u00e8re affectataire PPRO pr\u00e9cisions protection article 1er larr\u00eat\u00e9 protection cadastre nature date protection DPRO date protection AUTR architecte ma\u00eetre doeuvre SCLE p\u00e9riode construction",
+    "excerpt": "<p>Liste des Immeubles prot\u00e9g\u00e9s au titre des Monuments Historiques (total France  en 2014 : 44 318 monuments).</p>\n<p>Libell\u00e9s des champs : REF (r\u00e9f\u00e9rence de l'\u00e9difice dans la base M\u00e9rim\u00e9e) : ETUD (type d'\u00e9tude : recensement immeubles MH, avec \u00e9ventuellement la mention label Xxe) ; LOCA OU REG + DEPT +\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/monuments-historiques-liste-des-immeubles-proteges-au-titre-des-monuments-historiques/",
+    "post_url": ""
+  },
+  {
     "id": "53699569a3a729239d2046eb",
     "title": "FINESS Extraction du Fichier des \u00e9tablissements",
     "indexme": "Liste \u00e9tablissements domaine sanitaire social Informations G\u00e9olocalisation syst\u00e8me information source contenant coordonn\u00e9es g\u00e9ographiques permettant g\u00e9olocaliser \u00e9tablissements r\u00e9pertori\u00e9s FINESS produit BDADRESSE version 21 IGN Institut G\u00e9ographique National ZONE SYST\u00c8ME GEODESIQUE ELLIPSO\u00cfDE ASSOCIEE PROJECTION France m\u00e9tropolitaine RGF93 IAG GRS 1980 Coniques conformes 9 zones Lambert 93 Guadeloupe Martinique WGS84 IAG GRS 1980 UTM Nord fuseau 20 Guyane RGFG95 IAG GRS 1980 UTM Nord fuseau 22 R\u00e9union RGR92 IAG GRS 1980 UTM Sud fuseau 40 Mayotte RGM04 IAG GRS 1980 UTM Sud fuseau 38 Saint Pierre Miquelon RGSPM06 IAG GRS 1980 UTM Nord fuseau 21 FAQ Pourquoi colonnes napparaissent fichier propos\u00e9 permettre lutilisation dautomates structure fichier saffiche format XSD retrouver colonnes dun format type tableur faut r\u00e9f\u00e9rer description fichier disponible format PDF",
@@ -270,6 +297,15 @@
     "post_url": ""
   },
   {
+    "id": "53699580a3a729239d204738",
+    "title": "Fichier FANTOIR des voies et lieux-dits",
+    "indexme": "fichier r\u00e9pertorie chaque commune nom lieuxdits voies compris celles situ\u00e9es lotissements copropri\u00e9t\u00e9s Acc\u00e9dez donn\u00e9es cliquant lien r\u00e9f\u00e9rence cidessous",
+    "excerpt": "<p>Ce fichier r\u00e9pertorie pour chaque commune le nom des lieux-dits et des voies, y compris celles situ\u00e9es dans les lotissements et les copropri\u00e9t\u00e9s. Acc\u00e9dez aux donn\u00e9es en cliquant sur le lien r\u00e9f\u00e9rence ci-dessous.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/fichier-fantoir-des-voies-et-lieux-dits/",
+    "post_url": ""
+  },
+  {
     "id": "53699ebba3a729239d205f4f",
     "title": "Recensement des \u00e9quipements sportifs, espaces et sites de pratiques",
     "indexme": "recen\u00adse\u00adment natio\u00adnal int\u00e9\u00adgra\u00adlit\u00e9 \u00e9quipements spor\u00adtifs espa\u00adces sites pra\u00adti\u00adques cons\u00adti\u00adtue actions prio\u00adri\u00adtai\u00adres conduite minist\u00e8re charg\u00e9 sports d\u00e9mar\u00adche enga\u00adg\u00e9e a objec\u00adtif per\u00admet\u00adtre bonne connais\u00adsance partag\u00e9e \u00e9quipements sites existants aider meilleure perception in\u00e9gali\u00adt\u00e9s ter\u00adri\u00adto\u00adria\u00adles r\u00e9par\u00adti\u00adtion Cest \u00e9l\u00e9ment pr\u00e9alable toute d\u00e9marche prospective dam\u00e9nagement territoire",
@@ -285,6 +321,42 @@
     "excerpt": "Plan Cadastral Informatis\u00e9 PCI\n<p>Ce jeu de donn\u00e9es provient d'un service public certifi\u00e9  Donn\u00e9es de r\u00e9f\u00e9rence</p>\n<p>Le plan cadastral est un assemblage d\u2019environ 600 000 feuilles ou planches repr\u00e9sentant chacune une section ou une partie d\u2019une section cadastrale.</p>\n<p>Il couvre la France enti\u00e8re, \u00e0 l\u2019exception de la ville de Strasbourg\u2026</p>",
     "acronym": "PCI",
     "page": "https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/",
+    "post_url": ""
+  },
+  {
+    "id": "5aaf6b7ec751df67b0d7a87f",
+    "title": "D\u00e9limitation Parcellaire des AOC Viticoles de l'INAO",
+    "indexme": "Attention donn\u00e9es communiqu\u00e9es titre informatif d\u00e9limitations parcellaires officielles celles consultables plans d\u00e9pos\u00e9s mairie aupr\u00e8s services INAO A noter \u00e9galement ensemble d\u00e9limitations parcellaires AOC viticoles encore repr\u00e9sent\u00e9es travail d\u00e9mat\u00e9rialisation cours Selon r\u00e8glements europ\u00e9ens 5102006 6 mars 2006 12342007 cahier charges appellations d\u00e9finit aire g\u00e9ographique produits enregistr\u00e9s AOP IGP sein aire incluse aire parcellaire correspondant aire production mati\u00e8re premi\u00e8re Laire parcellaire d\u00e9limit\u00e9e correspondant d\u00e9limitation reposant limites administratives cadastre parcelles dont maillage suffisamment fin permet tenir compte variations tr\u00e8s localis\u00e9es \u00e9l\u00e9ments milieu physique d\u00e9limitation utilis\u00e9e essentiellement AOP IGP viticoles correspond cas aire production mati\u00e8re premi\u00e8re Quelques autres produits AOP concernent autres productions agricoles telles huiles olives noix oignons\u2026 donn\u00e9es \u00e9galement disponibles G\u00e9oportail op\u00e9r\u00e9 LIGN",
+    "excerpt": "<p>Attention : \nLes donn\u00e9es communiqu\u00e9es ici ne le sont qu\u2019\u00e0 titre informatif. Les d\u00e9limitations parcellaires officielles sont celles consultables sur les plans d\u00e9pos\u00e9s en mairie ou aupr\u00e8s des services de l\u2019INAO. A noter \u00e9galement que l\u2019ensemble des d\u00e9limitations parcellaires des AOC viticoles ne sont pas encore repr\u00e9sent\u00e9es, le travail de\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/",
+    "post_url": ""
+  },
+  {
+    "id": "5369965fa3a729239d204999",
+    "title": "Imp\u00f4ts locaux",
+    "indexme": "pouvez consulter taux vot\u00e9s ainsi lensemble donn\u00e9es bases taux produits collectivit\u00e9 territoriale donn\u00e9es disponibles pi\u00e8ces jointes partie site Statistiques imp\u00f4ts locaux Bases taux produits r\u00e9gionaux 2002 2009 Bases taux produits d\u00e9partementaux 2002 2011 produit faut comprendre part revenant d\u00e9partement donn\u00e9es communales intercommunales Consultez d\u00e9lib\u00e9rations taux applicables collectivit\u00e9s territoriales 2016 ann\u00e9es ant\u00e9rieures Acc\u00e9dez bases taux produits taxe dhabitation taxes fonci\u00e8res propri\u00e9t\u00e9s b\u00e2ties non b\u00e2ties cotisation fonci\u00e8re entreprises ann\u00e9es 2014 pr\u00e9c\u00e9dentes r\u00e9partis collectivit\u00e9 b\u00e9n\u00e9ficiaire produit taxes",
+    "excerpt": "<p>Vous pouvez consulter les taux vot\u00e9s ainsi que l'ensemble des donn\u00e9es (bases, taux et produits) par collectivit\u00e9 territoriale. Les donn\u00e9es sont disponibles en pi\u00e8ces jointes\u00a0et pour une partie sur le site : \n</p>\n<p>Statistiques sur les imp\u00f4ts locaux</p>\n<p>Bases, taux et produits r\u00e9gionaux de 2002 \u00e0 2009</p>\n\n<p>Bases, taux\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/impots-locaux/",
+    "post_url": ""
+  },
+  {
+    "id": "53699dc4a3a729239d205cf7",
+    "title": "Prises de vue a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es de l'IGN",
+    "indexme": "photographies a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es territoire fran\u00e7ais peuvent apr\u00e8s d\u00e9mat\u00e9rialisation \u00eatre visualis\u00e9es ligne t\u00e9l\u00e9charg\u00e9es gratuitement \u00e9galement propos\u00e9s tirages papier duplication CDROM plus 4 millions clich\u00e9s Photographie a\u00e9rienne t\u00e9l\u00e9chargeable Outil s\u00e9lection G\u00e9oportail outil s\u00e9lection G\u00e9oportail outil s\u00e9lection G\u00e9oportail Depuis ann\u00e9es 1920 IGN pointe techniques permettant dacqu\u00e9rir traiter images a\u00e9riennes Chaque ann\u00e9e flotte a\u00e9rienne lIGN quadrillent ciel France assurer couverture photographique dune vingtaine d\u00e9partements photographies nombreuses applications caract\u00e8re historique scientifique environnemental Lacquisition num\u00e9rique prises vue a\u00e9riennes initi\u00e9e 1999 a g\u00e9n\u00e9ralis\u00e9e depuis 2005 prises vue historiques support argentique depuis 1920 progressivement d\u00e9mat\u00e9rialis\u00e9es pouvoir \u00eatre mises disposition sous forme fichiers num\u00e9riques photos a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es t\u00e9l\u00e9chargeables format JPEG2000 tirages papier possibles format contact agrandissements allant 50x50 cm 120x120 cm photos a\u00e9riennes argentiques \u00e9galement disponibles CDROM format TIFF partir dun scan 1000 dpi prestations command\u00e9es boutique Loisirs lIGN fois missions clich\u00e9s s\u00e9lectionn\u00e9s site G\u00e9oportail",
+    "excerpt": "<p>Les photographies a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es du territoire fran\u00e7ais peuvent, apr\u00e8s d\u00e9mat\u00e9rialisation, \u00eatre visualis\u00e9es en ligne et t\u00e9l\u00e9charg\u00e9es gratuitement. Sont \u00e9galement propos\u00e9s des tirages papier ou la duplication sur CD-ROM de plus de 4 millions de clich\u00e9s.</p>\nPhotographie a\u00e9rienne t\u00e9l\u00e9chargeable\n<p></p>\nOutil de s\u00e9lection G\u00e9oportail\n<p>![outil de s\u00e9lection G\u00e9oportail]\n( \"outil de s\u00e9lection\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/prises-de-vue-aeriennes-dematerialisees-de-lign/",
+    "post_url": ""
+  },
+  {
+    "id": "5369912ca3a729239d203bb9",
+    "title": "Composition des gouvernements de la V\u00e8me R\u00e9publique (1959 - 2014)",
+    "indexme": "Tableaux pr\u00e9sentant composition gouvernements cinqui\u00e8me R\u00e9publique Liste Premiers ministres ministres secr\u00e9taires dEtat Dates nomination fin fonction",
+    "excerpt": "<p>Tableaux pr\u00e9sentant la composition des gouvernements de la cinqui\u00e8me R\u00e9publique. Liste des Premiers ministres, des ministres et des secr\u00e9taires d'Etat. Dates de nomination et de fin de fonction.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/composition-des-gouvernements-de-la-veme-republique-1959-2014/",
     "post_url": ""
   },
   {
@@ -306,12 +378,39 @@
     "post_url": ""
   },
   {
+    "id": "566e964188ee3875beaf0bf5",
+    "title": "Open Medic : base compl\u00e8te sur les d\u00e9penses de m\u00e9dicaments interr\u00e9gimes",
+    "indexme": "offre donn\u00e9es Open Medic constitu\u00e9e ensemble bases annuelles portant usage m\u00e9dicament d\u00e9livr\u00e9 pharmacie ville 2014 2018 fournit informations compl\u00e9mentaires fichier Medic AM Toutes donn\u00e9es extraites Syst\u00e8me National Donn\u00e9es Sant\u00e9 SNDS donn\u00e9es m\u00e9dicament restitu\u00e9es travers classification ATC classification ATC utilis\u00e9e classer m\u00e9dicaments selon principe hi\u00e9rarchique m\u00e9dicaments divis\u00e9s diff\u00e9rents groupes selon lorgane syst\u00e8me lequel agissent etou caract\u00e9ristiques th\u00e9rapeutiques chimiques offre articule autour deux types jeux donn\u00e9es Base compl\u00e8te d\u00e9penses m\u00e9dicaments interr\u00e9gimes premiers jeux donn\u00e9es OpenMedic2014 2018 permettent \u00e9tudier d\u00e9penses m\u00e9dicaments montants rembours\u00e9s remboursables ainsi nombre bo\u00eetes d\u00e9livr\u00e9es fonction \u00e9l\u00e9ments descriptifs b\u00e9n\u00e9ficiaires tranche \u00e2ge sexe r\u00e9gion r\u00e9sidence selon nouvelle nomenclature Insee information sp\u00e9cialit\u00e9 prescripteur ann\u00e9e Bases compl\u00e9mentaires enrichies d\u00e9nombrements consommants seconds jeux donn\u00e9es constitu\u00e9s compl\u00e9ment bases OpenMedic2014 2018 restituer nombre personnes consomm\u00e9 m\u00e9dicaments diff\u00e9rents niveaux regroupements indicateurs montants nombre bo\u00eetes \u00e9galement mis disposition diff\u00e9rents niveaux interm\u00e9diaires fichiers pr\u00e9fix\u00e9s NB lann\u00e9e concern\u00e9e Puis suffixe indique part niveau classification ATC \u00e9tudi\u00e9 ATC1 ATC2 CIP13 autre part crit\u00e8res ventilation compl\u00e9mentaires Quarantehuit bases constitu\u00e9es afin r\u00e9pondre besoin garantir non doublecompte consommants Elles accessibles selon lann\u00e9e consid\u00e9r\u00e9e diff\u00e9rents niveaux hi\u00e9rarchie ATC Remarque importante base remboursement montant rembours\u00e9 nincluent honoraires dispensation conditionnement per\u00e7us pharmaciens dofficine depuis 1er janvier 2015 Toute question concernant donn\u00e9es peut \u00eatre adress\u00e9e sniiramcnamtsfr",
+    "excerpt": "<p>L\u2019offre de donn\u00e9es Open Medic est constitu\u00e9e d\u2019un ensemble de bases annuelles, portant sur l\u2019usage du m\u00e9dicament, d\u00e9livr\u00e9 en pharmacie de ville de 2014 \u00e0 2018. Elle fournit des informations compl\u00e9mentaires au fichier Medic\u2019AM.</p>\n<p>Toutes les donn\u00e9es sont extraites du Syst\u00e8me National des Donn\u00e9es de Sant\u00e9 (SNDS).</p>\n<p>Les donn\u00e9es sur\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/open-medic-base-complete-sur-les-depenses-de-medicaments-interregimes/",
+    "post_url": ""
+  },
+  {
     "id": "53699233a3a729239d203e69",
     "title": "D\u00e9coupage administratif communal fran\u00e7ais issu d'OpenStreetMap",
     "indexme": "Exports d\u00e9coupage administratif fran\u00e7ais niveau communal contours communes issu dOpenStreetMap produit grande majorit\u00e9 partir cadastre donn\u00e9es issues crowdsourcing effectu\u00e9 contributeurs projet OpenStreetMap sous licence ODbL impose partage lidentique mention obligatoire dattribution doit \u00eatre \u00a9 contributeurs dOpenStreetMap sous licence ODbL conform\u00e9ment export automatique quotidien format shapefile disponible ainsi quun second export g\u00e9om\u00e9tries all\u00e9g\u00e9es v\u00e9rifi\u00e9es topologiquement chevauchement Descriptif contenu fichiers communes Origine donn\u00e9es proviennent base donn\u00e9es cartographiques OpenStreetMap Cellesci constitu\u00e9es partir cadastre mis disposition DGFiP cadastregouvfr compl\u00e9ment Mayotte o\u00f9 cadastre nest disponible cadastregouvfr limites GEOFLA lIGN utilis\u00e9es ainsi trac\u00e9 c\u00f4tes partir images a\u00e9riennes Bing Plus dinfos Format fichiers propos\u00e9s format shapefile projection WGS84 plusieurs niveaux d\u00e9tails simplification 5m simplification 50m simplification 100m topologie conserv\u00e9e lors processus simplification cf Contenu fichiers contiennent lensemble communes fran\u00e7aises compris DOM Mayotte SaintPierreetMiquelon Paris Lyon Marseille limites darrondissements fournies place limites communes chaque commune arrondissement attributs suivants ajout\u00e9s insee code INSEE 5 caract\u00e8res commune nom nom commune tel figurant OpenStreetMap si possible conforme r\u00e8gles toponymie wikipedia entr\u00e9e wikip\u00e9dia code langue suivi nom larticle surfha surface hectares commune communes BoisGuillaume Bihorel donn\u00e9es GEOFLA corrig\u00e9es manuellement suite lannulation fusion 1er Janvier 2014 Historique 19122013 premi\u00e8re g\u00e9n\u00e9ration fichier bas\u00e9 d\u00e9coupage communal OSM 19122013 20122013 correction 2 erreurs cimeti\u00e8re militaire exclu territoire erreur g\u00e9om\u00e9trie commune Landerneau manquait 06032014 troisi\u00e8me g\u00e9n\u00e9ration fichier bas\u00e9 d\u00e9coupage communal OSM 06032014 29062014 remplacement limites Paris Lyon Marseille limites arrondissements municipaux 30062014 ajout version enrichie 10102014 ajout dun export CSV version enrichie 01012015 quatri\u00e8me version fichier prenant compte fusions communes 112015 ainsi communes chang\u00e9 nom 3122014 communes fusionn\u00e9es titre temporaire attente publication COG 2015 code INSEE conserv\u00e9 celui commune o\u00f9 cheflieu fix\u00e9 JORF 19012016 cinqui\u00e8me version fichier prenant compte fusions communes 1912016 ainsi changements intervenus 2015 nouveaux noms etc Voir jeu donn\u00e9es plus d\u00e9tail fusions communes nouvelles arrondissements municipaux Paris Lyon Marseille disponibles fichier s\u00e9par\u00e9 communes d\u00e9l\u00e9gu\u00e9es issues cr\u00e9ation communes nouvelles 11012017 version prenant compte 181 fusions communes 112017 ainsi changements intervenus 2016 nouveaux noms fusions etc Voir jeu donn\u00e9es plus d\u00e9tail fusions communes nouvelles 01012018 version comprenant 33 fusions communes 112018 fusion 172017 ainsi changements noms intervenus 2017 StPierre Miquelon fichier communes Collectivit\u00e9s dOutreMer 26022018 version 112018 compl\u00e9t\u00e9e 3 communes nouvelles Aubessagne BlancsCoteaux GeiswillerZ\u0153bersdorf total 36 fusions 01012019 version 112019 comprenant 232 communes nouvelles r\u00e9pertori\u00e9es wikip\u00e9dia 01012019 11022019 int\u00e9gration communes nouvelles r\u00e9pertori\u00e9es lINSEE 07032019 correction code INSEE L\u00e9ch\u00e8re 73187 Versions pr\u00e9c\u00e9dentes disponibles toute question concernant exports pouvez contacter exportsopenstreetmapfr Voir aussi Liste adjacences communes fran\u00e7aises Contours EPCI 2014 Contours EPCI 2013 Contours arrondissements fran\u00e7ais Contours d\u00e9partements fran\u00e7ais Cartes SVG d\u00e9partements Contours r\u00e9gions fran\u00e7aises Contours futures r\u00e9gions",
     "excerpt": "<p>Exports du d\u00e9coupage administratif fran\u00e7ais au niveau communal (contours des communes) issu d'OpenStreetMap produit dans sa grande majorit\u00e9 \u00e0 partir du cadastre.</p>\n<p>Ces donn\u00e9es sont issues du crowdsourcing effectu\u00e9 par les contributeurs au projet OpenStreetMap et sont sous licence ODbL qui impose un partage \u00e0 l'identique et la mention obligatoire\u2026</p>",
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/",
+    "post_url": ""
+  },
+  {
+    "id": "570f655888ee3852094d8898",
+    "title": "Nomenclature combin\u00e9e \u00e0 8 chiffres (NC8) depuis 2016",
+    "indexme": "nomenclature combin\u00e9e NC outil classification marchandises commune lensemble \u00c9tats membres lUnion europ\u00e9enne UE utilis\u00e9e d\u00e9clarations douane \u00e9changes pays UE d\u00e9clarations d\u00e9changes biens entre pays lUE pr\u00e9senter statistiques commerce ext\u00e9rieur NC8 prolongement Syst\u00e8me harmonis\u00e9 SH nomenclature internationale comporte peu moins 10000 rubriques agit liste syst\u00e9matique descriptions marchandises mise place r\u00e9pondre exigences tarif douanier commun statistiques commerce ext\u00e9rieur UE \u00e9galement utilis\u00e9e statistiques commerce intraUE Donn\u00e9es tabulaires plateforme met disposition donn\u00e9es tabul\u00e9es afin faciliter r\u00e9utilisations croisement jointure mise disposition tabul\u00e9e limite actuellement informations lann\u00e9e 2019 format donn\u00e9es diff\u00e9rent fichiers bruts donn\u00e9es tabul\u00e9es fait lobjet plusieurs traitements r\u00e9f\u00e9rer fichiers t\u00e9l\u00e9chargeables pi\u00e8ce jointe linformation r\u00e9f\u00e9rence Fichiers t\u00e9l\u00e9chargeables questions compatibilit\u00e9 d\u00e9ventuels traitements r\u00e9alis\u00e9s auparavant fichier bruts format Microsoft Excel mis documents joints Nomenclature combin\u00e9e 2016xls Nomenclature combin\u00e9e 2017xls Nomenclature combin\u00e9e 2018xls Nomenclature combin\u00e9e 2019xls Source",
+    "excerpt": "<p>La nomenclature combin\u00e9e (NC) est un outil de classification des marchandises commune \u00e0 l'ensemble des \u00c9tats membres de l'Union europ\u00e9enne (UE) et est utilis\u00e9e pour : </p>\n<ul>\n<li>les d\u00e9clarations en douane pour les \u00e9changes avec les pays UE </li>\n<li>les d\u00e9clarations d'\u00e9changes de biens entre les pays de l'UE </li>\n<li>pr\u00e9senter les statistiques\u2026</li></ul>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/nomenclature-combinee-a-8-chiffres-nc8-depuis-2016/",
+    "post_url": ""
+  },
+  {
+    "id": "536991b2a3a729239d203d1a",
+    "title": "Contours des r\u00e9gions fran\u00e7aises sur OpenStreetMap",
+    "indexme": "Exports d\u00e9coupage administratif fran\u00e7ais niveau r\u00e9gional contours r\u00e9gions issu dOpenStreetMap produit grande majorit\u00e9 partir cadastre donn\u00e9es issues crowdsourcing effectu\u00e9 contributeurs projet OpenStreetMap sous licence ODbL impose partage lidentique mention obligatoire dattribution doit \u00eatre \u00a9 contributeurs dOpenStreetMap sous licence ODbL conform\u00e9ment sagit dun export semiautomatique g\u00e9om\u00e9tries all\u00e9g\u00e9es v\u00e9rifi\u00e9es topologiquement chevauchement A partir 2016 g\u00e9om\u00e9tries dorigine non simplifi\u00e9es Descriptif contenu fichiers regions Origine donn\u00e9es proviennent base donn\u00e9es cartographiques OpenStreetMap Cellesci constitu\u00e9es partir cadastre mis disposition DGFiP cadastregouvfr compl\u00e9ment Mayotte o\u00f9 cadastre nest disponible cadastregouvfr trac\u00e9 c\u00f4tes a fait partir images a\u00e9riennes Bing Plus dinfos Format fichiers propos\u00e9s format shapefile projection WGS84 plusieurs niveaux d\u00e9tails jusquen 2015 simplification 5m simplification 50m simplification 100m topologie conserv\u00e9e lors processus simplification cf Contenu fichiers contiennent lensemble r\u00e9gions fran\u00e7aises compris DOM Mayotte chaque r\u00e9gion attributs suivants ajout\u00e9s codeinsee code INSEE 2 chiffres r\u00e9gion ex 42 nom nom r\u00e9gion ex Alsace wikipedia entr\u00e9e wikip\u00e9dia code langue suivi nom larticle ex frAlsace wikidata identifiant wikidata r\u00e9gion surfkm2 superficie r\u00e9gion km2 sph\u00e9roid WGS84 Historique 01012017 version bas\u00e9e d\u00e9coupage communal OSM 01012017 incluant fusion 566 communes 178 communes nouvelles 01012018 version bas\u00e9e d\u00e9coupage communal OSM 01012018 changement marginal g\u00e9om\u00e9trie Versions pr\u00e9d\u00e9centes disponibles toute question concernant exports pouvez contacter exportsopenstreetmapfr Voir aussi Cartes format SVG Contours communes fran\u00e7aises Contours EPCI 2014 Contours EPCI 2013 Contours arrondissements fran\u00e7ais Contours d\u00e9partements fran\u00e7ais Cartes SVG d\u00e9partements",
+    "excerpt": "<p>Exports du d\u00e9coupage administratif fran\u00e7ais au niveau r\u00e9gional (contours des r\u00e9gions) issu d'OpenStreetMap produit dans sa grande majorit\u00e9 \u00e0 partir du cadastre.</p>\n<p>Ces donn\u00e9es sont issues du crowdsourcing effectu\u00e9 par les contributeurs au projet OpenStreetMap et sont sous licence ODbL qui impose un partage \u00e0 l'identique et la mention obligatoire\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/contours-des-regions-francaises-sur-openstreetmap/",
     "post_url": ""
   },
   {
@@ -636,6 +735,357 @@
     "excerpt": "<p>Ce jeu de donn\u00e9es est un export des donn\u00e9es d\u00e9mographiques sur les Fran\u00e7ais r\u00e9sidant \u00e0 l'\u00e9tranger et inscrits au Registre du r\u00e9seau consulaire. Sont \u00e9galement pr\u00e9sent\u00e9es les statistiques des ann\u00e9es 2009 \u00e0 2018.</p>",
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/statistiques-sur-les-francais-residant-a-letranger-donnees-demographiques/",
+    "post_url": ""
+  },
+  {
+    "id": "5c5d559c8b4c4178380e6da7",
+    "title": "Fran\u00e7ais de l'\u00e9tranger : inscriptions au registre des Fran\u00e7ais \u00e9tablis hors de France ",
+    "indexme": "jeu donn\u00e9es pr\u00e9sente l\u00e9tat ann\u00e9e ann\u00e9e pays pays inscriptions registre Fran\u00e7ais \u00e9tablis hors France 2013 2018 Linscription Registre d\u00e9marche volontaire ouverte Fran\u00e7ais r\u00e9sidant l\u00e9tranger seffectue aupr\u00e8s r\u00e9seau ambassades consulats fran\u00e7ais inscription registre obligatoire estime nombre global Fran\u00e7ais vivant \u00e9tranger compris ceux inscrits registre entre 2 25 millions",
+    "excerpt": "<p>Ce jeu de donn\u00e9es pr\u00e9sente l'\u00e9tat, ann\u00e9e par ann\u00e9e, et pays par pays, des inscriptions au registre des Fran\u00e7ais \u00e9tablis hors de France, de 2013 \u00e0 2018. L'inscription au Registre, d\u00e9marche volontaire ouverte aux Fran\u00e7ais r\u00e9sidant \u00e0 l'\u00e9tranger, s'effectue aupr\u00e8s du r\u00e9seau des ambassades et consulats fran\u00e7ais. L\u2019inscription au registre\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/francais-de-letranger-inscriptions-au-registre-des-francais-etablis-hors-de-france/",
+    "post_url": ""
+  },
+  {
+    "id": "543e965dc751df200b380173",
+    "title": "2014-82 - Nombre d'acc\u00e9dants \u00e0 la nationalit\u00e9 fran\u00e7aise par mariage",
+    "indexme": "Acquisition nationalit\u00e9 fran\u00e7aise mariage",
+    "excerpt": "<p>Acquisition de la nationalit\u00e9 fran\u00e7aise par mariage</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/2014-82-nombre-daccedants-a-la-nationalite-francaise-par-mariage-1/",
+    "post_url": ""
+  },
+  {
+    "id": "55c9b9ed88ee383153a46ec4",
+    "title": "15021 - Population, population \u00e9trang\u00e8re (millions, %)",
+    "indexme": "population \u00e9trang\u00e8re repr\u00e9sente 81 total huit pays r\u00e9partition \u00e9trangers entre nationalit\u00e9 pays UE pays hors UE assez \u00e9quilibr\u00e9e beaucoup pays a notablement plus \u00e9trangers nationalit\u00e9 pays hors UE Allemagne Italie France",
+    "excerpt": "<p>La population \u00e9trang\u00e8re repr\u00e9sente 8,1 % du total dans les huit pays. La r\u00e9partition de ces \u00e9trangers entre nationalit\u00e9 d\u2019un pays de l\u2019UE ou d\u2019un pays hors UE est assez \u00e9quilibr\u00e9e dans beaucoup de pays. Mais il y a notablement plus d\u2019\u00e9trangers de nationalit\u00e9 d\u2019un pays hors UE en Allemagne,\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/15021-population-population-etrangere-millions/",
+    "post_url": ""
+  },
+  {
+    "id": "53698faea3a729239d2037e9",
+    "title": "Boursiers du Gouvernement fran\u00e7ais",
+    "indexme": "jeu donn\u00e9es mise jour donn\u00e9es fournies 2011 concernant bourses octroy\u00e9es gouvernement fran\u00e7ais pr\u00e9sente l\u00e9volution nombre bourses octroy\u00e9es entre 2006 2011",
+    "excerpt": "<p>Ce jeu de donn\u00e9es est une mise \u00e0 jour des donn\u00e9es fournies en 2011 concernant les bourses octroy\u00e9es par le gouvernement fran\u00e7ais. Il pr\u00e9sente l'\u00e9volution du nombre de bourses octroy\u00e9es entre 2006 et 2011</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/boursiers-du-gouvernement-francais/",
+    "post_url": ""
+  },
+  {
+    "id": "5c659a418b4c41732e115ac7",
+    "title": "Adoptions internationales : origines par pays",
+    "indexme": "tableau pr\u00e9sente lorigine pays pays adoptions internationales r\u00e9alis\u00e9es 2001 2018",
+    "excerpt": "<p>Ce tableau pr\u00e9sente l'origine, pays par pays, des adoptions internationales r\u00e9alis\u00e9es de 2001 \u00e0 2018.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/adoptions-internationales-origines-par-pays/",
+    "post_url": ""
+  },
+  {
+    "id": "543e9a44c751df200b380175",
+    "title": "2014-87 - Nationalit\u00e9 fran\u00e7aise : Comparaisons internationales",
+    "indexme": "int\u00e9gration acc\u00e8s nationalit\u00e9",
+    "excerpt": "<p>L\u2019int\u00e9gration et l\u2019acc\u00e8s \u00e0 la nationalit\u00e9</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/2014-87-nationalite-francaise-comparaisons-internationales/",
+    "post_url": ""
+  },
+  {
+    "id": "5d6d24d3634f41671d138838",
+    "title": "Fonds photographiques du Minist\u00e8re de l'Europe et des Affaires Etrang\u00e8res",
+    "indexme": "Lien acc\u00e9der fonds photographique Minist\u00e8re lEurope Affaires \u00c9trang\u00e8res photos estampill\u00e9es MEAE libres reproduction mention origine amp hors toute utilisation commerciale",
+    "excerpt": "<p>Lien pour acc\u00e9der au fonds photographique du Minist\u00e8re de l'Europe et des Affaires \u00c9trang\u00e8res :\n\n<p>Les photos estampill\u00e9es MEAE sont libres de reproduction avec mention de leur origine &amp; hors toute utilisation commerciale.</p>",
+    "acronym": "MEAE",
+    "page": "https://www.data.gouv.fr/fr/datasets/fonds-photographiques-du-ministere-de-leurope-et-des-affaires-etrangeres/",
+    "post_url": ""
+  },
+  {
+    "id": "5bf42c958b4c4144b0110ce8",
+    "title": "Ficher  des pr\u00e9noms de 1900 \u00e0 2018",
+    "indexme": "fichiers propos\u00e9s t\u00e9l\u00e9chargement recensent naissances non personnes vivantes ann\u00e9e donn\u00e9e propos\u00e9s deux formats DBASE CSV utiliser fichiers volumineux recommand\u00e9 dutiliser gestionnaire bases donn\u00e9es logiciel statistique fichier niveau national peut \u00eatre ouvert partir certains tableurs fichier niveau d\u00e9partemental revanche trop volumineux 35 millions lignes pouvoir \u00eatre consult\u00e9 tableur donn\u00e9es accessibles fichier donn\u00e9es nationales contient pr\u00e9noms attribu\u00e9s enfants n\u00e9s France hors Mayotte entre 1900 2018 effectifs sexe associ\u00e9s chaque pr\u00e9nom fichier donn\u00e9es d\u00e9partementales contient m\u00eames informations niveau d\u00e9partement naissance",
+    "excerpt": "<p>Les fichiers propos\u00e9s en t\u00e9l\u00e9chargement recensent les naissances et non pas les personnes vivantes une ann\u00e9e donn\u00e9e. Ils sont propos\u00e9s dans deux formats (DBASE et CSV). Pour utiliser ces fichiers volumineux, il est recommand\u00e9 d'utiliser un gestionnaire de bases de donn\u00e9es ou un logiciel statistique. Le fichier au niveau national\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/ficher-des-prenoms-de-1900-a-2018/",
+    "post_url": ""
+  },
+  {
+    "id": "58e361ee88ee380622a6a057",
+    "title": "Donn\u00e9es 2005-2016 du march\u00e9 europ\u00e9en des quotas de CO2 (ETS) |  2005-2016 data from ETS",
+    "indexme": "quil a donn\u00e9es Retrouvez cidessous partie Ressources format txt jeu donn\u00e9es issues syst\u00e8me communautaire d\u00e9change quotas d\u00e9mission CO2 ETS fichier contient donn\u00e9es 14 000 installations inscrites registre europ\u00e9en public march\u00e9 quotas CO2 Linformation disponible 31 pays 30 secteurs ann\u00e9es 20052016 contenu liste informations telles nom pays linstallation industrielle nom teneur compte maisonm\u00e8re \u00e9missions v\u00e9rifi\u00e9es chaque ann\u00e9e ainsi allocations quotas gratuits chaque ann\u00e9e encore ladresse postale r\u00e9cup\u00e9rer donn\u00e9es suffit cliquer fichier t\u00e9l\u00e9charger Actualisation 29 ao\u00fbt 2017 rapport fichier donn\u00e9es 20052015 donn\u00e9es 2016 ajout\u00e9es ailleurs bug a corrig\u00e9 effet phase 3 syst\u00e8me 20132020 cases registre public europ\u00e9en livrent parfois trois chiffres diff\u00e9rents ast\u00e9risques diff\u00e9renciant exemple quotas gratuits installations relevant larticle 10c directive \u00e9lectriciens dEurope lEst grande partie chiffres n\u00e9taient trait\u00e9s version 20052015 D\u00e9sormais somme chiffres disponible lallocation totale livr\u00e9e colonnes TotalAllowanceAllocation20XX ann\u00e9e Enfin conserver granularit\u00e9 linformation installations o\u00f9 plusieurs chiffres pr\u00e9cis\u00e9s concernant allocations titre dun nouvel entrant bien larticle 10c directive chiffres \u00e9galement livr\u00e9s colonnes AllowanceAllocation20XX s\u00e9par\u00e9s slashs Actualisation 2018 mise garde jeu donn\u00e9es issu dun scraper parcourt partie Allocations to stationary installations transactions log Or rendu compte quelques journalistes europ\u00e9ens plusieurs installations manquaient lappel inclues partie Operator Holding Accounts EUTL Heureusement monde rempli talents g\u00e9n\u00e9reux Nathann Cohen chercheur informatique a pris peu temps libre scraper 236 installations manquantes r\u00e9sultat All Operator Holding accounts \u2026 15 505 installations o What youll find in this dataset You will find below Ressources a dataset in a txt format from ETS system the European CO2 market collected EUTL The information about 14000 installations is available for 31 countries 30 sectors for the years 20052016 The content lists information like the installation name and country the account holders name the verified emissions for each year and the free allocations for each year the parent company the address To dowload the data just click the file August 29th 2017 update 2016 data has been added Also a bug has been fixed From 2013 EUTL diferentiates 3 categories of allowances classic allowances allowances given under article 10c of the ETS directive followed by 4 stars and allowances given New entrants reserve NER followed by 5 stars Those annyoing stars messed up the data In AllowanceAllocation20XX column I just separated the 3 figures by a slash in case you need that granularity But if you just need the total allowances TotalAllowanceAllocation20XX is the column you are looking for 2018 update and caveat The dataset comes from a scraper that parses the Allocations to stationary installations part of the transactions log We realized with a few European journalists that some plants were missing that were included in the Operator Holding Accounts part of the EUTL Lucilky the world is full of helping hands Nathann Cohen a skilled computer scientist took some of his spare time to give a hand scraping the 236 missing plants The result is here All Operator Holding accounts 15 505 plants o",
+    "excerpt": "Ce qu'il y a dans ces donn\u00e9es\n<p>Retrouvez ci-dessous (partie \"Ressources\") au format txt un jeu de donn\u00e9es issues du syst\u00e8me communautaire d'\u00e9change de quotas d'\u00e9mission CO2 (EU ETS). Ce fichier contient les donn\u00e9es des 14 000 installations inscrites au registre europ\u00e9en public du march\u00e9 de quotas de CO2. </p>\n<p>L'information\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-2005-2016-du-marche-europeen-des-quotas-de-co2-ets-2005-2016-data-from-ets/",
+    "post_url": ""
+  },
+  {
+    "id": "53699373a3a729239d2041c5",
+    "title": "Effectifs d\u2019\u00e9tudiants inscrits dans les \u00e9tablissements et les formations de l\u2019enseignement sup\u00e9rieur",
+    "indexme": "jeu donn\u00e9es pr\u00e9sente effectifs \u00e9tudiants inscrits \u00e9tablissements formations enseignement sup\u00e9rieur recens\u00e9s ann\u00e9es 20012002 201213 syst\u00e8mes information enqu\u00eates minist\u00e8re \u00c9ducation nationale Enseignement sup\u00e9rieur Recherche minist\u00e8res charge Agriculture P\u00eache Culture Sant\u00e9 Sports d\u00e9cline informations tous niveaux g\u00e9ographiques commune jusquau national",
+    "excerpt": "<p>Ce jeu de donn\u00e9es pr\u00e9sente les effectifs d\u2019\u00e9tudiants inscrits dans les \u00e9tablissements et les formations de l\u2019enseignement sup\u00e9rieur, recens\u00e9s pour les ann\u00e9es 2001-2002 \u00e0 2012-13 dans les syst\u00e8mes d\u2019information et enqu\u00eates du minist\u00e8re de l\u2019\u00c9ducation nationale, de l\u2019Enseignement sup\u00e9rieur et de la Recherche, des minist\u00e8res en charge de l\u2019Agriculture, de\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/effectifs-d-etudiants-inscrits-dans-les-etablissements-et-les-formations-de-l-enseignement-superieur/",
+    "post_url": ""
+  },
+  {
+    "id": "5c337b8a634f4165f03c76f8",
+    "title": "D\u00e9claration de profil d\u2019acheteur - PLACE",
+    "indexme": "jeu met disposition donn\u00e9es d\u00e9claration profils dacheteur disponible Plateforme Achats l\u00c9tat PLACE",
+    "excerpt": "<p>Ce jeu met \u00e0 disposition des donn\u00e9es sur la d\u00e9claration des profils d'acheteur disponible sur la Plateforme des Achats de l'\u00c9tat (PLACE) </p>\n<p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/declaration-de-profil-dacheteur-place/",
+    "post_url": ""
+  },
+  {
+    "id": "55f12f5d88ee3841bfa46ec2",
+    "title": "JADE",
+    "indexme": "D\u00e9cisions Conseil Etat cours administratives appel tribunal conflits Conseil \u00c9tat \u00ab grands arr\u00eats \u00bb fondateurs droit administratif d\u00e9cisions publi\u00e9es Recueil officiel d\u00e9cisions Conseil Etat recueil Lebon depuis 1965 s\u00e9lection limit\u00e9e d\u00e9cisions in\u00e9dites recueil entre 1975 1986 s\u00e9lection \u00e9largie depuis 1986 Cours administratives appel CAA s\u00e9lection arr\u00eats variable selon chacune 8 Cours dont ant\u00e9riorit\u00e9 remonte cr\u00e9ation Cour concern\u00e9e 1989 plus anciennes CAA Nature informations Texte int\u00e9gral d\u00e9cisions compl\u00e9t\u00e9 abstracts r\u00e9sum\u00e9s d\u00e9cisions publi\u00e9es recueil Lebon mise disposition DILA jeux donn\u00e9es pouvant contenir donn\u00e9es personnelles affranchit r\u00e9utilisateur respect loi Informatique Libert\u00e9s conform\u00e9ment document AVERTISSEMENT acc\u00e9der r\u00e9pertoire donn\u00e9es JADE sous protocole ftp cliquer DTD g\u00e9n\u00e9riques commun sp\u00e9cifiques bases LEGI KALI JORF CAPP CASS INCA JADE CNIL CONSTIT DTD g\u00e9n\u00e9riques commun DTD sp\u00e9cifiques modification DTD g\u00e9n\u00e9rique peut donc impacter diff\u00e9rentes bases simplifier gestion mises jour DTD bases faciliter prise compte impacts chaque changement DTD DILA met disposition r\u00e9f\u00e9rentiel unique DTD toutes bases r\u00e9f\u00e9rentiel nomm\u00e9 DTD LEGIFRANCE contient dossier DTDLegifrance dossier comporte ensemble DTD g\u00e9n\u00e9riques sp\u00e9cifiques bases juridiques hors CIRCULAIRES applicables date indiqu\u00e9e nom dossier document technique g\u00e9n\u00e9rique ensemble bases tableau LEGIFRANCE20170711dtdmapxlsx pr\u00e9sente vue DTD n\u00e9cessaires base vue impact indique DTD impacts diff\u00e9rentes bases A chaque changement DTD nouveau dossier publi\u00e9 r\u00e9pertoire remplacement ancien porte date mise jour r\u00e9f\u00e9rentiel indication DTD modifi\u00e9es \u00e9galement fournie acc\u00e9der r\u00e9pertoire DTD sous protocole ftp cliquer possibilit\u00e9 d\u00eatre inform\u00e9 \u00e9ventuelles modifications post\u00e9riori arr\u00eats d\u00e9j\u00e0 diffus\u00e9s demandant inscription liste diffusion via Formulaire contact pouvez \u00e9crire abonner alerte mail adress\u00e9 donneesdiladilagouvfr",
+    "excerpt": "<p>D\u00e9cisions du Conseil d\u2019Etat, des cours administratives d\u2019appel et du tribunal des conflits.</p>\n<p>Pour le Conseil d\u2019\u00c9tat :</p>\n<ul>\n<li>\n<p>les \u00ab grands arr\u00eats \u00bb fondateurs du droit administratif ;</p>\n</li>\n<li>\n<p>les d\u00e9cisions publi\u00e9es au Recueil officiel des d\u00e9cisions du Conseil d\u2019Etat (recueil Lebon) depuis 1965 ;</p>\n</li>\n<li>\n<p>une s\u00e9lection limit\u00e9e de d\u00e9cisions in\u00e9dites\u2026</p></li></ul>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/jade/",
+    "post_url": ""
+  },
+  {
+    "id": "5369986da3a729239d204f60",
+    "title": "Les pr\u00e9noms des conseillers municipaux",
+    "indexme": "pr\u00e9noms conseillers municipaux France genre d\u00e9compte Couverture temporelle \u00e9lus Paris \u00e9tendue mars 2014 Plus d\u00e9tails IdeesLibresorg",
+    "excerpt": "<p>Les pr\u00e9noms des conseillers municipaux en France, leur genre et leur d\u00e9compte. Couverture temporelle des \u00e9lus de Paris \u00e9tendue \u00e0 mars 2014. Plus de d\u00e9tails sur IdeesLibres.org.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/les-prenoms-des-conseillers-municipaux/",
+    "post_url": ""
+  },
+  {
+    "id": "5369967aa3a729239d204a4d",
+    "title": "Indicateur d'in\u00e9galit\u00e9 de genre (Nations Unies)",
+    "indexme": "Indice composite mesurant d\u00e9ficit progr\u00e8s trois dimensions d\u00e9veloppement humain sant\u00e9 reproductive autonomisation march\u00e9 travail r\u00e9sultant in\u00e9galit\u00e9s genre Lindice din\u00e9galit\u00e9 genre IIG calcul\u00e9 Nations Unies fait partie indicateurs d\u00e9veloppement humain IDH",
+    "excerpt": "<p>Indice composite mesurant le d\u00e9ficit de progr\u00e8s dans trois dimensions du d\u00e9veloppement humain : sant\u00e9 reproductive, autonomisation et march\u00e9 du travail, r\u00e9sultant d\u2019in\u00e9galit\u00e9s de genre. L'indice d'in\u00e9galit\u00e9 de genre (IIG) est calcul\u00e9 par les Nations Unies. Il fait partie des indicateurs de d\u00e9veloppement humain (IDH).</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/indicateur-d-inegalite-de-genre-nations-unies/",
+    "post_url": ""
+  },
+  {
+    "id": "5c642ec1634f417cb672d4e7",
+    "title": "Research Labs in the Alpine Area",
+    "indexme": "Laboratories and research centers in Austria France Germany Italy Liechtenstein Slovenia and Switzerland The dataset has been created in the Research ALPS Action INEA CEFTELECOM Project funded by European Union AGREEMENT No INEACEFICTA20161296967 which aims to gather consolidate harmonise and make available to different target groups public and private bodies data about laboratories and research and innovation centers active in the seven countries that constitute the Alpine Area The action will support the research and development process by providing harmonised information what the laboratories and research centers do where they are located where excellence emerges according to research fieldsthemes and numbers eg number of active researchers number of published papers number of prizes number of ongoing projects number of patents key people working in a specific center network of relations they highlight in their websites",
+    "excerpt": "<p>Laboratories and research centers in Austria, France, Germany, Italy, Liechtenstein, Slovenia, and Switzerland. </p>\n<p>The dataset has been created in the Re-search ALPS Action (INEA CEF-TELECOM Project - funded by European Union, AGREEMENT No INEA/CEF/ICT/A2016/1296967) which aims to gather, consolidate, harmonise and make available to different target groups (public and private\u2026</p>",
+    "acronym": "RE_ALPS",
+    "page": "https://www.data.gouv.fr/fr/datasets/research-labs-in-the-alpine-area/",
+    "post_url": ""
+  },
+  {
+    "id": "53699373a3a729239d2041c4",
+    "title": "Effectifs d\u2019\u00e9tudiants inscrits dans les \u00e9tablissements et les formations de l\u2019enseignement sup\u00e9rieur",
+    "indexme": "jeu donn\u00e9es pr\u00e9sente effectifs \u00e9tudiants inscrits \u00e9tablissements formations enseignement sup\u00e9rieur recens\u00e9s ann\u00e9es 20012002 201314 syst\u00e8mes information enqu\u00eates minist\u00e8re \u00c9ducation nationale Enseignement sup\u00e9rieur Recherche minist\u00e8res charge Agriculture P\u00eache Culture Sant\u00e9 Sports d\u00e9cline informations tous niveaux g\u00e9ographiques commune jusquau national donn\u00e9es diffus\u00e9es travers tableaux cartes publication Atlas r\u00e9gional effectifs d\u00e9tudiants",
+    "excerpt": "<p>Ce jeu de donn\u00e9es pr\u00e9sente les effectifs d\u2019\u00e9tudiants inscrits dans les\n\u00e9tablissements et les formations de l\u2019enseignement sup\u00e9rieur, recens\u00e9s\npour les ann\u00e9es 2001-2002 \u00e0 2013-14 dans les syst\u00e8mes d\u2019information et\nenqu\u00eates du minist\u00e8re de l\u2019\u00c9ducation nationale, de l\u2019Enseignement\nsup\u00e9rieur et de la Recherche, des minist\u00e8res en charge de l\u2019Agriculture,\nde\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/effectifs-d-etudiants-inscrits-dans-les-etablissements-et-les-formations-de-l-enseignement-superie-0/",
+    "post_url": ""
+  },
+  {
+    "id": "543e8b4ac751df200c380171",
+    "title": "2014-74 - Signataires CAI : Aper\u00e7u sur les b\u00e9n\u00e9ficiaires d'une protection internationale",
+    "indexme": "prise charge b\u00e9n\u00e9ficiaires protection internationale",
+    "excerpt": "<p>La prise en charge des b\u00e9n\u00e9ficiaires d\u2019une protection internationale</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/2014-74-signataires-cai-apercu-sur-les-beneficiaires-dune-protection-internationale/",
+    "post_url": ""
+  },
+  {
+    "id": "543bcea988ee3805943c163e",
+    "title": "2014-20 - Permis d\u00e9livr\u00e9s pour la premi\u00e8re fois dans l\u2019Union europ\u00e9enne \u00e0 27 pays",
+    "indexme": "Comparaison europ\u00e9enne premiers permis s\u00e9jour",
+    "excerpt": "<p>Comparaison europ\u00e9enne : les premiers permis de s\u00e9jour</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/2014-20-permis-delivres-pour-la-premiere-fois-dans-lunion-europeenne-a-27-pays/",
+    "post_url": ""
+  },
+  {
+    "id": "53ba4c07a3a729219b7bead3",
+    "title": "Emissions de CO2 et de polluants des v\u00e9hicules commercialis\u00e9s en France ",
+    "indexme": "Depuis 2001 ADEME acquiert tous ans donn\u00e9es aupr\u00e8s Union Technique Automobile motocycle Cycle UTAC charge homologation v\u00e9hicules avant mise vente accord minist\u00e8re d\u00e9veloppement durable chaque v\u00e9hicule donn\u00e9es origine transmises Utacsont suivantes consommations carburant \u00e9missions dioxyde carbone CO2 \u00e9missions polluants air r\u00e9glement\u00e9s cadre norme Euro ensemble caract\u00e9ristiques techniques v\u00e9hicules gammes marques mod\u00e8les n\u00b0 CNIT type \u00e9nergie site Carlabelling ADEME compl\u00e8te donn\u00e9es informations suivantes valeurs bonus malus \u00e9tiquette Classe Energie CO2 varient fonction r\u00e9glementation issue Loi Finance d\u00e9crets r\u00e9sultats expertises tels co\u00fbt annuel consommation carburant 15 000 km \u00e9tablit \u00e9galement classements distinguer v\u00e9hicules \u00ab plus propres CO2 plus \u00e9conomes \u00e9nergie \u00bb Palmar\u00e8s ADEME publie chaque ann\u00e9e guide officiel \u00ab V\u00e9hicules particuliers neufs consommations conventionnelles carburant \u00e9missions CO2 \u00bb",
+    "excerpt": "<p>Depuis 2001, l\u2019ADEME acquiert tous les ans ces donn\u00e9es aupr\u00e8s de l\u2019Union Technique de l\u2019Automobile du motocycle et du Cycle UTAC (en charge de l\u2019homologation des v\u00e9hicules avant leur mise en vente) en accord avec le minist\u00e8re du d\u00e9veloppement durable.\nPour chaque v\u00e9hicule les donn\u00e9es d\u2019origine (transmises par l\u2019Utac)sont les\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france/",
+    "post_url": ""
+  },
+  {
+    "id": "5617b11dc751df083fcdbb48",
+    "title": "Crimes et d\u00e9lits enregistr\u00e9s par les services de gendarmerie et de police depuis 2012",
+    "indexme": "donn\u00e9es constituent actualisation volumes Criminalit\u00e9 d\u00e9linquance constat\u00e9es France \u00e9dit\u00e9s Direction centrale police judiciaire publi\u00e9s jusqu 2013 Documentation fran\u00e7aise disponibles site internet Elles contiennent informations caract\u00e8re administratif activit\u00e9 judiciaire services gendarmerie police compris celles DOMCOM depuis 2012",
+    "excerpt": "<p>Ces donn\u00e9es constituent une actualisation des volumes Criminalit\u00e9 et d\u00e9linquance constat\u00e9es en France \u00e9dit\u00e9s par la Direction centrale de la police judiciaire, publi\u00e9s jusqu\u2019en 2013 \u00e0 la Documentation fran\u00e7aise, et disponibles sur son site internet.\nElles contiennent des informations, de caract\u00e8re administratif, sur l\u2019activit\u00e9 judiciaire des services de gendarmerie et\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/crimes-et-delits-enregistres-par-les-services-de-gendarmerie-et-de-police-depuis-2012/",
+    "post_url": ""
+  },
+  {
+    "id": "5369996ea3a729239d205251",
+    "title": "Localisation des sites de fouille arch\u00e9ologiques de l'Inrap",
+    "indexme": "jeu donn\u00e9es pr\u00e9sente localisations g\u00e9ographiques s\u00e9lection op\u00e9rations fouilles arch\u00e9ologiques pr\u00e9ventives men\u00e9es territoire fran\u00e7ais Inrap",
+    "excerpt": "<p>Ce jeu de donn\u00e9es pr\u00e9sente les localisations g\u00e9ographiques d\u2019une s\u00e9lection d\u2019op\u00e9rations de fouilles arch\u00e9ologiques pr\u00e9ventives men\u00e9es sur le territoire fran\u00e7ais par l\u2019Inrap.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/localisation-des-sites-de-fouille-archeologiques-de-l-inrap-576210/",
+    "post_url": ""
+  },
+  {
+    "id": "53698f37a3a729239d2036a0",
+    "title": "Avis et conseils de la CADA",
+    "indexme": "jeu donn\u00e9es contient avis rendus commission dacc\u00e8s documents administratifs CADA ainsi conseils destination administrations tels d\u00e9fini r\u00f4le donn\u00e9es lib\u00e9r\u00e9es suite d\u00e9cision n\u00b025 CIMAP 18 d\u00e9cembre 2013 concernant suppression redevances certains jeux donn\u00e9es 4 000 avis conseils pr\u00e9sents jusqu\u00e0 fin 2012 constituent panel repr\u00e9sentatif demandes dont commission a saisie depuis cr\u00e9ation 1978 lessentiel concentr\u00e9s ann\u00e9es 20002012 A partir fin 2012 lint\u00e9gralit\u00e9 avis conseils disponible nouveaux avis \u00e9mis anonymis\u00e9s ajout\u00e9s sous forme dun nouveau fichier CSV",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient les avis rendus par la commission d'acc\u00e8s aux documents administratifs (CADA) ainsi que ses conseils \u00e0 destination des administrations, tels que d\u00e9fini par son r\u00f4le.</p>\n<p>Ces donn\u00e9es ont \u00e9t\u00e9 lib\u00e9r\u00e9es suite \u00e0 la d\u00e9cision n\u00b025 du CIMAP du 18 d\u00e9cembre 2013 concernant la suppression des\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/avis-et-conseils-de-la-cada/",
+    "post_url": ""
+  },
+  {
+    "id": "53699931a3a729239d205195",
+    "title": "March\u00e9s publics conclus recens\u00e9s sur la plateforme des achats de l\u2019Etat",
+    "indexme": "Attributaires march\u00e9s l\u00c9tat \u00e9tablissements publics CCI UGAP fait objet mise ligne plateforme achats Etat PLACE1 liste comprend nom lentit\u00e9 publique lentit\u00e9 dachat nom lattributaire date notification code postal tranche budg\u00e9taire euro HT nature lachat lobjet march\u00e9 montant march\u00e9 1 liste r\u00e9pond obligation acheteurs publier informations relatives march\u00e9s publics conclus chaque ann\u00e9e article 133 code march\u00e9s publics Chaque minist\u00e8re pouvoir adjudicateur cependant responsable publication donn\u00e9es peut \u00eatre faite diff\u00e9rents canaux liste publi\u00e9e donc exhaustive comprend informations relatives march\u00e9s conclus acheteurs choisi publier via PLACE",
+    "excerpt": "<p>Attributaires des march\u00e9s de l'\u00c9tat et de ses \u00e9tablissements publics, des CCI et de l\u2019UGAP, ayant fait l\u2019objet d\u2019une mise en ligne sur la plateforme des achats de l\u2019Etat (PLACE)(1).  </p>\n<p>Cette liste comprend le nom de l'entit\u00e9 publique, l'entit\u00e9 d'achat, le nom de l'attributaire, la date de notification, le code\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/marches-publics-conclus-recenses-sur-la-plateforme-des-achats-de-letat/",
+    "post_url": ""
+  },
+  {
+    "id": "54ca9d19c751df7e99467389",
+    "title": "D\u00e9penses d' assurance maladie hors prestations hospitali\u00e8res par caisse primaire/d\u00e9partement",
+    "indexme": "base donn\u00e9es contient lensemble remboursements mensuels effectu\u00e9s r\u00e9gime g\u00e9n\u00e9ral lAssurance Maladie hors prestations hospitali\u00e8res caisse primaired\u00e9partement type prestations soins prestations esp\u00e8ces type dex\u00e9cutant m\u00e9decins sp\u00e9cialit\u00e9 chirurgiens dentistes auxiliaires m\u00e9dicaux laboratoires danalyse pharmaciens type prescripteurs d\u00e9penses indiqu\u00e9es montants rembours\u00e9s pr\u00e9sent\u00e9es remboursement tables mensuelles format csv regroup\u00e9es fichiers zip annuels Deux pr\u00e9sentations disponibles version compl\u00e8te libell\u00e9s variables regroupements certaines variables version simplifi\u00e9e libell\u00e9s regroupements utilisateurs tables simplifi\u00e9es pourront rapporter lexique nomenclature Concernant d\u00e9penses sant\u00e9 dassurance maladie trois autres jeux donn\u00e9es couvrant champs diff\u00e9rents propos\u00e9s D\u00e9penses dassurance maladie hors prestations hospitali\u00e8res donn\u00e9es nationales base donn\u00e9es regroupant lensemble remboursements hors prestations hospitali\u00e8res effectu\u00e9s r\u00e9gime g\u00e9n\u00e9ral lAssurance Maladie France D\u00e9penses annuelles dassurance maladie tableaux bord portant lensemble remboursements compris prestations hospitali\u00e8res effectu\u00e9s r\u00e9gime g\u00e9n\u00e9ral lAssurance Maladie France m\u00e9tropolitaine Open Damir base compl\u00e8te d\u00e9penses dassurance maladie inter r\u00e9gimes base donn\u00e9es regroupant lensemble remboursements compris prestations hospitali\u00e8res factur\u00e9es directement lAssurance Maladie effectu\u00e9s tous r\u00e9gimes dassurance maladie France",
+    "excerpt": "<p>Cette base de donn\u00e9es contient l'ensemble des remboursements mensuels effectu\u00e9s par le r\u00e9gime g\u00e9n\u00e9ral de l'Assurance Maladie (hors prestations hospitali\u00e8res) par caisse primaire/d\u00e9partement, par type de prestations (soins et prestations en esp\u00e8ces), type d'ex\u00e9cutant (m\u00e9decins par sp\u00e9cialit\u00e9, chirurgiens dentistes, auxiliaires m\u00e9dicaux, laboratoires d'analyse, pharmaciens, ...) et par type de prescripteurs.\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/depenses-d-assurance-maladie-hors-prestations-hospitalieres-par-caisse-primaire-departement/",
+    "post_url": ""
+  },
+  {
+    "id": "5369a0eaa3a729239d206497",
+    "title": "Statistiques viti-vinicoles - Relev\u00e9s annuels des stocks et des r\u00e9coltes depuis 2009",
+    "indexme": "Relev\u00e9 d\u00e9partement r\u00e9colte vins mouts incluant donn\u00e9es suivantes superficie vignes production AOC Production r\u00e9partition Vin blanc Vin rouge Vin ros\u00e9 Nombre d\u00e9clarations r\u00e9colte Relev\u00e9 volumes stocks vins d\u00e9clar\u00e9s viticulteurs lexpiration campagne lann\u00e9e incluant donn\u00e9es suivantes r\u00e9partition stocks AOP appellation dorigine prot\u00e9g\u00e9e IGP indication g\u00e9ographique prot\u00e9g\u00e9e VSIG vins indication g\u00e9ographique Volumes d\u00e9clar\u00e9s stock commerce couleur cat\u00e9gorie statistiques mensuelles vitivinicoles disponibles DataDouane rubrique viticulture douanegouvfrservicesdatadouane",
+    "excerpt": "<p>Relev\u00e9 par d\u00e9partement de la r\u00e9colte des vins et mouts incluant les donn\u00e9es suivantes: superficie des vignes en production / AOC / Production et r\u00e9partition : Vin blanc - Vin rouge - Vin ros\u00e9 / Nombre de d\u00e9clarations de r\u00e9colte</p>\n<p>Relev\u00e9 des volumes des stocks de vins d\u00e9clar\u00e9s par les\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/statistiques-viti-vinicoles-releves-annuels-des-stocks-et-des-recoltes-depuis-2009/",
+    "post_url": ""
+  },
+  {
+    "id": "53698e87a3a729239d2034b9",
+    "title": "Agenda de l'offre culturelle",
+    "indexme": "Liste \u00e9v\u00e8nements culturels organismes producteurs d\u00e9v\u00e9nements France grandes manifestations France l\u00e9tranger jeu donn\u00e9es nest plus mis jour",
+    "excerpt": "<p>Liste des \u00e9v\u00e8nements culturels et des organismes producteurs d'\u00e9v\u00e9nements en France et des grandes manifestations en France et  \u00e0 l'\u00e9tranger. Ce jeu de donn\u00e9es n'est plus mis \u00e0 jour.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/agenda-de-l-offre-culturelle/",
+    "post_url": ""
+  },
+  {
+    "id": "536998cca3a729239d205063",
+    "title": "Liste alphab\u00e9tique des ministres de la Lib\u00e9ration \u00e0 la V\u00e8me R\u00e9publique",
+    "indexme": "Liste alphab\u00e9tique ministres Lib\u00e9ration V\u00e8me R\u00e9publique possibilit\u00e9 recherche r\u00e9gime politique chef lEtat chef Gouvernement p\u00e9riode fonction date nomination date fin fonction",
+    "excerpt": "<p>Liste alphab\u00e9tique des ministres de la Lib\u00e9ration \u00e0 la V\u00e8me R\u00e9publique: possibilit\u00e9 de recherche par r\u00e9gime politique, chef de l'Etat, chef de Gouvernement, p\u00e9riode, fonction, date de nomination et date de fin de fonction.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/liste-alphabetique-des-ministres-de-la-liberation-a-la-veme-republique/",
+    "post_url": ""
+  },
+  {
+    "id": "53699fe5a3a729239d206233",
+    "title": "Service-public.fr- Guide \u00ab vos droits et d\u00e9marches \u00bb Professionnels-Entreprises",
+    "indexme": "droits d\u00e9marches professionnels contient 650 fiches questions r\u00e9ponses plusieurs milliers ressources liens vers sites publics formulaires d\u00e9marches ligne textes r\u00e9f\u00e9rence sites web publics etc exercer droits accomplir d\u00e9marches plus dinformation consulter rubrique comarquage site Servicepublic",
+    "excerpt": "<p>Vos droits et d\u00e9marches pour les professionnels contient : \n650 fiches et questions r\u00e9ponses, plusieurs milliers de ressources et de liens vers les sites publics (formulaires, d\u00e9marches en ligne, textes de r\u00e9f\u00e9rence, sites web publics, etc.) pour exercer ses droits et accomplir ses d\u00e9marches.\nPour plus d'information, consulter la rubrique\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/service-public-fr-guide-vos-droits-et-demarches-professionnels-entreprises/",
+    "post_url": ""
+  },
+  {
+    "id": "53699577a3a729239d20471e",
+    "title": "Faits constat\u00e9s par index, par d\u00e9partement et par ann\u00e9e",
+    "indexme": "ensemble faits constat\u00e9s services police unit\u00e9s gendarmerie nationales d\u00e9partement 1996 2011",
+    "excerpt": "<p>ensemble des faits constat\u00e9s par les services de police et les unit\u00e9s de gendarmerie nationales par d\u00e9partement de 1996 \u00e0 2011</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/faits-constates-par-index-par-departement-et-par-annee/",
+    "post_url": ""
+  },
+  {
+    "id": "53698ec6a3a729239d20355d",
+    "title": "Aides per\u00e7ues par les personnes morales au titre de la Politique Agricole Commune",
+    "indexme": "R\u00e8glement communautaire n\u00b02592008 a impos\u00e9 Etats Membres publier montants aides per\u00e7us chaque b\u00e9n\u00e9ficiaire titre PAC A suite larr\u00eat Cour Justice lUnion europ\u00e9enne rendu 9 novembre 2010 base juridique publication b\u00e9n\u00e9ficiaires paiements PAC a partiellement invalid\u00e9e concerne d\u00e9sormais plus personnes morales donn\u00e9es disponibles travers Etalab donc chaque forme soci\u00e9taire concern\u00e9e montants per\u00e7us titre Feader part hors inclus pr\u00eats bonifi\u00e9s Feaga paiements directs autres autre part",
+    "excerpt": "<p>Le R\u00e8glement communautaire (CE) n\u00b0259/2008 a impos\u00e9 aux Etats Membres de publier les montants d\u2019aides per\u00e7us par chaque b\u00e9n\u00e9ficiaire au titre de la PAC. A la suite de l'arr\u00eat de la Cour de Justice de l'Union europ\u00e9enne rendu le 9 novembre 2010, la base juridique de la publication des b\u00e9n\u00e9ficiaires\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/aides-percues-par-les-personnes-morales-au-titre-de-la-politique-agricole-commune/",
+    "post_url": ""
+  },
+  {
+    "id": "536995caa3a729239d204804",
+    "title": "Fran\u00e7ais de l'\u00e9tranger : inscriptions au registre des Fran\u00e7ais \u00e9tablis hors de France (2001-2013)",
+    "indexme": "jeu donn\u00e9es pr\u00e9sente l\u00e9tat ann\u00e9e ann\u00e9e pays pays inscriptions registre Fran\u00e7ais \u00e9tablis hors France 2001 2013 Linscription Registre d\u00e9marche volontaire ouverte Fran\u00e7ais r\u00e9sidant l\u00e9tranger seffectue aupr\u00e8s r\u00e9seau ambassades consulats fran\u00e7ais inscription registre obligatoire estime nombre global Fran\u00e7ais vivant \u00e9tranger compris ceux inscrits registre entre 2 25 millions",
+    "excerpt": "<p>Ce jeu de donn\u00e9es pr\u00e9sente l'\u00e9tat, ann\u00e9e par ann\u00e9e, et pays par pays, des inscriptions au registre des Fran\u00e7ais \u00e9tablis hors de France, de 2001 \u00e0 2013. L'inscription au Registre, d\u00e9marche volontaire ouverte aux Fran\u00e7ais r\u00e9sidant \u00e0 l'\u00e9tranger, s'effectue aupr\u00e8s du r\u00e9seau des ambassades et consulats fran\u00e7ais. L\u2019inscription au registre\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/francais-de-l-etranger-inscriptions-au-registre-des-francais-etablis-hors-de-france-2001-2013/",
+    "post_url": ""
+  },
+  {
+    "id": "536997d2a3a729239d204dbd",
+    "title": "Le dipl\u00f4me national du brevet",
+    "indexme": "Tableaux statistiques taux r\u00e9ussite dipl\u00f4me national brevet selon sexe s\u00e9rie r\u00e9sultats dipl\u00f4me national brevet acad\u00e9mie Source RERS Rep\u00e8res r\u00e9f\u00e9rences statistiques enseignements formation recherche",
+    "excerpt": "<p>Tableaux statistiques : taux de r\u00e9ussite au dipl\u00f4me national du brevet selon le sexe et la s\u00e9rie et r\u00e9sultats au dipl\u00f4me national du brevet par acad\u00e9mie.\nSource : RERS - Rep\u00e8res et r\u00e9f\u00e9rences statistiques sur les enseignements, la formation et la recherche</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/le-diplome-national-du-brevet-00000000/",
+    "post_url": ""
+  },
+  {
+    "id": "53699260a3a729239d203ee9",
+    "title": "D\u00e9mographie des entreprises",
+    "indexme": "jeu donn\u00e9es provient Banque Donn\u00e9es Macro\u00e9conomiques lINSEE BDM principale base donn\u00e9es s\u00e9ries indices lensemble domaines \u00e9conomiques sociaux met disposition toutes informations n\u00e9cessaires diagnostic conjoncturel plus g\u00e9n\u00e9ralement lanalyse fluctuations lactivit\u00e9 \u00e9conomique niveaux global sectoriel pr\u00e9sentation harmonis\u00e9e ensemble s\u00e9ries provenance sources multiples D\u00e9mographie entreprises Cr\u00e9ations dentreprises D\u00e9faillances dentreprises",
+    "excerpt": "<p>Ce jeu de donn\u00e9es provient de la Banque de Donn\u00e9es Macro-\u00e9conomiques de l'INSEE. La BDM est la principale base de donn\u00e9es de s\u00e9ries et indices sur l'ensemble des domaines \u00e9conomiques et sociaux. Elle met \u00e0 disposition toutes les informations n\u00e9cessaires au diagnostic conjoncturel, et plus g\u00e9n\u00e9ralement \u00e0 l'analyse des fluctuations\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/demographie-des-entreprises/",
+    "post_url": ""
+  },
+  {
+    "id": "5c6adbae634f4114a5c41776",
+    "title": "Temps de parole des hommes et des femmes \u00e0 la t\u00e9l\u00e9vision et \u00e0 la radio",
+    "indexme": "Temps parole hommes femmes correspondant plus dun million dheures programmes diffus\u00e9s 1995 28 f\u00e9vrier 2019 temps parole obtenus automatiquement laide logiciel libre inaSpeechSegmenter d\u00e9velopp\u00e9 lINA logiciel bas\u00e9 algorithmes dapprentissage automatique sousfamille lintelligence artificielle entra\u00een\u00e9s grand nombre dexemples musique voix femme voix dhomme afin d\u00e9tecter zones musique zones parole contenues documents audiovisuels temps parole estim\u00e9s tranches dune heure 5h minuit radio 10h minuit t\u00e9l\u00e9vision 21 stations radio analys\u00e9es Ch\u00e9rie FM Europe 1 France Bleu France Culture France Info France Inter France Musique Fun Radio Mouv NRJ Nostalgie RFM RMC RTL RTL 2 Radio Classique Radio France Internationale Rire Chansons Skyrock Sud Radio Virgin Radio 34 cha\u00eenes TV analys\u00e9es Arte Animaux BFM TV Canal Canal Sport Chasse p\u00eache Ch\u00e9rie 25 Com\u00e9die D8C8 Euronews Eurosport France France 2 France 24 France 3 France 5 France O Histoire IT\u00e9l\u00e9CNews LEquipe 21 LCI LCPPublic S\u00e9nat cha\u00eene M\u00e9t\u00e9o M6 Monte Carlo TMC NRJ 12 Paris Premi\u00e8re Plan\u00e8te TF1 TV Breizh TV5 Monde Toute lHistoire T\u00e9va Voyage W9 fonctionnement logiciel analyse automatique utilis\u00e9 documents audiovisuels ainsi estimation fiabilit\u00e9 d\u00e9crits larticle cidessous David Doukhan Jean Carrive Description automatique taux expression femmes flux t\u00e9l\u00e9visuels fran\u00e7ais XXXIIe Journ\u00e9es \u00c9tudes Parole Juin 2018",
+    "excerpt": "<p>Temps de parole des hommes et des femmes, correspondant \u00e0 plus d'un million d'heures de programmes diffus\u00e9s de 1995 au 28 f\u00e9vrier 2019.</p>\n<p>Les temps de parole sont obtenus automatiquement \u00e0 l'aide du logiciel libre inaSpeechSegmenter, d\u00e9velopp\u00e9 \u00e0 l'INA. Ce logiciel est bas\u00e9 sur des algorithmes d'apprentissage automatique (sous-famille de\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/temps-de-parole-des-hommes-et-des-femmes-a-la-television-et-a-la-radio/",
+    "post_url": ""
+  },
+  {
+    "id": "53698f42a3a729239d2036be",
+    "title": "Bar\u00e8mes IPP - syst\u00e8me social et fiscal fran\u00e7ais",
+    "indexme": "Institut politiques publiques IPP donn\u00e9 mission rassembler ensemble l\u00e9gislation politiques publiques France perspective historique scientifique objectif faciliter \u00e9valuation analyse diffusion premier lieu bar\u00e8mes l\u00e9gislatifs utilis\u00e9s mod\u00e8le microsimulation syst\u00e8me sociofiscal IPP TAXIPP projet implique travail collecte consid\u00e9rable sources diverses pr\u00e9cises jamais jour rassembl\u00e9es fa\u00e7on coh\u00e9rente IPP met disposition page premiers documents pr\u00e9sentent bar\u00e8mes syst\u00e8me sociofiscal fran\u00e7ais r\u00e9f\u00e9rences l\u00e9gislatives texte loi num\u00e9ro d\u00e9cret arr\u00eat\u00e9 accords partenaires sociaux ainsi date publication Journal Officiel R\u00e9publique Fran\u00e7aise JORF indiqu\u00e9es mesure possible bar\u00e8mes remontent 1914 imp\u00f4t revenu 1945 certains cas cotisations sociales syst\u00e8me retraite ann\u00e9es 1980 plupart prestations",
+    "excerpt": "<p>L\u2019Institut des politiques publiques (IPP) s\u2019est donn\u00e9 pour mission de rassembler l\u2019ensemble de la l\u00e9gislation des politiques publiques en France dans une perspective historique et scientifique. L\u2019objectif est d\u2019en faciliter l\u2019\u00e9valuation, l\u2019analyse et la diffusion. En premier lieu, ces bar\u00e8mes l\u00e9gislatifs sont utilis\u00e9s dans le mod\u00e8le de microsimulation du syst\u00e8me\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/baremes-ipp-systeme-social-et-fiscal-francais/",
+    "post_url": ""
+  },
+  {
+    "id": "5be1b7aa8b4c411843cc44c7",
+    "title": "Premi\u00e8re Guerre mondiale - Les Poilus morts pour la France (\u00e0 compl\u00e9ter)",
+    "indexme": "Liste compl\u00e9ter Poilus morts France causes Premi\u00e8re Guerre Mondiale dapr\u00e8s donn\u00e9es index\u00e9es site M\u00e9moire Hommes mentionn\u00e9s noms pr\u00e9noms dates lieux naissance unit\u00e9s grades bureaux recrutement classes matricules dates lieux d\u00e9c\u00e8s personnes ainsi lien direct vers fiches num\u00e9ris\u00e9es site M\u00e9moire Hommes fichier comprend Poilus n\u00e9s communes classes particip\u00e9 datasprint p\u00e9dagogique Traces Soldats 05000 Gap 06370 Mouans Sartoux 06390 Contes 06410 Biot 07100 Annonay 07500 Guilh\u00e9randGranges 28110 Luc\u00e9 29000 Penhars 29160 Crozon 29190 Gou\u00e9zec 29200 Brest 29200 Lamb\u00e9zellec 29242 Ouessant 29260 Lesneven 29260 Ploudaniel 29290 Milizac Guipronvel 29290 Saint Renan 29550 Plomodiern 29560 Landevennec 29810 Br\u00e9l\u00e8s 29830 Ploudalm\u00e9zeau 29830 Plougouin 29840 Landunvez 29840 Lanildut 29850 Gouesnou 29860 BourgBlanc 29860 Plabennec 29860 Plouvien 29870 Lannilis 29880 Plouguerneau 35000 Rennes 35140 M\u00e9zi\u00e8resSurCouesnou 35220 SaintDidier 35230 Bourgbarr\u00e9 35270 Bonnemain 35270 Combourg 35310 Chavagne 35310 Mordelles 35370 Argentr\u00e9 35420 SaintGeorgesDeReintembault 35360 Vignoc 35720 SaintPierreDePlesguen 38240 Meylan 38330 Biviers 38330 MontbonnodSaintMartin 39380 MontSousVaudrey 45800 SaintJeanDeBraye 49100 Angers 49240 Avrill\u00e9 53140 Pr\u00e9EnPail 53470 Ch\u00e2lonsDuMaine 55320 Ancemont 63530 Volvic 74190 Passy 77186 Noisiel 83130 Garde 83160 ValetteDuVar 83210 Farl\u00e8de 83210 Solli\u00e8sPont 83220 Pradet 83260 Crau 84200 Carpentras 84300 Cavaillon 86101 Ch\u00e2tellerault 86180 Bouxerolles 86206 Loudun 93160 Noisy Grand 93220 Gagny 93390 ClichySousBois 94000 Cr\u00e9teil 94130 NogentSurMarne 94380 BonneuilSurMarne 94450 LimeilBr\u00e9vannes",
+    "excerpt": "<p>Liste \u00e0 compl\u00e9ter des Poilus morts pour la France des causes de la Premi\u00e8re Guerre Mondiale, d'apr\u00e8s les donn\u00e9es index\u00e9es sur le site M\u00e9moire Des Hommes. \nSont mentionn\u00e9s les noms, pr\u00e9noms, dates et lieux de naissance, unit\u00e9s et grades, bureaux de recrutement et classes, matricules, dates et lieux de d\u00e9c\u00e8s\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/premiere-guerre-mondiale-les-poilus-morts-pour-la-france-a-completer/",
+    "post_url": ""
+  },
+  {
+    "id": "53d056bca3a72970fff91f1e",
+    "title": "Profils et trajectoires des personnes ayant des id\u00e9es suicidaires",
+    "indexme": "Source DREES \u00c9tudes r\u00e9sultats N\u00b0886 Auteurs Nicolas Riccardis conseils Muriel Moisy MarieClaude Mouquet 2010 5 personnes \u00e2g\u00e9es 40 59 ans d\u00e9clarent avoir id\u00e9es suicidaires deux semaines pr\u00e9c\u00e9dant \u00e9tude indicateurs sant\u00e9 plus d\u00e9grad\u00e9s ceux autres personnes Elles souffrent plus souvent maladie chronique d\u00e9clarent plus pathologies",
+    "excerpt": "<p>Source : DREES, \u00c9tudes et r\u00e9sultats N\u00b0886</p>\n<p>Auteurs : Nicolas de Riccardis, avec les conseils  de Muriel Moisy et Marie-Claude Mouquet</p>\n<p>En 2010, 5 % des personnes  \u00e2g\u00e9es de 40 \u00e0 59 ans d\u00e9clarent avoir eu des id\u00e9es suicidaires dans les deux semaines pr\u00e9c\u00e9dant l\u2019\u00e9tude. Leurs indicateurs de sant\u00e9 sont\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/profils-et-trajectoires-des-personnes-ayant-des-idees-suicidaires/",
+    "post_url": ""
+  },
+  {
+    "id": "55798a4ac751df3ae6e57269",
+    "title": "Programme vacances\u2013travail (PVT)  ",
+    "indexme": "Jeux donn\u00e9es actualis\u00e9 lann\u00e9e 2018 programme vacancestravail adresse jeunes \u00e2g\u00e9 18 30 ans 35 ans Argentine Canada d\u00e9sireux expatrier durant dur\u00e9e maximale an fins touristique culturelle pays partenaires possibilit\u00e9 travailler place compl\u00e9ter moyens financiers cadre programme pr\u00e9cis\u00e9 mani\u00e8re r\u00e9ciproque accord bilat\u00e9ral France a conclu quinze pays territoires jour Japon Nouvelle Z\u00e9lande Australie Canada Cor\u00e9e Sud Russie Argentine Hong Kong Chili Colombie Ta\u00efwan Uruguay Mexique Br\u00e9sil P\u00e9rou non encore entr\u00e9 vigueur",
+    "excerpt": "<p>Jeux de donn\u00e9es actualis\u00e9 pour l'ann\u00e9e 2018.\nLe programme vacances-travail s\u2019adresse aux jeunes \u00e2g\u00e9  de 18 \u00e0  30 ans (35 ans pour l\u2019Argentine et le Canada), et d\u00e9sireux de s\u2019expatrier, durant une dur\u00e9e maximale d\u2019un an, \u00e0 des fins touristique et culturelle dans l\u2019un des pays partenaires, en ayant la\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/programme-vacances-travail-pvt/",
+    "post_url": ""
+  },
+  {
+    "id": "5838300988ee386317c65bb3",
+    "title": "Barom\u00e8tre du Num\u00e9rique",
+    "indexme": "Barom\u00e8tre Num\u00e9rique \u00e9tude r\u00e9f\u00e9rence adoption Fran\u00e7ais \u00e9quipements usages num\u00e9riques fruit collaboration entre Conseil g\u00e9n\u00e9ral l\u00e9conomie CGE lAutorit\u00e9 r\u00e9gulation communications \u00e9lectroniques postes Arcep depuis 2003 laquelle Agence Num\u00e9rique associ\u00e9e depuis \u00e9dition 2016 Chaque ann\u00e9e mois juin Centre recherche l\u00e9tude lobservation conditions vie Credoc interroge face\u00e0face \u00e9chantillon plus 2 000 personnes repr\u00e9sentatif population fran\u00e7aise questions pos\u00e9es nature \u00e9quipements t\u00e9l\u00e9phonie ordinateur tablette etc usages num\u00e9riques r\u00e9seaux sociaux ecommerce administration ligne etc Retrouvez calendrier publications lArcep",
+    "excerpt": "<p>Le Barom\u00e8tre du Num\u00e9rique est une \u00e9tude de r\u00e9f\u00e9rence sur l\u2019adoption par les Fran\u00e7ais des \u00e9quipements et des usages num\u00e9riques. Il est le fruit d\u2019une collaboration entre le Conseil g\u00e9n\u00e9ral de l'\u00e9conomie (CGE) et l'Autorit\u00e9 de r\u00e9gulation des communications \u00e9lectroniques et des postes (Arcep) depuis 2003, \u00e0 laquelle l\u2019Agence du\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/barometre-du-numerique/",
     "post_url": ""
   }
 ]
