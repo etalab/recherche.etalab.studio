@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-
 import json
+import re
 from dataclasses import dataclass
 from time import perf_counter
 from typing import List, Optional
 
+import markdown
+
+import bleach
 import httpx
 import minicli
+from truncate import Truncator
 
 
 @dataclass(order=True)
@@ -19,6 +23,19 @@ class Dataset:
     acronym: Optional[str]
     page: str
     post_url: Optional[str]
+    description_excerpt: Optional[str] = ""
+
+    def __post_init__(self):
+        html_description = markdown.markdown(self.description)
+        sanitized_description = bleach.clean(
+            html_description, tags=["p", "li", "ol", "ul",], strip=True,
+        )
+        self.description = sanitized_description
+        truncated_description = Truncator(sanitized_description).words(
+            num=50, truncate="…", html=True
+        )
+        unlinkified_description = re.sub(r"http\S+", "", truncated_description)
+        self.description_excerpt = unlinkified_description
 
     @property
     def asdict(self):
@@ -26,11 +43,12 @@ class Dataset:
             "id": self.id,
             "title": self.title,
             "description": self.description,
+            "description_excerpt": self.description_excerpt,
             "acronym": self.acronym,
             "page": self.page,
             "post_url": self.post_url,
-            "nb_hits": self.nb_hits,
-            "default_order": self.default_order,
+            # "nb_hits": self.nb_hits,
+            # "default_order": self.default_order,
         }
 
 

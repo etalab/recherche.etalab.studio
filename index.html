@@ -125,7 +125,7 @@
     <div class="card">
       <div class="card__content">
         <h3 class=title>{title}{acronym}</h3>
-        <p class=content>{content}</p>
+        <div class=content>{content}</div>
       </div>
       <div class="card__extra text-center">
         <a class=button href="{url}">Voir le jeu de données</a>
@@ -136,10 +136,7 @@
 
 
 <script src="js/list-1-5-0.js"></script>
-<script src="js/marked-0-7-0.min.js"></script>
-<script src="js/purify-2-0-7.js"></script>
 <script>
-  const ALLOWED_TAGS = ['a', 'em', 'strong', 'ul', 'li']
   const moreResultsButton = document.querySelector('#more-results')
   const searchField = document.querySelector('input[type=search')
   const urlParams = new URLSearchParams(window.location.search)
@@ -156,19 +153,6 @@
     window.history.pushState({}, '', `?q=${q}`)
   }
 
-  function truncateString(string, maxLength = 50) {
-    // TODO: make it smarter, especially for truncated links.
-    if (!string) return
-    const showDots = string.length > maxLength
-    return `${string.substring(0, maxLength)}${showDots ? '…' : ''}`
-  }
-
-  function prepareDescription(string) {
-    const truncated = truncateString(string, 250)
-    const htmlized = marked(truncated)
-    const sanitized = DOMPurify.sanitize(htmlized, { ALLOWED_TAGS: ALLOWED_TAGS })
-    return sanitized
-  }
   function removeDuplicates(array, key) {
     let lookup = new Set()
     return array.filter(obj => !lookup.has(obj[key]) && lookup.add(obj[key]))
@@ -188,7 +172,7 @@
               /\{acronym}/g,
               dataset.acronym ? ` — ${dataset.acronym}` : ''
             )
-            .replace(/\{content}/g, prepareDescription(dataset.description))
+            .replace(/\{content}/g, dataset.description_excerpt)
             .replace(/\{url}/g, dataset.page)
             .replace(
               /\{extra_link}/g,
