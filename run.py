@@ -215,6 +215,12 @@ class Dataset:
         truncated_description = Truncator(sanitized_description).words(
             num=50, truncate="…", html=True
         )
+        if len(truncated_description) > 500:
+            # May happen with Data INSEE sur les communes given the description
+            # https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/
+            truncated_description = Truncator(truncated_description).chars(
+                num=500, truncate="…", html=True
+            )
         unlinkified_description = re.sub(r"http\S+", "", truncated_description)
         self.excerpt = unlinkified_description
 

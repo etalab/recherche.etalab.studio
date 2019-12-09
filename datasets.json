@@ -1,30 +1,39 @@
 [
   {
-    "id": "58e53811c751df03df38f42d",
-    "title": "R\u00e9pertoire National des Associations",
-    "indexme": "R\u00e9pertoire National Associations RNA contient ensemble associations relevant loi 1901 savoir toutes associations France dont si\u00e8ge d\u00e9clar\u00e9 m\u00e9tropole d\u00e9partements outremer sauf d\u00e9partements Moselle BasRhin HautRhin rel\u00e8vent r\u00e9gime Concordat RNA contient \u00e9galement associations reconnues utilit\u00e9 publique dites ARUP associations relevant loi 1901 d\u00e9clar\u00e9es pr\u00e9fecture souspr\u00e9fecture greffe associations cr\u00e9ation changements statuts tels modification nom si\u00e8ge dirigeants etc doivent \u00eatre d\u00e9clar\u00e9s mis jour base RNA mise jour effective fois donn\u00e9es valid\u00e9es greffe suite publication Journal officiel associations fondations entreprise JOAFE cr\u00e9ation dissolution obligatoire changement situation publication JOAFE non obligatoires base R\u00e9pertoire National Associations RNA aliment\u00e9e validation greffes associations publication Journal officiel associations fondations entreprise cr\u00e9ations modifications associations relevant loi 1901 Modalit\u00e9s diffusion donn\u00e9es R\u00e9pertoire National Associations RNA Conform\u00e9ment dispositions loi R\u00e9publique num\u00e9rique donn\u00e9es R\u00e9pertoire National Associations RNA produites Direction libert\u00e9s publiques affaires juridiques DLPAJ Minist\u00e8re int\u00e9rieur aujourd hui accessibles cidessous base comprend toutes associations relevant loi 1901 int\u00e8gre d\u00e9sormais service public donn\u00e9e pouvez maintenant t\u00e9l\u00e9charger int\u00e9gralit\u00e9 base ainsi documentation associ\u00e9e Toute demande rectification cas derreur constat\u00e9e donn\u00e9es RNA dinformations association figurant proc\u00e9dures d\u00e9claratives doivent \u00eatre adress\u00e9es directement greffe associations lieu si\u00e8ge lassociation Aucune rectification ni r\u00e9ponse apport\u00e9e plateforme questions usagers principalement invit\u00e9s signaler plate forme difficult\u00e9s dacc\u00e8s fichiers mis ligne contenu donn\u00e9es t\u00e9l\u00e9charger scind\u00e9 deux extractions RNAwaldec liste associations disposant n\u00b0 RNA Toutes associations cr\u00e9\u00e9es d\u00e9clar\u00e9 changement situation depuis 2009 disposent n\u00b0 RNA RNAimport liste associations cr\u00e9\u00e9es depuis 1901 effectu\u00e9 d\u00e9claration changement situation depuis 2009 RNAListedonneesdiffusees fichier d\u00e9crit donn\u00e9es expos\u00e9es RNA fichiers typ\u00e9s import waldec Contenu extractions cas \u00e9ch\u00e9ant n\u00b0 RNA nom association sigle objet association objet social adresse si\u00e8ge cas \u00e9ch\u00e9ant adresse gestion cas \u00e9ch\u00e9ant site internet association Fr\u00e9quence extraction fr\u00e9quence publication mise jour moment mensuelleElles devraient \u00eatre terme t\u00e9l\u00e9chargeables quotidiennement",
-    "excerpt": "<p>Le R\u00e9pertoire National des Associations (RNA) contient l\u2019ensemble des associations relevant de la loi 1901, \u00e0 savoir toutes les associations de France, dont le si\u00e8ge est d\u00e9clar\u00e9 en m\u00e9tropole ou dans les d\u00e9partements d\u2019outre-mer, sauf dans les d\u00e9partements de la Moselle, du Bas-Rhin et du Haut-Rhin, qui rel\u00e8vent du r\u00e9gime\u2026</p>",
-    "acronym": "RNA",
-    "page": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
-  },
-  {
-    "id": "53698f1aa3a729239d203653",
-    "title": "Associations Reconnues d'Utilit\u00e9 Publique",
-    "indexme": "jeu donn\u00e9es contient liste associations reconnues dutilit\u00e9 publique code lassociation nom objet cat\u00e9gorie date reconnaissance adresse code postal ville correspondante contient f\u00e9d\u00e9rations sportives Agr\u00e9\u00e9es ministre charg\u00e9 sports elles reconnues utilit\u00e9 publique rel\u00e8vent seule tutelle minist\u00e8re",
-    "excerpt": "<p>Ce jeu de donn\u00e9es contient la liste des associations reconnues d'utilit\u00e9 publique avec le code de l'association, son nom, son objet, sa cat\u00e9gorie, sa date de reconnaissance, son adresse, son code postal et la ville correspondante.</p>\n<p>Il ne contient pas les f\u00e9d\u00e9rations sportives. Agr\u00e9\u00e9es par le ministre charg\u00e9 des sports,\u2026</p>",
+    "id": "5dd4bba606e3e71a10832c58",
+    "title": "Horaires des TGV",
+    "indexme": "Horaires trains SNCF Voyages TGVinOuiOuigo format GTFS horaires horaires th\u00e9oriques mis jour tous mois",
+    "excerpt": "<p>Horaires des trains de SNCF Voyages (TGV/inOui/Ouigo) au format\u00a0GTFS.</p>\n<p>Ces horaires sont les horaires th\u00e9oriques mis \u00e0 jour tous les mois.</p>\n<p> __</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/associations-reconnues-d-utilite-publique/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
+    "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-tgv/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
   },
   {
-    "id": "5cd57bf68b4c4179299eb0e9",
-    "title": "Fichiers consolid\u00e9s des donn\u00e9es essentielles de la commande publique",
-    "indexme": "arr\u00eat\u00e9 14 avril 2017 modifi\u00e9 larr\u00eat\u00e9 27 juillet 2018 entr\u00e9 vigueur 1er octobre 2018 obligation 70 000 acheteurs publics fran\u00e7ais collectivit\u00e9s minist\u00e8res h\u00f4pitaux publics etc publier donn\u00e9es essentielles march\u00e9s publics profil dacheteur Afin faciliter consommation donn\u00e9es l\u00e9chelle nationale d\u00e9velopp\u00e9 scripts permettant rassembler traiter publier donn\u00e9es fa\u00e7on centralis\u00e9e formats r\u00e9glementaires sources donn\u00e9es utilis\u00e9es suivantes donn\u00e9es issues PES March\u00e9 DGFiP donn\u00e9es collect\u00e9es lAPI DUME lAIFE donn\u00e9es issues profil dacheteur Achatpubliccom mises disposition via lAPI DUME lAIFE donn\u00e9es issues profil dacheteur D\u00e9matis facilitant t\u00e9l\u00e9chargement donn\u00e9es clients emarchespublicscom donn\u00e9es publi\u00e9es portail Open Data Grand Lyon Si connaissance sources donn\u00e9es susceptibles d\u00eatre agr\u00e9g\u00e9es jeu donn\u00e9es merci lindiquer commentaires cidessous espace Discussions Bon savoir donn\u00e9es publi\u00e9es lAIFE souffrent quelques anomalies d\u00e9crites pouvez conna\u00eetre source donn\u00e9es gr\u00e2ce champ source chaque march\u00e9",
-    "excerpt": "<p>L\u2019arr\u00eat\u00e9 du 14 avril 2017, modifi\u00e9 par l'arr\u00eat\u00e9 du 27 juillet 2018, est entr\u00e9 en vigueur le 1er octobre 2018, et avec lui l\u2019obligation pour les 70 000 acheteurs publics fran\u00e7ais (collectivit\u00e9s, minist\u00e8res, h\u00f4pitaux publics, etc.) de publier les donn\u00e9es essentielles de leurs march\u00e9s publics sur leur profil d'acheteur.</p>\n<p>Afin\u2026</p>",
-    "acronym": "DECP",
-    "page": "https://www.data.gouv.fr/fr/datasets/fichiers-consolides-des-donnees-essentielles-de-la-commande-publique/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
+    "id": "5dccd2aa06e3e70687832c57",
+    "title": "Horaires des gares",
+    "indexme": "jeu donn\u00e9es contient horaires douverture public gares voyageurs France Chaque gare identifi\u00e9e colonne UIC code UIC identifiant unique horaires mentionn\u00e9s chaque jour semaine colonne Horaire jour normal Si certains jours horaires varient cas dun jour f\u00e9ri\u00e9 gare reste ouverte horaires renseign\u00e9s colonne Horaire jour f\u00e9ri\u00e9",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient les horaires d'ouverture au public des gares de voyageurs en France.</p>\n<p>Chaque gare est identifi\u00e9e dans la colonne \"UIC\" par son code UIC (identifiant unique).</p>\n<p>Les horaires sont mentionn\u00e9s pour chaque jour de la semaine dans la colonne \"Horaire en jour normal\".\u00a0</p>\n<p>Si, pour certains\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-gares/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
+  },
+  {
+    "id": "5dd24d4a8b4c4146823e23f3",
+    "title": "Dispositifs d\u2019aides financi\u00e8res \u00e0 la r\u00e9novation \u00e9nerg\u00e9tique",
+    "indexme": "outil Simul Aid\u20acs calculateur aides financi\u00e8res r\u00e9novation \u00e9nerg\u00e9tique habitat priv\u00e9e permet particuliers identifier aides mobilisables fonction situation personnelle logement projet travaux conseillers r\u00e9seau FAIRE accompagner particuliers projet r\u00e9novation r\u00e9alisant calculs aides financi\u00e8res d\u00e9taill\u00e9s Simul aides accessible wwwfairefr outil propos\u00e9 France enti\u00e8re compris outremer encore cours d\u00e9ploiement BourgogneFranche Comt\u00e9 Pays Loire explique \u00ab sousrepr\u00e9sentation \u00bb certaines r\u00e9gions base donn\u00e9es mise disposition donn\u00e9es mises disposition correspondent liste dispositifs aides financi\u00e8res identifi\u00e9e conseillers r\u00e9seau FAIRE liste contient ensemble r\u00e8gles calcul dispositifs accompagn\u00e9e lexique afin faciliter compr\u00e9hension Voir aussi lexique donn\u00e9es Simul Aid\u20acs donn\u00e9es mises jour 3 fois an Consultez \u00e9galement jeu donn\u00e9es proposant moyenne co\u00fbts travaux saisis m\u00e9nages",
+    "excerpt": "<p>L\u2019outil Simul\u2019Aid\u20acs est un calculateur d\u2019aides financi\u00e8res pour la r\u00e9novation \u00e9nerg\u00e9tique de l\u2019habitat priv\u00e9e. Il permet :\n-   Aux particuliers d\u2019identifier les aides mobilisables en fonction de leur situation personnelle, de leur logement et de leur projet de travaux\n-   Aux conseillers du r\u00e9seau FAIRE d\u2019accompagner les particuliers dans leur\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/dispositifs-daides-financieres-a-la-renovation-energetique/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
+  },
+  {
+    "id": "5dd24d6b6f44416027709798",
+    "title": "Co\u00fbts des travaux de r\u00e9novation \u00e9nerg\u00e9tique",
+    "indexme": "outil Simul Aid\u20acs calculateur aides financi\u00e8res r\u00e9novation \u00e9nerg\u00e9tique habitat priv\u00e9e permet particuliers identifier aides mobilisables fonction situation personnelle logement projet travaux conseillers r\u00e9seau FAIRE accompagner particuliers projet r\u00e9novation r\u00e9alisant calculs aides financi\u00e8res d\u00e9taill\u00e9s Simul aides accessible wwwfairefr outil propos\u00e9 France enti\u00e8re compris outremer encore cours d\u00e9ploiement BourgogneFranche Comt\u00e9 Pays Loire explique \u00ab sousrepr\u00e9sentation \u00bb certaines r\u00e9gions base donn\u00e9es mise disposition donn\u00e9es mises disposition correspondent moyenne nationale co\u00fbts travaux saisis m\u00e9nages fonction situation propre commune type logement\u2026 Cela explique certaines valeurs anormalement \u00e9lev\u00e9es contraire anormalement basses Voir aussi lexique donn\u00e9es Simul Aid\u20acs donn\u00e9es mises jour annuellement Consultez \u00e9galement jeu donn\u00e9es proposant liste dispositifs aides financi\u00e8res identifi\u00e9e conseillers r\u00e9seau FAIRE",
+    "excerpt": "<p>L\u2019outil Simul\u2019Aid\u20acs est un calculateur d\u2019aides financi\u00e8res pour la r\u00e9novation \u00e9nerg\u00e9tique de l\u2019habitat priv\u00e9e. Il permet :\n-   Aux particuliers d\u2019identifier les aides mobilisables en fonction de leur situation personnelle, de leur logement et de leur projet de travaux\n-   Aux conseillers du r\u00e9seau FAIRE d\u2019accompagner les particuliers dans leur\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/couts-des-travaux-de-renovation-energetique/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
   },
   {
     "id": "5da141da06e3e726b029a305",
@@ -36,13 +45,13 @@
     "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-octobre-2019/"
   },
   {
-    "id": "5b7ffc618b4c4169d30727e0",
-    "title": "Base Sirene des entreprises et de leurs \u00e9tablissements (SIREN, SIRET)",
-    "indexme": "abonner lettre dinformation Sirene open data actualit\u00e9s suivez lien consulter lettres dinformation Sirene open data actualit\u00e9s suivez lien Fichiers stock Cinq fichiers stocks mensuels compact\u00e9s format ZIP mis disposition \u2022 fichier stock entreprises ensemble entreprises actives cess\u00e9es \u00e9tat courant r\u00e9pertoire \u2022 fichier stock valeurs historis\u00e9es entreprises toutes entreprises ensemble valeurs certaines variables historis\u00e9es r\u00e9pertoire Sirene \u2022 fichier stock \u00e9tablissements ensemble \u00e9tablissements actifs ferm\u00e9s \u00e9tat courant r\u00e9pertoire \u2022 fichier stock valeurs historis\u00e9es \u00e9tablissements tous \u00e9tablissements ensemble valeurs certaines variables historis\u00e9es r\u00e9pertoire Sirene \u2022 fichier stock liens succession \u00e9tablissements pr\u00e9d\u00e9cesseurs successeurs \u00e9tablissements Chaque fichier compact\u00e9 Format ZIP contient fichier donn\u00e9es format CSV fichier stock mois donn\u00e9 remplace celui mois pr\u00e9c\u00e9dent entreprises cess\u00e9es \u00e9tablissements ferm\u00e9s figurent offrant ainsi acc\u00e8s donn\u00e9es Sirene depuis 1973 Mises jour mises jour infra mensuelles fichiers compris quotidiennes possibles \u2022 utilisant API Sirene disponible catalogue API Insee API acc\u00e9dez effet variables indiquant tant \u00e9tablissements unit\u00e9s l\u00e9gales date dernier traitement effectu\u00e9 agit variables dateDernierTraitementUniteLegale dateDernierTraitementEtablissement D\u00e8s lors date diff\u00e9rente celle enregistrement fichier stock savez mise jour a effectu\u00e9e documentation variables services lAPI Sirene disponible catalogue API onglet Documentation \u2022 utilisant Constituer liste sirenefr s\u00e9lectionner longlet Date mise jour pouvoir t\u00e9l\u00e9charger fichiers constitu\u00e9s mises jour quotidiennes pouvez consulter sujet lettre Sirene open data actualit\u00e9s n\u00b02 base Sirene contenant donn\u00e9es caract\u00e8re personnel lInsee attire attention obligations l\u00e9gales d\u00e9coulent \u2022 traitement donn\u00e9es rel\u00e8ve obligations d\u00e9claration Loi 7817 6 janvier 1978 modifi\u00e9e dite Loi CNIL \u2022 Selon usage jeu donn\u00e9es responsabilit\u00e9 tenir compte statut diffusion plus r\u00e9cent chaque personne physique effet larticle A12396 code commerce dispose Toute personne physique peut demander directement lors formalit\u00e9s cr\u00e9ation modification lettre adress\u00e9e directeur g\u00e9n\u00e9ral lInstitut national statistique \u00e9tudes \u00e9conomiques informations r\u00e9pertoire concernant puissent \u00eatre utilis\u00e9es tiers autres organismes habilit\u00e9s titre larticle R 123224 administrations fins prospection notamment commerciale Si entreprise \u2022 ATTENTION toute demande cr\u00e9ation modification changement concernant situation administrative invitons contacter Centre formalit\u00e9s entreprises dont d\u00e9pendez \u2022 ATTENTION aucune demande type parvenant site pourra \u00eatre satisfaite",
-    "excerpt": "<ul>\n<li>Pour vous abonner \u00e0 notre lettre d'information Sirene open data actualit\u00e9s, suivez ce lien : \n<li>Pour consulter nos lettres d'information Sirene open data actualit\u00e9s, suivez ce lien : \n</ul>\n<p>Fichiers stock \n  Cinq fichiers stocks mensuels compact\u00e9s (format ZIP) sont mis \u00e0 disposition :\n        \u2022 le fichier stock des entreprises\u2026</p>",
+    "id": "5dc455a06f4441330445e5a7",
+    "title": "R\u00e9seau de transport routier - Cat\u00e9gorie de rev\u00eatement - France m\u00e9tropolitaine",
+    "indexme": "Cat\u00e9gorie rev\u00eatement r\u00e9seau routier national m\u00e9tropolitain 01012019 bretelles incluses donn\u00e9es issues SIGR syst\u00e8me dx27information gestion patrimoine routier national elles fait lx27objet dx27une transformation \u00eatre conformes nomenclature INSPIRE R\u00e9f\u00e9rence r\u00e8glement INSPIRE 77113 Origine modalit\u00e9s INSPIRE issues classe Sections gestion SIGR Cx27est th\u00e9matique lin\u00e9aire continue recouvrement port\u00e9e route r\u00e9seau routier national donn\u00e9es pr\u00e9sent lot consolidation fournie Directions Interd\u00e9partementales Routes r\u00e9seau nonconc\u00e9d\u00e9 soci\u00e9t\u00e9s dx27autoroutes r\u00e9seau conc\u00e9d\u00e9 Organisations partenaires Cerema Liens annexes panierDownloadFrontalParametrage \u279e Consulter fiche geodatagouvfr",
+    "excerpt": "<p>Cat\u00e9gorie de rev\u00eatement du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.7.1.13</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
+    "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-categorie-de-revetement-france-metropolitaine/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
   },
   {
     "id": "5da901289ce2e7311252078d",
@@ -54,6 +63,15 @@
     "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-octobre-2019/"
   },
   {
+    "id": "5dc4559e6f4441331193b9cd",
+    "title": "R\u00e9seau de transport routier - Autorit\u00e9 propri\u00e9taire - France m\u00e9tropolitaine",
+    "indexme": "Autorit\u00e9 propri\u00e9taire r\u00e9seau routier national m\u00e9tropolitain 01012019 bretelles incluses donn\u00e9es issues SIGR syst\u00e8me dx27information gestion patrimoine routier national elles fait lx27objet dx27une transformation \u00eatre conformes nomenclature INSPIRE R\u00e9f\u00e9rence r\u00e8glement INSPIRE 7315 Origine modalit\u00e9s INSPIRE issues classe Sections gestion SIGR Cx27est th\u00e9matique lin\u00e9aire continue recouvrement port\u00e9e route r\u00e9seau routier national donn\u00e9es pr\u00e9sent lot consolidation fournie Directions Interd\u00e9partementales Routes r\u00e9seau nonconc\u00e9d\u00e9 soci\u00e9t\u00e9s dx27autoroutes r\u00e9seau conc\u00e9d\u00e9 Organisations partenaires Cerema Liens annexes panierDownloadFrontalParametrage \u279e Consulter fiche geodatagouvfr",
+    "excerpt": "<p>Autorit\u00e9 propri\u00e9taire du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.3.1.5</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont issues\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-autorite-proprietaire-france-metropolitaine/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
+  },
+  {
     "id": "5db9a22c634f412150c57c7a",
     "title": "EM 2019-25 les titres de s\u00e9jour, publication du 15 janvier 2019",
     "indexme": "d\u00e9livrances premiers titres s\u00e9jour correspondent titres d\u00e9livr\u00e9s \u00e9trangers majeurs suite dune premi\u00e8re demande s\u00e9jour prennent compte renouvellements titres lorsque ceuxci changent nature exemple \u00e9tranger entr\u00e9 motif \u00e9tudiant passerait motif salari\u00e9 suite compt\u00e9 deuxi\u00e8me fois comme premier titre donn\u00e9es concernant lann\u00e9e 2017 d\u00e9finitives Compte tenu d\u00e9lais entre d\u00e9p\u00f4t dune demande d\u00e9livrance titre certains titres lann\u00e9e 2018 encore enregistr\u00e9s base gestion nationale titres s\u00e9jour premi\u00e8re estimation d\u00e9livrances premiers titres pr\u00e9sent\u00e9e ciapr\u00e8s stock titres valides circulation correspond exactement pr\u00e9sence dun ressortissant \u00e9tranger territoire car titre reste valide si l\u00e9tranger a d\u00e9cid\u00e9 quitter France",
@@ -63,13 +81,13 @@
     "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-octobre-2019/"
   },
   {
-    "id": "5d2d4e639ce2e74ea890b662",
-    "title": "Donn\u00e9es essentielles des conventions de subvention",
-    "indexme": "Liste donn\u00e9es essentielles conventions subvention minist\u00e8re Culture titre lann\u00e9e 2018 donn\u00e9es concernent lensemble programmes minist\u00e9riels Descriptif libell\u00e9s Num\u00e9ro poste EJ Num\u00e9ro poste lengagement juridique r\u00e9f\u00e9rence interne Minist\u00e8re Culture compl\u00e9ment referenceDecision IdB\u00e9nficiaire COM Identifiant b\u00e9n\u00e9ficiaires Collectivit\u00e9s dOutre Mer personnes morales physiques immatricul\u00e9es Nouvelle Cal\u00e9donie Polyn\u00e9sie fran\u00e7aise IdB\u00e9n\u00e9ficiairePersonnePhysique Identifiant b\u00e9n\u00e9ficiaires personnes physiques personnes morales hors Union Europ\u00e9enne Libell\u00e9B\u00e9n\u00e9ficiaire1 D\u00e9nomination officielle b\u00e9n\u00e9ficiaire subvention premi\u00e8re partie Libell\u00e9B\u00e9n\u00e9ficiaire2 D\u00e9nomination officielle b\u00e9n\u00e9ficiaire subvention seconde partie R\u00e9f\u00e9renceVersement R\u00e9f\u00e9rence interne Minist\u00e8re Culture versement b\u00e9n\u00e9ficiaire objet Montant euros Centre co\u00fbts r\u00e9f\u00e9rence interne Minist\u00e8re Culture DescriptionCentreDeCo\u00fbts r\u00e9f\u00e9rence interne Minist\u00e8re Culture Export Desc Longue r\u00e9f\u00e9rence interne Minist\u00e8re Culture d\u00e9cret n\u00b0 2017779 5 mai 2017 pris application article 18 loi no 20161321 7 octobre 2016 R\u00e9publique num\u00e9rique peut \u00eatre consult\u00e9 pi\u00e8ce jointe",
-    "excerpt": "<p>Liste des donn\u00e9es essentielles des conventions de subvention du minist\u00e8re de la Culture au titre de l'ann\u00e9e 2018. Les donn\u00e9es concernent l'ensemble des programmes minist\u00e9riels. </p>\n<p>Descriptif des libell\u00e9s :\n- Num\u00e9ro de poste EJ : Num\u00e9ro de poste de l'engagement juridique, r\u00e9f\u00e9rence interne au Minist\u00e8re de la Culture en compl\u00e9ment\u2026</p>",
+    "id": "5dc4559e6f4441330b578cc8",
+    "title": "R\u00e9seau de transport routier - Nombre de voies - France m\u00e9tropolitaine",
+    "indexme": "Nombre voies r\u00e9seau routier national m\u00e9tropolitain 01012019 bretelles incluses donn\u00e9es issues SIGR syst\u00e8me dx27information gestion patrimoine routier national elles fait lx27objet dx27une transformation \u00eatre conformes nomenclature INSPIRE R\u00e9f\u00e9rence r\u00e8glement INSPIRE 7714 Origine modalit\u00e9s INSPIRE issues classe Profil travers SIGR Cx27est th\u00e9matique lin\u00e9aire continue recouvrement port\u00e9e route r\u00e9seau routier national donn\u00e9es pr\u00e9sent lot consolidation fournie Directions Interd\u00e9partementales Routes r\u00e9seau nonconc\u00e9d\u00e9 soci\u00e9t\u00e9s dx27autoroutes r\u00e9seau conc\u00e9d\u00e9 Organisations partenaires Cerema Liens annexes panierDownloadFrontalParametrage \u279e Consulter fiche geodatagouvfr",
+    "excerpt": "<p>Nombre de voies du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.7.1.4</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-conventions-de-subvention-5/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
+    "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-nombre-de-voies-france-metropolitaine/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
   },
   {
     "id": "5dc42155634f4104163b8844",
@@ -81,13 +99,13 @@
     "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-octobre-2019/"
   },
   {
-    "id": "5bbcb7168b4c41729a55426e",
-    "title": "Subventions de plus de 23 000 euros attribu\u00e9es par le minist\u00e8re de l'agriculture",
-    "indexme": "jeu donn\u00e9es r\u00e9f\u00e9rence subventions plus 23 000 euros vers\u00e9es minist\u00e8re charge lagriculture associations organismes droit priv\u00e9 conform\u00e9ment d\u00e9cret premier ministre n\u00b0 2017779 5 mai 2017 larr\u00eat\u00e9 17 novembre 2017",
-    "excerpt": "<p>Ce jeu de donn\u00e9es r\u00e9f\u00e9rence les subventions de plus de 23 000 euros vers\u00e9es par le minist\u00e8re en charge de l'agriculture aux associations et organismes de droit priv\u00e9, conform\u00e9ment au d\u00e9cret du premier ministre n\u00b0 2017-779 du 5 mai 2017 et \u00e0 l'arr\u00eat\u00e9 du 17 novembre 2017</p>",
-    "acronym": "Agrisub",
-    "page": "https://www.data.gouv.fr/fr/datasets/subventions-de-plus-de-23-000-euros-attribuees-par-le-ministere-de-lagriculture/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
+    "id": "5dc4559e6f444132e61f83b3",
+    "title": "R\u00e9seau de transport routier - Nature de voie - France m\u00e9tropolitaine",
+    "indexme": "Nature voie r\u00e9seau routier national m\u00e9tropolitain 01012019 bretelles incluses donn\u00e9es issues SIGR syst\u00e8me dx27information gestion patrimoine routier national elles fait lx27objet dx27une transformation \u00eatre conformes nomenclature INSPIRE R\u00e9f\u00e9rence r\u00e8glement INSPIRE 7712 Origine modalit\u00e9s INSPIRE issues classe Profil travers SIGR Cx27est th\u00e9matique lin\u00e9aire continue recouvrement port\u00e9e route r\u00e9seau routier national donn\u00e9es pr\u00e9sent lot consolidation fournie Directions Interd\u00e9partementales Routes r\u00e9seau nonconc\u00e9d\u00e9 soci\u00e9t\u00e9s dx27autoroutes r\u00e9seau conc\u00e9d\u00e9 Organisations partenaires Cerema Liens annexes panierDownloadFrontalParametrage \u279e Consulter fiche geodatagouvfr",
+    "excerpt": "<p>Nature de voie du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.7.1.2</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-nature-de-voie-france-metropolitaine/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
   },
   {
     "id": "5dc4286d634f411d4cbfb9f7",
@@ -99,13 +117,13 @@
     "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-octobre-2019/"
   },
   {
-    "id": "58078e78c751df2d1a79df72",
-    "title": "Projet de loi de finances pour 2017 (PLF 2017), jaune effort financier de l\u2019\u00c9tat en faveur des associations",
-    "indexme": "Donn\u00e9es lann\u00e9e 2015 pr\u00e9sent\u00e9es lannexe jaune \u00ab Effort financier \u00c9tat faveur associations \u00bb PLF 2017",
-    "excerpt": "<p>Donn\u00e9es de l'ann\u00e9e 2015 pr\u00e9sent\u00e9es dans l'annexe jaune \u00ab Effort financier de l\u2019\u00c9tat en faveur des associations \u00bb du PLF 2017</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2017-plf-2017-jaune-effort-financier-de-letat-en-faveur-des-associations/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
+    "id": "5dceb39c634f416d5593c858",
+    "title": "Cadastre minier",
+    "indexme": "flux g\u00e9ographiques Caminobetagouvfr exposent informations administratives g\u00e9ographiques titres miniers valides demandes initiales modificatives aff\u00e9rentes publiques cours dinstruction autorisations exploitation Guyane donn\u00e9es publi\u00e9es format Geojson Cest format ouvert r\u00e9utilisable permet notamment utilisation donn\u00e9es services tiers logiciels visualisation gestion information g\u00e9ographique flux mis jour quotidiennement flux g\u00e9n\u00e9r\u00e9s via services API Camino code source sert g\u00e9n\u00e9rer flux disponible Flux g\u00e9ographiques Caminobetagouvfr Support technique T\u00e9l\u00e9phone 33 01 40 81 95 86 Email caminobetagouvfr",
+    "excerpt": "<p>Les flux g\u00e9ographiques Camino.beta.gouv.fr exposent les informations administratives et g\u00e9ographiques pour : \n- les titres miniers valides et demandes initiales ou modificatives aff\u00e9rentes publiques et en cours d'instruction. \n- les autorisations d\u2019exploitation en Guyane.</p>\n<p>Les donn\u00e9es sont publi\u00e9es au format Geojson. C'est un format ouvert et r\u00e9utilisable qui permet notamment\u2026</p>",
+    "acronym": "Camino",
+    "page": "https://www.data.gouv.fr/fr/datasets/cadastre-minier/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
   },
   {
     "id": "5dc42a76634f41222801d281",
@@ -117,13 +135,13 @@
     "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-octobre-2019/"
   },
   {
-    "id": "5447dad5c751df10d05d0572",
-    "title": "Projet de loi de finances pour 2015 (PLF 2015), jaune effort financier de l\u2019\u00c9tat en faveur des associations",
-    "indexme": "annexe projet loi finances 2015 dresse chaque minist\u00e8re programme conform\u00e9ment nomenclature 2013 liste associations r\u00e9gies loi 1er juillet 1901 re\u00e7u cours ann\u00e9e 2013 subvention quelque titre pr\u00e9cisant objet chaque subvention \u00e9valuation action financ\u00e9e lorsque subvention a fait objet convention pluriannuelle objectifs associations subventionn\u00e9es class\u00e9es fonction minist\u00e8res programme lesquels subvention imput\u00e9e montant somme vers\u00e9e indiqu\u00e9 euros sein chaque programme associations class\u00e9es ordre alphab\u00e9tique",
-    "excerpt": "<p>Cette annexe au projet de loi de finances pour 2015 dresse pour chaque minist\u00e8re et par programme, conform\u00e9ment \u00e0 la nomenclature 2013, la liste des associations r\u00e9gies par la loi du 1er juillet 1901 ayant re\u00e7u, au cours de l\u2019ann\u00e9e 2013, une subvention \u00e0 quelque titre que ce soit, en\u2026</p>",
+    "id": "5dd1b01d8b4c413da2ab0a9d",
+    "title": "Taux de r\u00e9ponse \u00e0 la Commission d'acc\u00e8s aux documents administratifs",
+    "indexme": "Analyse jeux donn\u00e9es Avis conseils Cada afin d\u00e9terminer taux r\u00e9ponse Cada M\u00e9thode danalyse sint\u00e9resse taux r\u00e9ponse structures Cada conserve avis depuis lann\u00e9e 2016 structures fait lobjet dau moins 10 avis rendus Cada d\u00e9termine quune structure na r\u00e9pondu Cada quand retrouve lavis Cada mention mots labsence r\u00e9ponse Temporalit\u00e9 Actuellement jeu donn\u00e9es va jusqu\u00e0 mars 2019 obtient ainsi donn\u00e9es p\u00e9riode janvier 2016 mars 2019 Analyses Consulter feuille calcul Google compl\u00e9ment donn\u00e9es brutes",
+    "excerpt": "<p>Analyse du jeux de donn\u00e9es Avis et conseils de la Cada afin de d\u00e9terminer le taux de r\u00e9ponse \u00e0 la Cada.</p>\nM\u00e9thode d'analyse\n<p>On s'int\u00e9resse au taux de r\u00e9ponse des structures \u00e0 la Cada. On ne conserve que les avis depuis l'ann\u00e9e 2016, pour les structures qui ont fait l'objet\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2015-plf-2015-jaune-effort-financier-de-letat-en-faveur-des-associations/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
+    "page": "https://www.data.gouv.fr/fr/datasets/taux-de-reponse-a-la-commission-dacces-aux-documents-administratifs/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
   },
   {
     "id": "5db9a016634f4118b8386ec7",
@@ -135,13 +153,13 @@
     "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-octobre-2019/"
   },
   {
-    "id": "56a8dd2ac751df2657ceae1f",
-    "title": "Projet de loi de finances pour 2016 (PLF 2016), jaune effort financier de l\u2019\u00c9tat en faveur des associations",
-    "indexme": "annexe projet loi finances 2016 dresse chaque minist\u00e8re programme conform\u00e9ment nomenclature 2014 liste associations r\u00e9gies loi 1er juillet 1901 re\u00e7u cours ann\u00e9e 2014 subvention quelque titre pr\u00e9cisant objet chaque subvention \u00e9valuation action financ\u00e9e lorsque subvention a fait objet convention pluriannuelle objectifs associations subventionn\u00e9es class\u00e9es fonction minist\u00e8res programme lesquels subvention imput\u00e9e montant somme vers\u00e9e indiqu\u00e9 euros sein chaque programme associations class\u00e9es ordre alphab\u00e9tique",
-    "excerpt": "<p>Cette annexe au projet de loi de finances pour 2016 dresse pour chaque minist\u00e8re et par programme, conform\u00e9ment \u00e0 la nomenclature 2014, la liste des associations r\u00e9gies par la loi du 1er juillet 1901 ayant re\u00e7u, au cours de l\u2019ann\u00e9e 2014, une subvention \u00e0 quelque titre que ce soit, en\u2026</p>",
+    "id": "5dd54e116f4441636deed758",
+    "title": "Compte administratif tous budget confondus de 2014 \u00e0 2018 de la ville de Fort-de-France",
+    "indexme": "fichier contient ensemble r\u00e9alisations budg\u00e9taires ann\u00e9es 20142015201620172018 ville FortdeFrance",
+    "excerpt": "<p>Ce fichier contient l\u2019ensemble des r\u00e9alisations budg\u00e9taires des ann\u00e9es 2014,2015,2016,2017,2018 de la ville de Fort-de-France.</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2016-plf-2016-jaune-effort-financier-de-letat-en-faveur-des-associations/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
+    "page": "https://www.data.gouv.fr/fr/datasets/compte-administratif-tous-budget-confondus-de-2014-a-2018-de-la-ville-de-fort-de-france/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
   },
   {
     "id": "5da92b1b06e3e7517d29a306",
@@ -153,22 +171,13 @@
     "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-octobre-2019/"
   },
   {
-    "id": "5a059001c751df32ef55cf4a",
-    "title": "Projet de loi de finances pour 2018 (PLF 2018), donn\u00e9es de l'annexe Jaune \u00ab Effort financier de l\u2019\u00c9tat en faveur des associations \u00bb",
-    "indexme": "liste associations subventionn\u00e9es diffus\u00e9e tant annexe projet loi finances assembl\u00e9es l\u00e9gislatives disponible forum performance parmi annexes \u00ab jaunes \u00bb liste \u00e9galement diffus\u00e9e datagouvfr conditions pr\u00e9vues code relations entre public ladministration liste libre droit librement r\u00e9utilisable document authentifi\u00e9 signature num\u00e9rique pr\u00e9sence garantit document na alt\u00e9r\u00e9 entre linstant o\u00f9 lauteur sign\u00e9 moment o\u00f9 lecteur consulte recommand\u00e9 assurer pr\u00e9sence A d\u00e9faut peut \u00eatre t\u00e9l\u00e9charg\u00e9 partir sources cidessus",
-    "excerpt": "<p>La liste des associations subventionn\u00e9es est diffus\u00e9e en tant qu\u2019annexe au projet de loi de finances aux assembl\u00e9es l\u00e9gislatives. Elle est disponible sur le forum de la performance parmi les annexes \u00ab jaunes \u00bb ( Cette liste est \u00e9galement diffus\u00e9e sur data.gouv.fr dans les conditions pr\u00e9vues par le code des\u2026</p>",
+    "id": "5dd54c436f4441608124bf41",
+    "title": "Budgets primitifs tous budgets confondus de la ville de Fort-de-France",
+    "indexme": "fichier contient ensemble pr\u00e9visions budg\u00e9taires chapitre ann\u00e9es 2015 2016 20172018 2019 ville FortdeFrance",
+    "excerpt": "<p>Ce fichier contient l\u2019ensemble des pr\u00e9visions budg\u00e9taires par chapitre des ann\u00e9es 2015, 2016, 2017,2018 et 2019 de la ville de Fort-de-France.</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2018-plf-2018-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations-1/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
-  },
-  {
-    "id": "5d726a2d6f4441237756274e",
-    "title": "Tableaux csv des annonces publi\u00e9es au Bulletin officiel des annonces des march\u00e9s publics (BOAMP septembre - d\u00e9cembre 2019).",
-    "indexme": "aper\u00e7u quotidien CSV avis publi\u00e9s Bulletin officiel annonces March\u00e9s Publics BOAMP septembred\u00e9cembre 2019 donn\u00e9es aussi disponibles GitHub format dautres xlsx pkl PythonPandas \u25ba Github Tableaux quotidiens commande publique BOAMP aller plus loin consulter suppl\u00e9ment cartes g\u00e9olocalisation annonces infos principales dedans rendezvous Semaine52com \u25ba Source utilis\u00e9e collecte annonces \u25ba",
-    "excerpt": "<p>Un aper\u00e7u quotidien en CSV des avis publi\u00e9s au Bulletin officiel des annonces des March\u00e9s Publics (BOAMP septembre-d\u00e9cembre 2019).</p>\n<p>Ces donn\u00e9es sont aussi disponibles sur GitHub dans ce format et d'autres (xlsx et pkl pour Python/Pandas) \u25ba Github - Tableaux quotidiens de la commande publique au BOAMP</p>\n<ul>\n<li>Pour aller plus\u2026</li></ul>",
-    "acronym": "AuFilDuBoamp",
-    "page": "https://www.data.gouv.fr/fr/datasets/tableaux-csv-des-annonces-publiees-au-bulletin-officiel-des-annonces-des-marches-publics-boamp-septembre-decembre-2019/",
-    "post_url": "https://www.data.gouv.fr/fr/posts/test-upload-playlist/"
+    "page": "https://www.data.gouv.fr/fr/datasets/budgets-primitifs-tous-budgets-confondus-de-la-ville-de-fort-de-france/",
+    "post_url": "https://www.data.gouv.fr/fr/posts/suivi-des-sorties-novembre-2019/"
   },
   {
     "id": "5cc1b94a634f4165e96436c1",
@@ -507,7 +516,7 @@
     "id": "548ab97ec751df0f384120e7",
     "title": "Data INSEE sur les communes",
     "indexme": "Donn\u00e9es issues linsee OPEN data dactivit\u00e9 \u00e9conomique communes variables R2CActivit\u00e9Economique DynamiqueEntrepreneuriale DynamiqueEntrepreneurialeServiceetCommerce NbEntreprisesSecteurServices NbEntreprisesSecteurCommerce NbEntreprisesSecteurConstruction NbEntreprisesSecteurIndustrie NbCreationEnteprises NbCreationIndustrielles NbCreationConstruction NbCreationCommerces NbCreationServices NbAtifs NbActifsSalaries NbActifsNonSalaries NbIndustriesdesbiensintermediaires NbdeCommerce ScoreCroissanceEntrepreneuriale OrientationEconomique Fiscalit\u00e9 ScorePIB ScoreVARegion PIBRegionnal TauxEvasionClient MoyenneRevenusfiscaux CapaciteFiscale CapaciteFisc Valeurajouteeregionale RegMoyenneSalairesOuvrieHoraires RegMoyenneSalairesEmployeHoraires RegMoyenneSalairesProfIntermediaireHoraires RegMoyenneSalairesCadreHoraires RegMoyenneSalairesHoraires DepMoyenneSalairesOuvrieHoraires DepMoyenneSalairesEmployeHoraires DepMoyenneSalairesProfIntermediaireHoraires DepMoyenneSalairesCadreHoraires DepMoyenneSalairesHoraires MoyenneRevenusFiscauxRegionaux MoyenneRevenusFiscauxDepartementaux ScoreFiscal IndiceFiscalPartiel R2CFiscalit\u00e9 Infrastructure R2CInfrastructure NbEducationSanteActionSoc NbServicespersonnelsetdomestiques NbSanteActionSoc NbdeServicesauxparticuliers InstitutionEducSanteActionSocAdmi Logement TauxPropriete NbLogementSecondaireetOccasionnel NbOccupantsResidencePrincipale NbLogVacants NbResidencesSecondaires NbLogement NbProprietaire NbResidencesPrincipales NbMenages R2CLogement Population Fidelite EnvironnementDemographique DynamiqueDemographiqueBV UrbaniteRuralite SEGCroissancePOP ScoreCroissancePopulation DynamiqueDemographiqueINSEE Tauxetudiants ScoreUrbanite NbEtudiants NbMajeurs NbMineurs NbHomme NbFemme EvolutionPoptx EvolutionPopulation Population ScoreMenages IndiceMenages ScoreDemographique IndiceDemographique ScoreEvasionClient IndiceEvasionClient R2CPopulation Sant\u00e9 R2CSant\u00e9 NbPharmaciesetparfumerie SynergieMedicale IndiceSynergieMedicale ScoreSynergieMedicale NbOmnipraticiensBV NbInfirmiersLiberauxBV NbdentistesLiberauxBV NbpharmaciensLiberauxBV DensiteMedicaleBV ScoreequipementdesanteBV Tourisme R2CTourisme NbHotel CapaciteHotel NbCamping CapaciteCamping",
-    "excerpt": "<p>Donn\u00e9es issues de l'insee en OPEN data d'activit\u00e9 \u00e9conomique sur les communes. Les variables sont :</p>\n<p>R2C_Activit\u00e9_Economique, Dynamique_Entrepreneuriale, Dynamique_Entrepreneuriale_Service_et_Commerce, Nb_Entreprises_Secteur_Services, Nb_Entreprises_Secteur_Commerce, Nb_Entreprises_Secteur_Construction, Nb_Entreprises_Secteur_Industrie, Nb_Creation_Enteprises, Nb_Creation_Industrielles, Nb_Creation_Construction, Nb_Creation_Commerces, Nb_Creation_Services, Nb_Atifs, Nb_Actifs_Salaries, Nb_Actifs_Non_Salaries, Nb_Industries_des_biens_intermediaires, Nb_de_Commerce, Score_Croissance_Entrepreneuriale, Orientation_Economique</p>\n<p>Fiscalit\u00e9 : Score_PIB, Score_VA_Region, PIB_Regionnal, Taux_Evasion_Client, Moyenne_Revenus_fiscaux, Capacite_Fiscale, Capacite_Fisc, Valeur_ajoutee_regionale, Reg_Moyenne_Salaires_Ouvrie_Horaires, Reg_Moyenne_Salaires_Employe_Horaires, Reg_Moyenne_Salaires_Prof_Intermediaire_Horaires, Reg_Moyenne_Salaires_Cadre_Horaires, Reg_Moyenne_Salaires_Horaires,\u2026</p>",
+    "excerpt": "<p>Donn\u00e9es issues de l'insee en OPEN data d'activit\u00e9 \u00e9conomique sur les communes. Les variables sont :</p>\n<p>R2C_Activit\u00e9_Economique, Dynamique_Entrepreneuriale, Dynamique_Entrepreneuriale_Service_et_Commerce, Nb_Entreprises_Secteur_Services, Nb_Entreprises_Secteur_Commerce, Nb_Entreprises_Secteur_Construction, Nb_Entreprises_Secteur_Industrie, Nb_Creation_Enteprises, Nb_Creation_Industrielles, Nb_Creation_Construction, Nb_Creation_Commerces, Nb_Creation_Services, Nb_Atifs, Nb_Actifs_Salaries, Nb_Actifs\u2026</p>",
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/",
     "post_url": ""
