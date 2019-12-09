@@ -125,7 +125,7 @@
     <div class="card">
       <div class="card__content">
         <h3 class="title">{title}{acronym}</h3>
-        <div class="content" data-description="{description}">{content}</div>
+        <div class="content" data-indexme="{indexme}">{excerpt}</div>
       </div>
       <div class="card__extra text-center">
         <a class="button" href="{url}">Voir le jeu de données</a>
@@ -172,8 +172,8 @@
               /\{acronym}/g,
               dataset.acronym ? ` — ${dataset.acronym}` : ''
             )
-            .replace(/\{description}/g, dataset.description.replace(/\"/g, ""))
-            .replace(/\{content}/g, dataset.content)
+            .replace(/\{indexme}/g, dataset.indexme)
+            .replace(/\{excerpt}/g, dataset.excerpt)
             .replace(/\{url}/g, dataset.page)
             .replace(
               /\{extra_link}/g,
@@ -186,9 +186,9 @@
         })
         .join('')
       const list = new List('main', {
-        valueNames: ['title', { name: 'content', attr: 'data-description' },],
+        valueNames: ['title', { name: 'content', attr: 'data-indexme' },],
         fuzzySearch: {
-          distance: 100,
+          distance: 800,
           threshold: 0.4
         }
       })

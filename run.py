@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import re
+import string
 from dataclasses import dataclass
 from time import perf_counter
 from typing import List, Optional
@@ -12,6 +13,175 @@ import httpx
 import minicli
 from truncate import Truncator
 
+STOP_WORLDS = [
+    "ai",
+    "aie",
+    "aient",
+    "aies",
+    "ait",
+    "as",
+    "au",
+    "aura",
+    "aurai",
+    "auraient",
+    "aurais",
+    "aurait",
+    "auras",
+    "aurez",
+    "auriez",
+    "aurions",
+    "aurons",
+    "auront",
+    "aux",
+    "avaient",
+    "avais",
+    "avait",
+    "avec",
+    "avez",
+    "aviez",
+    "avions",
+    "avons",
+    "ayant",
+    "ayez",
+    "ayons",
+    "c",
+    "ce",
+    "ceci",
+    "celà",
+    "ces",
+    "cet",
+    "cette",
+    "d",
+    "dans",
+    "de",
+    "des",
+    "du",
+    "elle",
+    "en",
+    "es",
+    "est",
+    "et",
+    "eu",
+    "eue",
+    "eues",
+    "eurent",
+    "eus",
+    "eusse",
+    "eussent",
+    "eusses",
+    "eussiez",
+    "eussions",
+    "eut",
+    "eux",
+    "eûmes",
+    "eût",
+    "eûtes",
+    "furent",
+    "fus",
+    "fusse",
+    "fussent",
+    "fusses",
+    "fussiez",
+    "fussions",
+    "fut",
+    "fûmes",
+    "fût",
+    "fûtes",
+    "ici",
+    "il",
+    "ils",
+    "j",
+    "je",
+    "l",
+    "la",
+    "le",
+    "les",
+    "leur",
+    "leurs",
+    "lui",
+    "m",
+    "ma",
+    "mais",
+    "me",
+    "mes",
+    "moi",
+    "mon",
+    "même",
+    "n",
+    "ne",
+    "nos",
+    "notre",
+    "nous",
+    "on",
+    "ont",
+    "ou",
+    "par",
+    "pas",
+    "pour",
+    "qu",
+    "que",
+    "quel",
+    "quelle",
+    "quelles",
+    "quels",
+    "qui",
+    "s",
+    "sa",
+    "sans",
+    "se",
+    "sera",
+    "serai",
+    "seraient",
+    "serais",
+    "serait",
+    "seras",
+    "serez",
+    "seriez",
+    "serions",
+    "serons",
+    "seront",
+    "ses",
+    "soi",
+    "soient",
+    "sois",
+    "soit",
+    "sommes",
+    "son",
+    "sont",
+    "soyez",
+    "soyons",
+    "suis",
+    "sur",
+    "t",
+    "ta",
+    "te",
+    "tes",
+    "toi",
+    "ton",
+    "tu",
+    "un",
+    "une",
+    "vos",
+    "votre",
+    "vous",
+    "y",
+    "à",
+    "étaient",
+    "étais",
+    "était",
+    "étant",
+    "étiez",
+    "étions",
+    "été",
+    "étée",
+    "étées",
+    "étés",
+    "êtes",
+]
+punctuation = {key: None for key in string.punctuation}
+smart_apostrophes = {"’": " "}
+table = str.maketrans({**punctuation, **smart_apostrophes})
+
 
 @dataclass(order=True)
 class Dataset:
@@ -19,36 +189,45 @@ class Dataset:
     default_order: int  # Keep it second for ordering.
     id: str  # Useful to deduplicate.
     title: str
-    description: str
     page: str
     acronym: Optional[str]
     post_url: Optional[str]
-    description_excerpt: Optional[str] = ""
+    description: str
+    indexme: Optional[str] = ""
+    excerpt: Optional[str] = ""
 
     def __post_init__(self):
         html_description = markdown.markdown(self.description)
+
+        notags = bleach.clean(html_description, tags=[], strip=True,)
+        unlinkified = re.sub(r"http\S+", "", notags)
+        nopunctuation = unlinkified.translate(table)
+        nostopwords = " ".join(
+            word
+            for word in nopunctuation.split()
+            if word.lower().strip() not in STOP_WORLDS
+        )
+        self.indexme = nostopwords
+
         sanitized_description = bleach.clean(
             html_description, tags=["p", "li", "ol", "ul",], strip=True,
         )
-        self.description = sanitized_description
         truncated_description = Truncator(sanitized_description).words(
             num=50, truncate="…", html=True
         )
         unlinkified_description = re.sub(r"http\S+", "", truncated_description)
-        self.description_excerpt = unlinkified_description
+        self.excerpt = unlinkified_description
 
     @property
     def asdict(self):
         return {
             "id": self.id,
             "title": self.title,
-            "description": self.description,
-            "content": self.description_excerpt,
+            "indexme": self.indexme,
+            "excerpt": self.excerpt,
             "acronym": self.acronym,
             "page": self.page,
             "post_url": self.post_url,
-            # "nb_hits": self.nb_hits,
-            # "default_order": self.default_order,
         }
 
 
