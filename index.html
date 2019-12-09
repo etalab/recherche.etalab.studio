@@ -146,7 +146,7 @@
   const query = urlParams.get('q')
   let postUrl = ''
 
-  if(query) {
+  if (query) {
     searchField.value = query
     updateSearch(query)
   }
@@ -156,17 +156,17 @@
     window.history.pushState({}, '', `?q=${q}`)
   }
 
-  function truncateString (string, maxLength = 50) {
+  function truncateString(string, maxLength = 50) {
     // TODO: make it smarter, especially for truncated links.
     if (!string) return
     const showDots = string.length > maxLength
     return `${string.substring(0, maxLength)}${showDots ? '…' : ''}`
   }
 
-  function prepareDescription (string) {
+  function prepareDescription(string) {
     const truncated = truncateString(string, 250)
     const htmlized = marked(truncated)
-    const sanitized = DOMPurify.sanitize(htmlized, {ALLOWED_TAGS: ALLOWED_TAGS})
+    const sanitized = DOMPurify.sanitize(htmlized, { ALLOWED_TAGS: ALLOWED_TAGS })
     return sanitized
   }
   function removeDuplicates(array, key) {
@@ -177,36 +177,34 @@
   const template = document.querySelector('#template-card')
   const container = document.querySelector('#datasets-container .list')
 
-  const relatedPromise = fetch(`https://www.data.gouv.fr/api/1/posts/?page=1&page_size=1&sort=-created_at`)
+  fetch('datasets.json')
     .then(response => response.json())
-    .then(json => {
-      const postData = json.data[0]
-      postUrl = postData.page
-      const uris = postData.datasets.map(d => d.uri)
-      const promises = uris.map(uri => fetch(uri).then(r => r.json()))
-      return Promise.all(promises)
+    .then(datasets => {
+      container.innerHTML = removeDuplicates(datasets, 'id')
+        .map(dataset => {
+          return template.innerHTML
+            .replace(/\{title}/g, dataset.title)
+            .replace(
+              /\{acronym}/g,
+              dataset.acronym ? ` — ${dataset.acronym}` : ''
+            )
+            .replace(/\{content}/g, prepareDescription(dataset.description))
+            .replace(/\{url}/g, dataset.page)
+            .replace(
+              /\{extra_link}/g,
+              dataset.post_url
+                ? `<a class="button secondary" href="${
+                    dataset.post_url
+                  }">Voir l’article de blog dédié</a>`
+                : ''
+            )
+        })
+        .join('')
+      const list = new List('main', { valueNames: ['title', 'content'] })
+      if (query) list.fuzzySearch(query)
+      list.on('searchComplete', list => updateSearch(list.search.arguments[0]))
     })
-
-  const popularPromise = fetch("datasets.json")
-    .then(response => response.json())
-
-  Promise.all([relatedPromise, popularPromise]).then(datalists => {
-    const [relatedDatasets, popularDatasets] = datalists
-    relatedDatasets.forEach(dataset => dataset.postUrl = postUrl)
-    const datasets = datalists.flat()
-    container.innerHTML = removeDuplicates(datasets, 'id').map(dataset => {
-      return template.innerHTML
-      .replace(/\{title}/g, dataset.title)
-      .replace(/\{acronym}/g, dataset.acronym ? ` — ${dataset.acronym}` : '')
-      .replace(/\{content}/g, prepareDescription(dataset.description))
-      .replace(/\{url}/g, dataset.page)
-      .replace(/\{extra_link}/g, dataset.postUrl ? `<a class="button secondary" href="${dataset.postUrl}">Voir l’article de blog dédié</a>` : '')
-    }).join('')
-    const list = new List('main', { valueNames: ['title', 'content'] })
-    if(query) list.fuzzySearch(query)
-    list.on('searchComplete', list => updateSearch(list.search.arguments[0]))
-  })
-  .catch(console.error.bind(console))
+    .catch(console.error.bind(console))
 </script>
 
 </body>

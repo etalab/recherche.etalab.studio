@@ -12,11 +12,13 @@ import minicli
 @dataclass(order=True)
 class Dataset:
     nb_hits: int  # Keep it first for ordering.
+    default_order: int  # Keep it second for ordering.
     id: str  # Useful to deduplicate.
     title: str
     description: str
     acronym: Optional[str]
     page: str
+    post_url: Optional[str]
 
     @property
     def asdict(self):
@@ -26,6 +28,9 @@ class Dataset:
             "description": self.description,
             "acronym": self.acronym,
             "page": self.page,
+            "post_url": self.post_url,
+            "nb_hits": self.nb_hits,
+            "default_order": self.default_order,
         }
 
 
@@ -35,18 +40,17 @@ async def fetch_json_data(url: str) -> dict:
         return response.json()
 
 
-def convert_to_datasets(data: dict) -> List[Dataset]:
-    return [
-        Dataset(
-            id=item["id"],
-            nb_hits=item["metrics"].get("nb_hits", 0),
-            title=item["title"],
-            description=item["description"],
-            acronym=item["acronym"],
-            page=item["page"],
-        )
-        for item in data["data"]
-    ]
+def convert_to_dataset(item: dict, index: int) -> Dataset:
+    return Dataset(
+        nb_hits=item["metrics"].get("nb_hits", 0),
+        default_order=index,
+        id=item["id"],
+        title=item["title"],
+        description=item["description"],
+        acronym=item["acronym"],
+        page=item["page"],
+        post_url="",
+    )
 
 
 def write_datasets(datasets: List[Dataset]) -> None:
@@ -54,12 +58,35 @@ def write_datasets(datasets: List[Dataset]) -> None:
         file_out.write(json.dumps([dataset.asdict for dataset in datasets], indent=2))
 
 
-@minicli.cli
-async def generate_data(nb_datasets: int = 50) -> None:
+async def fetch_popular_datasets_by_nb_hits(nb_datasets: int) -> List[Dataset]:
     data = await fetch_json_data(f"/api/1/datasets/?page_size={nb_datasets}")
-    datasets = convert_to_datasets(data)
-    datasets_by_nb_hits = sorted(datasets, reverse=True)
-    write_datasets(datasets_by_nb_hits)
+    datasets = [
+        convert_to_dataset(item, i) for i, item in enumerate(reversed(data["data"]))
+    ]
+    return sorted(datasets, reverse=True)
+
+
+async def fetch_blog_datasets_by_nb_hits(nb_blogposts: int) -> List[Dataset]:
+    blogposts = await fetch_json_data(
+        f"/api/1/posts/?page=1&page_size={nb_blogposts}&sort=-created_at"
+    )
+    datasets = []
+    for blogpost in blogposts["data"]:
+        post_url = blogpost["page"]
+        for i, dataset in enumerate(reversed(blogpost["datasets"])):
+            data = await fetch_json_data(dataset["uri"])
+            dataset = convert_to_dataset(data, i)
+            dataset.post_url = post_url
+            datasets.append(dataset)
+
+    return sorted(datasets, reverse=True)
+
+
+@minicli.cli
+async def generate_data(nb_datasets: int = 50, nb_blogposts: int = 2) -> None:
+    popular_datasets_by_nb_hits = await fetch_popular_datasets_by_nb_hits(nb_datasets)
+    blog_datasets_by_nb_hits = await fetch_blog_datasets_by_nb_hits(nb_blogposts)
+    write_datasets(blog_datasets_by_nb_hits + popular_datasets_by_nb_hits)
 
 
 @minicli.wrap
