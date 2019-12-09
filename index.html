@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Recherche data.gouv.fr</title>
   <link rel="stylesheet" href="template.css">
-  <link rel="prefetch" href="data.json">
+  <link rel="prefetch" href="datasets.json">
   <style>
     label[for=search] {
       display: none;
@@ -139,7 +139,6 @@
 <script src="js/marked-0-7-0.min.js"></script>
 <script src="js/purify-2-0-7.js"></script>
 <script>
-  const numberOfDatasets = 50
   const ALLOWED_TAGS = ['a', 'em', 'strong', 'ul', 'li']
   const moreResultsButton = document.querySelector('#more-results')
   const searchField = document.querySelector('input[type=search')
@@ -188,9 +187,8 @@
       return Promise.all(promises)
     })
 
-  const popularPromise = fetch(`https://www.data.gouv.fr/api/1/datasets/?page_size=${numberOfDatasets}`)
+  const popularPromise = fetch("datasets.json")
     .then(response => response.json())
-    .then(json => json.data)
 
   Promise.all([relatedPromise, popularPromise]).then(datalists => {
     const [relatedDatasets, popularDatasets] = datalists
