@@ -196,9 +196,12 @@ class Dataset:
     indexme: Optional[str] = ""
     excerpt: Optional[str] = ""
 
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         html_description = markdown.markdown(self.description)
+        self.populate_indexme(html_description)
+        self.populate_excerpt(html_description)
 
+    def populate_indexme(self, html_description: str) -> None:
         notags = bleach.clean(html_description, tags=[], strip=True,)
         unlinkified = re.sub(r"http\S+", "", notags)
         nopunctuation = unlinkified.translate(table)
@@ -209,17 +212,18 @@ class Dataset:
         )
         self.indexme = nostopwords
 
+    def populate_excerpt(self, html_description: str, num_words: int = 50) -> None:
         sanitized_description = bleach.clean(
             html_description, tags=["p", "li", "ol", "ul",], strip=True,
         )
         truncated_description = Truncator(sanitized_description).words(
-            num=50, truncate="…", html=True
+            num=num_words, truncate="…", html=True
         )
-        if len(truncated_description) > 500:
+        if len(truncated_description) > num_words * 10:
             # May happen with Data INSEE sur les communes given the description
             # https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/
             truncated_description = Truncator(truncated_description).chars(
-                num=500, truncate="…", html=True
+                num=num_words * 10, truncate="…", html=True
             )
         unlinkified_description = re.sub(r"http\S+", "", truncated_description)
         self.excerpt = unlinkified_description

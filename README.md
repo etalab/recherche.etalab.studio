@@ -8,3 +8,9 @@
 ## Generating data
 
     ./run.py generate-data
+
+
+## Running tests
+
+    pip install pytest
+    pytest tests.py -x --disable-warnings
