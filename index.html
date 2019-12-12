@@ -39,23 +39,6 @@
       text-align: center;
     }
 
-    a.read:before,
-    a.dataset:before {
-      content: " ";
-      display: inline-block;
-      background: transparent none no-repeat;
-      background-size: contain;
-      height: 1.1rem;
-      width: 1.5rem;
-      vertical-align: middle;
-      border: none;
-    }
-    a.read:before {
-      background-image: url('images/book.svg');
-    }
-    a.dataset:before {
-      background-image: url('images/dataset.svg');
-    }
     a.read,
     a.read:focus {
       border: 0;
@@ -155,7 +138,7 @@
         <div class="content" data-indexme="{indexme}">{excerpt}</div>
       </div>
       <div class="card__extra text-center">
-        <a class="button primary dataset" href="{url}">Consulter</a>
+        <a class="button primary" href="{url}">Voir le détail sur data.gouv.fr</a>
         {extra_link}
       </div>
     </div>
@@ -207,7 +190,7 @@
               dataset.post_url
                 ? `<a class="button-outline secondary read" href="${
                     dataset.post_url
-                  }" title="Consulter l'article autour de ce jeu de données">Lire l'article</a>`
+                  }" title="">Lire l’article de blog à ce sujet</a>`
                 : ''
             )
         })
