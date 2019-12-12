@@ -29,24 +29,43 @@
     .card {
       min-width: 300px;
       margin: 0 1rem 1rem 0;
+      position: relative;
+      overflow: hidden;
     }
     .card .button {
       margin: inherit;
     }
 
+    .card footer {
+      position: absolute;
+      width: 100%;
+      height: 75px;
+      bottom: -75px;
+      background-color: rgba(0, 0, 0, 0);
+      transition: bottom .3s;
+    }
+    .card.with-article footer {
+      height: 120px;
+      bottom: -120px;
+    }
+    .card:hover footer {
+      bottom: 0;
+      background-color: rgba(50, 50, 50, .7);
+    }
+    a.read {
+      color: #fff;
+      display: block;
+      margin: 0 auto;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    a.read:hover {
+      background-color: transparent;  /* cancel action of template.css */
+    }
+
     #more-results {
       display: block;
       text-align: center;
-    }
-
-    a.read,
-    a.read:focus {
-      border: 0;
-    }
-    a.button,
-    a.button:focus,
-    a.button:active {
-      margin: auto;
     }
   </style>
 </head>
@@ -132,15 +151,15 @@
   </footer>
 
   <template id="template-card">
-    <div class="card">
+    <div class="card {card_extra_classes}">
       <div class="card__content">
         <h3 class="title">{title}{acronym}</h3>
         <div class="content" data-indexme="{indexme}">{excerpt}</div>
       </div>
-      <div class="card__extra text-center">
+      <footer class="card__extra text-center">
         <a class="button primary" href="{url}">Voir le détail sur data.gouv.fr</a>
         {extra_link}
-      </div>
+      </footer>
     </div>
   </template>
 
@@ -185,10 +204,11 @@
             .replace(/\{indexme}/g, dataset.indexme)
             .replace(/\{excerpt}/g, dataset.excerpt)
             .replace(/\{url}/g, dataset.page)
+            .replace(/\{card_extra_classes}/g, dataset.post_url ? 'with-article' : '')
             .replace(
               /\{extra_link}/g,
               dataset.post_url
-                ? `<a class="button-outline secondary read" href="${
+                ? `<a class="read" href="${
                     dataset.post_url
                   }" title="">Lire l’article de blog à ce sujet</a>`
                 : ''
