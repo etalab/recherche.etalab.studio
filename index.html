@@ -13,7 +13,13 @@
       display: none;
     }
     .section-input {
-      padding: 3rem 0;
+      padding: 2rem 0;
+    }
+    #search {
+      font-size: 1.1rem;
+    }
+    .overlay-button {
+      display: none;
     }
     .section-cards {
       padding: 2rem 0;
@@ -31,6 +37,7 @@
       margin: 0 1rem 1rem 0;
       position: relative;
       overflow: hidden;
+      transition: all .3s;
     }
 
     /* Let's make the whole card clickable via CSS.
@@ -51,7 +58,9 @@
       text-decoration: underline;
     }
     .card:focus-within, .card:hover {
-      box-shadow: 0 0 0 0.25rem;
+      box-shadow: 0 0 0.4rem rgba(0, 0, 0, .4);
+      background-color:#fcfcfc;
+      transform: scale(1.02);
     }
     .card:focus-within a:focus {
       text-decoration: none;
@@ -61,6 +70,8 @@
       display: block;
       text-align: center;
     }
+
+
   </style>
 </head>
 
@@ -136,7 +147,6 @@
         </ul>
       </div>
       <ul class="footer__links">
-        <li><h2>recherche.etalab.studio</h2></li>
         <li><a href="https://www.data.gouv.fr/reference">Données de référence</a></li>
         <li><a href="https://www.data.gouv.fr/terms">Conditions générales d'utilisation</a></li>
         <li><a href="https://www.data.gouv.fr/api">API</a></li>
