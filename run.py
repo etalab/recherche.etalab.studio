@@ -6,10 +6,9 @@ from dataclasses import dataclass
 from time import perf_counter
 from typing import List, Optional
 
-import markdown
-
 import bleach
 import httpx
+import markdown
 import minicli
 from truncate import Truncator
 
@@ -247,6 +246,12 @@ async def fetch_json_data(url: str) -> dict:
         return response.json()
 
 
+async def fetch_url_list(url: str) -> List[str]:
+    async with httpx.Client(base_url="https://www.data.gouv.fr") as client:
+        response = await client.get(url, timeout=20.0)
+        return response.text.split("\n")
+
+
 def convert_to_dataset(item: dict, index: int) -> Dataset:
     return Dataset(
         nb_hits=item["metrics"].get("nb_hits", 0),
@@ -263,6 +268,21 @@ def convert_to_dataset(item: dict, index: int) -> Dataset:
 def write_datasets(datasets: List[Dataset]) -> None:
     with open("datasets.json", "w") as file_out:
         file_out.write(json.dumps([dataset.asdict for dataset in datasets], indent=2))
+
+
+def extract_slug(url: str) -> str:
+    return url[len("https://www.data.gouv.fr/fr/datasets/") : -1]
+
+
+async def fetch_playlist(playlist_slug: str) -> List[Dataset]:
+    dataset = await fetch_json_data(f"/api/1/datasets/{playlist_slug}/")
+    dataset_urls = await fetch_url_list(dataset["resources"][0]["url"])
+    dataset_slugs = [extract_slug(dataset_url) for dataset_url in dataset_urls]
+    datasets = [
+        convert_to_dataset(await fetch_json_data(f"/api/1/datasets/{dataset_slug}/"), i)
+        for i, dataset_slug in enumerate(dataset_slugs)
+    ]
+    return datasets
 
 
 async def fetch_popular_datasets_by_nb_hits(nb_datasets: int) -> List[Dataset]:
@@ -290,10 +310,15 @@ async def fetch_blog_datasets_by_nb_hits(nb_blogposts: int) -> List[Dataset]:
 
 
 @minicli.cli
-async def generate_data(nb_datasets: int = 100, nb_blogposts: int = 2) -> None:
+async def generate_data(
+    nb_datasets: int = 100,
+    nb_blogposts: int = 2,
+    playlist_slug: str = "mes-playlists-13",
+) -> None:
+    playlist = await fetch_playlist(playlist_slug)
     popular_datasets_by_nb_hits = await fetch_popular_datasets_by_nb_hits(nb_datasets)
     blog_datasets_by_nb_hits = await fetch_blog_datasets_by_nb_hits(nb_blogposts)
-    write_datasets(blog_datasets_by_nb_hits + popular_datasets_by_nb_hits)
+    write_datasets(playlist + blog_datasets_by_nb_hits + popular_datasets_by_nb_hits)
 
 
 @minicli.wrap
