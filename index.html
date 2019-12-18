@@ -232,7 +232,7 @@
       if (query) list.fuzzySearch(query)
       list.on('searchComplete', list => {
         const searchTerms = list.search.arguments[0]
-        _paq.push(['trackEvent', 'Search', 'Type', 'Term', searchTerms])
+        _paq.push(['trackEvent', 'Search', 'Type', searchTerms])
         updateSearch(searchTerms)
       })
     })
