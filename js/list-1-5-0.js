@@ -1096,6 +1096,7 @@ module.exports = function(list) {
     setSearchString: function(s) {
       s = list.utils.toString(s).toLowerCase();
       s = s.replace(/[-[\]{}()*+?.,\\^$|#]/g, "\\$&"); // Escape regular expression characters
+      s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, ''); // Remove accents
       searchString = s;
     },
     toArray: function(values) {
