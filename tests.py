@@ -1,5 +1,5 @@
 import pytest
-from run import Dataset
+from run import Dataset, deduplicate_datasets
 
 
 @pytest.fixture
@@ -28,6 +28,23 @@ def dataset_2():
         post_url="",
         description="",
     )
+
+
+def test_dataset_deduplicate_different_ids(dataset_1, dataset_2):
+    datasets = deduplicate_datasets([dataset_1, dataset_2])
+    assert [d.id for d in datasets] == [
+        "dataset-1",
+        "dataset-2",
+    ]
+
+
+def test_dataset_deduplicate_same_id(dataset_1, dataset_2):
+    dataset_2.id = "dataset-1"
+    datasets = deduplicate_datasets([dataset_1, dataset_2])
+    assert len(datasets) == 1
+    assert [d.id for d in datasets] == [
+        "dataset-1",
+    ]
 
 
 def test_dataset_order_default_by_nb_hits(dataset_1, dataset_2):
