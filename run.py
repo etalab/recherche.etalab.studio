@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import json
 import re
 import string
 from dataclasses import dataclass
@@ -10,7 +9,10 @@ import bleach
 import httpx
 import markdown
 import minicli
+from jinja2 import Environment, FileSystemLoader
 from truncate import Truncator
+
+environment = Environment(loader=FileSystemLoader("."))
 
 STOP_WORLDS = [
     "ai",
@@ -200,6 +202,16 @@ class Dataset:
         self.populate_indexme(html_description)
         self.populate_excerpt(html_description)
 
+    def __hash__(self) -> int:
+        """Required for deduplication via set()."""
+        return hash(self.id)
+
+    def __eq__(self, other: "Dataset") -> bool:
+        """Required for deduplication via set()."""
+        if isinstance(other, Dataset):
+            return self.id == other.id
+        raise NotImplementedError
+
     def populate_indexme(self, html_description: str) -> None:
         notags = bleach.clean(html_description, tags=[], strip=True,)
         unlinkified = re.sub(r"http\S+", "", notags)
@@ -265,9 +277,14 @@ def convert_to_dataset(item: dict, index: int) -> Dataset:
     )
 
 
+def deduplicate_datasets(datasets: List[Dataset]) -> List[Dataset]:
+    return set(datasets)
+
+
 def write_datasets(datasets: List[Dataset]) -> None:
-    with open("datasets.json", "w") as file_out:
-        file_out.write(json.dumps([dataset.asdict for dataset in datasets], indent=2))
+    template = environment.get_template("template.html")
+    content = template.render(datasets=[dataset.asdict for dataset in datasets])
+    open("index.html", "w").write(content)
 
 
 def extract_slug(url: str) -> str:
@@ -315,10 +332,18 @@ async def generate_data(
     nb_blogposts: int = 2,
     playlist_slug: str = "mes-playlists-13",
 ) -> None:
+    print(
+        f"Fetching playlist `{playlist_slug}` + {nb_datasets} popular datasets"
+        f" + {nb_blogposts} blog posts related datasets."
+    )
     playlist = await fetch_playlist(playlist_slug)
     popular_datasets_by_nb_hits = await fetch_popular_datasets_by_nb_hits(nb_datasets)
     blog_datasets_by_nb_hits = await fetch_blog_datasets_by_nb_hits(nb_blogposts)
-    write_datasets(playlist + blog_datasets_by_nb_hits + popular_datasets_by_nb_hits)
+    datasets = deduplicate_datasets(
+        playlist + blog_datasets_by_nb_hits + popular_datasets_by_nb_hits
+    )
+    print(f"Writing {len(datasets)} datasets to index.html")
+    write_datasets(sorted(datasets, reverse=True))
 
 
 @minicli.wrap
