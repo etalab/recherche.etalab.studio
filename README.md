@@ -13,7 +13,7 @@ Pour cela, cette interface combine les jeux de données les plus populaires ains
 
 Pour l’instant, les données sont issues de trois sources distinctes :
 
-* une [playlist](https://playlists.etalab.studio/) contenant les 9 jeux de données du Service Public de la Donnée ([SPD](https://www.data.gouv.fr/fr/search/?badge=spd))
+* deux [playlists](https://playlists.etalab.studio/), la première contenant les 9 jeux de données du Service Public de la Donnée ([SPD](https://www.data.gouv.fr/fr/search/?badge=spd)) et la seconde 2 jeux de données relatifs à la géographie (GeoLogos et GeoZones)
 * les 100 derniers jeux de données qui sont considérés comme étant `featured` par les administrateur·ice·s de datagouv
 * les x jeux de données cités dans les [deux derniers posts](https://www.data.gouv.fr/fr/posts/) publiés
 
