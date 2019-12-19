@@ -31,18 +31,20 @@ def dataset_2():
 
 
 def test_dataset_deduplicate_different_ids(dataset_1, dataset_2):
+    dataset_2.nb_hits = 2
     datasets = deduplicate_datasets([dataset_1, dataset_2])
-    assert [d.id for d in datasets] == [
+    assert [d.id for d in sorted(datasets)] == [
         "dataset-1",
         "dataset-2",
     ]
 
 
 def test_dataset_deduplicate_same_id(dataset_1, dataset_2):
+    dataset_2.nb_hits = 2
     dataset_2.id = "dataset-1"
     datasets = deduplicate_datasets([dataset_1, dataset_2])
     assert len(datasets) == 1
-    assert [d.id for d in datasets] == [
+    assert [d.id for d in sorted(datasets)] == [
         "dataset-1",
     ]
 
