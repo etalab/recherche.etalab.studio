@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
+import itertools
 import re
 import string
 from dataclasses import dataclass
 from time import perf_counter
-from typing import List, Optional
+from typing import Any, List, Optional
 
 import bleach
 import httpx
@@ -184,6 +185,12 @@ smart_apostrophes = {"’": " "}
 table = str.maketrans({**punctuation, **smart_apostrophes})
 
 
+@dataclass
+class Playlist:
+    slug: str
+    title: str
+
+
 @dataclass(order=True)
 class Dataset:
     nb_hits: int  # Keep it first for ordering.
@@ -291,15 +298,25 @@ def extract_slug(url: str) -> str:
     return url[len("https://www.data.gouv.fr/fr/datasets/") : -1]
 
 
-async def fetch_playlist(playlist_slug: str) -> List[Dataset]:
-    dataset = await fetch_json_data(f"/api/1/datasets/{playlist_slug}/")
-    dataset_urls = await fetch_url_list(dataset["resources"][0]["url"])
+def flatten(list_of_lists: List[List[Any]]) -> List[Any]:
+    return list(itertools.chain(*list_of_lists))
+
+
+async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
+    dataset = await fetch_json_data(f"/api/1/datasets/{playlist.slug}/")
+    for resource in dataset["resources"]:
+        if resource["title"] == playlist.title:
+            dataset_urls = await fetch_url_list(resource["url"])
     dataset_slugs = [extract_slug(dataset_url) for dataset_url in dataset_urls]
     datasets = [
         convert_to_dataset(await fetch_json_data(f"/api/1/datasets/{dataset_slug}/"), i)
         for i, dataset_slug in enumerate(dataset_slugs)
     ]
     return datasets
+
+
+async def fetch_playlists(playlists: List[Playlist]) -> List[Dataset]:
+    return flatten([await fetch_playlist(playlist) for playlist in playlists])
 
 
 async def fetch_featured_datasets_by_nb_hits(nb_datasets: int) -> List[Dataset]:
@@ -329,20 +346,20 @@ async def fetch_blog_datasets_by_nb_hits(nb_blogposts: int) -> List[Dataset]:
 
 
 @minicli.cli
-async def generate_data(
-    nb_datasets: int = 100,
-    nb_blogposts: int = 2,
-    playlist_slug: str = "mes-playlists-13",  # 9 SPD datasets.
-) -> None:
+async def generate_data(nb_datasets: int = 100, nb_blogposts: int = 2) -> None:
+    playlists = [
+        Playlist(slug="mes-playlists-13", title="SPD"),
+        Playlist(slug="mes-playlists-13", title="Géo"),
+    ]
     print(
-        f"Fetching playlist `{playlist_slug}` + {nb_datasets} featured datasets"
+        f"Fetching {len(playlists)} playlists + {nb_datasets} featured datasets"
         f" + {nb_blogposts} blog posts related datasets."
     )
-    playlist = await fetch_playlist(playlist_slug)
+    playlists_datasets = await fetch_playlists(playlists)
     featured_datasets_by_nb_hits = await fetch_featured_datasets_by_nb_hits(nb_datasets)
     blog_datasets_by_nb_hits = await fetch_blog_datasets_by_nb_hits(nb_blogposts)
     datasets = deduplicate_datasets(
-        playlist + blog_datasets_by_nb_hits + featured_datasets_by_nb_hits
+        playlists_datasets + blog_datasets_by_nb_hits + featured_datasets_by_nb_hits
     )
     print(f"Writing {len(datasets)} datasets to index.html")
     write_datasets(sorted(datasets, reverse=True))
