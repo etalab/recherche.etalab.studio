@@ -11,10 +11,14 @@ import httpx
 import markdown
 import minicli
 from jinja2 import Environment, FileSystemLoader
+from progressist import ProgressBar
 from truncate import Truncator
 
 environment = Environment(loader=FileSystemLoader("."))
 
+MATOMO_SITE_ID = 109
+# See https://www.encode.io/httpx/advanced/#fine-tuning-the-configuration
+TIMEOUT = httpx.Timeout(15, read_timeout=60)
 STOP_WORDS = [
     "ai",
     "aie",
@@ -259,15 +263,40 @@ class Dataset:
         }
 
 
+async def fetch_stats_for(url: str) -> dict:
+    async with httpx.AsyncClient(base_url="https://stats.data.gouv.fr") as client:
+        params = {
+            "idSite": MATOMO_SITE_ID,
+            "module": "API",
+            "method": "Actions.getPageUrl",
+            "pageUrl": url,
+            "format": "json",
+            "period": "year",
+            "date": "last1",
+            "token_auth": "anonymous",
+        }
+        try:
+            response = await client.get("/", params=params, timeout=TIMEOUT)
+        except httpx.exceptions.ReadTimeout:
+            raise Exception(f"Timeout from {client.base_url}{url}")
+        return response.json()
+
+
 async def fetch_json_data(url: str) -> dict:
-    async with httpx.Client(base_url="https://www.data.gouv.fr") as client:
-        response = await client.get(url, timeout=20.0)
+    async with httpx.AsyncClient(base_url="https://www.data.gouv.fr") as client:
+        try:
+            response = await client.get(url, timeout=TIMEOUT)
+        except httpx.exceptions.ReadTimeout:
+            raise Exception(f"Timeout from {client.base_url}{url}")
         return response.json()
 
 
 async def fetch_url_list(url: str) -> List[str]:
-    async with httpx.Client(base_url="https://www.data.gouv.fr") as client:
-        response = await client.get(url, timeout=20.0)
+    async with httpx.AsyncClient(base_url="https://www.data.gouv.fr") as client:
+        try:
+            response = await client.get(url, timeout=TIMEOUT)
+        except httpx.exceptions.ReadTimeout:
+            raise Exception(f"Timeout from {client.base_url}{url}")
         return response.text.split("\n")
 
 
@@ -320,9 +349,7 @@ async def fetch_playlists(playlists: List[Playlist]) -> List[Dataset]:
 
 
 async def fetch_featured_datasets_by_nb_hits(nb_datasets: int) -> List[Dataset]:
-    data = await fetch_json_data(
-        f"/api/1/datasets/?featured=true&page_size={nb_datasets}"
-    )
+    data = await fetch_json_data(f"/api/1/datasets/?page_size={nb_datasets}")
     datasets = [
         convert_to_dataset(item, i) for i, item in enumerate(reversed(data["data"]))
     ]
@@ -345,6 +372,19 @@ async def fetch_blog_datasets_by_nb_hits(nb_blogposts: int) -> List[Dataset]:
     return sorted(datasets, reverse=True)
 
 
+async def fetch_statistics(datasets: List[Dataset]) -> List[Dataset]:
+    print(f"Fetching statistics for {len(datasets)} datasets")
+    nb_updated_datasets = 0
+    bar = ProgressBar(total=len(datasets))
+    for dataset in bar.iter(datasets):
+        results = await fetch_stats_for(dataset.page)
+        if results["2020"]:
+            dataset.nb_hits = results["2020"][0]["nb_hits"]
+            nb_updated_datasets += 1
+    print(f"{nb_updated_datasets} datasets updated from Matomo")
+    return datasets
+
+
 @minicli.cli
 async def generate_data(nb_datasets: int = 100, nb_blogposts: int = 2) -> None:
     playlists = [
@@ -352,7 +392,7 @@ async def generate_data(nb_datasets: int = 100, nb_blogposts: int = 2) -> None:
         Playlist(slug="mes-playlists-13", title="Géo"),
     ]
     print(
-        f"Fetching {len(playlists)} playlists + {nb_datasets} featured datasets"
+        f"Fetching {len(playlists)} playlists + {nb_datasets} pertinent datasets"
         f" + {nb_blogposts} blog posts related datasets."
     )
     playlists_datasets = await fetch_playlists(playlists)
@@ -361,6 +401,7 @@ async def generate_data(nb_datasets: int = 100, nb_blogposts: int = 2) -> None:
     datasets = deduplicate_datasets(
         playlists_datasets + blog_datasets_by_nb_hits + featured_datasets_by_nb_hits
     )
+    datasets = await fetch_statistics(datasets)
     print(f"Writing {len(datasets)} datasets to index.html")
     write_datasets(sorted(datasets, reverse=True))
 
