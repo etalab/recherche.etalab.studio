@@ -198,6 +198,10 @@
     window.history.pushState({}, '', `?q=${q}`)
   }
 
+  function normalizeString(s) {
+    return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  }
+
   const list = new List('main', {
     valueNames: ['title', { name: 'content', attr: 'data-indexme' }],
     fuzzySearch: {
@@ -205,11 +209,12 @@
       threshold: 0.3
     }
   })
-  if (query) list.fuzzySearch(query)
+
+  if (query) list.fuzzySearch(normalizeString(query))
   list.on('searchComplete', list => {
     const searchTerms = list.search.arguments[0]
     _paq.push(['trackEvent', 'Search', 'Type', searchTerms])
-    updateSearch(searchTerms)
+    updateSearch(normalizeString(searchTerms))
   })
 </script>
 
