@@ -302,8 +302,10 @@ async def fetch_playlist(playlist_slug: str) -> List[Dataset]:
     return datasets
 
 
-async def fetch_popular_datasets_by_nb_hits(nb_datasets: int) -> List[Dataset]:
-    data = await fetch_json_data(f"/api/1/datasets/?page_size={nb_datasets}")
+async def fetch_featured_datasets_by_nb_hits(nb_datasets: int) -> List[Dataset]:
+    data = await fetch_json_data(
+        f"/api/1/datasets/?featured=true&page_size={nb_datasets}"
+    )
     datasets = [
         convert_to_dataset(item, i) for i, item in enumerate(reversed(data["data"]))
     ]
@@ -330,17 +332,17 @@ async def fetch_blog_datasets_by_nb_hits(nb_blogposts: int) -> List[Dataset]:
 async def generate_data(
     nb_datasets: int = 100,
     nb_blogposts: int = 2,
-    playlist_slug: str = "mes-playlists-13",
+    playlist_slug: str = "mes-playlists-13",  # 9 SPD datasets.
 ) -> None:
     print(
-        f"Fetching playlist `{playlist_slug}` + {nb_datasets} popular datasets"
+        f"Fetching playlist `{playlist_slug}` + {nb_datasets} featured datasets"
         f" + {nb_blogposts} blog posts related datasets."
     )
     playlist = await fetch_playlist(playlist_slug)
-    popular_datasets_by_nb_hits = await fetch_popular_datasets_by_nb_hits(nb_datasets)
+    featured_datasets_by_nb_hits = await fetch_featured_datasets_by_nb_hits(nb_datasets)
     blog_datasets_by_nb_hits = await fetch_blog_datasets_by_nb_hits(nb_blogposts)
     datasets = deduplicate_datasets(
-        playlist + blog_datasets_by_nb_hits + popular_datasets_by_nb_hits
+        playlist + blog_datasets_by_nb_hits + featured_datasets_by_nb_hits
     )
     print(f"Writing {len(datasets)} datasets to index.html")
     write_datasets(sorted(datasets, reverse=True))
