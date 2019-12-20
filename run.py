@@ -15,7 +15,7 @@ from truncate import Truncator
 
 environment = Environment(loader=FileSystemLoader("."))
 
-STOP_WORLDS = [
+STOP_WORDS = [
     "ai",
     "aie",
     "aient",
@@ -226,7 +226,7 @@ class Dataset:
         nostopwords = " ".join(
             word
             for word in nopunctuation.split()
-            if word.lower().strip() not in STOP_WORLDS
+            if word.lower().strip() not in STOP_WORDS
         )
         self.indexme = nostopwords
 
