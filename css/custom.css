@@ -4,9 +4,6 @@ label[for=search] {
 .section-input {
   padding: 2rem 0;
 }
-.search__group {
-  margin-right: 1rem;
-}
 #search {
   font-size: 1.1rem;
 }
@@ -20,6 +17,8 @@ label[for=search] {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* compensate the margin-right from the last column of the flexbox */
+  margin-right: -1rem;
 }
 .cards {
   margin-top: 0;
@@ -61,5 +60,5 @@ See https://inclusive-components.design/cards/. */
 #more-results {
   display: block;
   text-align: center;
+  margin-right: inherit;
 }
-
