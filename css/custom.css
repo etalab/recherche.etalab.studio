@@ -4,6 +4,9 @@ label[for=search] {
 .section-input {
   padding: 2rem 0;
 }
+.search__group {
+  margin-right: 1rem;
+}
 #search {
   font-size: 1.1rem;
 }
