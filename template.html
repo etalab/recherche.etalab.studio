@@ -6,72 +6,8 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Recherche data.gouv.fr</title>
-  <link rel="stylesheet" href="template.css">
-  <style>
-    label[for=search] {
-      display: none;
-    }
-    .section-input {
-      padding: 2rem 0;
-    }
-    #search {
-      font-size: 1.1rem;
-    }
-    .overlay-button {
-      display: none;
-    }
-    .section-cards {
-      padding: 2rem 0;
-    }
-    .list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    .cards {
-      margin-top: 0;
-    }
-    .card {
-      min-width: 300px;
-      margin: 0 1rem 1rem 0;
-      position: relative;
-      overflow: hidden;
-      transition: all .3s;
-    }
-
-    /* Let's make the whole card clickable via CSS.
-    See https://inclusive-components.design/cards/. */
-    .card a {
-      text-decoration: none;
-    }
-    .card a::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-    }
-    .card a:focus {
-      outline: none;
-      text-decoration: underline;
-    }
-    .card:focus-within, .card:hover {
-      box-shadow: 0 0 0.4rem rgba(0, 0, 0, .4);
-      background-color:#fcfcfc;
-      transform: scale(1.02);
-    }
-    .card:focus-within a:focus {
-      text-decoration: none;
-    }
-
-    #more-results {
-      display: block;
-      text-align: center;
-    }
-
-
-  </style>
+  <link rel="stylesheet" href="css/template.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
