@@ -11,11 +11,10 @@ Pour cela, cette interface combine les jeux de données les plus populaires ains
 
 ## Données
 
-Pour l’instant, les données sont issues de trois sources distinctes :
+Pour l’instant, les données sont issues de deux [playlists](https://playlists.etalab.studio/) distinctes :
 
-* deux [playlists](https://playlists.etalab.studio/), la première contenant les 9 jeux de données du Service Public de la Donnée ([SPD](https://www.data.gouv.fr/fr/search/?badge=spd)) et la seconde 2 jeux de données relatifs à la géographie (GeoLogos et GeoZones)
-* les 100 derniers jeux de données qui sont considérés comme étant pertinents par l’API (via ElasticSearch)
-* les x jeux de données cités dans les [deux derniers posts](https://www.data.gouv.fr/fr/posts/) publiés
+* la première contenant les 9 jeux de données du Service Public de la Donnée ([SPD](https://www.data.gouv.fr/fr/search/?badge=spd))
+* la seconde contenant les 100 jeux de données les plus populaires sur l’année 2019
 
 Ces jeux de données une fois récupérés sont ensuite triés selon l’indicateur `nb_hits` fourni par Matomo (puis par défaut par l’API).
 

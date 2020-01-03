@@ -194,6 +194,9 @@ class Playlist:
     slug: str
     title: str
 
+    def __str__(self):
+        return f"{self.slug}: {self.title}"
+
 
 @dataclass(order=True)
 class Dataset:
@@ -288,7 +291,12 @@ async def fetch_json_data(url: str) -> dict:
             response = await client.get(url, timeout=TIMEOUT)
         except httpx.exceptions.ReadTimeout:
             raise Exception(f"Timeout from {client.base_url}{url}")
-        return response.json()
+        result = response.json()
+        if "message" in result:
+            # print(f"{client.base_url}{url} => {result['message']}")
+            return {}
+        else:
+            return result
 
 
 async def fetch_url_list(url: str) -> List[str]:
@@ -300,7 +308,7 @@ async def fetch_url_list(url: str) -> List[str]:
         return response.text.split("\n")
 
 
-def convert_to_dataset(item: dict, index: int) -> Dataset:
+def convert_to_dataset(item: dict, index: int) -> Optional[Dataset]:
     return Dataset(
         nb_hits=item["metrics"].get("nb_hits", 0),
         default_order=index,
@@ -324,7 +332,10 @@ def write_datasets(datasets: List[Dataset]) -> None:
 
 
 def extract_slug(url: str) -> str:
-    return url[len("https://www.data.gouv.fr/fr/datasets/") : -1]
+    slug = url[len("https://www.data.gouv.fr/fr/datasets/") :]
+    if slug.endswith("/"):
+        slug = slug[:-1]
+    return slug
 
 
 def flatten(list_of_lists: List[List[Any]]) -> List[Any]:
@@ -332,15 +343,19 @@ def flatten(list_of_lists: List[List[Any]]) -> List[Any]:
 
 
 async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
+    print(f"Fetching playlist {playlist}")
     dataset = await fetch_json_data(f"/api/1/datasets/{playlist.slug}/")
     for resource in dataset["resources"]:
         if resource["title"] == playlist.title:
             dataset_urls = await fetch_url_list(resource["url"])
     dataset_slugs = [extract_slug(dataset_url) for dataset_url in dataset_urls]
-    datasets = [
-        convert_to_dataset(await fetch_json_data(f"/api/1/datasets/{dataset_slug}/"), i)
-        for i, dataset_slug in enumerate(dataset_slugs)
-    ]
+    datasets = []
+    bar = ProgressBar(total=len(dataset_slugs))
+    for i, dataset_slug in enumerate(bar.iter(dataset_slugs)):
+        data = await fetch_json_data(f"/api/1/datasets/{dataset_slug}/")
+        if data and "id" in data:
+            dataset = convert_to_dataset(data, i)
+            datasets.append(dataset)
     return datasets
 
 
@@ -348,32 +363,8 @@ async def fetch_playlists(playlists: List[Playlist]) -> List[Dataset]:
     return flatten([await fetch_playlist(playlist) for playlist in playlists])
 
 
-async def fetch_featured_datasets_by_nb_hits(nb_datasets: int) -> List[Dataset]:
-    data = await fetch_json_data(f"/api/1/datasets/?page_size={nb_datasets}")
-    datasets = [
-        convert_to_dataset(item, i) for i, item in enumerate(reversed(data["data"]))
-    ]
-    return sorted(datasets, reverse=True)
-
-
-async def fetch_blog_datasets_by_nb_hits(nb_blogposts: int) -> List[Dataset]:
-    blogposts = await fetch_json_data(
-        f"/api/1/posts/?page=1&page_size={nb_blogposts}&sort=-created_at"
-    )
-    datasets = []
-    for blogpost in blogposts["data"]:
-        post_url = blogpost["page"]
-        for i, dataset in enumerate(reversed(blogpost["datasets"])):
-            data = await fetch_json_data(dataset["uri"])
-            dataset = convert_to_dataset(data, i)
-            dataset.post_url = post_url
-            datasets.append(dataset)
-
-    return sorted(datasets, reverse=True)
-
-
 async def fetch_statistics(datasets: List[Dataset]) -> List[Dataset]:
-    print(f"Fetching statistics for {len(datasets)} datasets")
+    print(f"Fetching statistics")
     nb_updated_datasets = 0
     bar = ProgressBar(total=len(datasets))
     for dataset in bar.iter(datasets):
@@ -386,21 +377,13 @@ async def fetch_statistics(datasets: List[Dataset]) -> List[Dataset]:
 
 
 @minicli.cli
-async def generate_data(nb_datasets: int = 100, nb_blogposts: int = 2) -> None:
+async def generate_data() -> None:
     playlists = [
         Playlist(slug="mes-playlists-13", title="SPD"),
-        Playlist(slug="mes-playlists-13", title="Géo"),
+        Playlist(slug="jeux-de-donnees-du-top-100", title="playlist.txt"),
     ]
-    print(
-        f"Fetching {len(playlists)} playlists + {nb_datasets} pertinent datasets"
-        f" + {nb_blogposts} blog posts related datasets."
-    )
     playlists_datasets = await fetch_playlists(playlists)
-    featured_datasets_by_nb_hits = await fetch_featured_datasets_by_nb_hits(nb_datasets)
-    blog_datasets_by_nb_hits = await fetch_blog_datasets_by_nb_hits(nb_blogposts)
-    datasets = deduplicate_datasets(
-        playlists_datasets + blog_datasets_by_nb_hits + featured_datasets_by_nb_hits
-    )
+    datasets = deduplicate_datasets(playlists_datasets)
     datasets = await fetch_statistics(datasets)
     print(f"Writing {len(datasets)} datasets to index.html")
     write_datasets(sorted(datasets, reverse=True))
