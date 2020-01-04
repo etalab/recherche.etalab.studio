@@ -194,9 +194,6 @@ class Playlist:
     slug: str
     title: str
 
-    def __str__(self):
-        return f"{self.slug}: {self.title}"
-
 
 @dataclass(order=True)
 class Dataset:
@@ -343,7 +340,7 @@ def flatten(list_of_lists: List[List[Any]]) -> List[Any]:
 
 
 async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
-    print(f"Fetching playlist {playlist}")
+    print(f"Fetching playlist {playlist.title}")
     dataset = await fetch_json_data(f"/api/1/datasets/{playlist.slug}/")
     for resource in dataset["resources"]:
         if resource["title"] == playlist.title:
@@ -379,6 +376,10 @@ async def fetch_statistics(datasets: List[Dataset]) -> List[Dataset]:
 @minicli.cli
 async def generate_data() -> None:
     playlists = [
+        Playlist(
+            slug="jeux-de-donnees-contenus-dans-les-articles-de-blog-de-www-data-gouv-fr",
+            title="Suivi des sorties - Novembre 2019",
+        ),
         Playlist(slug="mes-playlists-13", title="SPD"),
         Playlist(slug="jeux-de-donnees-du-top-100", title="playlist.txt"),
     ]

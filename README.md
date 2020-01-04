@@ -11,12 +11,13 @@ Pour cela, cette interface combine les jeux de données les plus populaires ains
 
 ## Données
 
-Pour l’instant, les données sont issues de deux [playlists](https://playlists.etalab.studio/) distinctes :
+Pour l’instant, les données sont issues de trois [playlists](https://playlists.etalab.studio/) distinctes :
 
 * la première contenant les 9 jeux de données du Service Public de la Donnée ([SPD](https://www.data.gouv.fr/fr/search/?badge=spd))
 * la seconde contenant les 100 jeux de données les plus populaires sur l’année 2019
+* la troisième contenant les jeux de données qui ont été liés lors du dernier article de blog
 
-Ces jeux de données une fois récupérés sont ensuite triés selon l’indicateur `nb_hits` fourni par Matomo (puis par défaut par l’API).
+Ces jeux de données une fois récupérés sont ensuite dédoublonnés et triés selon l’indicateur `nb_hits` fourni par Matomo (puis par défaut par l’API).
 
 
 ## Technical
