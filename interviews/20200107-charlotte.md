@@ -9,7 +9,7 @@ Charlotte n'avait pas de données enregistrées de sa [dernière interview en no
 
 ## Quelle utilisatrice êtes-vous ?
 
-- « Avez-vous recherché de la donnée récemment ? La recherche a-t'elle abouti ? Quelle donnée ? »
+— « Avez-vous recherché de la donnée récemment ? La recherche a-t'elle abouti ? Quelle donnée ? »
 
 La dernière en date concerne les stations de ski.
 Je n'ai pas trouvé sur DataGouv.
@@ -31,7 +31,7 @@ Mais je passe quand-même essentiellement par le moteur de recherche de DataGouv
 
 ## Test du prototype
 
-- « Si l'on visite https://recherche.etalab.studio, que se passe t'il pour vous ? »
+— « Si l'on visite https://recherche.etalab.studio, que se passe t'il pour vous ? »
 
 Qu'est-ce que je peux chercher ?
 "Eau" : j'ai pas l'impression que ca fonctionne.
@@ -62,7 +62,7 @@ C'est frustrant pour moi de ne pas avoir de contrôle.
 Je ne sais pas quelle est la source, le format des données, quel est le tri.
 
 
-- « En quoi cette outil vous aide ? Qu'est-ce qu'il vous manque pour faciliter votre recherche ? »
+— « En quoi cette outil vous aide ? Qu'est-ce qu'il vous manque pour faciliter votre recherche ? »
 
 Ca me demanded plus de travail ici (sur le prototype) que par le moteur de recherche DataGouv. J'ai moins d'info.
 
