@@ -201,6 +201,7 @@ class Dataset:
     default_order: int  # Keep it second for ordering.
     id: str  # Useful to deduplicate.
     title: str
+    source: str
     page: str
     acronym: Optional[str]
     post_url: Optional[str]
@@ -255,6 +256,7 @@ class Dataset:
         return {
             "id": self.id,
             "title": self.title,
+            "source": self.source,
             "indexme": self.indexme,
             "excerpt": self.excerpt,
             "acronym": self.acronym,
@@ -305,12 +307,23 @@ async def fetch_url_list(url: str) -> List[str]:
         return response.text.split("\n")
 
 
+def extract_source(item: dict) -> str:
+    if item["organization"]:
+        source = item["organization"]["name"]
+    elif item["owner"]:
+        source = f"{item['owner']['first_name']} {item['owner']['last_name']}"
+    else:
+        source = "Source inconnue"
+    return source
+
+
 def convert_to_dataset(item: dict, index: int) -> Optional[Dataset]:
     return Dataset(
         nb_hits=item["metrics"].get("nb_hits", 0),
         default_order=index,
         id=item["id"],
         title=item["title"],
+        source=extract_source(item),
         description=item["description"],
         acronym=item["acronym"],
         page=item["page"],

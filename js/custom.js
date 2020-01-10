@@ -34,7 +34,7 @@ function updateSearch(q) {
 }
 
 const list = new List('main', {
-  valueNames: ['title', { name: 'content', attr: 'data-indexme' }],
+  valueNames: ['title', { name: 'content', attr: 'data-indexme' }, 'source'],
   fuzzySearch: {
     distance: 800,
     threshold: 0.3
