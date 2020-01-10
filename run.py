@@ -345,7 +345,11 @@ async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
     for resource in dataset["resources"]:
         if resource["title"] == playlist.title:
             dataset_urls = await fetch_url_list(resource["url"])
-    dataset_slugs = [extract_slug(dataset_url) for dataset_url in dataset_urls]
+    dataset_slugs = [
+        extract_slug(dataset_url)
+        for dataset_url in dataset_urls
+        if dataset_url.startswith("https://www.data.gouv.fr/fr/datasets/")
+    ]
     datasets = []
     bar = ProgressBar(total=len(dataset_slugs))
     for i, dataset_slug in enumerate(bar.iter(dataset_slugs)):
