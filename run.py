@@ -385,7 +385,10 @@ async def generate_data() -> None:
             title="Suivi des sorties - Novembre 2019",
         ),
         Playlist(slug="mes-playlists-13", title="SPD"),
-        Playlist(slug="jeux-de-donnees-du-top-100", title="playlist.txt"),
+        Playlist(
+            slug="jeux-de-donnees-du-top-100",
+            title="Top 100 des jeux de données en 2019",
+        ),
     ]
     playlists_datasets = await fetch_playlists(playlists)
     datasets = deduplicate_datasets(playlists_datasets)
