@@ -201,6 +201,7 @@ class Dataset:
     default_order: int  # Keep it second for ordering.
     id: str  # Useful to deduplicate.
     title: str
+    source: str
     page: str
     acronym: Optional[str]
     post_url: Optional[str]
@@ -255,6 +256,7 @@ class Dataset:
         return {
             "id": self.id,
             "title": self.title,
+            "source": self.source,
             "indexme": self.indexme,
             "excerpt": self.excerpt,
             "acronym": self.acronym,
@@ -305,12 +307,23 @@ async def fetch_url_list(url: str) -> List[str]:
         return response.text.split("\n")
 
 
+def extract_source(item: dict) -> str:
+    if item["organization"]:
+        source = item["organization"]["name"]
+    elif item["owner"]:
+        source = f"{item['owner']['first_name']} {item['owner']['last_name']}"
+    else:
+        source = "Source inconnue"
+    return source
+
+
 def convert_to_dataset(item: dict, index: int) -> Optional[Dataset]:
     return Dataset(
         nb_hits=item["metrics"].get("nb_hits", 0),
         default_order=index,
         id=item["id"],
         title=item["title"],
+        source=extract_source(item),
         description=item["description"],
         acronym=item["acronym"],
         page=item["page"],
@@ -345,7 +358,11 @@ async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
     for resource in dataset["resources"]:
         if resource["title"] == playlist.title:
             dataset_urls = await fetch_url_list(resource["url"])
-    dataset_slugs = [extract_slug(dataset_url) for dataset_url in dataset_urls]
+    dataset_slugs = [
+        extract_slug(dataset_url)
+        for dataset_url in dataset_urls
+        if dataset_url.startswith("https://www.data.gouv.fr/fr/datasets/")
+    ]
     datasets = []
     bar = ProgressBar(total=len(dataset_slugs))
     for i, dataset_slug in enumerate(bar.iter(dataset_slugs)):
@@ -381,7 +398,10 @@ async def generate_data() -> None:
             title="Suivi des sorties - Novembre 2019",
         ),
         Playlist(slug="mes-playlists-13", title="SPD"),
-        Playlist(slug="jeux-de-donnees-du-top-100", title="playlist.txt"),
+        Playlist(
+            slug="jeux-de-donnees-du-top-100",
+            title="Top 100 des jeux de données en 2019",
+        ),
     ]
     playlists_datasets = await fetch_playlists(playlists)
     datasets = deduplicate_datasets(playlists_datasets)
