@@ -29,6 +29,7 @@ Plusieurs interviews ont été réalisées de façon à itérer sur le produit e
 * De juillet à septembre 2017 : [voir le dépôt dédié](https://github.com/etalab/user-research)
 * Le 7 janvier 2020 : [Charlotte](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200107-charlotte.md)
 * Le 10 janvier 2020 : [Tom](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200110-tom.md)
+* Le 23 janvier 2020 : [Arnaud](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200123-arnaud.md)
 
 N’hésitez pas à nous solliciter, par exemple [en créant une issue](https://github.com/etalab/recherche.etalab.studio/issues/new) si vous voulez être interviewé·e.
 
