@@ -17,32 +17,3 @@ _paq.push(['enableLinkTracking'])
   s.parentNode.insertBefore(g, s)
 })()
 /* End Matomo Code */
-
-const moreResultsButton = document.querySelector('#more-results')
-const searchField = document.querySelector('input[type=search')
-const urlParams = new URLSearchParams(window.location.search)
-const query = urlParams.get('q')
-
-if (query) {
-  searchField.value = query
-  updateSearch(query)
-}
-
-function updateSearch(q) {
-  moreResultsButton.href = moreResultsButton.dataset.href.replace('%s', q)
-  window.history.pushState({}, '', `?q=${q}`)
-}
-
-const list = new List('main', {
-  valueNames: ['title', { name: 'content', attr: 'data-indexme' }, 'source'],
-  fuzzySearch: {
-    distance: 800,
-    threshold: 0.3
-  }
-})
-if (query) list.fuzzySearch(query)
-list.on('searchComplete', list => {
-  const searchTerms = list.search.arguments[0]
-  _paq.push(['trackEvent', 'Search', 'Type', searchTerms])
-  updateSearch(searchTerms)
-})

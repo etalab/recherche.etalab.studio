@@ -65,51 +65,6 @@ def test_dataset_order_fallback_on_default_order(dataset_1, dataset_2):
     ]
 
 
-def test_dataset_populate_indexme_on_creation():
-    dataset = Dataset(
-        nb_hits=1,
-        default_order=1,
-        id="dataset-1",
-        title="title",
-        page="",
-        acronym="",
-        post_url="",
-        description="foo bar",
-    )
-    assert dataset.indexme == "foo bar"
-
-
-def test_dataset_populate_indexme_manual(dataset_1):
-    assert dataset_1.indexme == ""
-    dataset_1.populate_indexme("foo bar")
-    assert dataset_1.indexme == "foo bar"
-
-
-def test_dataset_populate_indexme_removes_html_tags(dataset_1):
-    dataset_1.populate_indexme("<p>foo</p> <script></script> <strong>bar</strong>")
-    assert dataset_1.indexme == "foo bar"
-
-
-def test_dataset_populate_indexme_removes_urls(dataset_1):
-    dataset_1.populate_indexme("foo http://foo.bar https://baz.quux bar")
-    assert dataset_1.indexme == "foo bar"
-
-
-def test_dataset_populate_indexme_removes_punctuation(dataset_1):
-    dataset_1.populate_indexme("foo, bar.")
-    assert dataset_1.indexme == "foo bar"
-
-
-def test_dataset_populate_indexme_removes_apostrophe(dataset_1):
-    dataset_1.populate_indexme("foo l’bar")
-    assert dataset_1.indexme == "foo bar"
-
-
-def test_dataset_populate_indexme_removes_stop_words(dataset_1):
-    dataset_1.populate_indexme("foo seraient bar")
-    assert dataset_1.indexme == "foo bar"
-
-
 def test_dataset_populate_excerpt_on_creation():
     dataset = Dataset(
         nb_hits=1,
@@ -181,7 +136,6 @@ def test_dataset_asdict():
         "title": "title",
         "acronym": "ACRONYM",
         "page": "page",
-        "indexme": "foo bar",
         "excerpt": "<p>foo bar</p>",
         "post_url": "post_url",
     }
