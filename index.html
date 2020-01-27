@@ -111,61 +111,13 @@
     </div>
   </template>
 
-  <script src="js/custom.js"></script>
   <script src="js/elasticlunr.min.js"></script>
-
+  <script src="js/lunr.stemmer.support.js"></script>
+  <script src="js/lunr.fr.js"></script>
+  <script src="js/custom.js"></script>
   <script>
-    const template = document.querySelector('template').innerHTML
-    const container = document.querySelector('#datasets-container')
-    const cards = []
-    const index = elasticlunr(function () {
-      this.addField('acronym')
-      this.addField('title')
-      this.addField('source')
-      this.addField('excerpt')
-      this.setRef('id')
-    })
-
-    function search(text) {
-      if(!text.trim()) return resetCardsDisplay()
-      const matches = index.search(text, { fields: {
-        acronym: { boost: 4 },
-        source: { boost: 3 },
-        title: { boost: 2 },
-        excerpt: { boost: 1 },
-      }})
-      updateCardsDisplay(matches.map(m => m.ref))
-    }
-
-    async function loadDatasets() {
-      const response = await fetch('/datasets.json')
-      return await response.json()
-    }
-
-    function loadCards(datasets) {
-      datasets.forEach(dataset => {
-        index.addDoc(dataset)
-        const content = template.replace(/\{\{\s*(.*)\s*}}/g, (_, match) => eval(match))
-        container.innerHTML += content.trim()
-      })
-    }
-
-    function resetCardsDisplay() {
-      Array.from(container.querySelectorAll('.hidden')).forEach(c => c.classList.remove('hidden'))
-    }
-
-    function updateCardsDisplay(visibleCards) {
-      container.childNodes.forEach(card => card.classList.add('hidden'))
-      visibleCards.forEach(id => document.getElementById(id).classList.remove('hidden'))
-    }
-
-    async function init () {
-      const datasets = await loadDatasets()
-      loadCards(datasets)
-    }
-
-    init()
+    initCards()
+    loadMatomo()
   </script>
-
 </body>
 </html>
