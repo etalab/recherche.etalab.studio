@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import itertools
+import json
 import re
 import string
 from dataclasses import dataclass
@@ -17,176 +18,7 @@ from truncate import Truncator
 environment = Environment(loader=FileSystemLoader("."))
 
 MATOMO_SITE_ID = 109
-# See https://www.encode.io/httpx/advanced/#fine-tuning-the-configuration
 TIMEOUT = httpx.Timeout(15, read_timeout=60)
-STOP_WORDS = [
-    "ai",
-    "aie",
-    "aient",
-    "aies",
-    "ait",
-    "as",
-    "au",
-    "aura",
-    "aurai",
-    "auraient",
-    "aurais",
-    "aurait",
-    "auras",
-    "aurez",
-    "auriez",
-    "aurions",
-    "aurons",
-    "auront",
-    "aux",
-    "avaient",
-    "avais",
-    "avait",
-    "avec",
-    "avez",
-    "aviez",
-    "avions",
-    "avons",
-    "ayant",
-    "ayez",
-    "ayons",
-    "c",
-    "ce",
-    "ceci",
-    "celà",
-    "ces",
-    "cet",
-    "cette",
-    "d",
-    "dans",
-    "de",
-    "des",
-    "du",
-    "elle",
-    "en",
-    "es",
-    "est",
-    "et",
-    "eu",
-    "eue",
-    "eues",
-    "eurent",
-    "eus",
-    "eusse",
-    "eussent",
-    "eusses",
-    "eussiez",
-    "eussions",
-    "eut",
-    "eux",
-    "eûmes",
-    "eût",
-    "eûtes",
-    "furent",
-    "fus",
-    "fusse",
-    "fussent",
-    "fusses",
-    "fussiez",
-    "fussions",
-    "fut",
-    "fûmes",
-    "fût",
-    "fûtes",
-    "ici",
-    "il",
-    "ils",
-    "j",
-    "je",
-    "l",
-    "la",
-    "le",
-    "les",
-    "leur",
-    "leurs",
-    "lui",
-    "m",
-    "ma",
-    "mais",
-    "me",
-    "mes",
-    "moi",
-    "mon",
-    "même",
-    "n",
-    "ne",
-    "nos",
-    "notre",
-    "nous",
-    "on",
-    "ont",
-    "ou",
-    "par",
-    "pas",
-    "pour",
-    "qu",
-    "que",
-    "quel",
-    "quelle",
-    "quelles",
-    "quels",
-    "qui",
-    "s",
-    "sa",
-    "sans",
-    "se",
-    "sera",
-    "serai",
-    "seraient",
-    "serais",
-    "serait",
-    "seras",
-    "serez",
-    "seriez",
-    "serions",
-    "serons",
-    "seront",
-    "ses",
-    "soi",
-    "soient",
-    "sois",
-    "soit",
-    "sommes",
-    "son",
-    "sont",
-    "soyez",
-    "soyons",
-    "suis",
-    "sur",
-    "t",
-    "ta",
-    "te",
-    "tes",
-    "toi",
-    "ton",
-    "tu",
-    "un",
-    "une",
-    "vos",
-    "votre",
-    "vous",
-    "y",
-    "à",
-    "étaient",
-    "étais",
-    "était",
-    "étant",
-    "étiez",
-    "étions",
-    "été",
-    "étée",
-    "étées",
-    "étés",
-    "êtes",
-]
-punctuation = {key: None for key in string.punctuation}
-smart_apostrophes = {"’": " "}
-table = str.maketrans({**punctuation, **smart_apostrophes})
 
 
 @dataclass
@@ -206,12 +38,10 @@ class Dataset:
     acronym: Optional[str]
     post_url: Optional[str]
     description: str
-    indexme: Optional[str] = ""
     excerpt: Optional[str] = ""
 
     def __post_init__(self) -> None:
         html_description = markdown.markdown(self.description)
-        self.populate_indexme(html_description)
         self.populate_excerpt(html_description)
 
     def __hash__(self) -> int:
@@ -223,17 +53,6 @@ class Dataset:
         if isinstance(other, Dataset):
             return self.id == other.id
         raise NotImplementedError
-
-    def populate_indexme(self, html_description: str) -> None:
-        notags = bleach.clean(html_description, tags=[], strip=True,)
-        unlinkified = re.sub(r"http\S+", "", notags)
-        nopunctuation = unlinkified.translate(table)
-        nostopwords = " ".join(
-            word
-            for word in nopunctuation.split()
-            if word.lower().strip() not in STOP_WORDS
-        )
-        self.indexme = nostopwords
 
     def populate_excerpt(self, html_description: str, num_words: int = 50) -> None:
         sanitized_description = bleach.clean(
@@ -248,8 +67,7 @@ class Dataset:
             truncated_description = Truncator(truncated_description).chars(
                 num=num_words * 10, truncate="…", html=True
             )
-        unlinkified_description = re.sub(r"http\S+", "", truncated_description)
-        self.excerpt = unlinkified_description
+        self.excerpt = re.sub(r"http\S+", "", truncated_description)
 
     @property
     def asdict(self):
@@ -257,7 +75,6 @@ class Dataset:
             "id": self.id,
             "title": self.title,
             "source": self.source,
-            "indexme": self.indexme,
             "excerpt": self.excerpt,
             "acronym": self.acronym,
             "page": self.page,
@@ -291,11 +108,7 @@ async def fetch_json_data(url: str) -> dict:
         except httpx.exceptions.ReadTimeout:
             raise Exception(f"Timeout from {client.base_url}{url}")
         result = response.json()
-        if "message" in result:
-            # print(f"{client.base_url}{url} => {result['message']}")
-            return {}
-        else:
-            return result
+        return {} if "message" in result else result
 
 
 async def fetch_url_list(url: str) -> List[str]:
@@ -336,9 +149,8 @@ def deduplicate_datasets(datasets: List[Dataset]) -> List[Dataset]:
 
 
 def write_datasets(datasets: List[Dataset]) -> None:
-    template = environment.get_template("template.html")
-    content = template.render(datasets=[dataset.asdict for dataset in datasets])
-    open("index.html", "w").write(content)
+    data = [d.asdict for d in datasets]
+    open("datasets.json", "w").write(json.dumps(data))
 
 
 def extract_slug(url: str) -> str:
@@ -406,7 +218,7 @@ async def generate_data() -> None:
     playlists_datasets = await fetch_playlists(playlists)
     datasets = deduplicate_datasets(playlists_datasets)
     datasets = await fetch_statistics(datasets)
-    print(f"Writing {len(datasets)} datasets to index.html")
+    print(f"Writing {len(datasets)} datasets to datasets.json")
     write_datasets(sorted(datasets, reverse=True))
 
 
