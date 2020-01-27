@@ -57,6 +57,10 @@ See https://inclusive-components.design/cards/. */
   text-decoration: none;
 }
 
+.hidden {
+  display: none;
+}
+
 #more-results {
   display: block;
   text-align: center;
