@@ -1,1 +1,920 @@
-[{"id": "5de8f397634f4164071119c5", "title": "Fichier des personnes d\u00e9c\u00e9d\u00e9es", "source": "Institut National de la Statistique et des Etudes Economiques (Insee)", "excerpt": "<p>L'Insee re\u00e7oit des communes les d\u00e9c\u00e8s enregistr\u00e9s.\nSelon l'avis de la Cada du 17 mai 2019 : Le fichier des personnes d\u00e9c\u00e9d\u00e9es \u00e9tant \u00e9tabli par l\u2019INSEE dans le cadre de ses missions de service public, il constitue, \u00e0 ce titre, un document administratif. Ne contenant pas de mentions relatives \u00e0\u2026</p>", "acronym": "D\u00e9c\u00e8s", "page": "https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/", "post_url": ""}, {"id": "58e53811c751df03df38f42d", "title": "R\u00e9pertoire National des Associations", "source": "Minist\u00e8re de l'Int\u00e9rieur", "excerpt": "<p>Le R\u00e9pertoire National des Associations (RNA) contient l\u2019ensemble des associations relevant de la loi 1901, \u00e0 savoir toutes les associations de France, dont le si\u00e8ge est d\u00e9clar\u00e9 en m\u00e9tropole ou dans les d\u00e9partements d\u2019outre-mer, sauf dans les d\u00e9partements de la Moselle, du Bas-Rhin et du Haut-Rhin, qui rel\u00e8vent du r\u00e9gime\u2026</p>", "acronym": "RNA", "page": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/", "post_url": ""}, {"id": "5c4ae55a634f4117716d5656", "title": "Demandes de valeurs fonci\u00e8res", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>Conform\u00e9ment au d\u00e9cret n\u00b0 2018-1350 du 28 d\u00e9cembre 2018 relatif \u00e0 la publication sous forme \u00e9lectronique des informations portant sur les valeurs fonci\u00e8res d\u00e9clar\u00e9es \u00e0 l'occasion des mutations immobili\u00e8res, le pr\u00e9sent fichier DVF est d\u00e9sormais disponible en open data.\nLa publication de ces donn\u00e9es r\u00e9pond \u00e0 l\u2019objectif de transparence des\u2026</p>", "acronym": "DVF", "page": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/", "post_url": ""}, {"id": "5b7ffc618b4c4169d30727e0", "title": "Base Sirene des entreprises et de leurs \u00e9tablissements (SIREN, SIRET)", "source": "Institut National de la Statistique et des Etudes Economiques (Insee)", "excerpt": "<ul>\n<li>Pour vous abonner \u00e0 notre lettre d'information Sirene open data actualit\u00e9s, suivez ce lien : \n<li>Pour consulter nos lettres d'information Sirene open data actualit\u00e9s, suivez ce lien : \n</ul>\n<p>Fichiers stock \n  Cinq fichiers stocks mensuels compact\u00e9s (format ZIP) sont mis \u00e0 disposition :\n        \u2022 le fichier stock des entreprises\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/", "post_url": ""}, {"id": "582c8978c751df788ec0bb7e", "title": "Liste Publique des Organismes de Formation (L.6351-7-1 du Code du Travail)", "source": "Minist\u00e8re du travail", "excerpt": "<p>Conform\u00e9ment \u00e0 l'article L.6351-7-1 du Code du Travail, la liste des organismes d\u00e9clar\u00e9s aupr\u00e8s du Pr\u00e9fet de R\u00e9gion territorialement comp\u00e9tent et \u00e0 jour de leur obligation de transmission du Bilan P\u00e9dagogique et Financier est rendue publique.</p>\n<p>Vous trouverez ci-joint un lien vous permettant de la t\u00e9l\u00e9charger (mise \u00e0 jour journali\u00e8re).\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail/", "post_url": ""}, {"id": "545b55e1c751df52de9b6045", "title": "Base officielle des codes postaux", "source": "La Poste", "excerpt": "<p>Fichier de correspondance entre les codes communes (INSEE) et les codes postaux au format csv.</p>\n<p>Ce fichier comprend :\n- Le code commune INSEE\n- Le nom de la commune\n- Le code postal\n- Le libell\u00e9 d\u2019acheminement\n- La ligne 5 de l'adresse (pr\u00e9cision de l'ancienne commune ou du\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/base-officielle-des-codes-postaux/", "post_url": ""}, {"id": "5943d13588ee38742a95eb0c", "title": "Zones de Revitalisation Rurale (ZRR)", "source": "Commissariat g\u00e9n\u00e9ral \u00e0 l'\u00e9galit\u00e9 des territoires", "excerpt": "<p>La liste des communes class\u00e9es en zones de revitalisation rurale (ZRR) selon l'arr\u00eat\u00e9 du 22 f\u00e9vrier 2018 modifiant l'arr\u00eat\u00e9 du 16 mars 2017 est parue. L\u2019Observatoire des Territoires du CGET met \u00e0 disposition ce nouveau classement sur son site internet et son application de cartographie interactive.</p>\n<p>Comment les communes sont-elles\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/zones-de-revitalisation-rurale-zrr/", "post_url": ""}, {"id": "53698f4ca3a729239d2036df", "title": "Base de donn\u00e9es accidents corporels de la circulation", "source": "Minist\u00e8re de l'Int\u00e9rieur", "excerpt": "<p>Pour chaque accident corporel (soit un accident survenu sur une voie ouverte \u00e0 la circulation publique, impliquant au moins un v\u00e9hicule et ayant fait au moins une victime ayant n\u00e9cessit\u00e9 des soins), des saisies d\u2019information d\u00e9crivant l\u2019accident sont effectu\u00e9es par l\u2019unit\u00e9 des forces de l\u2019ordre (police, gendarmerie, etc.) qui est\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/", "post_url": ""}, {"id": "59b0020ec751df07d5f13bcf", "title": "Cadastre", "source": "Etalab", "excerpt": "<p>Le plan cadastral est le d\u00e9coupage du territoire fran\u00e7ais en unit\u00e9s de surfaces permettant le calcul de certains imp\u00f4ts.</p>\n<p>Chaque commune est subdivis\u00e9e en sections, elles-m\u00eames subdivis\u00e9es en feuilles (ou planches).\nUne feuille cadastrale comporte des parcelles, qui peuvent supporter des b\u00e2timents.</p>\nDiff\u00e9rence par rapport au PCI Vecteur\n<p>Contrairement au\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/cadastre/", "post_url": ""}, {"id": "54149eb5c751df1dc8fc95e3", "title": "Le calendrier scolaire \u2014 Format iCal", "source": "Education Nationale", "excerpt": "<p>Le calendrier scolaire officiel, pour les ann\u00e9es scolaires 2018 \u2013 2019 et 2019 \u2013 2020, publi\u00e9 par le Minist\u00e8re de l\u2019\u00c9ducation nationale, de l\u2019Enseignement sup\u00e9rieur et de la Recherche. Le d\u00e9part en vacances a lieu apr\u00e8s la classe des jours indiqu\u00e9s. La reprise des cours s'effectue le matin des jours\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/le-calendrier-scolaire-format-ical/", "post_url": ""}, {"id": "58e5924b88ee3802ca255566", "title": "Plan Cadastral Informatis\u00e9", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "Plan Cadastral Informatis\u00e9 PCI\n<p>Ce jeu de donn\u00e9es provient d'un service public certifi\u00e9  Donn\u00e9es de r\u00e9f\u00e9rence</p>\n<p>Le plan cadastral est un assemblage d\u2019environ 600 000 feuilles ou planches repr\u00e9sentant chacune une section ou une partie d\u2019une section cadastrale.</p>\n<p>Il couvre la France enti\u00e8re, \u00e0 l\u2019exception de la ville de Strasbourg\u2026</p>", "acronym": "PCI", "page": "https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/", "post_url": ""}, {"id": "53699d0ea3a729239d205b2e", "title": "Population", "source": "Institut National de la Statistique et des Etudes Economiques (Insee)", "excerpt": "<p>Ce jeu de donn\u00e9es permet d'acc\u00e9der aux r\u00e9sultats des recensements de la population, \u00e0 des s\u00e9ries chronologiques de la Banque de Donn\u00e9es Macro-\u00e9conomiques de l'Insee sur le th\u00e8me de la population et \u00e0 d'autres donn\u00e9es issues notamment des statistiques de l'\u00e9tat civil. </p>\n<p>Le recensement de la population permet de conna\u00eetre\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/population/", "post_url": ""}, {"id": "53699fe5a3a729239d206232", "title": "Service-public.fr- Guide \u00ab vos droits et d\u00e9marches \u00bb Particuliers", "source": "Premier ministre", "excerpt": "<p>Le guide \u00ab vos droits et d\u00e9marches \u00bb contient plus de 3 400 fiches d\u2019information et questions-r\u00e9ponses et quelques 5 000 liens vers des ressources utiles (formulaires, d\u00e9marches en ligne, textes de r\u00e9f\u00e9rence, sites web publics, etc.) pour exercer ses droits et accomplir ses d\u00e9marches.\nPour plus d'informations, consulter la\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/service-public-fr-guide-vos-droits-et-demarches-particuliers/", "post_url": ""}, {"id": "53698f1aa3a729239d203653", "title": "Associations Reconnues d'Utilit\u00e9 Publique", "source": "Minist\u00e8re de l'Int\u00e9rieur", "excerpt": "<p>Ce jeu de donn\u00e9es contient la liste des associations reconnues d'utilit\u00e9 publique avec le code de l'association, son nom, son objet, sa cat\u00e9gorie, sa date de reconnaissance, son adresse, son code postal et la ville correspondante.</p>\n<p>Il ne contient pas les f\u00e9d\u00e9rations sportives. Agr\u00e9\u00e9es par le ministre charg\u00e9 des sports,\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/associations-reconnues-d-utilite-publique/", "post_url": ""}, {"id": "53699233a3a729239d203e69", "title": "D\u00e9coupage administratif communal fran\u00e7ais issu d'OpenStreetMap", "source": "OpenStreetMap", "excerpt": "<p>Exports du d\u00e9coupage administratif fran\u00e7ais au niveau communal (contours des communes) issu d'OpenStreetMap produit dans sa grande majorit\u00e9 \u00e0 partir du cadastre.</p>\n<p>Ces donn\u00e9es sont issues du crowdsourcing effectu\u00e9 par les contributeurs au projet OpenStreetMap et sont sous licence ODbL qui impose un partage \u00e0 l'identique et la mention obligatoire\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/", "post_url": ""}, {"id": "58da857388ee384902e505f5", "title": "R\u00e9pertoire Op\u00e9rationnel des M\u00e9tiers et des Emplois (ROME)", "source": "P\u00f4le emploi", "excerpt": "<p>Dans un contexte marqu\u00e9 par de fortes mutations de l\u2019environnement \u00e9conomique et social, le ROME (R\u00e9pertoire Op\u00e9rationnel des M\u00e9tiers et des Emplois) est un outil au service de la mobilit\u00e9 professionnelle et du rapprochement entre offres et candidats. </p>\n<p>Le ROME a \u00e9t\u00e9 construit par les \u00e9quipes de P\u00f4le emploi avec\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/", "post_url": ""}, {"id": "5a561801c751df42d7fca9b6", "title": "Quartiers prioritaires de la politique de la ville (QPV)", "source": "Commissariat g\u00e9n\u00e9ral \u00e0 l'\u00e9galit\u00e9 des territoires", "excerpt": "<p>Les p\u00e9rim\u00e8tres des quartiers prioritaires de la politique de la ville sont fix\u00e9s par le d\u00e9cret n\u00b0 2014-1750 du 30 d\u00e9cembre 2014 pour la m\u00e9tropole et par le d\u00e9cret n\u00b0 2014-1751 du 30 d\u00e9cembre 2014 pour les d\u00e9partements d'outre-mer, \u00e0 Saint-Martin et en Polyn\u00e9sie fran\u00e7aise.</p>\n<p>La loi de programmation pour\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/quartiers-prioritaires-de-la-politique-de-la-ville-qpv/", "post_url": ""}, {"id": "5369a15fa3a729239d2065b7", "title": "Table de composition nutritionnelle des aliments Ciqual", "source": "Agence nationale de s\u00e9curit\u00e9 sanitaire, de l'alimentation, de l'environnement et du travail (Anses)", "excerpt": "<p>En France, la base de donn\u00e9es de r\u00e9f\u00e9rence sur la composition nutritionnelle des aliments est g\u00e9r\u00e9e par l\u2019Anses.\nLa table de composition nutritionnelle des aliments Ciqual 2017 fournit les teneurs en diff\u00e9rents constituants (glucides, sucres, prot\u00e9ines, lipides, acides gras, sel, vitamines, min\u00e9raux\u2026) ainsi que les valeurs \u00e9nerg\u00e9tiques des aliments.</p>\n<p>Elle\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/table-de-composition-nutritionnelle-des-aliments-ciqual/", "post_url": ""}, {"id": "5a5f4f6c88ee387da4d252a3", "title": "Base des permis de construire (Sitadel) ", "source": "Minist\u00e8re de la Coh\u00e9sion des territoires", "excerpt": "<p>Tout p\u00e9titionnaire projetant une construction neuve ou la transformation d\u2019une construction n\u00e9cessitant le d\u00e9p\u00f4t d\u2019un permis de construire, doit remplir un formulaire relatif \u00e0 son projet et le transmettre \u00e0 la mairie de la commune de localisation des travaux. Le projet de permis est trait\u00e9 par les services instructeurs (\u00c9tat,\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/base-des-permis-de-construire-sitadel/", "post_url": ""}, {"id": "5cc1b94a634f4165e96436c1", "title": "Demandes de valeurs fonci\u00e8res g\u00e9olocalis\u00e9es", "source": "Etalab", "excerpt": "<p>Ce jeu de donn\u00e9es est d\u00e9riv\u00e9 du jeu de donn\u00e9es Demandes de valeurs fonci\u00e8res diffus\u00e9 par la DGFiP.</p>\n<p>Il propose un format alternatif, normalis\u00e9 et enrichi.</p>\nAm\u00e9liorations par rapport aux fichiers bruts\n<ul>\n<li>CSV avec s\u00e9parateur virgule et encodage UTF-8</li>\n<li>Mise \u00e0 jour avec les donn\u00e9es de r\u00e9f\u00e9rence les plus r\u00e9centes\u2026</li></ul>", "acronym": "DVF g\u00e9olocalis\u00e9es", "page": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/", "post_url": ""}, {"id": "53698e90a3a729239d2034d4", "title": "Agriculture biologique 2008-2011 - productions animales bio - t\u00eates par d\u00e9partement", "source": "Agence Bio", "excerpt": "<p>Nombre de t\u00eates bio par d\u00e9partement sur la p\u00e9riode 2008-2011 inclus.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/agriculture-biologique-2008-2011-productions-animales-bio-tetes-par-departement-30378956/", "post_url": ""}, {"id": "58d8d8a0c751df17537c66be", "title": "Registre parcellaire graphique (RPG) : contours des parcelles et \u00eelots culturaux et leur groupe de cultures majoritaire", "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re", "excerpt": "<p>Le registre parcellaire graphique est une base de donn\u00e9es g\u00e9ographiques servant de r\u00e9f\u00e9rence \u00e0 l'instruction des aides de la politique agricole commune (PAC).\nLa version anonymis\u00e9e diffus\u00e9e ici dans le cadre du service public de mise \u00e0 disposition des donn\u00e9es de r\u00e9f\u00e9rence contient les donn\u00e9es graphiques des parcelles (depuis 2015)\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/", "post_url": ""}, {"id": "5b320fa7c751df1d7a4febae", "title": "Op\u00e9rations coordonn\u00e9es par les CROSS", "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire", "excerpt": "<p>Ce jeu de donn\u00e9es contient toutes les donn\u00e9es statistiques disponibles informatiquement sur les interventions d\u2019assistance et de sauvetage coordonn\u00e9es par les CROSS (Centres r\u00e9gionaux op\u00e9rationnels de surveillance et de sauvetage). Il renseigne, pour chaque op\u00e9ration d\u2019assistance ou de secours coordonn\u00e9e en eaux fran\u00e7aises :</p>\n<ul>\n<li>quel \u00e9tait le motif d\u2019intervention ;\u2026</li></ul>", "acronym": "SECMAR", "page": "https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/", "post_url": ""}, {"id": "53699dc4a3a729239d205cf7", "title": "Prises de vue a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es de l'IGN", "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re", "excerpt": "<p>Les photographies a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es du territoire fran\u00e7ais peuvent, apr\u00e8s d\u00e9mat\u00e9rialisation, \u00eatre visualis\u00e9es en ligne et t\u00e9l\u00e9charg\u00e9es gratuitement. Sont \u00e9galement propos\u00e9s des tirages papier ou la duplication sur CD-ROM de plus de 4 millions de clich\u00e9s.</p>\nPhotographie a\u00e9rienne t\u00e9l\u00e9chargeable\n<p></p>\nOutil de s\u00e9lection G\u00e9oportail\n<p>![outil de s\u00e9lection G\u00e9oportail]\n( \"outil de s\u00e9lection\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/prises-de-vue-aeriennes-dematerialisees-de-lign/", "post_url": ""}, {"id": "570f655888ee3852094d8898", "title": "Nomenclature combin\u00e9e \u00e0 8 chiffres (NC8) depuis 2016", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>La nomenclature combin\u00e9e (NC) est un outil de classification des marchandises commune \u00e0 l'ensemble des \u00c9tats membres de l'Union europ\u00e9enne (UE) et est utilis\u00e9e pour : </p>\n<ul>\n<li>les d\u00e9clarations en douane pour les \u00e9changes avec les pays UE </li>\n<li>les d\u00e9clarations d'\u00e9changes de biens entre les pays de l'UE </li>\n<li>pr\u00e9senter les statistiques\u2026</li></ul>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/nomenclature-combinee-a-8-chiffres-nc8-depuis-2016/", "post_url": ""}, {"id": "5530fbacc751df5ff937dddb", "title": "Base Adresse Nationale", "source": "Base Adresse Nationale", "excerpt": "<p>La Base Adresse Nationale est une base de donn\u00e9es qui a pour but de r\u00e9f\u00e9rencer l'int\u00e9gralit\u00e9 des adresses du territoire fran\u00e7ais.</p>\n<p>Elle contient la position g\u00e9ographique de plus de 24 millions d'adresses.</p>\n<p>Elle est constitu\u00e9e par la collaboration entre Etalab, l'IGN et les collectivit\u00e9s locales, avec la contribution de la\u2026</p>", "acronym": "BAN", "page": "https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/", "post_url": ""}, {"id": "5710b9f088ee383cf54d8898", "title": "Transparence-sant\u00e9", "source": "Minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9", "excerpt": "<p>Attention : le jeu de donn\u00e9es contient plus de 2 millions de lignes. Il convient de disposer d\u2019un logiciel permettant d\u2019afficher l\u2019ensemble de ces lignes.</p>\n<p>La base de donn\u00e9es publique Transparence - Sant\u00e9 rend accessible l'ensemble des informations d\u00e9clar\u00e9es par les entreprises sur les liens d'int\u00e9r\u00eats qu'elles entretiennent avec les\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/transparence-sante-1/", "post_url": ""}, {"id": "536993cca3a729239d2042b9", "title": "Emplacement des distributeurs de pr\u00e9servatifs", "source": "Source inconnue", "excerpt": "<p>Coordonn\u00e9es GPS de localisation des distributeurs de pr\u00e9servatifs, et photo en situation. Donn\u00e9es soumises par la communaut\u00e9 via l'application mobile Condomatix et mod\u00e9r\u00e9es \u00e0 posteriori.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/emplacement-des-distributeurs-de-preservatifs-rdl/", "post_url": ""}, {"id": "5aeae046c751df7e0000bc3a", "title": "Dates et lieux des collectes de don du sang", "source": "OpenEventDatabase", "excerpt": "<p>Localisation et horaires des collectes de don du sang.</p>\n<p>Ce jeu de donn\u00e9es est une remise en forme de la carte publi\u00e9e par l'\u00c9tablissement Fran\u00e7ais du Sang sur  \n<p>Les donn\u00e9es sont disponibles via l'API OpenEventDatabase, qui permet de faire des recherches temporelles et/ou g\u00e9ographiques.</p>\n<p></p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/dates-et-lieux-des-collectes-de-don-du-sang/", "post_url": ""}, {"id": "5c34c4d1634f4173183a64f1", "title": "R\u00e9pertoire national des \u00e9lus", "source": "Minist\u00e8re de l'Int\u00e9rieur", "excerpt": "<p>Le R\u00e9pertoire National des Elus (RNE) a pour finalit\u00e9 le suivi des titulaires d\u2019un mandat \u00e9lectoral.  Il est renseign\u00e9 et tenu \u00e0 jour par les pr\u00e9fectures et par les services du minist\u00e8re de l'int\u00e9rieur, notamment sur la base des \u00e9l\u00e9ments fournis par les \u00e9lus lors de la phase d\u2019enregistrement des\u2026</p>", "acronym": "RNE", "page": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/", "post_url": ""}, {"id": "53699fe4a3a729239d206227", "title": "Service-public.fr - Annuaire de l\u2019administration - Base de donn\u00e9es locales", "source": "Premier ministre", "excerpt": "<p>La Base de donn\u00e9es locales r\u00e9f\u00e9rence plus de 60 000 guichets publics locaux (mairies, organismes sociaux, services de l'\u00e9tat, etc.). Elle fournit leurs coordonn\u00e9es (adresses, t\u00e9l\u00e9phones, site internet, horaires d'ouverture, coordonn\u00e9es de g\u00e9olocalisation). En compl\u00e9ment, sont index\u00e9s plus de 36 000 fichiers des communes, pr\u00e9cisant la comp\u00e9tence g\u00e9ographique des guichets.\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/service-public-fr-annuaire-de-l-administration-base-de-donnees-locales/", "post_url": ""}, {"id": "53834c53a3a72906c7ec5c4c", "title": "Conna\u00eetre le potentiel radon de ma commune", "source": "Institut de radioprotection et de s\u00fbret\u00e9 nucl\u00e9aire (IRSN)", "excerpt": "<p>Le radon est un gaz radioactif produit par la d\u00e9sint\u00e9gration naturelle de l\u2019uranium pr\u00e9sent dans les roches. Canc\u00e9rig\u00e8ne pulmonaire, il peut pr\u00e9senter un risque pour la sant\u00e9 lorsqu\u2019il s\u2019accumule dans les b\u00e2timents. La connaissance des caract\u00e9ristiques des formations g\u00e9ologiques sur le territoire permet d\u2019identifier les zones sur lesquelles la pr\u00e9sence\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/connaitre-le-potentiel-radon-de-ma-commune/", "post_url": ""}, {"id": "53ba4c07a3a729219b7bead3", "title": "Emissions de CO2 et de polluants des v\u00e9hicules commercialis\u00e9s en France ", "source": "ADEME", "excerpt": "<p>Depuis 2001, l\u2019ADEME acquiert tous les ans ces donn\u00e9es aupr\u00e8s de l\u2019Union Technique de l\u2019Automobile du motocycle et du Cycle UTAC (en charge de l\u2019homologation des v\u00e9hicules avant leur mise en vente) en accord avec le minist\u00e8re du d\u00e9veloppement durable.\nPour chaque v\u00e9hicule les donn\u00e9es d\u2019origine (transmises par l\u2019Utac)sont les\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france/", "post_url": ""}, {"id": "5369986ba3a729239d204f55", "title": "Police municipale : Effectifs par commune", "source": "Minist\u00e8re de l'Int\u00e9rieur", "excerpt": "<p>Les fichiers recensent pour les ann\u00e9es 2012 \u00e0 2018 les communes de votre d\u00e9partement ayant un service de police municipale et contient :</p>\n<ul>\n<li>le nombre de policiers municipaux,</li>\n<li>le nombre d'agents de surveillance de la voie publique,</li>\n<li>le nombre de gardes-champ\u00eatres,</li>\n<li>le nombre de centres de supervision urbaine (CSU).</li>\n</ul>\n<p>Pour\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/police-municipale-effectifs-par-commune/", "post_url": ""}, {"id": "54cb4f89c751df0c24467389", "title": "Prix des Terrains \u00e0 batir en France", "source": "Maison.fr", "excerpt": "<p>Forc\u00e9ment, le prix d\u2019un terrain varie fortement selon son emplacement et certains terrains en bords de mer ou en centre ville sont tr\u00e8s chers par rapport \u00e0 d\u2019autres un peu \u00e9loign\u00e9s. Toutefois, il existe aussi des sp\u00e9cificit\u00e9s r\u00e9gionales et raisonner en cout moyen n\u2019est donc pas idiot. Nous vous proposons\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/prix-des-terrains-a-batir-en-france/", "post_url": ""}, {"id": "5943d4c188ee38742a95eb0d", "title": "Zone d'Aide \u00e0 Finalit\u00e9 R\u00e9gionale (AFR)", "source": "Commissariat g\u00e9n\u00e9ral \u00e0 l'\u00e9galit\u00e9 des territoires", "excerpt": "<p>La Commission europ\u00e9enne a adopt\u00e9 la carte fran\u00e7aise des zones d\u2019aides \u00e0 finalit\u00e9 r\u00e9gionale (AFR) pour la p\u00e9riode 2014-2020, mise en \u0153uvre par le d\u00e9cret n\u00b0 2014-758 du 2 juillet 2014 relatif aux zones d'aide \u00e0 finalit\u00e9 r\u00e9gionale (AFR) et aux zones d'aide \u00e0 l'investissement des petites et moyennes entreprises\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/zone-daide-a-finalite-regionale-afr/", "post_url": ""}, {"id": "536991c5a3a729239d203d4b", "title": "Correspondance entre les codes postaux et codes INSEE des communes Fran\u00e7aises.", "source": "Opendatasoft", "excerpt": "<p>Ce jeu de donn\u00e9es int\u00e8gre par ailleurs des donn\u00e9es de r\u00e9f\u00e9rence sur les communes:</p>\n<ul>\n<li>Population</li>\n<li>Superficie</li>\n<li>Altitude moyenne</li>\n<li>Forme g\u00e9ographique</li>\n</ul>\n<p>Ce jeu de donn\u00e9es a \u00e9t\u00e9 constitu\u00e9 \u00e0 partir des donn\u00e9es de la base GEOFLA\u00ae mise \u00e0 disposition par l'IGN (codes INSEE) ainsi qu'\u00e0 partir de donn\u00e9es Wikip\u00e9dia (codes postaux).</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/correspondance-entre-les-codes-postaux-et-codes-insee-des-communes-francaises/", "post_url": ""}, {"id": "57868f03a3a7295d371add42", "title": "Taux de logements sociaux", "source": "Hauts-de-Seine le D\u00e9partement", "excerpt": "<p>Pourcentage de logements sociaux par commune et par ann\u00e9e</p>\n\n<p>Chaque ann\u00e9e depuis l'entr\u00e9e en vigueur de la Loi n\u00b0 2000-1208 du 13 d\u00e9cembre 2000, relative \u00e0 la solidarit\u00e9 et au renouvellement urbains, l'Etat proc\u00e8de \u00e0 l'inventaire des logements sociaux dans toutes les communes des Hauts-de-Seine. Ce recensement permet de calculer\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/taux-de-logements-sociaux/", "post_url": ""}, {"id": "59591ca4a3a7291dcf9c8150", "title": "Correspondance Code INSEE - Code Postal", "source": "R\u00e9gion \u00cele-de-France", "excerpt": "<p>Un jeu de donn\u00e9es mis \u00e0 jour avec les donn\u00e9es 2015 est disponible.</p>\n<p>Correspondance entre les codes postaux et codes INSEE des communes Fran\u00e7aises.</p>\n<p>Ce jeu de donn\u00e9es a \u00e9t\u00e9 constitu\u00e9 \u00e0 partir des donn\u00e9es de la base GEOFLA\u00ae 2013 mise \u00e0 disposition par l'IGN (codes INSEE) ainsi qu'\u00e0 partir\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/correspondance-code-insee-code-postal/", "post_url": ""}, {"id": "53699569a3a729239d2046eb", "title": "FINESS Extraction du Fichier des \u00e9tablissements", "source": "Minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9", "excerpt": "<p>Liste des \u00e9tablissements du domaine sanitaire et social.</p>\n<p>Informations sur la G\u00e9o-localisation : Le syst\u00e8me d\u2019information source contenant les coordonn\u00e9es g\u00e9ographiques permettant de g\u00e9o-localiser les \u00e9tablissements\nr\u00e9pertori\u00e9s dans FINESS est le produit BD-ADRESSE en version 2.1 de l\u2019IGN (Institut G\u00e9ographique National).</p>\n<p>ZONE                    SYST\u00c8ME GEODESIQUE         ELLIPSO\u00cfDE ASSOCIEE              PROJECTION \n//France m\u00e9tropolitaine :\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/finess-extraction-du-fichier-des-etablissements/", "post_url": ""}, {"id": "58c98b1888ee38770950152b", "title": "Mon R\u00e9seau Mobile", "source": "Autorit\u00e9 de r\u00e9gulation des communications \u00e9lectroniques et des postes (ARCEP)", "excerpt": "<p>Monreseaumobile.fr, est l'outil cartographique de l'Arcep qui vise \u00e0 apporter une information sur mesure aux utilisateurs, afin de les aider \u00e0 comparer entre eux les op\u00e9rateurs. Monreseaumobile.fr rassemble deux types d\u2019informations compl\u00e9mentaires :\n-   les cartes de couverture des op\u00e9rateurs. R\u00e9alis\u00e9es \u00e0 partir de simulations num\u00e9riques, ces cartes donnent une\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/mon-reseau-mobile/", "post_url": ""}, {"id": "586a824588ee3835ec3f4e61", "title": "Fichier des pr\u00e9noms - Edition 2016", "source": "Institut National de la Statistique et des Etudes Economiques (Insee)", "excerpt": "<p>En raison de la mise \u00e0 jour de ce jeu de donn\u00e9es par ajout d'ann\u00e9es suppl\u00e9mentaires, veuillez svp vous reporter au jeu de donn\u00e9es \"Fichier des pr\u00e9noms de 1900 \u00e0 2018\" sur data.gouv.fr.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/fichier-des-prenoms-edition-2016/", "post_url": ""}, {"id": "5369995ba3a729239d205221", "title": "Listes des communes g\u00e9olocalis\u00e9es par r\u00e9gions, d\u00e9partements, circonscriptions", "source": "NosDonn\u00e9es.fr", "excerpt": "<p>Tous les codes et informations g\u00e9ographique sur les 36000 communes fran\u00e7aises.\nIl s'agit d'une compilation de diff\u00e9rentes informations tir\u00e9es de Wikipedia et du travail de  donnant pour chaque commune de France les informations pr\u00e9cises sur leurs r\u00e9gions (et chefs-lieux), d\u00e9partements (et pr\u00e9fectures), circonscriptions l\u00e9gislatives et europ\u00e9ennes, codes INSEE, codes\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/listes-des-communes-geolocalisees-par-regions-departements-circonscriptions-nd/", "post_url": ""}, {"id": "53699e2aa3a729239d205dea", "title": "Open Food Facts - Produits alimentaires : ingr\u00e9dients, nutrition, labels", "source": "Open Food Facts", "excerpt": "<p>Open Food Facts r\u00e9pertorie les informations sur les produits alimentaires : ingr\u00e9dients, informations nutritionnelles, labels etc.\nLes donn\u00e9es proviennent majoritairement de la collecte citoyenne (crowdsourcing) des informations.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/open-food-facts-produits-alimentaires-ingredients-nutrition-labels/", "post_url": ""}, {"id": "536991b0a3a729239d203d13", "title": "Contours des d\u00e9partements fran\u00e7ais issus d'OpenStreetMap", "source": "OpenStreetMap", "excerpt": "<p>Exports du d\u00e9coupage administratif fran\u00e7ais au niveau d\u00e9partemental (contours des d\u00e9partements) issu d'OpenStreetMap produit dans sa grande majorit\u00e9 \u00e0 partir du cadastre.</p>\n<p>Ces donn\u00e9es sont issues du crowdsourcing effectu\u00e9 par les contributeurs au projet OpenStreetMap et sont sous licence ODbL qui impose un partage \u00e0 l'identique et la mention obligatoire\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/contours-des-departements-francais-issus-d-openstreetmap/", "post_url": ""}, {"id": "5863714388ee3863df3f4e5d", "title": "CORINE Land Cover - Occupation des sols en France", "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire", "excerpt": "<p>La base de donn\u00e9es g\u00e9ographique CORINE Land Cover (CLC) est un inventaire biophysique de l'occupation des terres. Il est produit dans le cadre du programme europ\u00e9en d'observation de la terre Copernicus (39 \u00c9tats europ\u00e9ens).</p>\n<p>Donn\u00e9es de r\u00e9f\u00e9rence, CORINE Land Cover est issue de l'interpr\u00e9tation visuelle d'images satellitaires et est disponible\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/corine-land-cover-occupation-des-sols-en-france/", "post_url": ""}, {"id": "53699580a3a729239d204738", "title": "Fichier FANTOIR des voies et lieux-dits", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>Ce fichier r\u00e9pertorie pour chaque commune le nom des lieux-dits et des voies, y compris celles situ\u00e9es dans les lotissements et les copropri\u00e9t\u00e9s. Acc\u00e9dez aux donn\u00e9es en cliquant sur le lien r\u00e9f\u00e9rence ci-dessous.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/fichier-fantoir-des-voies-et-lieux-dits/", "post_url": ""}, {"id": "555b3ec7c751df4633190c7a", "title": " Adresses des d\u00e9bits de tabac", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>D\u00e9signation commerciale et adresse postale des d\u00e9bits de tabac en activit\u00e9.</p>\n<p>Contenu (descriptifs des colonnes):\n- ID : num\u00e9ro de ligne\n- Enseigne : nom du commerce\n- Adresse\u00a0: indication principale de l\u2019adresse\n- Compl\u00e9ment : indication permettant une meilleure localisation (centre commercial, etc.) ou compl\u00e9ment de d\u00e9nomination\n-\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/adresses-des-debits-de-tabac/", "post_url": ""}, {"id": "5489cda0c751df35a24120e7", "title": "Comp\u00e9tence territoriale gendarmerie et police nationales", "source": "Minist\u00e8re de l'Int\u00e9rieur", "excerpt": "<p>Ce fichier d'export d\u00e9finit les zones de comp\u00e9tence de la gendarmerie et de la police nationales.\nLa structure est faite des champs suivants : le code commune, le libell\u00e9 de commune, l'institution, l'id_service, le service, le code postal de base de la commune, la liste des codes postaux de la\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/competence-territoriale-gendarmerie-et-police-nationales/", "post_url": ""}, {"id": "598892dcc751df3eae8bd6ec", "title": "Trafic moyen journalier annuel sur le r\u00e9seau routier national", "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire", "excerpt": "<p>Le trafic moyen journalier annuel (TMJA) d'une section routi\u00e8re est obtenu en calculant la moyenne sur une ann\u00e9e du nombre de v\u00e9hicules circulant sur cette section, tous sens confondus, au cours d'une journ\u00e9e.\nCes donn\u00e9es de trafic en temps diff\u00e9r\u00e9 s'accompagnent g\u00e9n\u00e9ralement d'une estimation (en pourcentage) du nombre de poids\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/trafic-moyen-journalier-annuel-sur-le-reseau-routier-national/", "post_url": ""}, {"id": "5bb332a58b4c412e6f4179b1", "title": "Base documentaire  DGFIP ", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>Base documentaire DGFIP comprenant les documents internes communicables au public</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/base-documentaire-dgfip/", "post_url": ""}, {"id": "547d8d7ac751df405d090fcb", "title": "Le march\u00e9 du haut et tr\u00e8s haut d\u00e9bit fixe (d\u00e9ploiements)", "source": "Autorit\u00e9 de r\u00e9gulation des communications \u00e9lectroniques et des postes (ARCEP)", "excerpt": "<p>Suivi des d\u00e9ploiements sur le march\u00e9 du haut et tr\u00e8s haut d\u00e9bit fixes issu de la collecte trimestrielle \"Observatoire de gros HD/THD\" au titre de la d\u00e9cision n\u00b02012-1503\nRetrouvez le calendrier des publications de l'Arcep.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/le-marche-du-haut-et-tres-haut-debit-fixe-deploiements/", "post_url": ""}, {"id": "5369965fa3a729239d204999", "title": "Imp\u00f4ts locaux", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>Vous pouvez consulter les taux vot\u00e9s ainsi que l'ensemble des donn\u00e9es (bases, taux et produits) par collectivit\u00e9 territoriale. Les donn\u00e9es sont disponibles en pi\u00e8ces jointes\u00a0et pour une partie sur le site : \n</p>\n<p>Statistiques sur les imp\u00f4ts locaux</p>\n<p>Bases, taux et produits r\u00e9gionaux de 2002 \u00e0 2009</p>\n\n<p>Bases, taux\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/impots-locaux/", "post_url": ""}, {"id": "564b592188ee387542e72046", "title": "Octroi de mer dans les d\u00e9partements d'Outre-mer", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>L\u2019octroi de mer est une imposition sp\u00e9cifique dans les d\u00e9partements d\u2019Outre-mer de Guadeloupe, de Guyane, de Martinique, de Mayotte et de La R\u00e9union : les op\u00e9rations soumises \u00e0 l\u2019octroi de mer sont les importations de biens et les livraisons de biens, faites \u00e0 titre on\u00e9reux, par des personnes qui y\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/octroi-de-mer-dans-les-departements-doutre-mer/", "post_url": ""}, {"id": "547738bcc751df6b1372f5d6", "title": "Liste de Pr\u00e9noms", "source": "Hubert Goffin", "excerpt": "<p>Description:\nLe fichier Pr\u00e9noms.txt pr\u00e9sente</p>\n11627 pr\u00e9noms\nleur sexe (m ou f)\nleur langage d'utilisation\nleur fr\u00e9quence par million d'occurences dans notre Frantext (les textes de Frantext publi\u00e9s apr\u00e8s 1950 interrog\u00e9s en avril 2000 ce qui constitue un corpus de 31,39 millions de mots).\n\n<p>Auteurs:\n    Mike Campbell et son merveilleux\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/liste-de-prenoms/", "post_url": ""}, {"id": "536c47bfa3a72933d8d1b3a6", "title": "Monuments Historiques : liste des Immeubles prot\u00e9g\u00e9s au titre des Monuments Historiques", "source": "Minist\u00e8re de la Culture", "excerpt": "<p>Liste des Immeubles prot\u00e9g\u00e9s au titre des Monuments Historiques (total France  en 2014 : 44 318 monuments).</p>\n<p>Libell\u00e9s des champs : REF (r\u00e9f\u00e9rence de l'\u00e9difice dans la base M\u00e9rim\u00e9e) : ETUD (type d'\u00e9tude : recensement immeubles MH, avec \u00e9ventuellement la mention label Xxe) ; LOCA OU REG + DEPT +\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/monuments-historiques-liste-des-immeubles-proteges-au-titre-des-monuments-historiques/", "post_url": ""}, {"id": "58481d2688ee384953c65bb4", "title": "Etablissements d'enseignement sup\u00e9rieur", "source": "Office national d'information sur les enseignements et les professions", "excerpt": "<p>Liste des \u00e9tablissements avec le code UAI (unit\u00e9 administrative immatricul\u00e9e), le type d'\u00e9tablissement, le nom, le sigle, le statut (public, priv\u00e9...), la tutelle (minist\u00e8res, chambres consulaires...), universit\u00e9 de rattachement, coordonn\u00e9es g\u00e9ographiques (adresse postale, commune, d\u00e9partement, acad\u00e9mie, r\u00e9gion, longitude X, latitude Y) et le lien d'acc\u00e8s direct sur le site Onisep\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/etablissements-denseignement-superieur-2/", "post_url": ""}, {"id": "5af993b6c751df6e1a8c165d", "title": "Liste des communes situ\u00e9es en zone B2 ou C, \u00e9ligibles aux dispositifs d'investissement locatif \"Pinel\" et \"Duflot\" ayant obtenu un agr\u00e9ment pr\u00e9fectoral", "source": "Minist\u00e8re de la Coh\u00e9sion des territoires", "excerpt": "<p>Cette liste recense les villes \u00e9ligibles au dispositif d\u2019investissement locatif \u00ab Pinel \u00bb situ\u00e9es uniquement en zones B2 et C.\nPour b\u00e9n\u00e9ficier de la remise d'imp\u00f4t accord\u00e9e par la loi Pinel, la ville dans laquelle vous d\u00e9cider d'acheter un logement doit faire partie d'une zone autoris\u00e9e. Les villes situ\u00e9es dans\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/liste-des-communes-situees-en-zone-b2-ou-c-eligibles-aux-dispositifs-dinvestissement-locatif-pinel-et-duflot-ayant-obtenu-un-agrement-prefectoral/", "post_url": ""}, {"id": "5a2d54f288ee382771f2cf4f", "title": "R\u00e9gions, d\u00e9partements, villes et villages de France et d'outre-mer", "source": "Stanislas Poisson", "excerpt": "French Zip-Code\nA propos\n<p>L'objectif du d\u00e9p\u00f4t French zip-code est de maintenir une liste la plus \u00e0 jour possible des r\u00e9gions, d\u00e9partements, villes et villages Fran\u00e7ais en M\u00e9tropole, D\u00e9partement et R\u00e9gion d'Outre-Mer (DROM) et Collectivit\u00e9s d'Outre-Mer (COM).</p>\nOrigine des donn\u00e9es\n<p>Les donn\u00e9es utilis\u00e9es proviennent du site de l'INSEE :\n-\u2026</p>", "acronym": "French-zip-code", "page": "https://www.data.gouv.fr/fr/datasets/regions-departements-villes-et-villages-de-france-et-doutre-mer/", "post_url": ""}, {"id": "5c926a7a634f410578005c68", "title": "Organismes ayant d\u00e9sign\u00e9 un(e) d\u00e9l\u00e9gu\u00e9(e) \u00e0 la protection des donn\u00e9es (DPD/DPO)", "source": "CNIL", "excerpt": "<p>Le r\u00e8glement g\u00e9n\u00e9ral sur la protection des donn\u00e9es (RGPD) pr\u00e9voit, depuis le 25 mai 2018, la d\u00e9signation obligatoire d'un d\u00e9l\u00e9gu\u00e9 \u00e0 la protection des donn\u00e9es (DPD) dans les services publics et, sous certaines conditions, par les entreprises et associations.</p>\n<p>Le d\u00e9l\u00e9gu\u00e9 - aussi connu sous son appellation anglaise \"data protection\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/organismes-ayant-designe-un-e-delegue-e-a-la-protection-des-donnees-dpd-dpo/", "post_url": ""}, {"id": "5551f561c751df7646190c78", "title": "Balances comptables des communes", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>Balances des budgets principaux et budgets annexes des communes de 2010 \u00e0 2017.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/balances-comptables-des-communes/", "post_url": ""}, {"id": "5a1dd4e5c751df02b116a0d6", "title": "R\u00e9pertoire des logements locatifs des bailleurs sociaux", "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire", "excerpt": "<p>Le r\u00e9pertoire des logements locatifs des bailleurs sociaux a pour objectif de dresser l\u2019\u00e9tat global du parc de logements locatifs de ces bailleurs sociaux au 1er janvier d\u2019une ann\u00e9e. Mis en place au 1er janvier 2011, il est aliment\u00e9 par les informations transmises par les bailleurs sociaux.</p>\n<p>Cette mise \u00e0\u2026</p>", "acronym": "RPLS", "page": "https://www.data.gouv.fr/fr/datasets/repertoire-des-logements-locatifs-des-bailleurs-sociaux/", "post_url": ""}, {"id": "5809e241c751df2646c562c5", "title": "GEOFLA\u00ae", "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re", "excerpt": "<p></p>\n<p>Description de l'ensemble des unit\u00e9s administratives nationales (France m\u00e9tropolitaine et DROM) : communes, cantons, arrondissements, d\u00e9partements, r\u00e9gions.</p>\n<p>GEOFLA\u00ae permet \u00e0 des \u00e9chelles nationales et r\u00e9gionales de situer toute information th\u00e9matique, d'analyser des donn\u00e9es statistiques et de g\u00e9rer des d\u00e9placements routiers.</p>\n<p>A compter de l'ann\u00e9e 2017, GEOFLA est remplac\u00e9 par la\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/geofla-r/", "post_url": ""}, {"id": "575e9fac88ee38072a640390", "title": "Donn\u00e9es ouvertes du catalogue E-Phy des produits phytopharmaceutiques, mati\u00e8res fertilisantes et supports de culture, adjuvants, produits mixtes et m\u00e9langes", "source": "Agence nationale de s\u00e9curit\u00e9 sanitaire, de l'alimentation, de l'environnement et du travail (Anses)", "excerpt": "<p>Les fichiers \u00ab E-Phy \u00bb permettent un acc\u00e8s \u00e0 l'ensemble des donn\u00e9es des produits (produits phytopharmaceutiques, mati\u00e8res fertilisantes et supports de culture, adjuvants, produits mixtes et m\u00e9langes) couverts par une Autorisation de Mise sur le March\u00e9 (AMM) ou un permis de commerce parall\u00e8le. Les d\u00e9cisions d\u2019AMM et de permis sont\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-catalogue-e-phy-des-produits-phytopharmaceutiques-matieres-fertilisantes-et-supports-de-culture-adjuvants-produits-mixtes-et-melanges/", "post_url": ""}, {"id": "5bcf4595634f412cc744840c", "title": "Aires de covoiturage en France", "source": "BlaBlaCar", "excerpt": "<p>Il existe plus de 2 000 Aires et parkings de covoiturage en France.\nIls n'avaient jamais \u00e9t\u00e9 r\u00e9f\u00e9renc\u00e9s en une base unique.\nBlaBlaCar a donc pris l\u2019initiative de cr\u00e9er ce fichier.</p>\n<p>Nous avons contact\u00e9 tous les d\u00e9partements de France M\u00e9tropolitaine afin de consolider le 1er fichier national des Aires et\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/aires-de-covoiturage-en-france/", "post_url": ""}, {"id": "58da72bbc751df38734d8658", "title": "Imp\u00f4ts locaux : fichier de recensement des \u00e9l\u00e9ments d'imposition \u00e0 la fiscalit\u00e9 directe locale (REI)", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>Le fichier de recensement des \u00e9l\u00e9ments d\u2019imposition \u00e0 la fiscalit\u00e9 directe locale (REI) est un fichier agr\u00e9g\u00e9 au niveau communal. \nIl d\u00e9taille l'ensemble des donn\u00e9es de fiscalit\u00e9 directe locale par taxe et par collectivit\u00e9 b\u00e9n\u00e9ficiaire (commune, syndicats et assimil\u00e9s, intercommunalit\u00e9, d\u00e9partement, r\u00e9gion).\nCes donn\u00e9es concernent exclusivement les impositions primitives, c\u2019est-\u00e0-dire\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/impots-locaux-fichier-de-recensement-des-elements-dimposition-a-la-fiscalite-directe-locale-rei-3/", "post_url": ""}, {"id": "5429648588ee380327a59164", "title": "Monuments historiques class\u00e9s \u00e0 Saint-Malo", "source": "Ville de Saint-Malo", "excerpt": "<p>En 2014, 14 immeubles malouins, y compris en mer, sont prot\u00e9g\u00e9s au titre des Monuments Historiques par un arr\u00eat\u00e9 de classement.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/monuments-historiques-classes-a-saint-malo/", "post_url": ""}, {"id": "58b69b42a3a7295a7d8251cb", "title": "Courbes de niveau", "source": "M\u00e9tropole Europ\u00e9enne de Lille ", "excerpt": "<p>Couche g\u00e9ographique des courbes de niveau</p>\n\n<p>\u00e9quidistance des courbes : 2 m\u00e8tres</p>\n\n<p>Les courbes de niveau sont consultables en ligne sur MELMAP le portail g\u00e9ographique de la MEL</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/courbes-de-niveau-2/", "post_url": ""}, {"id": "559395f1c751df0f51a453b9", "title": "BODACC", "source": "Premier ministre", "excerpt": "<p>Annonces publi\u00e9es au Bodacc (Bulletin officiel des annonces civiles et commerciales).</p>\n<p>Le Bodacc (Bulletin officiel des annonces civiles et commerciales), r\u00e9gi par l\u2019article R 123-209 du code de commerce, publie les avis pr\u00e9vus par ce code et les textes l\u00e9gislatifs ou r\u00e9glementaires. Ces annonces l\u00e9gales sont \u00e9mises\npar les greffes\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/bodacc/", "post_url": ""}, {"id": "53dfde89a3a729110ca8d374", "title": "Telepac, les b\u00e9n\u00e9ficiaires de la PAC", "source": "Regor .", "excerpt": "<p>Tableau crois\u00e9 des aides per\u00e7us par chaque b\u00e9n\u00e9ficiaire au titre de la PAC</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/telepac-les-beneficiaires-de-la-pac/", "post_url": ""}, {"id": "562f498ac751df31f1dcc3f1", "title": "P\u00e9rim\u00e8tre de protection de monument historique", "source": "Direction D\u00e9partementale des Territoires du Bas-Rhin (67)", "excerpt": "<p>Est consid\u00e9r\u00e9 comme \u00e9tant situ\u00e9 dans le champ de visibilit\u00e9 d'un immeuble class\u00e9 ou propos\u00e9 pour le classement tout autre immeuble, nu ou b\u00e2ti, visible du premier ou visible en m\u00eame temps que lui et situ\u00e9 dans un p\u00e9rim\u00e8tre n'exc\u00e9dant pas 500 m\u00e8tres. A titre exceptionnel, ce p\u00e9rim\u00e8tre peut \u00eatre\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/perimetre-de-protection-de-monument-historique/", "post_url": ""}, {"id": "57d6ded9c751df275ab8181a", "title": "Hauteurs d\u2019eau et d\u00e9bits des cours d\u2019eau observ\u00e9s en temps r\u00e9el aux stations du r\u00e9seau Vigicrues", "source": "Service central d\u2019hydrom\u00e9t\u00e9orologie et d\u2019appui \u00e0 la pr\u00e9vision des inondations", "excerpt": "<p>Le r\u00e9seau Vigicrues  collecte en continue les niveaux d\u2019eau et les d\u00e9bits des cours d\u2019eau observ\u00e9s en temps r\u00e9el sur pr\u00e8s de 1700 points de mesure t\u00e9l\u00e9transmis, ainsi que leurs \u00e9volutions au cours des derniers jours et des derni\u00e8res heures.</p>\n<p>Ces mesures sont visualisables sur le site Vigicrues\u00a0: le\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/hauteurs-deau-et-debits-des-cours-deau-observes-en-temps-reel-aux-stations-du-reseau-vigicrues/", "post_url": ""}, {"id": "53ca2be2a3a7294a1ddd7847", "title": "ASSOCIATIONS (JOAFE)", "source": "Premier ministre", "excerpt": "<p>Les donn\u00e9es ''ASSOCIATIONS'' sont extraites des annonces publi\u00e9es au Journal officiel. </p>\n<p>\u2022   Avant le 2 janvier 1985 au Journal officiel de la R\u00e9publique fran\u00e7aise.\n\u2022   A partir du 2 janvier 1985 au Journal officiel associations et fondations d\u2019entreprise (JOAFE).</p>\n<p>La base ASSOCIATIONS (JOAFE) publie :</p>\n<p>\u2022   les d\u00e9clarations de cr\u00e9ation,\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/associations-joafe/", "post_url": ""}, {"id": "538071a9a3a7297e4d35d6ce", "title": "Base d'Adresses Nationale Ouverte - BANO", "source": "OpenStreetMap", "excerpt": "<p>Ce jeu de donn\u00e9es constitu\u00e9 de plus de 16 millions d'adresses provient du projet de Base d'Adresses Nationale Ouverte initi\u00e9 par OpenStreetMap France.</p>\n<p>Pour plus de renseignements sur ce projet : \n<p>Origine des donn\u00e9es</p>\n<p>BANO est une base de donn\u00e9es composite, constitu\u00e9e \u00e0 partir de diff\u00e9rentes sources:</p>\n<ul>\n<li>OpenStreetMap (ODbL)\u2026</li></ul>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/base-d-adresses-nationale-ouverte-bano/", "post_url": ""}, {"id": "536995ada3a729239d2047b3", "title": "Fond de carte des codes postaux", "source": "Emc3 / G\u00e9oclip", "excerpt": "<p>Ce fichier contient le trac\u00e9 des codes postaux en France m\u00e9tropolitaine (y compris les codes postaux supra-communaux) ainsi qu'une estimation de la population et du nombre de m\u00e9nages.\nLe zip fourni comporte les fonds de carte aux formats shape et mapinfo, ainsi qu'une notice lisezmoi.txt.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/fond-de-carte-des-codes-postaux/", "post_url": ""}, {"id": "536995eca3a729239d204861", "title": "Gares du r\u00e9seau ferr\u00e9 d'\u00cele-de-France", "source": "R\u00e9gion \u00cele-de-France", "excerpt": "<p>Ce jeu de donn\u00e9es repr\u00e9sente les gares (SNCF et RER) d'\u00cele-de-France en\n2007.</p>\n<p>La premi\u00e8re mise \u00e0 jour date de 1992. Il y a eu une r\u00e9actualisation en\n2002 et une autre en 2006.</p>\n<p>En 2007, la couche a \u00e9t\u00e9 remodel\u00e9e, deux noms de colonnes ont \u00e9t\u00e9\nchang\u00e9s et une\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/gares-du-reseau-ferre-d-ile-de-france-idf/", "post_url": ""}, {"id": "5537bf2bc751df66296dd01b", "title": "Balances comptables des d\u00e9partements depuis 2010", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>Balances des budgets principaux et annexes des d\u00e9partements depuis 2010 et des collectivit\u00e9s territoriales uniques (CTU) depuis 2016. Nous recommandons de consulter en amont les structures de fichier en pi\u00e8ces jointes qui d\u00e9crivent les variables pr\u00e9sentes dans ce jeu de donn\u00e9es</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/balances-comptables-des-departements-depuis-2010/", "post_url": ""}, {"id": "53698f50a3a729239d2036f5", "title": "Base de donn\u00e9es publique des m\u00e9dicaments (base officielle)", "source": "Minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9", "excerpt": "<p>La base de donn\u00e9es publique des m\u00e9dicaments permet au grand public et aux professionnels de sant\u00e9 d'acc\u00e9der \u00e0 des donn\u00e9es et documents de r\u00e9f\u00e9rence sur les m\u00e9dicaments commercialis\u00e9s ou ayant \u00e9t\u00e9 commercialis\u00e9s durant les deux derni\u00e8res ann\u00e9es en France.</p>\n<p>Cette base de donn\u00e9es administratives et scientifiques sur les traitements et\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/base-de-donnees-publique-des-medicaments-base-officielle/", "post_url": ""}, {"id": "5b3cc551c751df4822526c1c", "title": "Jours f\u00e9ri\u00e9s en France", "source": "Antoine Augusti", "excerpt": "<p>En France, les jours f\u00e9ri\u00e9s sont l\u00e9galement d\u00e9finis par le code du travail, article L3133-1.</p>\n<p>Ce jeu de donn\u00e9es est une liste des jours f\u00e9ri\u00e9s entre 1950 et 2050. 2 fichiers sont pr\u00e9sents, avec le format suivant :\n- date: date, format YYYY-MM-DD. Exemple 1952-12-25.\n- est_jour_ferie: bool\u00e9en, indique si\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/jours-feries-en-france/", "post_url": ""}, {"id": "5c5c3236634f4155110aa4ea", "title": "Donn\u00e9es ouvertes du Grand D\u00e9bat National", "source": "Service d'Information du Gouvernement", "excerpt": "<p>Le Gouvernement est attach\u00e9 \u00e0 la transparence du Grand D\u00e9bat et cette exigence de transparence est \u00e9galement port\u00e9e par le coll\u00e8ge des garants.\nAinsi, l\u2019ensemble des contributions au d\u00e9bat, qu'elles aient \u00e9t\u00e9 envoy\u00e9es par voie postale, par courriel ou via les formulaires en ligne, seront \u00e0 terme accessibles \u00e0 tous.\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-grand-debat-national/", "post_url": ""}, {"id": "5889d03ea3a72974cbf0d5b0", "title": "Le calendrier scolaire", "source": "Education Nationale", "excerpt": "<p>Le calendrier scolaire officiel, publi\u00e9 par le Minist\u00e8re de l'Education nationale, de l'Enseignement sup\u00e9rieur et de la Recherche Consulter l'espace \"Le calendrier scolaire\" \n</p>\n<p>Attention, le calendrier ne prend pas en compte les modifications des dates des vacances de printemps 2018 dans les acad\u00e9mies de Caen, Nantes, Orl\u00e9ans-Tours, Rennes et\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/le-calendrier-scolaire/", "post_url": ""}, {"id": "5593aab9c751df35d8a453ba", "title": "R\u00e9sultats des contr\u00f4les officiels sanitaires : dispositif d'information \u00ab Alim\u2019confiance \u00bb", "source": "Minist\u00e8re de l'Agriculture et de l'Alimentation", "excerpt": "<p>La publication des r\u00e9sultats des contr\u00f4les sanitaires dans le secteur alimentaire (restaurants, cantines, abattoirs, etc.) est une attente l\u00e9gitime des citoyens qui participe \u00e0 l\u2019am\u00e9lioration de la confiance du consommateur. Pr\u00e9vue par la loi d\u2019Avenir pour l\u2019agriculture, l\u2019alimentation et la for\u00eat, du 13 octobre 2014, cette mesure s\u2019inscrit dans une\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/", "post_url": ""}, {"id": "5a981a1ac751df07a20cc5c2", "title": "Les consultations citoyennes", "source": "La R\u00e9publique En Marche !", "excerpt": "<p>La R\u00e9publique En Marche porte une vision pragmatique de la politique. Nous avons la volont\u00e9 de toujours partir de l\u2019exp\u00e9rience des Fran\u00e7ais, de leurs pr\u00e9occupations, des probl\u00e8mes qu\u2019ils rencontrent, des solutions qu\u2019ils identifient.</p>\n<p>Dans le cadre de la campagne pr\u00e9sidentielle et gr\u00e2ce \u00e0 nos comit\u00e9s locaux, les adh\u00e9rents d\u2019En Marche\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/les-consultations-citoyennes/", "post_url": ""}, {"id": "5ceba293634f411427c7d613", "title": "R\u00e9sultats des \u00e9lections europ\u00e9ennes 2019", "source": "Minist\u00e8re de l'Int\u00e9rieur", "excerpt": "<p>Vous trouverez ci-apr\u00e8s les r\u00e9sultats d\u00e9finitifs des \u00e9lections europ\u00e9ennes du 26 mai 2019 (France enti\u00e8re), tels que proclam\u00e9s par la commission nationale de recensement g\u00e9n\u00e9ral des votes, le mercredi 29 mai 2019.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/resultats-des-elections-europeennes-2019/", "post_url": ""}, {"id": "5d5f9fc96f4441094179a94c", "title": "Code source des taxes fonci\u00e8res (TF)", "source": "Minist\u00e8re de l'\u00e9conomie et des finances", "excerpt": "<p>Le code source des taxes fonci\u00e8res est produit par la Direction G\u00e9n\u00e9rale des Finances publiques. Ce code source est sous licence CeCILL v2.1(d\u00e9tail dans le fichier LICENSE.txt). Cette ouverture s\u2019inscrit dans la mise en \u0153uvre de la Loi pour une R\u00e9publique num\u00e9rique, qui a ajout\u00e9 \u00e0 l\u2019article L300-2 du Code\u2026</p>", "acronym": "TF", "page": "https://www.data.gouv.fr/fr/datasets/code-source-des-taxes-foncieres-tf/", "post_url": ""}, {"id": "5459fc50c751df5aa09b6045", "title": "Dipl\u00f4me national du brevet par \u00e9tablissement ", "source": "Education Nationale", "excerpt": "<p>Donn\u00e9es statistiques : r\u00e9sultats au dipl\u00f4me national du brevet par \u00e9tablissement</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/diplome-national-du-brevet-par-etablissement/", "post_url": ""}, {"id": "5dd54e116f4441636deed758", "title": "Compte administratif tous budget confondus de 2014 \u00e0 2018 de la ville de Fort-de-France", "source": "VILLE DE FORT-DE-FRANCE", "excerpt": "<p>Ce fichier contient l\u2019ensemble des r\u00e9alisations budg\u00e9taires des ann\u00e9es 2014,2015,2016,2017,2018 de la ville de Fort-de-France.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/compte-administratif-tous-budget-confondus-de-2014-a-2018-de-la-ville-de-fort-de-france/", "post_url": ""}, {"id": "5dc4559e6f444132e61f83b3", "title": "R\u00e9seau de transport routier - Nature de voie - France m\u00e9tropolitaine", "source": "Cerema", "excerpt": "<p>Nature de voie du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.7.1.2</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-nature-de-voie-france-metropolitaine/", "post_url": ""}, {"id": "5dccd2aa06e3e70687832c57", "title": "Horaires des gares", "source": "SNCF", "excerpt": "<p>Ce jeu de donn\u00e9es contient les horaires d'ouverture au public des gares de voyageurs en France.</p>\n<p>Chaque gare est identifi\u00e9e dans la colonne \"UIC\" par son code UIC (identifiant unique).</p>\n<p>Les horaires sont mentionn\u00e9s pour chaque jour de la semaine dans la colonne \"Horaire en jour normal\".\u00a0</p>\n<p>Si, pour certains\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-gares/", "post_url": ""}, {"id": "5dd24d4a8b4c4146823e23f3", "title": "Dispositifs d\u2019aides financi\u00e8res \u00e0 la r\u00e9novation \u00e9nerg\u00e9tique", "source": "ADEME", "excerpt": "<p>L\u2019outil Simul\u2019Aid\u20acs est un calculateur d\u2019aides financi\u00e8res pour la r\u00e9novation \u00e9nerg\u00e9tique de l\u2019habitat priv\u00e9e. Il permet :\n-   Aux particuliers d\u2019identifier les aides mobilisables en fonction de leur situation personnelle, de leur logement et de leur projet de travaux\n-   Aux conseillers du r\u00e9seau FAIRE d\u2019accompagner les particuliers dans leur\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/dispositifs-daides-financieres-a-la-renovation-energetique/", "post_url": ""}, {"id": "5dceb39c634f416d5593c858", "title": "Cadastre minier", "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire", "excerpt": "<p>Les flux g\u00e9ographiques Camino.beta.gouv.fr exposent les informations administratives et g\u00e9ographiques pour : \n- les titres miniers valides et demandes initiales ou modificatives aff\u00e9rentes publiques et en cours d'instruction. \n- les autorisations d\u2019exploitation en Guyane.</p>\n<p>Les donn\u00e9es sont publi\u00e9es au format Geojson. C'est un format ouvert et r\u00e9utilisable qui permet notamment\u2026</p>", "acronym": "Camino", "page": "https://www.data.gouv.fr/fr/datasets/cadastre-minier/", "post_url": ""}, {"id": "5dc4559e6f4441331193b9cd", "title": "R\u00e9seau de transport routier - Autorit\u00e9 propri\u00e9taire - France m\u00e9tropolitaine", "source": "Cerema", "excerpt": "<p>Autorit\u00e9 propri\u00e9taire du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.3.1.5</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont issues\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-autorite-proprietaire-france-metropolitaine/", "post_url": ""}, {"id": "5dd4bba606e3e71a10832c58", "title": "Horaires des TGV", "source": "SNCF", "excerpt": "<p>Horaires des trains de SNCF Voyages (TGV/inOui/Ouigo) au format\u00a0GTFS.</p>\n<p>Ces horaires sont les horaires th\u00e9oriques mis \u00e0 jour tous les mois.</p>\n<p> __</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-tgv/", "post_url": ""}, {"id": "58e5842688ee386c65805755", "title": "R\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE)", "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re", "excerpt": "<p>L'\u00c9tat a confi\u00e9 \u00e0 l'IGN le d\u00e9veloppement du r\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE). Pour ce faire, il fait appel \u00e0 ses moyens propres ainsi qu\u2019\u00e0 des partenariats avec des producteurs principalement de la sph\u00e8re publique. Le RGE est constitu\u00e9 des composantes orthophotographique, topographique et adresse, parcellaire et altim\u00e9trique.</p>\n<p>Sp\u00e9cifications du\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/", "post_url": ""}, {"id": "5dd24d6b6f44416027709798", "title": "Co\u00fbts des travaux de r\u00e9novation \u00e9nerg\u00e9tique", "source": "ADEME", "excerpt": "<p>L\u2019outil Simul\u2019Aid\u20acs est un calculateur d\u2019aides financi\u00e8res pour la r\u00e9novation \u00e9nerg\u00e9tique de l\u2019habitat priv\u00e9e. Il permet :\n-   Aux particuliers d\u2019identifier les aides mobilisables en fonction de leur situation personnelle, de leur logement et de leur projet de travaux\n-   Aux conseillers du r\u00e9seau FAIRE d\u2019accompagner les particuliers dans leur\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/couts-des-travaux-de-renovation-energetique/", "post_url": ""}, {"id": "58c984b088ee386cdb1261f3", "title": "Code Officiel G\u00e9ographique (COG)", "source": "Institut National de la Statistique et des Etudes Economiques (Insee)", "excerpt": "<p>Chaque ann\u00e9e, l'Insee met \u00e0 disposition sur son site (insee.fr) le code officiel g\u00e9ographique qui rassemble les codes et libell\u00e9s des communes, des cantons, des arrondissements, des d\u00e9partements, des r\u00e9gions et des pays et territoires \u00e9trangers au 1er janvier.</p>\n<p>Avertissement\u00a0:\nLes fichiers du COG ont sensiblement \u00e9volu\u00e9 dans leur\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/", "post_url": ""}, {"id": "53698f37a3a729239d2036a0", "title": "Avis et conseils de la CADA", "source": "Commission d\u2019acc\u00e8s aux documents administratifs (CADA)", "excerpt": "<p>Ce jeu de donn\u00e9es contient les avis rendus par la commission d'acc\u00e8s aux documents administratifs (CADA) ainsi que ses conseils \u00e0 destination des administrations, tels que d\u00e9fini par son r\u00f4le.</p>\n<p>Ces donn\u00e9es ont \u00e9t\u00e9 lib\u00e9r\u00e9es suite \u00e0 la d\u00e9cision n\u00b025 du CIMAP du 18 d\u00e9cembre 2013 concernant la suppression des\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/avis-et-conseils-de-la-cada/", "post_url": ""}, {"id": "5dd54c436f4441608124bf41", "title": "Budgets primitifs tous budgets confondus de la ville de Fort-de-France", "source": "VILLE DE FORT-DE-FRANCE", "excerpt": "<p>Ce fichier contient l\u2019ensemble des pr\u00e9visions budg\u00e9taires par chapitre des ann\u00e9es 2015, 2016, 2017,2018 et 2019 de la ville de Fort-de-France.</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/budgets-primitifs-tous-budgets-confondus-de-la-ville-de-fort-de-france/", "post_url": ""}, {"id": "5dd1b01d8b4c413da2ab0a9d", "title": "Taux de r\u00e9ponse \u00e0 la Commission d'acc\u00e8s aux documents administratifs", "source": "Antoine Augusti", "excerpt": "<p>Analyse du jeux de donn\u00e9es Avis et conseils de la Cada afin de d\u00e9terminer le taux de r\u00e9ponse \u00e0 la Cada. Consulter l'article de blog associ\u00e9 pour bien comprendre le contexte.</p>\nM\u00e9thode d'analyse\n<p>On s'int\u00e9resse au taux de r\u00e9ponse des structures \u00e0 la Cada. On ne conserve que les avis\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/taux-de-reponse-a-la-commission-dacces-aux-documents-administratifs/", "post_url": ""}, {"id": "57343feb88ee3823b0d1b934", "title": "R\u00e9f\u00e9rentiel de l'organisation administrative de l'Etat", "source": "Premier ministre", "excerpt": "<p>Le d\u00e9cret du 14 mars 2017 a institu\u00e9 le Service Public de la Donn\u00e9e.</p>\n<p>Celui-ci met \u00e0 la disposition du public 9 jeux de  donn\u00e9es de r\u00e9f\u00e9rence parmi lesquels la base nationale de l\u2019organisation administrative de l\u2019Etat, produite et diffus\u00e9e par la Dila sur son site service-public.fr.</p>\n<p>Le R\u00e9f\u00e9rentiel de\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/", "post_url": ""}, {"id": "5dc4559e6f4441330b578cc8", "title": "R\u00e9seau de transport routier - Nombre de voies - France m\u00e9tropolitaine", "source": "Cerema", "excerpt": "<p>Nombre de voies du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.7.1.4</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-nombre-de-voies-france-metropolitaine/", "post_url": ""}, {"id": "5dc455a06f4441330445e5a7", "title": "R\u00e9seau de transport routier - Cat\u00e9gorie de rev\u00eatement - France m\u00e9tropolitaine", "source": "Cerema", "excerpt": "<p>Cat\u00e9gorie de rev\u00eatement du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.7.1.13</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont\u2026</p>", "acronym": null, "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-categorie-de-revetement-france-metropolitaine/", "post_url": ""}]
+[
+  {
+    "id": "5de8f397634f4164071119c5",
+    "title": "Fichier des personnes d\u00e9c\u00e9d\u00e9es",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<p>L'Insee re\u00e7oit des communes les d\u00e9c\u00e8s enregistr\u00e9s.\nSelon l'avis de la Cada du 17 mai 2019 : Le fichier des personnes d\u00e9c\u00e9d\u00e9es \u00e9tant \u00e9tabli par l\u2019INSEE dans le cadre de ses missions de service public, il constitue, \u00e0 ce titre, un document administratif. Ne contenant pas de mentions relatives \u00e0\u2026</p>",
+    "acronym": "D\u00e9c\u00e8s",
+    "page": "https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/",
+    "post_url": ""
+  },
+  {
+    "id": "58e53811c751df03df38f42d",
+    "title": "R\u00e9pertoire National des Associations",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Le R\u00e9pertoire National des Associations (RNA) contient l\u2019ensemble des associations relevant de la loi 1901, \u00e0 savoir toutes les associations de France, dont le si\u00e8ge est d\u00e9clar\u00e9 en m\u00e9tropole ou dans les d\u00e9partements d\u2019outre-mer, sauf dans les d\u00e9partements de la Moselle, du Bas-Rhin et du Haut-Rhin, qui rel\u00e8vent du r\u00e9gime\u2026</p>",
+    "acronym": "RNA",
+    "page": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/",
+    "post_url": ""
+  },
+  {
+    "id": "5c4ae55a634f4117716d5656",
+    "title": "Demandes de valeurs fonci\u00e8res",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Conform\u00e9ment au d\u00e9cret n\u00b0 2018-1350 du 28 d\u00e9cembre 2018 relatif \u00e0 la publication sous forme \u00e9lectronique des informations portant sur les valeurs fonci\u00e8res d\u00e9clar\u00e9es \u00e0 l'occasion des mutations immobili\u00e8res, le pr\u00e9sent fichier DVF est d\u00e9sormais disponible en open data.\nLa publication de ces donn\u00e9es r\u00e9pond \u00e0 l\u2019objectif de transparence des\u2026</p>",
+    "acronym": "DVF",
+    "page": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/",
+    "post_url": ""
+  },
+  {
+    "id": "5b7ffc618b4c4169d30727e0",
+    "title": "Base Sirene des entreprises et de leurs \u00e9tablissements (SIREN, SIRET)",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<ul>\n<li>Pour vous abonner \u00e0 notre lettre d'information Sirene open data actualit\u00e9s, suivez ce lien : \n<li>Pour consulter nos lettres d'information Sirene open data actualit\u00e9s, suivez ce lien : \n</ul>\n<p>Fichiers stock \n  Cinq fichiers stocks mensuels compact\u00e9s (format ZIP) sont mis \u00e0 disposition :\n        \u2022 le fichier stock des entreprises\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
+    "post_url": ""
+  },
+  {
+    "id": "582c8978c751df788ec0bb7e",
+    "title": "Liste Publique des Organismes de Formation (L.6351-7-1 du Code du Travail)",
+    "source": "Minist\u00e8re du travail",
+    "excerpt": "<p>Conform\u00e9ment \u00e0 l'article L.6351-7-1 du Code du Travail, la liste des organismes d\u00e9clar\u00e9s aupr\u00e8s du Pr\u00e9fet de R\u00e9gion territorialement comp\u00e9tent et \u00e0 jour de leur obligation de transmission du Bilan P\u00e9dagogique et Financier est rendue publique.</p>\n<p>Vous trouverez ci-joint un lien vous permettant de la t\u00e9l\u00e9charger (mise \u00e0 jour journali\u00e8re).\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail/",
+    "post_url": ""
+  },
+  {
+    "id": "545b55e1c751df52de9b6045",
+    "title": "Base officielle des codes postaux",
+    "source": "La Poste",
+    "excerpt": "<p>Fichier de correspondance entre les codes communes (INSEE) et les codes postaux au format csv.</p>\n<p>Ce fichier comprend :\n- Le code commune INSEE\n- Le nom de la commune\n- Le code postal\n- Le libell\u00e9 d\u2019acheminement\n- La ligne 5 de l'adresse (pr\u00e9cision de l'ancienne commune ou du\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/base-officielle-des-codes-postaux/",
+    "post_url": ""
+  },
+  {
+    "id": "5943d13588ee38742a95eb0c",
+    "title": "Zones de Revitalisation Rurale (ZRR)",
+    "source": "Commissariat g\u00e9n\u00e9ral \u00e0 l'\u00e9galit\u00e9 des territoires",
+    "excerpt": "<p>La liste des communes class\u00e9es en zones de revitalisation rurale (ZRR) selon l'arr\u00eat\u00e9 du 22 f\u00e9vrier 2018 modifiant l'arr\u00eat\u00e9 du 16 mars 2017 est parue. L\u2019Observatoire des Territoires du CGET met \u00e0 disposition ce nouveau classement sur son site internet et son application de cartographie interactive.</p>\n<p>Comment les communes sont-elles\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/zones-de-revitalisation-rurale-zrr/",
+    "post_url": ""
+  },
+  {
+    "id": "53698f4ca3a729239d2036df",
+    "title": "Base de donn\u00e9es accidents corporels de la circulation",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Pour chaque accident corporel (soit un accident survenu sur une voie ouverte \u00e0 la circulation publique, impliquant au moins un v\u00e9hicule et ayant fait au moins une victime ayant n\u00e9cessit\u00e9 des soins), des saisies d\u2019information d\u00e9crivant l\u2019accident sont effectu\u00e9es par l\u2019unit\u00e9 des forces de l\u2019ordre (police, gendarmerie, etc.) qui est\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/",
+    "post_url": ""
+  },
+  {
+    "id": "59b0020ec751df07d5f13bcf",
+    "title": "Cadastre",
+    "source": "Etalab",
+    "excerpt": "<p>Le plan cadastral est le d\u00e9coupage du territoire fran\u00e7ais en unit\u00e9s de surfaces permettant le calcul de certains imp\u00f4ts.</p>\n<p>Chaque commune est subdivis\u00e9e en sections, elles-m\u00eames subdivis\u00e9es en feuilles (ou planches).\nUne feuille cadastrale comporte des parcelles, qui peuvent supporter des b\u00e2timents.</p>\nDiff\u00e9rence par rapport au PCI Vecteur\n<p>Contrairement au\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/cadastre/",
+    "post_url": ""
+  },
+  {
+    "id": "54149eb5c751df1dc8fc95e3",
+    "title": "Le calendrier scolaire \u2014 Format iCal",
+    "source": "Education Nationale",
+    "excerpt": "<p>Le calendrier scolaire officiel, pour les ann\u00e9es scolaires 2018 \u2013 2019 et 2019 \u2013 2020, publi\u00e9 par le Minist\u00e8re de l\u2019\u00c9ducation nationale, de l\u2019Enseignement sup\u00e9rieur et de la Recherche. Le d\u00e9part en vacances a lieu apr\u00e8s la classe des jours indiqu\u00e9s. La reprise des cours s'effectue le matin des jours\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/le-calendrier-scolaire-format-ical/",
+    "post_url": ""
+  },
+  {
+    "id": "58e5924b88ee3802ca255566",
+    "title": "Plan Cadastral Informatis\u00e9",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "Plan Cadastral Informatis\u00e9 PCI\n<p>Ce jeu de donn\u00e9es provient d'un service public certifi\u00e9  Donn\u00e9es de r\u00e9f\u00e9rence</p>\n<p>Le plan cadastral est un assemblage d\u2019environ 600 000 feuilles ou planches repr\u00e9sentant chacune une section ou une partie d\u2019une section cadastrale.</p>\n<p>Il couvre la France enti\u00e8re, \u00e0 l\u2019exception de la ville de Strasbourg\u2026</p>",
+    "acronym": "PCI",
+    "page": "https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/",
+    "post_url": ""
+  },
+  {
+    "id": "53699d0ea3a729239d205b2e",
+    "title": "Population",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<p>Ce jeu de donn\u00e9es permet d'acc\u00e9der aux r\u00e9sultats des recensements de la population, \u00e0 des s\u00e9ries chronologiques de la Banque de Donn\u00e9es Macro-\u00e9conomiques de l'Insee sur le th\u00e8me de la population et \u00e0 d'autres donn\u00e9es issues notamment des statistiques de l'\u00e9tat civil. </p>\n<p>Le recensement de la population permet de conna\u00eetre\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/population/",
+    "post_url": ""
+  },
+  {
+    "id": "53699fe5a3a729239d206232",
+    "title": "Service-public.fr- Guide \u00ab vos droits et d\u00e9marches \u00bb Particuliers",
+    "source": "Premier ministre",
+    "excerpt": "<p>Le guide \u00ab vos droits et d\u00e9marches \u00bb contient plus de 3 400 fiches d\u2019information et questions-r\u00e9ponses et quelques 5 000 liens vers des ressources utiles (formulaires, d\u00e9marches en ligne, textes de r\u00e9f\u00e9rence, sites web publics, etc.) pour exercer ses droits et accomplir ses d\u00e9marches.\nPour plus d'informations, consulter la\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/service-public-fr-guide-vos-droits-et-demarches-particuliers/",
+    "post_url": ""
+  },
+  {
+    "id": "53698f1aa3a729239d203653",
+    "title": "Associations Reconnues d'Utilit\u00e9 Publique",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient la liste des associations reconnues d'utilit\u00e9 publique avec le code de l'association, son nom, son objet, sa cat\u00e9gorie, sa date de reconnaissance, son adresse, son code postal et la ville correspondante.</p>\n<p>Il ne contient pas les f\u00e9d\u00e9rations sportives. Agr\u00e9\u00e9es par le ministre charg\u00e9 des sports,\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/associations-reconnues-d-utilite-publique/",
+    "post_url": ""
+  },
+  {
+    "id": "53699233a3a729239d203e69",
+    "title": "D\u00e9coupage administratif communal fran\u00e7ais issu d'OpenStreetMap",
+    "source": "OpenStreetMap",
+    "excerpt": "<p>Exports du d\u00e9coupage administratif fran\u00e7ais au niveau communal (contours des communes) issu d'OpenStreetMap produit dans sa grande majorit\u00e9 \u00e0 partir du cadastre.</p>\n<p>Ces donn\u00e9es sont issues du crowdsourcing effectu\u00e9 par les contributeurs au projet OpenStreetMap et sont sous licence ODbL qui impose un partage \u00e0 l'identique et la mention obligatoire\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/",
+    "post_url": ""
+  },
+  {
+    "id": "58da857388ee384902e505f5",
+    "title": "R\u00e9pertoire Op\u00e9rationnel des M\u00e9tiers et des Emplois (ROME)",
+    "source": "P\u00f4le emploi",
+    "excerpt": "<p>Dans un contexte marqu\u00e9 par de fortes mutations de l\u2019environnement \u00e9conomique et social, le ROME (R\u00e9pertoire Op\u00e9rationnel des M\u00e9tiers et des Emplois) est un outil au service de la mobilit\u00e9 professionnelle et du rapprochement entre offres et candidats. </p>\n<p>Le ROME a \u00e9t\u00e9 construit par les \u00e9quipes de P\u00f4le emploi avec\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/",
+    "post_url": ""
+  },
+  {
+    "id": "5a561801c751df42d7fca9b6",
+    "title": "Quartiers prioritaires de la politique de la ville (QPV)",
+    "source": "Commissariat g\u00e9n\u00e9ral \u00e0 l'\u00e9galit\u00e9 des territoires",
+    "excerpt": "<p>Les p\u00e9rim\u00e8tres des quartiers prioritaires de la politique de la ville sont fix\u00e9s par le d\u00e9cret n\u00b0 2014-1750 du 30 d\u00e9cembre 2014 pour la m\u00e9tropole et par le d\u00e9cret n\u00b0 2014-1751 du 30 d\u00e9cembre 2014 pour les d\u00e9partements d'outre-mer, \u00e0 Saint-Martin et en Polyn\u00e9sie fran\u00e7aise.</p>\n<p>La loi de programmation pour\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/quartiers-prioritaires-de-la-politique-de-la-ville-qpv/",
+    "post_url": ""
+  },
+  {
+    "id": "5369a15fa3a729239d2065b7",
+    "title": "Table de composition nutritionnelle des aliments Ciqual",
+    "source": "Agence nationale de s\u00e9curit\u00e9 sanitaire, de l'alimentation, de l'environnement et du travail (Anses)",
+    "excerpt": "<p>En France, la base de donn\u00e9es de r\u00e9f\u00e9rence sur la composition nutritionnelle des aliments est g\u00e9r\u00e9e par l\u2019Anses.\nLa table de composition nutritionnelle des aliments Ciqual 2017 fournit les teneurs en diff\u00e9rents constituants (glucides, sucres, prot\u00e9ines, lipides, acides gras, sel, vitamines, min\u00e9raux\u2026) ainsi que les valeurs \u00e9nerg\u00e9tiques des aliments.</p>\n<p>Elle\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/table-de-composition-nutritionnelle-des-aliments-ciqual/",
+    "post_url": ""
+  },
+  {
+    "id": "5a5f4f6c88ee387da4d252a3",
+    "title": "Base des permis de construire (Sitadel) ",
+    "source": "Minist\u00e8re de la Coh\u00e9sion des territoires",
+    "excerpt": "<p>Tout p\u00e9titionnaire projetant une construction neuve ou la transformation d\u2019une construction n\u00e9cessitant le d\u00e9p\u00f4t d\u2019un permis de construire, doit remplir un formulaire relatif \u00e0 son projet et le transmettre \u00e0 la mairie de la commune de localisation des travaux. Le projet de permis est trait\u00e9 par les services instructeurs (\u00c9tat,\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/base-des-permis-de-construire-sitadel/",
+    "post_url": ""
+  },
+  {
+    "id": "5cc1b94a634f4165e96436c1",
+    "title": "Demandes de valeurs fonci\u00e8res g\u00e9olocalis\u00e9es",
+    "source": "Etalab",
+    "excerpt": "<p>Ce jeu de donn\u00e9es est d\u00e9riv\u00e9 du jeu de donn\u00e9es Demandes de valeurs fonci\u00e8res diffus\u00e9 par la DGFiP.</p>\n<p>Il propose un format alternatif, normalis\u00e9 et enrichi.</p>\nAm\u00e9liorations par rapport aux fichiers bruts\n<ul>\n<li>CSV avec s\u00e9parateur virgule et encodage UTF-8</li>\n<li>Mise \u00e0 jour avec les donn\u00e9es de r\u00e9f\u00e9rence les plus r\u00e9centes\u2026</li></ul>",
+    "acronym": "DVF g\u00e9olocalis\u00e9es",
+    "page": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/",
+    "post_url": ""
+  },
+  {
+    "id": "53698e90a3a729239d2034d4",
+    "title": "Agriculture biologique 2008-2011 - productions animales bio - t\u00eates par d\u00e9partement",
+    "source": "Agence Bio",
+    "excerpt": "<p>Nombre de t\u00eates bio par d\u00e9partement sur la p\u00e9riode 2008-2011 inclus.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/agriculture-biologique-2008-2011-productions-animales-bio-tetes-par-departement-30378956/",
+    "post_url": ""
+  },
+  {
+    "id": "58d8d8a0c751df17537c66be",
+    "title": "Registre parcellaire graphique (RPG) : contours des parcelles et \u00eelots culturaux et leur groupe de cultures majoritaire",
+    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
+    "excerpt": "<p>Le registre parcellaire graphique est une base de donn\u00e9es g\u00e9ographiques servant de r\u00e9f\u00e9rence \u00e0 l'instruction des aides de la politique agricole commune (PAC).\nLa version anonymis\u00e9e diffus\u00e9e ici dans le cadre du service public de mise \u00e0 disposition des donn\u00e9es de r\u00e9f\u00e9rence contient les donn\u00e9es graphiques des parcelles (depuis 2015)\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/",
+    "post_url": ""
+  },
+  {
+    "id": "5b320fa7c751df1d7a4febae",
+    "title": "Op\u00e9rations coordonn\u00e9es par les CROSS",
+    "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient toutes les donn\u00e9es statistiques disponibles informatiquement sur les interventions d\u2019assistance et de sauvetage coordonn\u00e9es par les CROSS (Centres r\u00e9gionaux op\u00e9rationnels de surveillance et de sauvetage). Il renseigne, pour chaque op\u00e9ration d\u2019assistance ou de secours coordonn\u00e9e en eaux fran\u00e7aises :</p>\n<ul>\n<li>quel \u00e9tait le motif d\u2019intervention ;\u2026</li></ul>",
+    "acronym": "SECMAR",
+    "page": "https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/",
+    "post_url": ""
+  },
+  {
+    "id": "53699dc4a3a729239d205cf7",
+    "title": "Prises de vue a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es de l'IGN",
+    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
+    "excerpt": "<p>Les photographies a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es du territoire fran\u00e7ais peuvent, apr\u00e8s d\u00e9mat\u00e9rialisation, \u00eatre visualis\u00e9es en ligne et t\u00e9l\u00e9charg\u00e9es gratuitement. Sont \u00e9galement propos\u00e9s des tirages papier ou la duplication sur CD-ROM de plus de 4 millions de clich\u00e9s.</p>\nPhotographie a\u00e9rienne t\u00e9l\u00e9chargeable\n<p></p>\nOutil de s\u00e9lection G\u00e9oportail\n<p>![outil de s\u00e9lection G\u00e9oportail]\n( \"outil de s\u00e9lection\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/prises-de-vue-aeriennes-dematerialisees-de-lign/",
+    "post_url": ""
+  },
+  {
+    "id": "570f655888ee3852094d8898",
+    "title": "Nomenclature combin\u00e9e \u00e0 8 chiffres (NC8) depuis 2016",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>La nomenclature combin\u00e9e (NC) est un outil de classification des marchandises commune \u00e0 l'ensemble des \u00c9tats membres de l'Union europ\u00e9enne (UE) et est utilis\u00e9e pour : </p>\n<ul>\n<li>les d\u00e9clarations en douane pour les \u00e9changes avec les pays UE </li>\n<li>les d\u00e9clarations d'\u00e9changes de biens entre les pays de l'UE </li>\n<li>pr\u00e9senter les statistiques\u2026</li></ul>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/nomenclature-combinee-a-8-chiffres-nc8-depuis-2016/",
+    "post_url": ""
+  },
+  {
+    "id": "5530fbacc751df5ff937dddb",
+    "title": "Base Adresse Nationale",
+    "source": "Base Adresse Nationale",
+    "excerpt": "<p>La Base Adresse Nationale est une base de donn\u00e9es qui a pour but de r\u00e9f\u00e9rencer l'int\u00e9gralit\u00e9 des adresses du territoire fran\u00e7ais.</p>\n<p>Elle contient la position g\u00e9ographique de plus de 24 millions d'adresses.</p>\n<p>Elle est constitu\u00e9e par la collaboration entre Etalab, l'IGN et les collectivit\u00e9s locales, avec la contribution de la\u2026</p>",
+    "acronym": "BAN",
+    "page": "https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/",
+    "post_url": ""
+  },
+  {
+    "id": "5710b9f088ee383cf54d8898",
+    "title": "Transparence-sant\u00e9",
+    "source": "Minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9",
+    "excerpt": "<p>Attention : le jeu de donn\u00e9es contient plus de 2 millions de lignes. Il convient de disposer d\u2019un logiciel permettant d\u2019afficher l\u2019ensemble de ces lignes.</p>\n<p>La base de donn\u00e9es publique Transparence - Sant\u00e9 rend accessible l'ensemble des informations d\u00e9clar\u00e9es par les entreprises sur les liens d'int\u00e9r\u00eats qu'elles entretiennent avec les\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/transparence-sante-1/",
+    "post_url": ""
+  },
+  {
+    "id": "536993cca3a729239d2042b9",
+    "title": "Emplacement des distributeurs de pr\u00e9servatifs",
+    "source": "Source inconnue",
+    "excerpt": "<p>Coordonn\u00e9es GPS de localisation des distributeurs de pr\u00e9servatifs, et photo en situation. Donn\u00e9es soumises par la communaut\u00e9 via l'application mobile Condomatix et mod\u00e9r\u00e9es \u00e0 posteriori.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/emplacement-des-distributeurs-de-preservatifs-rdl/",
+    "post_url": ""
+  },
+  {
+    "id": "5aeae046c751df7e0000bc3a",
+    "title": "Dates et lieux des collectes de don du sang",
+    "source": "OpenEventDatabase",
+    "excerpt": "<p>Localisation et horaires des collectes de don du sang.</p>\n<p>Ce jeu de donn\u00e9es est une remise en forme de la carte publi\u00e9e par l'\u00c9tablissement Fran\u00e7ais du Sang sur  \n<p>Les donn\u00e9es sont disponibles via l'API OpenEventDatabase, qui permet de faire des recherches temporelles et/ou g\u00e9ographiques.</p>\n<p></p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/dates-et-lieux-des-collectes-de-don-du-sang/",
+    "post_url": ""
+  },
+  {
+    "id": "5c34c4d1634f4173183a64f1",
+    "title": "R\u00e9pertoire national des \u00e9lus",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Le R\u00e9pertoire National des Elus (RNE) a pour finalit\u00e9 le suivi des titulaires d\u2019un mandat \u00e9lectoral.  Il est renseign\u00e9 et tenu \u00e0 jour par les pr\u00e9fectures et par les services du minist\u00e8re de l'int\u00e9rieur, notamment sur la base des \u00e9l\u00e9ments fournis par les \u00e9lus lors de la phase d\u2019enregistrement des\u2026</p>",
+    "acronym": "RNE",
+    "page": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/",
+    "post_url": ""
+  },
+  {
+    "id": "53699fe4a3a729239d206227",
+    "title": "Service-public.fr - Annuaire de l\u2019administration - Base de donn\u00e9es locales",
+    "source": "Premier ministre",
+    "excerpt": "<p>La Base de donn\u00e9es locales r\u00e9f\u00e9rence plus de 60 000 guichets publics locaux (mairies, organismes sociaux, services de l'\u00e9tat, etc.). Elle fournit leurs coordonn\u00e9es (adresses, t\u00e9l\u00e9phones, site internet, horaires d'ouverture, coordonn\u00e9es de g\u00e9olocalisation). En compl\u00e9ment, sont index\u00e9s plus de 36 000 fichiers des communes, pr\u00e9cisant la comp\u00e9tence g\u00e9ographique des guichets.\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/service-public-fr-annuaire-de-l-administration-base-de-donnees-locales/",
+    "post_url": ""
+  },
+  {
+    "id": "53834c53a3a72906c7ec5c4c",
+    "title": "Conna\u00eetre le potentiel radon de ma commune",
+    "source": "Institut de radioprotection et de s\u00fbret\u00e9 nucl\u00e9aire (IRSN)",
+    "excerpt": "<p>Le radon est un gaz radioactif produit par la d\u00e9sint\u00e9gration naturelle de l\u2019uranium pr\u00e9sent dans les roches. Canc\u00e9rig\u00e8ne pulmonaire, il peut pr\u00e9senter un risque pour la sant\u00e9 lorsqu\u2019il s\u2019accumule dans les b\u00e2timents. La connaissance des caract\u00e9ristiques des formations g\u00e9ologiques sur le territoire permet d\u2019identifier les zones sur lesquelles la pr\u00e9sence\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/connaitre-le-potentiel-radon-de-ma-commune/",
+    "post_url": ""
+  },
+  {
+    "id": "53ba4c07a3a729219b7bead3",
+    "title": "Emissions de CO2 et de polluants des v\u00e9hicules commercialis\u00e9s en France ",
+    "source": "ADEME",
+    "excerpt": "<p>Depuis 2001, l\u2019ADEME acquiert tous les ans ces donn\u00e9es aupr\u00e8s de l\u2019Union Technique de l\u2019Automobile du motocycle et du Cycle UTAC (en charge de l\u2019homologation des v\u00e9hicules avant leur mise en vente) en accord avec le minist\u00e8re du d\u00e9veloppement durable.\nPour chaque v\u00e9hicule les donn\u00e9es d\u2019origine (transmises par l\u2019Utac)sont les\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france/",
+    "post_url": ""
+  },
+  {
+    "id": "5369986ba3a729239d204f55",
+    "title": "Police municipale : Effectifs par commune",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Les fichiers recensent pour les ann\u00e9es 2012 \u00e0 2018 les communes de votre d\u00e9partement ayant un service de police municipale et contient :</p>\n<ul>\n<li>le nombre de policiers municipaux,</li>\n<li>le nombre d'agents de surveillance de la voie publique,</li>\n<li>le nombre de gardes-champ\u00eatres,</li>\n<li>le nombre de centres de supervision urbaine (CSU).</li>\n</ul>\n<p>Pour\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/police-municipale-effectifs-par-commune/",
+    "post_url": ""
+  },
+  {
+    "id": "54cb4f89c751df0c24467389",
+    "title": "Prix des Terrains \u00e0 batir en France",
+    "source": "Maison.fr",
+    "excerpt": "<p>Forc\u00e9ment, le prix d\u2019un terrain varie fortement selon son emplacement et certains terrains en bords de mer ou en centre ville sont tr\u00e8s chers par rapport \u00e0 d\u2019autres un peu \u00e9loign\u00e9s. Toutefois, il existe aussi des sp\u00e9cificit\u00e9s r\u00e9gionales et raisonner en cout moyen n\u2019est donc pas idiot. Nous vous proposons\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/prix-des-terrains-a-batir-en-france/",
+    "post_url": ""
+  },
+  {
+    "id": "5943d4c188ee38742a95eb0d",
+    "title": "Zone d'Aide \u00e0 Finalit\u00e9 R\u00e9gionale (AFR)",
+    "source": "Commissariat g\u00e9n\u00e9ral \u00e0 l'\u00e9galit\u00e9 des territoires",
+    "excerpt": "<p>La Commission europ\u00e9enne a adopt\u00e9 la carte fran\u00e7aise des zones d\u2019aides \u00e0 finalit\u00e9 r\u00e9gionale (AFR) pour la p\u00e9riode 2014-2020, mise en \u0153uvre par le d\u00e9cret n\u00b0 2014-758 du 2 juillet 2014 relatif aux zones d'aide \u00e0 finalit\u00e9 r\u00e9gionale (AFR) et aux zones d'aide \u00e0 l'investissement des petites et moyennes entreprises\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/zone-daide-a-finalite-regionale-afr/",
+    "post_url": ""
+  },
+  {
+    "id": "536991c5a3a729239d203d4b",
+    "title": "Correspondance entre les codes postaux et codes INSEE des communes Fran\u00e7aises.",
+    "source": "Opendatasoft",
+    "excerpt": "<p>Ce jeu de donn\u00e9es int\u00e8gre par ailleurs des donn\u00e9es de r\u00e9f\u00e9rence sur les communes:</p>\n<ul>\n<li>Population</li>\n<li>Superficie</li>\n<li>Altitude moyenne</li>\n<li>Forme g\u00e9ographique</li>\n</ul>\n<p>Ce jeu de donn\u00e9es a \u00e9t\u00e9 constitu\u00e9 \u00e0 partir des donn\u00e9es de la base GEOFLA\u00ae mise \u00e0 disposition par l'IGN (codes INSEE) ainsi qu'\u00e0 partir de donn\u00e9es Wikip\u00e9dia (codes postaux).</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/correspondance-entre-les-codes-postaux-et-codes-insee-des-communes-francaises/",
+    "post_url": ""
+  },
+  {
+    "id": "57868f03a3a7295d371add42",
+    "title": "Taux de logements sociaux",
+    "source": "Hauts-de-Seine le D\u00e9partement",
+    "excerpt": "<p>Pourcentage de logements sociaux par commune et par ann\u00e9e</p>\n\n<p>Chaque ann\u00e9e depuis l'entr\u00e9e en vigueur de la Loi n\u00b0 2000-1208 du 13 d\u00e9cembre 2000, relative \u00e0 la solidarit\u00e9 et au renouvellement urbains, l'Etat proc\u00e8de \u00e0 l'inventaire des logements sociaux dans toutes les communes des Hauts-de-Seine. Ce recensement permet de calculer\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/taux-de-logements-sociaux/",
+    "post_url": ""
+  },
+  {
+    "id": "59591ca4a3a7291dcf9c8150",
+    "title": "Correspondance Code INSEE - Code Postal",
+    "source": "R\u00e9gion \u00cele-de-France",
+    "excerpt": "<p>Un jeu de donn\u00e9es mis \u00e0 jour avec les donn\u00e9es 2015 est disponible.</p>\n<p>Correspondance entre les codes postaux et codes INSEE des communes Fran\u00e7aises.</p>\n<p>Ce jeu de donn\u00e9es a \u00e9t\u00e9 constitu\u00e9 \u00e0 partir des donn\u00e9es de la base GEOFLA\u00ae 2013 mise \u00e0 disposition par l'IGN (codes INSEE) ainsi qu'\u00e0 partir\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/correspondance-code-insee-code-postal/",
+    "post_url": ""
+  },
+  {
+    "id": "53699569a3a729239d2046eb",
+    "title": "FINESS Extraction du Fichier des \u00e9tablissements",
+    "source": "Minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9",
+    "excerpt": "<p>Liste des \u00e9tablissements du domaine sanitaire et social.</p>\n<p>Informations sur la G\u00e9o-localisation : Le syst\u00e8me d\u2019information source contenant les coordonn\u00e9es g\u00e9ographiques permettant de g\u00e9o-localiser les \u00e9tablissements\nr\u00e9pertori\u00e9s dans FINESS est le produit BD-ADRESSE en version 2.1 de l\u2019IGN (Institut G\u00e9ographique National).</p>\n<p>ZONE                    SYST\u00c8ME GEODESIQUE         ELLIPSO\u00cfDE ASSOCIEE              PROJECTION \n//France m\u00e9tropolitaine :\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/finess-extraction-du-fichier-des-etablissements/",
+    "post_url": ""
+  },
+  {
+    "id": "58c98b1888ee38770950152b",
+    "title": "Mon R\u00e9seau Mobile",
+    "source": "Autorit\u00e9 de r\u00e9gulation des communications \u00e9lectroniques et des postes (ARCEP)",
+    "excerpt": "<p>Monreseaumobile.fr, est l'outil cartographique de l'Arcep qui vise \u00e0 apporter une information sur mesure aux utilisateurs, afin de les aider \u00e0 comparer entre eux les op\u00e9rateurs. Monreseaumobile.fr rassemble deux types d\u2019informations compl\u00e9mentaires :\n-   les cartes de couverture des op\u00e9rateurs. R\u00e9alis\u00e9es \u00e0 partir de simulations num\u00e9riques, ces cartes donnent une\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/mon-reseau-mobile/",
+    "post_url": ""
+  },
+  {
+    "id": "586a824588ee3835ec3f4e61",
+    "title": "Fichier des pr\u00e9noms - Edition 2016",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<p>En raison de la mise \u00e0 jour de ce jeu de donn\u00e9es par ajout d'ann\u00e9es suppl\u00e9mentaires, veuillez svp vous reporter au jeu de donn\u00e9es \"Fichier des pr\u00e9noms de 1900 \u00e0 2018\" sur data.gouv.fr.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/fichier-des-prenoms-edition-2016/",
+    "post_url": ""
+  },
+  {
+    "id": "5369995ba3a729239d205221",
+    "title": "Listes des communes g\u00e9olocalis\u00e9es par r\u00e9gions, d\u00e9partements, circonscriptions",
+    "source": "NosDonn\u00e9es.fr",
+    "excerpt": "<p>Tous les codes et informations g\u00e9ographique sur les 36000 communes fran\u00e7aises.\nIl s'agit d'une compilation de diff\u00e9rentes informations tir\u00e9es de Wikipedia et du travail de  donnant pour chaque commune de France les informations pr\u00e9cises sur leurs r\u00e9gions (et chefs-lieux), d\u00e9partements (et pr\u00e9fectures), circonscriptions l\u00e9gislatives et europ\u00e9ennes, codes INSEE, codes\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/listes-des-communes-geolocalisees-par-regions-departements-circonscriptions-nd/",
+    "post_url": ""
+  },
+  {
+    "id": "53699e2aa3a729239d205dea",
+    "title": "Open Food Facts - Produits alimentaires : ingr\u00e9dients, nutrition, labels",
+    "source": "Open Food Facts",
+    "excerpt": "<p>Open Food Facts r\u00e9pertorie les informations sur les produits alimentaires : ingr\u00e9dients, informations nutritionnelles, labels etc.\nLes donn\u00e9es proviennent majoritairement de la collecte citoyenne (crowdsourcing) des informations.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/open-food-facts-produits-alimentaires-ingredients-nutrition-labels/",
+    "post_url": ""
+  },
+  {
+    "id": "536991b0a3a729239d203d13",
+    "title": "Contours des d\u00e9partements fran\u00e7ais issus d'OpenStreetMap",
+    "source": "OpenStreetMap",
+    "excerpt": "<p>Exports du d\u00e9coupage administratif fran\u00e7ais au niveau d\u00e9partemental (contours des d\u00e9partements) issu d'OpenStreetMap produit dans sa grande majorit\u00e9 \u00e0 partir du cadastre.</p>\n<p>Ces donn\u00e9es sont issues du crowdsourcing effectu\u00e9 par les contributeurs au projet OpenStreetMap et sont sous licence ODbL qui impose un partage \u00e0 l'identique et la mention obligatoire\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/contours-des-departements-francais-issus-d-openstreetmap/",
+    "post_url": ""
+  },
+  {
+    "id": "5863714388ee3863df3f4e5d",
+    "title": "CORINE Land Cover - Occupation des sols en France",
+    "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
+    "excerpt": "<p>La base de donn\u00e9es g\u00e9ographique CORINE Land Cover (CLC) est un inventaire biophysique de l'occupation des terres. Il est produit dans le cadre du programme europ\u00e9en d'observation de la terre Copernicus (39 \u00c9tats europ\u00e9ens).</p>\n<p>Donn\u00e9es de r\u00e9f\u00e9rence, CORINE Land Cover est issue de l'interpr\u00e9tation visuelle d'images satellitaires et est disponible\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/corine-land-cover-occupation-des-sols-en-france/",
+    "post_url": ""
+  },
+  {
+    "id": "53699580a3a729239d204738",
+    "title": "Fichier FANTOIR des voies et lieux-dits",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Ce fichier r\u00e9pertorie pour chaque commune le nom des lieux-dits et des voies, y compris celles situ\u00e9es dans les lotissements et les copropri\u00e9t\u00e9s. Acc\u00e9dez aux donn\u00e9es en cliquant sur le lien r\u00e9f\u00e9rence ci-dessous.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/fichier-fantoir-des-voies-et-lieux-dits/",
+    "post_url": ""
+  },
+  {
+    "id": "555b3ec7c751df4633190c7a",
+    "title": " Adresses des d\u00e9bits de tabac",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>D\u00e9signation commerciale et adresse postale des d\u00e9bits de tabac en activit\u00e9.</p>\n<p>Contenu (descriptifs des colonnes):\n- ID : num\u00e9ro de ligne\n- Enseigne : nom du commerce\n- Adresse\u00a0: indication principale de l\u2019adresse\n- Compl\u00e9ment : indication permettant une meilleure localisation (centre commercial, etc.) ou compl\u00e9ment de d\u00e9nomination\n-\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/adresses-des-debits-de-tabac/",
+    "post_url": ""
+  },
+  {
+    "id": "5489cda0c751df35a24120e7",
+    "title": "Comp\u00e9tence territoriale gendarmerie et police nationales",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Ce fichier d'export d\u00e9finit les zones de comp\u00e9tence de la gendarmerie et de la police nationales.\nLa structure est faite des champs suivants : le code commune, le libell\u00e9 de commune, l'institution, l'id_service, le service, le code postal de base de la commune, la liste des codes postaux de la\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/competence-territoriale-gendarmerie-et-police-nationales/",
+    "post_url": ""
+  },
+  {
+    "id": "598892dcc751df3eae8bd6ec",
+    "title": "Trafic moyen journalier annuel sur le r\u00e9seau routier national",
+    "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
+    "excerpt": "<p>Le trafic moyen journalier annuel (TMJA) d'une section routi\u00e8re est obtenu en calculant la moyenne sur une ann\u00e9e du nombre de v\u00e9hicules circulant sur cette section, tous sens confondus, au cours d'une journ\u00e9e.\nCes donn\u00e9es de trafic en temps diff\u00e9r\u00e9 s'accompagnent g\u00e9n\u00e9ralement d'une estimation (en pourcentage) du nombre de poids\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/trafic-moyen-journalier-annuel-sur-le-reseau-routier-national/",
+    "post_url": ""
+  },
+  {
+    "id": "5bb332a58b4c412e6f4179b1",
+    "title": "Base documentaire  DGFIP ",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Base documentaire DGFIP comprenant les documents internes communicables au public</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/base-documentaire-dgfip/",
+    "post_url": ""
+  },
+  {
+    "id": "547d8d7ac751df405d090fcb",
+    "title": "Le march\u00e9 du haut et tr\u00e8s haut d\u00e9bit fixe (d\u00e9ploiements)",
+    "source": "Autorit\u00e9 de r\u00e9gulation des communications \u00e9lectroniques et des postes (ARCEP)",
+    "excerpt": "<p>Suivi des d\u00e9ploiements sur le march\u00e9 du haut et tr\u00e8s haut d\u00e9bit fixes issu de la collecte trimestrielle \"Observatoire de gros HD/THD\" au titre de la d\u00e9cision n\u00b02012-1503\nRetrouvez le calendrier des publications de l'Arcep.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/le-marche-du-haut-et-tres-haut-debit-fixe-deploiements/",
+    "post_url": ""
+  },
+  {
+    "id": "5369965fa3a729239d204999",
+    "title": "Imp\u00f4ts locaux",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Vous pouvez consulter les taux vot\u00e9s ainsi que l'ensemble des donn\u00e9es (bases, taux et produits) par collectivit\u00e9 territoriale. Les donn\u00e9es sont disponibles en pi\u00e8ces jointes\u00a0et pour une partie sur le site : \n</p>\n<p>Statistiques sur les imp\u00f4ts locaux</p>\n<p>Bases, taux et produits r\u00e9gionaux de 2002 \u00e0 2009</p>\n\n<p>Bases, taux\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/impots-locaux/",
+    "post_url": ""
+  },
+  {
+    "id": "564b592188ee387542e72046",
+    "title": "Octroi de mer dans les d\u00e9partements d'Outre-mer",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>L\u2019octroi de mer est une imposition sp\u00e9cifique dans les d\u00e9partements d\u2019Outre-mer de Guadeloupe, de Guyane, de Martinique, de Mayotte et de La R\u00e9union : les op\u00e9rations soumises \u00e0 l\u2019octroi de mer sont les importations de biens et les livraisons de biens, faites \u00e0 titre on\u00e9reux, par des personnes qui y\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/octroi-de-mer-dans-les-departements-doutre-mer/",
+    "post_url": ""
+  },
+  {
+    "id": "547738bcc751df6b1372f5d6",
+    "title": "Liste de Pr\u00e9noms",
+    "source": "Hubert Goffin",
+    "excerpt": "<p>Description:\nLe fichier Pr\u00e9noms.txt pr\u00e9sente</p>\n11627 pr\u00e9noms\nleur sexe (m ou f)\nleur langage d'utilisation\nleur fr\u00e9quence par million d'occurences dans notre Frantext (les textes de Frantext publi\u00e9s apr\u00e8s 1950 interrog\u00e9s en avril 2000 ce qui constitue un corpus de 31,39 millions de mots).\n\n<p>Auteurs:\n    Mike Campbell et son merveilleux\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/liste-de-prenoms/",
+    "post_url": ""
+  },
+  {
+    "id": "536c47bfa3a72933d8d1b3a6",
+    "title": "Monuments Historiques : liste des Immeubles prot\u00e9g\u00e9s au titre des Monuments Historiques",
+    "source": "Minist\u00e8re de la Culture",
+    "excerpt": "<p>Liste des Immeubles prot\u00e9g\u00e9s au titre des Monuments Historiques (total France  en 2014 : 44 318 monuments).</p>\n<p>Libell\u00e9s des champs : REF (r\u00e9f\u00e9rence de l'\u00e9difice dans la base M\u00e9rim\u00e9e) : ETUD (type d'\u00e9tude : recensement immeubles MH, avec \u00e9ventuellement la mention label Xxe) ; LOCA OU REG + DEPT +\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/monuments-historiques-liste-des-immeubles-proteges-au-titre-des-monuments-historiques/",
+    "post_url": ""
+  },
+  {
+    "id": "58481d2688ee384953c65bb4",
+    "title": "Etablissements d'enseignement sup\u00e9rieur",
+    "source": "Office national d'information sur les enseignements et les professions",
+    "excerpt": "<p>Liste des \u00e9tablissements avec le code UAI (unit\u00e9 administrative immatricul\u00e9e), le type d'\u00e9tablissement, le nom, le sigle, le statut (public, priv\u00e9...), la tutelle (minist\u00e8res, chambres consulaires...), universit\u00e9 de rattachement, coordonn\u00e9es g\u00e9ographiques (adresse postale, commune, d\u00e9partement, acad\u00e9mie, r\u00e9gion, longitude X, latitude Y) et le lien d'acc\u00e8s direct sur le site Onisep\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/etablissements-denseignement-superieur-2/",
+    "post_url": ""
+  },
+  {
+    "id": "5af993b6c751df6e1a8c165d",
+    "title": "Liste des communes situ\u00e9es en zone B2 ou C, \u00e9ligibles aux dispositifs d'investissement locatif \"Pinel\" et \"Duflot\" ayant obtenu un agr\u00e9ment pr\u00e9fectoral",
+    "source": "Minist\u00e8re de la Coh\u00e9sion des territoires",
+    "excerpt": "<p>Cette liste recense les villes \u00e9ligibles au dispositif d\u2019investissement locatif \u00ab Pinel \u00bb situ\u00e9es uniquement en zones B2 et C.\nPour b\u00e9n\u00e9ficier de la remise d'imp\u00f4t accord\u00e9e par la loi Pinel, la ville dans laquelle vous d\u00e9cider d'acheter un logement doit faire partie d'une zone autoris\u00e9e. Les villes situ\u00e9es dans\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/liste-des-communes-situees-en-zone-b2-ou-c-eligibles-aux-dispositifs-dinvestissement-locatif-pinel-et-duflot-ayant-obtenu-un-agrement-prefectoral/",
+    "post_url": ""
+  },
+  {
+    "id": "5a2d54f288ee382771f2cf4f",
+    "title": "R\u00e9gions, d\u00e9partements, villes et villages de France et d'outre-mer",
+    "source": "Stanislas Poisson",
+    "excerpt": "French Zip-Code\nA propos\n<p>L'objectif du d\u00e9p\u00f4t French zip-code est de maintenir une liste la plus \u00e0 jour possible des r\u00e9gions, d\u00e9partements, villes et villages Fran\u00e7ais en M\u00e9tropole, D\u00e9partement et R\u00e9gion d'Outre-Mer (DROM) et Collectivit\u00e9s d'Outre-Mer (COM).</p>\nOrigine des donn\u00e9es\n<p>Les donn\u00e9es utilis\u00e9es proviennent du site de l'INSEE :\n-\u2026</p>",
+    "acronym": "French-zip-code",
+    "page": "https://www.data.gouv.fr/fr/datasets/regions-departements-villes-et-villages-de-france-et-doutre-mer/",
+    "post_url": ""
+  },
+  {
+    "id": "5c926a7a634f410578005c68",
+    "title": "Organismes ayant d\u00e9sign\u00e9 un(e) d\u00e9l\u00e9gu\u00e9(e) \u00e0 la protection des donn\u00e9es (DPD/DPO)",
+    "source": "CNIL",
+    "excerpt": "<p>Le r\u00e8glement g\u00e9n\u00e9ral sur la protection des donn\u00e9es (RGPD) pr\u00e9voit, depuis le 25 mai 2018, la d\u00e9signation obligatoire d'un d\u00e9l\u00e9gu\u00e9 \u00e0 la protection des donn\u00e9es (DPD) dans les services publics et, sous certaines conditions, par les entreprises et associations.</p>\n<p>Le d\u00e9l\u00e9gu\u00e9 - aussi connu sous son appellation anglaise \"data protection\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/organismes-ayant-designe-un-e-delegue-e-a-la-protection-des-donnees-dpd-dpo/",
+    "post_url": ""
+  },
+  {
+    "id": "5551f561c751df7646190c78",
+    "title": "Balances comptables des communes",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Balances des budgets principaux et budgets annexes des communes de 2010 \u00e0 2017.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/balances-comptables-des-communes/",
+    "post_url": ""
+  },
+  {
+    "id": "5a1dd4e5c751df02b116a0d6",
+    "title": "R\u00e9pertoire des logements locatifs des bailleurs sociaux",
+    "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
+    "excerpt": "<p>Le r\u00e9pertoire des logements locatifs des bailleurs sociaux a pour objectif de dresser l\u2019\u00e9tat global du parc de logements locatifs de ces bailleurs sociaux au 1er janvier d\u2019une ann\u00e9e. Mis en place au 1er janvier 2011, il est aliment\u00e9 par les informations transmises par les bailleurs sociaux.</p>\n<p>Cette mise \u00e0\u2026</p>",
+    "acronym": "RPLS",
+    "page": "https://www.data.gouv.fr/fr/datasets/repertoire-des-logements-locatifs-des-bailleurs-sociaux/",
+    "post_url": ""
+  },
+  {
+    "id": "5809e241c751df2646c562c5",
+    "title": "GEOFLA\u00ae",
+    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
+    "excerpt": "<p></p>\n<p>Description de l'ensemble des unit\u00e9s administratives nationales (France m\u00e9tropolitaine et DROM) : communes, cantons, arrondissements, d\u00e9partements, r\u00e9gions.</p>\n<p>GEOFLA\u00ae permet \u00e0 des \u00e9chelles nationales et r\u00e9gionales de situer toute information th\u00e9matique, d'analyser des donn\u00e9es statistiques et de g\u00e9rer des d\u00e9placements routiers.</p>\n<p>A compter de l'ann\u00e9e 2017, GEOFLA est remplac\u00e9 par la\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/geofla-r/",
+    "post_url": ""
+  },
+  {
+    "id": "575e9fac88ee38072a640390",
+    "title": "Donn\u00e9es ouvertes du catalogue E-Phy des produits phytopharmaceutiques, mati\u00e8res fertilisantes et supports de culture, adjuvants, produits mixtes et m\u00e9langes",
+    "source": "Agence nationale de s\u00e9curit\u00e9 sanitaire, de l'alimentation, de l'environnement et du travail (Anses)",
+    "excerpt": "<p>Les fichiers \u00ab E-Phy \u00bb permettent un acc\u00e8s \u00e0 l'ensemble des donn\u00e9es des produits (produits phytopharmaceutiques, mati\u00e8res fertilisantes et supports de culture, adjuvants, produits mixtes et m\u00e9langes) couverts par une Autorisation de Mise sur le March\u00e9 (AMM) ou un permis de commerce parall\u00e8le. Les d\u00e9cisions d\u2019AMM et de permis sont\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-catalogue-e-phy-des-produits-phytopharmaceutiques-matieres-fertilisantes-et-supports-de-culture-adjuvants-produits-mixtes-et-melanges/",
+    "post_url": ""
+  },
+  {
+    "id": "5bcf4595634f412cc744840c",
+    "title": "Aires de covoiturage en France",
+    "source": "BlaBlaCar",
+    "excerpt": "<p>Il existe plus de 2 000 Aires et parkings de covoiturage en France.\nIls n'avaient jamais \u00e9t\u00e9 r\u00e9f\u00e9renc\u00e9s en une base unique.\nBlaBlaCar a donc pris l\u2019initiative de cr\u00e9er ce fichier.</p>\n<p>Nous avons contact\u00e9 tous les d\u00e9partements de France M\u00e9tropolitaine afin de consolider le 1er fichier national des Aires et\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/aires-de-covoiturage-en-france/",
+    "post_url": ""
+  },
+  {
+    "id": "58da72bbc751df38734d8658",
+    "title": "Imp\u00f4ts locaux : fichier de recensement des \u00e9l\u00e9ments d'imposition \u00e0 la fiscalit\u00e9 directe locale (REI)",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Le fichier de recensement des \u00e9l\u00e9ments d\u2019imposition \u00e0 la fiscalit\u00e9 directe locale (REI) est un fichier agr\u00e9g\u00e9 au niveau communal. \nIl d\u00e9taille l'ensemble des donn\u00e9es de fiscalit\u00e9 directe locale par taxe et par collectivit\u00e9 b\u00e9n\u00e9ficiaire (commune, syndicats et assimil\u00e9s, intercommunalit\u00e9, d\u00e9partement, r\u00e9gion).\nCes donn\u00e9es concernent exclusivement les impositions primitives, c\u2019est-\u00e0-dire\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/impots-locaux-fichier-de-recensement-des-elements-dimposition-a-la-fiscalite-directe-locale-rei-3/",
+    "post_url": ""
+  },
+  {
+    "id": "5429648588ee380327a59164",
+    "title": "Monuments historiques class\u00e9s \u00e0 Saint-Malo",
+    "source": "Ville de Saint-Malo",
+    "excerpt": "<p>En 2014, 14 immeubles malouins, y compris en mer, sont prot\u00e9g\u00e9s au titre des Monuments Historiques par un arr\u00eat\u00e9 de classement.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/monuments-historiques-classes-a-saint-malo/",
+    "post_url": ""
+  },
+  {
+    "id": "58b69b42a3a7295a7d8251cb",
+    "title": "Courbes de niveau",
+    "source": "M\u00e9tropole Europ\u00e9enne de Lille ",
+    "excerpt": "<p>Couche g\u00e9ographique des courbes de niveau</p>\n\n<p>\u00e9quidistance des courbes : 2 m\u00e8tres</p>\n\n<p>Les courbes de niveau sont consultables en ligne sur MELMAP le portail g\u00e9ographique de la MEL</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/courbes-de-niveau-2/",
+    "post_url": ""
+  },
+  {
+    "id": "559395f1c751df0f51a453b9",
+    "title": "BODACC",
+    "source": "Premier ministre",
+    "excerpt": "<p>Annonces publi\u00e9es au Bodacc (Bulletin officiel des annonces civiles et commerciales).</p>\n<p>Le Bodacc (Bulletin officiel des annonces civiles et commerciales), r\u00e9gi par l\u2019article R 123-209 du code de commerce, publie les avis pr\u00e9vus par ce code et les textes l\u00e9gislatifs ou r\u00e9glementaires. Ces annonces l\u00e9gales sont \u00e9mises\npar les greffes\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/bodacc/",
+    "post_url": ""
+  },
+  {
+    "id": "53dfde89a3a729110ca8d374",
+    "title": "Telepac, les b\u00e9n\u00e9ficiaires de la PAC",
+    "source": "Regor .",
+    "excerpt": "<p>Tableau crois\u00e9 des aides per\u00e7us par chaque b\u00e9n\u00e9ficiaire au titre de la PAC</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/telepac-les-beneficiaires-de-la-pac/",
+    "post_url": ""
+  },
+  {
+    "id": "562f498ac751df31f1dcc3f1",
+    "title": "P\u00e9rim\u00e8tre de protection de monument historique",
+    "source": "Direction D\u00e9partementale des Territoires du Bas-Rhin (67)",
+    "excerpt": "<p>Est consid\u00e9r\u00e9 comme \u00e9tant situ\u00e9 dans le champ de visibilit\u00e9 d'un immeuble class\u00e9 ou propos\u00e9 pour le classement tout autre immeuble, nu ou b\u00e2ti, visible du premier ou visible en m\u00eame temps que lui et situ\u00e9 dans un p\u00e9rim\u00e8tre n'exc\u00e9dant pas 500 m\u00e8tres. A titre exceptionnel, ce p\u00e9rim\u00e8tre peut \u00eatre\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/perimetre-de-protection-de-monument-historique/",
+    "post_url": ""
+  },
+  {
+    "id": "57d6ded9c751df275ab8181a",
+    "title": "Hauteurs d\u2019eau et d\u00e9bits des cours d\u2019eau observ\u00e9s en temps r\u00e9el aux stations du r\u00e9seau Vigicrues",
+    "source": "Service central d\u2019hydrom\u00e9t\u00e9orologie et d\u2019appui \u00e0 la pr\u00e9vision des inondations",
+    "excerpt": "<p>Le r\u00e9seau Vigicrues  collecte en continue les niveaux d\u2019eau et les d\u00e9bits des cours d\u2019eau observ\u00e9s en temps r\u00e9el sur pr\u00e8s de 1700 points de mesure t\u00e9l\u00e9transmis, ainsi que leurs \u00e9volutions au cours des derniers jours et des derni\u00e8res heures.</p>\n<p>Ces mesures sont visualisables sur le site Vigicrues\u00a0: le\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/hauteurs-deau-et-debits-des-cours-deau-observes-en-temps-reel-aux-stations-du-reseau-vigicrues/",
+    "post_url": ""
+  },
+  {
+    "id": "53ca2be2a3a7294a1ddd7847",
+    "title": "ASSOCIATIONS (JOAFE)",
+    "source": "Premier ministre",
+    "excerpt": "<p>Les donn\u00e9es ''ASSOCIATIONS'' sont extraites des annonces publi\u00e9es au Journal officiel. </p>\n<p>\u2022   Avant le 2 janvier 1985 au Journal officiel de la R\u00e9publique fran\u00e7aise.\n\u2022   A partir du 2 janvier 1985 au Journal officiel associations et fondations d\u2019entreprise (JOAFE).</p>\n<p>La base ASSOCIATIONS (JOAFE) publie :</p>\n<p>\u2022   les d\u00e9clarations de cr\u00e9ation,\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/associations-joafe/",
+    "post_url": ""
+  },
+  {
+    "id": "538071a9a3a7297e4d35d6ce",
+    "title": "Base d'Adresses Nationale Ouverte - BANO",
+    "source": "OpenStreetMap",
+    "excerpt": "<p>Ce jeu de donn\u00e9es constitu\u00e9 de plus de 16 millions d'adresses provient du projet de Base d'Adresses Nationale Ouverte initi\u00e9 par OpenStreetMap France.</p>\n<p>Pour plus de renseignements sur ce projet : \n<p>Origine des donn\u00e9es</p>\n<p>BANO est une base de donn\u00e9es composite, constitu\u00e9e \u00e0 partir de diff\u00e9rentes sources:</p>\n<ul>\n<li>OpenStreetMap (ODbL)\u2026</li></ul>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/base-d-adresses-nationale-ouverte-bano/",
+    "post_url": ""
+  },
+  {
+    "id": "536995ada3a729239d2047b3",
+    "title": "Fond de carte des codes postaux",
+    "source": "Emc3 / G\u00e9oclip",
+    "excerpt": "<p>Ce fichier contient le trac\u00e9 des codes postaux en France m\u00e9tropolitaine (y compris les codes postaux supra-communaux) ainsi qu'une estimation de la population et du nombre de m\u00e9nages.\nLe zip fourni comporte les fonds de carte aux formats shape et mapinfo, ainsi qu'une notice lisezmoi.txt.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/fond-de-carte-des-codes-postaux/",
+    "post_url": ""
+  },
+  {
+    "id": "536995eca3a729239d204861",
+    "title": "Gares du r\u00e9seau ferr\u00e9 d'\u00cele-de-France",
+    "source": "R\u00e9gion \u00cele-de-France",
+    "excerpt": "<p>Ce jeu de donn\u00e9es repr\u00e9sente les gares (SNCF et RER) d'\u00cele-de-France en\n2007.</p>\n<p>La premi\u00e8re mise \u00e0 jour date de 1992. Il y a eu une r\u00e9actualisation en\n2002 et une autre en 2006.</p>\n<p>En 2007, la couche a \u00e9t\u00e9 remodel\u00e9e, deux noms de colonnes ont \u00e9t\u00e9\nchang\u00e9s et une\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/gares-du-reseau-ferre-d-ile-de-france-idf/",
+    "post_url": ""
+  },
+  {
+    "id": "5537bf2bc751df66296dd01b",
+    "title": "Balances comptables des d\u00e9partements depuis 2010",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Balances des budgets principaux et annexes des d\u00e9partements depuis 2010 et des collectivit\u00e9s territoriales uniques (CTU) depuis 2016. Nous recommandons de consulter en amont les structures de fichier en pi\u00e8ces jointes qui d\u00e9crivent les variables pr\u00e9sentes dans ce jeu de donn\u00e9es</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/balances-comptables-des-departements-depuis-2010/",
+    "post_url": ""
+  },
+  {
+    "id": "53698f50a3a729239d2036f5",
+    "title": "Base de donn\u00e9es publique des m\u00e9dicaments (base officielle)",
+    "source": "Minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9",
+    "excerpt": "<p>La base de donn\u00e9es publique des m\u00e9dicaments permet au grand public et aux professionnels de sant\u00e9 d'acc\u00e9der \u00e0 des donn\u00e9es et documents de r\u00e9f\u00e9rence sur les m\u00e9dicaments commercialis\u00e9s ou ayant \u00e9t\u00e9 commercialis\u00e9s durant les deux derni\u00e8res ann\u00e9es en France.</p>\n<p>Cette base de donn\u00e9es administratives et scientifiques sur les traitements et\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/base-de-donnees-publique-des-medicaments-base-officielle/",
+    "post_url": ""
+  },
+  {
+    "id": "5b3cc551c751df4822526c1c",
+    "title": "Jours f\u00e9ri\u00e9s en France",
+    "source": "Antoine Augusti",
+    "excerpt": "<p>En France, les jours f\u00e9ri\u00e9s sont l\u00e9galement d\u00e9finis par le code du travail, article L3133-1.</p>\n<p>Ce jeu de donn\u00e9es est une liste des jours f\u00e9ri\u00e9s entre 1950 et 2050. 2 fichiers sont pr\u00e9sents, avec le format suivant :\n- date: date, format YYYY-MM-DD. Exemple 1952-12-25.\n- est_jour_ferie: bool\u00e9en, indique si\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/jours-feries-en-france/",
+    "post_url": ""
+  },
+  {
+    "id": "5c5c3236634f4155110aa4ea",
+    "title": "Donn\u00e9es ouvertes du Grand D\u00e9bat National",
+    "source": "Service d'Information du Gouvernement",
+    "excerpt": "<p>Le Gouvernement est attach\u00e9 \u00e0 la transparence du Grand D\u00e9bat et cette exigence de transparence est \u00e9galement port\u00e9e par le coll\u00e8ge des garants.\nAinsi, l\u2019ensemble des contributions au d\u00e9bat, qu'elles aient \u00e9t\u00e9 envoy\u00e9es par voie postale, par courriel ou via les formulaires en ligne, seront \u00e0 terme accessibles \u00e0 tous.\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-grand-debat-national/",
+    "post_url": ""
+  },
+  {
+    "id": "5889d03ea3a72974cbf0d5b0",
+    "title": "Le calendrier scolaire",
+    "source": "Education Nationale",
+    "excerpt": "<p>Le calendrier scolaire officiel, publi\u00e9 par le Minist\u00e8re de l'Education nationale, de l'Enseignement sup\u00e9rieur et de la Recherche Consulter l'espace \"Le calendrier scolaire\" \n</p>\n<p>Attention, le calendrier ne prend pas en compte les modifications des dates des vacances de printemps 2018 dans les acad\u00e9mies de Caen, Nantes, Orl\u00e9ans-Tours, Rennes et\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/le-calendrier-scolaire/",
+    "post_url": ""
+  },
+  {
+    "id": "5593aab9c751df35d8a453ba",
+    "title": "R\u00e9sultats des contr\u00f4les officiels sanitaires : dispositif d'information \u00ab Alim\u2019confiance \u00bb",
+    "source": "Minist\u00e8re de l'Agriculture et de l'Alimentation",
+    "excerpt": "<p>La publication des r\u00e9sultats des contr\u00f4les sanitaires dans le secteur alimentaire (restaurants, cantines, abattoirs, etc.) est une attente l\u00e9gitime des citoyens qui participe \u00e0 l\u2019am\u00e9lioration de la confiance du consommateur. Pr\u00e9vue par la loi d\u2019Avenir pour l\u2019agriculture, l\u2019alimentation et la for\u00eat, du 13 octobre 2014, cette mesure s\u2019inscrit dans une\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/",
+    "post_url": ""
+  },
+  {
+    "id": "5a981a1ac751df07a20cc5c2",
+    "title": "Les consultations citoyennes",
+    "source": "La R\u00e9publique En Marche !",
+    "excerpt": "<p>La R\u00e9publique En Marche porte une vision pragmatique de la politique. Nous avons la volont\u00e9 de toujours partir de l\u2019exp\u00e9rience des Fran\u00e7ais, de leurs pr\u00e9occupations, des probl\u00e8mes qu\u2019ils rencontrent, des solutions qu\u2019ils identifient.</p>\n<p>Dans le cadre de la campagne pr\u00e9sidentielle et gr\u00e2ce \u00e0 nos comit\u00e9s locaux, les adh\u00e9rents d\u2019En Marche\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/les-consultations-citoyennes/",
+    "post_url": ""
+  },
+  {
+    "id": "5ceba293634f411427c7d613",
+    "title": "R\u00e9sultats des \u00e9lections europ\u00e9ennes 2019",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Vous trouverez ci-apr\u00e8s les r\u00e9sultats d\u00e9finitifs des \u00e9lections europ\u00e9ennes du 26 mai 2019 (France enti\u00e8re), tels que proclam\u00e9s par la commission nationale de recensement g\u00e9n\u00e9ral des votes, le mercredi 29 mai 2019.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/resultats-des-elections-europeennes-2019/",
+    "post_url": ""
+  },
+  {
+    "id": "5d5f9fc96f4441094179a94c",
+    "title": "Code source des taxes fonci\u00e8res (TF)",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Le code source des taxes fonci\u00e8res est produit par la Direction G\u00e9n\u00e9rale des Finances publiques. Ce code source est sous licence CeCILL v2.1(d\u00e9tail dans le fichier LICENSE.txt). Cette ouverture s\u2019inscrit dans la mise en \u0153uvre de la Loi pour une R\u00e9publique num\u00e9rique, qui a ajout\u00e9 \u00e0 l\u2019article L300-2 du Code\u2026</p>",
+    "acronym": "TF",
+    "page": "https://www.data.gouv.fr/fr/datasets/code-source-des-taxes-foncieres-tf/",
+    "post_url": ""
+  },
+  {
+    "id": "5459fc50c751df5aa09b6045",
+    "title": "Dipl\u00f4me national du brevet par \u00e9tablissement ",
+    "source": "Education Nationale",
+    "excerpt": "<p>Donn\u00e9es statistiques : r\u00e9sultats au dipl\u00f4me national du brevet par \u00e9tablissement</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/diplome-national-du-brevet-par-etablissement/",
+    "post_url": ""
+  },
+  {
+    "id": "5dd54e116f4441636deed758",
+    "title": "Compte administratif tous budget confondus de 2014 \u00e0 2018 de la ville de Fort-de-France",
+    "source": "VILLE DE FORT-DE-FRANCE",
+    "excerpt": "<p>Ce fichier contient l\u2019ensemble des r\u00e9alisations budg\u00e9taires des ann\u00e9es 2014,2015,2016,2017,2018 de la ville de Fort-de-France.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/compte-administratif-tous-budget-confondus-de-2014-a-2018-de-la-ville-de-fort-de-france/",
+    "post_url": ""
+  },
+  {
+    "id": "5dc4559e6f444132e61f83b3",
+    "title": "R\u00e9seau de transport routier - Nature de voie - France m\u00e9tropolitaine",
+    "source": "Cerema",
+    "excerpt": "<p>Nature de voie du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.7.1.2</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-nature-de-voie-france-metropolitaine/",
+    "post_url": ""
+  },
+  {
+    "id": "5dccd2aa06e3e70687832c57",
+    "title": "Horaires des gares",
+    "source": "SNCF",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient les horaires d'ouverture au public des gares de voyageurs en France.</p>\n<p>Chaque gare est identifi\u00e9e dans la colonne \"UIC\" par son code UIC (identifiant unique).</p>\n<p>Les horaires sont mentionn\u00e9s pour chaque jour de la semaine dans la colonne \"Horaire en jour normal\".\u00a0</p>\n<p>Si, pour certains\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-gares/",
+    "post_url": ""
+  },
+  {
+    "id": "5dd24d4a8b4c4146823e23f3",
+    "title": "Dispositifs d\u2019aides financi\u00e8res \u00e0 la r\u00e9novation \u00e9nerg\u00e9tique",
+    "source": "ADEME",
+    "excerpt": "<p>L\u2019outil Simul\u2019Aid\u20acs est un calculateur d\u2019aides financi\u00e8res pour la r\u00e9novation \u00e9nerg\u00e9tique de l\u2019habitat priv\u00e9e. Il permet :\n-   Aux particuliers d\u2019identifier les aides mobilisables en fonction de leur situation personnelle, de leur logement et de leur projet de travaux\n-   Aux conseillers du r\u00e9seau FAIRE d\u2019accompagner les particuliers dans leur\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/dispositifs-daides-financieres-a-la-renovation-energetique/",
+    "post_url": ""
+  },
+  {
+    "id": "5dceb39c634f416d5593c858",
+    "title": "Cadastre minier",
+    "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
+    "excerpt": "<p>Les flux g\u00e9ographiques Camino.beta.gouv.fr exposent les informations administratives et g\u00e9ographiques pour : \n- les titres miniers valides et demandes initiales ou modificatives aff\u00e9rentes publiques et en cours d'instruction. \n- les autorisations d\u2019exploitation en Guyane.</p>\n<p>Les donn\u00e9es sont publi\u00e9es au format Geojson. C'est un format ouvert et r\u00e9utilisable qui permet notamment\u2026</p>",
+    "acronym": "Camino",
+    "page": "https://www.data.gouv.fr/fr/datasets/cadastre-minier/",
+    "post_url": ""
+  },
+  {
+    "id": "5dc4559e6f4441331193b9cd",
+    "title": "R\u00e9seau de transport routier - Autorit\u00e9 propri\u00e9taire - France m\u00e9tropolitaine",
+    "source": "Cerema",
+    "excerpt": "<p>Autorit\u00e9 propri\u00e9taire du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.3.1.5</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont issues\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-autorite-proprietaire-france-metropolitaine/",
+    "post_url": ""
+  },
+  {
+    "id": "5dd4bba606e3e71a10832c58",
+    "title": "Horaires des TGV",
+    "source": "SNCF",
+    "excerpt": "<p>Horaires des trains de SNCF Voyages (TGV/inOui/Ouigo) au format\u00a0GTFS.</p>\n<p>Ces horaires sont les horaires th\u00e9oriques mis \u00e0 jour tous les mois.</p>\n<p> __</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-tgv/",
+    "post_url": ""
+  },
+  {
+    "id": "58e5842688ee386c65805755",
+    "title": "R\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE)",
+    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
+    "excerpt": "<p>L'\u00c9tat a confi\u00e9 \u00e0 l'IGN le d\u00e9veloppement du r\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE). Pour ce faire, il fait appel \u00e0 ses moyens propres ainsi qu\u2019\u00e0 des partenariats avec des producteurs principalement de la sph\u00e8re publique. Le RGE est constitu\u00e9 des composantes orthophotographique, topographique et adresse, parcellaire et altim\u00e9trique.</p>\n<p>Sp\u00e9cifications du\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/",
+    "post_url": ""
+  },
+  {
+    "id": "5dd24d6b6f44416027709798",
+    "title": "Co\u00fbts des travaux de r\u00e9novation \u00e9nerg\u00e9tique",
+    "source": "ADEME",
+    "excerpt": "<p>L\u2019outil Simul\u2019Aid\u20acs est un calculateur d\u2019aides financi\u00e8res pour la r\u00e9novation \u00e9nerg\u00e9tique de l\u2019habitat priv\u00e9e. Il permet :\n-   Aux particuliers d\u2019identifier les aides mobilisables en fonction de leur situation personnelle, de leur logement et de leur projet de travaux\n-   Aux conseillers du r\u00e9seau FAIRE d\u2019accompagner les particuliers dans leur\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/couts-des-travaux-de-renovation-energetique/",
+    "post_url": ""
+  },
+  {
+    "id": "58c984b088ee386cdb1261f3",
+    "title": "Code Officiel G\u00e9ographique (COG)",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<p>Chaque ann\u00e9e, l'Insee met \u00e0 disposition sur son site (insee.fr) le code officiel g\u00e9ographique qui rassemble les codes et libell\u00e9s des communes, des cantons, des arrondissements, des d\u00e9partements, des r\u00e9gions et des pays et territoires \u00e9trangers au 1er janvier.</p>\n<p>Avertissement\u00a0:\nLes fichiers du COG ont sensiblement \u00e9volu\u00e9 dans leur\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/",
+    "post_url": ""
+  },
+  {
+    "id": "53698f37a3a729239d2036a0",
+    "title": "Avis et conseils de la CADA",
+    "source": "Commission d\u2019acc\u00e8s aux documents administratifs (CADA)",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient les avis rendus par la commission d'acc\u00e8s aux documents administratifs (CADA) ainsi que ses conseils \u00e0 destination des administrations, tels que d\u00e9fini par son r\u00f4le.</p>\n<p>Ces donn\u00e9es ont \u00e9t\u00e9 lib\u00e9r\u00e9es suite \u00e0 la d\u00e9cision n\u00b025 du CIMAP du 18 d\u00e9cembre 2013 concernant la suppression des\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/avis-et-conseils-de-la-cada/",
+    "post_url": ""
+  },
+  {
+    "id": "5dd54c436f4441608124bf41",
+    "title": "Budgets primitifs tous budgets confondus de la ville de Fort-de-France",
+    "source": "VILLE DE FORT-DE-FRANCE",
+    "excerpt": "<p>Ce fichier contient l\u2019ensemble des pr\u00e9visions budg\u00e9taires par chapitre des ann\u00e9es 2015, 2016, 2017,2018 et 2019 de la ville de Fort-de-France.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/budgets-primitifs-tous-budgets-confondus-de-la-ville-de-fort-de-france/",
+    "post_url": ""
+  },
+  {
+    "id": "5dd1b01d8b4c413da2ab0a9d",
+    "title": "Taux de r\u00e9ponse \u00e0 la Commission d'acc\u00e8s aux documents administratifs",
+    "source": "Antoine Augusti",
+    "excerpt": "<p>Analyse du jeux de donn\u00e9es Avis et conseils de la Cada afin de d\u00e9terminer le taux de r\u00e9ponse \u00e0 la Cada. Consulter l'article de blog associ\u00e9 pour bien comprendre le contexte.</p>\nM\u00e9thode d'analyse\n<p>On s'int\u00e9resse au taux de r\u00e9ponse des structures \u00e0 la Cada. On ne conserve que les avis\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/taux-de-reponse-a-la-commission-dacces-aux-documents-administratifs/",
+    "post_url": ""
+  },
+  {
+    "id": "57343feb88ee3823b0d1b934",
+    "title": "R\u00e9f\u00e9rentiel de l'organisation administrative de l'Etat",
+    "source": "Premier ministre",
+    "excerpt": "<p>Le d\u00e9cret du 14 mars 2017 a institu\u00e9 le Service Public de la Donn\u00e9e.</p>\n<p>Celui-ci met \u00e0 la disposition du public 9 jeux de  donn\u00e9es de r\u00e9f\u00e9rence parmi lesquels la base nationale de l\u2019organisation administrative de l\u2019Etat, produite et diffus\u00e9e par la Dila sur son site service-public.fr.</p>\n<p>Le R\u00e9f\u00e9rentiel de\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/",
+    "post_url": ""
+  },
+  {
+    "id": "5dc4559e6f4441330b578cc8",
+    "title": "R\u00e9seau de transport routier - Nombre de voies - France m\u00e9tropolitaine",
+    "source": "Cerema",
+    "excerpt": "<p>Nombre de voies du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.7.1.4</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-nombre-de-voies-france-metropolitaine/",
+    "post_url": ""
+  },
+  {
+    "id": "5dc455a06f4441330445e5a7",
+    "title": "R\u00e9seau de transport routier - Cat\u00e9gorie de rev\u00eatement - France m\u00e9tropolitaine",
+    "source": "Cerema",
+    "excerpt": "<p>Cat\u00e9gorie de rev\u00eatement du r\u00e9seau routier national m\u00e9tropolitain au 01/01/2019, bretelles incluses.\nCes donn\u00e9es sont issues du SIGR (syst\u00e8me d&#x27;information sur la gestion du patrimoine routier national), elles ont fait l&#x27;objet d&#x27;une transformation pour \u00eatre conformes \u00e0 la nomenclature INSPIRE.\nR\u00e9f\u00e9rence au r\u00e8glement INSPIRE: 7.7.1.13</p>\n<p>Origine</p>\n<p>Les modalit\u00e9s INSPIRE sont\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-categorie-de-revetement-france-metropolitaine/",
+    "post_url": ""
+  }
+]
