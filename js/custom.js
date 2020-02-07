@@ -28,6 +28,7 @@ function search(text) {
   }})
   updateCardsDisplay(matches.map(m => m.ref))
   updateInterface(text)
+  if(window._paq) window._paq.push(['trackEvent', 'Search', 'Type', text])
 }
 
 async function loadDatasets() {
@@ -60,6 +61,11 @@ function updateCardsDisplay(visibleCards) {
 async function initCards () {
   const datasets = await loadDatasets()
   loadCards(datasets)
+  const q = new URLSearchParams(location.search).get('q')
+  if(q) {
+    search(q)
+    document.getElementById('search').value = q
+  }
 }
 
 function loadMatomo() {
