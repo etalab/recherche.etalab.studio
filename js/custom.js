@@ -1,5 +1,6 @@
 const template = document.querySelector('template').innerHTML
 const container = document.querySelector('#datasets-container')
+const moreResultsButton = document.querySelector('#more-results')
 const index = elasticlunr(function () {
   this.use(lunr.fr)
   this.addField('acronym')
@@ -26,6 +27,7 @@ function search(text) {
     excerpt: { boost: 1 },
   }})
   updateCardsDisplay(matches.map(m => m.ref))
+  updateInterface(text)
 }
 
 async function loadDatasets() {
@@ -39,6 +41,11 @@ function loadCards(datasets) {
     const content = template.replace(/\{\{\s*(.*)\s*}}/g, (_, match) => eval(match))
     container.innerHTML += content.trim()
   })
+}
+
+function updateInterface(q) {
+  moreResultsButton.href = moreResultsButton.dataset.href.replace('%s', q)
+  window.history.pushState({}, '', `?q=${q}`)
 }
 
 function resetCardsDisplay() {
