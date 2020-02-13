@@ -1,5 +1,6 @@
 const template = document.querySelector('template').innerHTML
 const container = document.querySelector('#datasets-container')
+const moreResultsButton = document.querySelector('#more-results')
 const index = elasticlunr(function () {
   this.use(lunr.fr)
   this.addField('acronym')
@@ -26,6 +27,8 @@ function search(text) {
     excerpt: { boost: 1 },
   }})
   updateCardsDisplay(matches.map(m => m.ref))
+  updateInterface(text)
+  if(window._paq) window._paq.push(['trackEvent', 'Search', 'Type', text])
 }
 
 async function loadDatasets() {
@@ -41,6 +44,11 @@ function loadCards(datasets) {
   })
 }
 
+function updateInterface(q) {
+  moreResultsButton.href = moreResultsButton.dataset.href.replace('%s', q)
+  window.history.pushState({}, '', `?q=${q}`)
+}
+
 function resetCardsDisplay() {
   Array.from(container.querySelectorAll('.hidden')).forEach(c => c.classList.remove('hidden'))
 }
@@ -53,6 +61,11 @@ function updateCardsDisplay(visibleCards) {
 async function initCards () {
   const datasets = await loadDatasets()
   loadCards(datasets)
+  const q = new URLSearchParams(location.search).get('q')
+  if(q) {
+    search(q)
+    document.getElementById('search').value = q
+  }
 }
 
 function loadMatomo() {
