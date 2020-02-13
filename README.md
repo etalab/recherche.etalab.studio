@@ -31,6 +31,7 @@ Plusieurs interviews ont été réalisées de façon à itérer sur le produit e
 * Le 10 janvier 2020 : [Tom](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200110-tom.md)
 * Le 23 janvier 2020 : [Arnaud](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200123-arnaud.md)
 * le 4 février 2020 : [Edouard](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200204-edouard.md)
+* le 7 février 2020 : [Edwige](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200207-edwige.md)
 
 N’hésitez pas à nous solliciter, par exemple [en créant une issue](https://github.com/etalab/recherche.etalab.studio/issues/new) si vous voulez être interviewé·e.
 
