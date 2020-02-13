@@ -33,6 +33,8 @@ Plusieurs interviews ont été réalisées de façon à itérer sur le produit e
 * le 4 février 2020 : [Edouard](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200204-edouard.md)
 * le 7 février 2020 : [Edwige](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200207-edwige.md)
 
+Une [synthèse des 5 interviews](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/synthese.md) de 2020 ressort les grandes idées qui en sont resorties.
+
 N’hésitez pas à nous solliciter, par exemple [en créant une issue](https://github.com/etalab/recherche.etalab.studio/issues/new) si vous voulez être interviewé·e.
 
 
