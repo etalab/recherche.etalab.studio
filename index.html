@@ -2119,19 +2119,27 @@
   <style>
     .fadeout,
     #nav-categories.fadeout {
-      display: none !important;
+      /* display: none !important; */
+      opacity: 0;
+      height: 0;
+      transition: all .5s;
     }
     .focused .search_sidebar {
       width: 100%;
+      transition: all .3s;
     }
     .search_sidebar .card-list {
-      display: none;
-    }
-    .search_sidebar .card-list > div {
-      height: 140px;
+      opacity: 0;
+      height: 0;
+      transition: all .5s;
     }
     .focused .search_sidebar .card-list {
       display: inherit;
+      opacity: 1;
+      height: inherit;
+    }
+    .search_sidebar .card-list > div {
+      height: 140px;
     }
   </style>
 
