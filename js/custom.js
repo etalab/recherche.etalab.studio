@@ -1,5 +1,4 @@
-const template = document.querySelector('template').innerHTML
-const container = document.querySelector('#datasets-container')
+const template = document.querySelector('#search-container template').innerHTML
 const moreResultsButton = document.querySelector('#more-results')
 const index = elasticlunr(function () {
   this.use(lunr.fr)
@@ -28,7 +27,6 @@ function search(text) {
   }})
   updateCardsDisplay(matches.map(m => m.ref))
   updateInterface(text)
-  if(window._paq) window._paq.push(['trackEvent', 'Search', 'Type', text])
 }
 
 async function loadDatasets() {
@@ -37,10 +35,10 @@ async function loadDatasets() {
 }
 
 function loadCards(datasets) {
-  datasets.forEach(dataset => {
+  datasets.splice(0, 6).forEach(dataset => {
     index.addDoc(dataset)
     const content = template.replace(/\{\{\s*(.*)\s*}}/g, (_, match) => eval(match))
-    container.innerHTML += content.trim()
+    cardsList.innerHTML += content.trim()
   })
 }
 
@@ -50,11 +48,11 @@ function updateInterface(q) {
 }
 
 function resetCardsDisplay() {
-  Array.from(container.querySelectorAll('.hidden')).forEach(c => c.classList.remove('hidden'))
+  Array.from(cardsList.querySelectorAll('.hidden')).forEach(c => c.classList.remove('hidden'))
 }
 
 function updateCardsDisplay(visibleCards) {
-  container.childNodes.forEach(card => card.classList.add('hidden'))
+  Array.from(cardsList.childNodes).filter(c => c.classList).forEach(card => card.classList.add('hidden'))
   visibleCards.forEach(id => document.getElementById(id).classList.remove('hidden'))
 }
 
@@ -66,24 +64,4 @@ async function initCards () {
     search(q)
     document.getElementById('search').value = q
   }
-}
-
-function loadMatomo() {
-  var _paq = window._paq || []
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView'])
-  _paq.push(['enableLinkTracking'])
-  ;(function() {
-    var u = '//stats.data.gouv.fr/'
-    _paq.push(['setTrackerUrl', u + 'piwik.php'])
-    _paq.push(['setSiteId', '106'])
-    var d = document,
-      g = d.createElement('script'),
-      s = d.getElementsByTagName('script')[0]
-    g.type = 'text/javascript'
-    g.async = true
-    g.defer = true
-    g.src = u + 'piwik.js'
-    s.parentNode.insertBefore(g, s)
-  })()
 }
