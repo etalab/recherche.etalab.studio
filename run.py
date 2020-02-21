@@ -37,6 +37,7 @@ class Dataset:
     page: str
     acronym: Optional[str]
     post_url: Optional[str]
+    logo_url: Optional[str]
     description: str
     excerpt: Optional[str] = ""
 
@@ -79,6 +80,7 @@ class Dataset:
             "acronym": self.acronym,
             "page": self.page,
             "post_url": self.post_url,
+            "logo_url": self.logo_url,
         }
 
 
@@ -130,6 +132,16 @@ def extract_source(item: dict) -> str:
     return source
 
 
+def extract_logo_url(item: dict) -> str:
+    if item["organization"]:
+        logo_url = item["organization"]["logo_thumbnail"]
+    elif item["owner"]:
+        logo_url = item["owner"]["avatar_thumbnail"]
+    else:
+        logo_url = ""
+    return logo_url
+
+
 def convert_to_dataset(item: dict, index: int) -> Optional[Dataset]:
     return Dataset(
         nb_hits=item["metrics"].get("nb_hits", 0),
@@ -141,6 +153,7 @@ def convert_to_dataset(item: dict, index: int) -> Optional[Dataset]:
         acronym=item["acronym"],
         page=item["page"],
         post_url="",
+        logo_url=extract_logo_url(item),
     )
 
 
@@ -150,7 +163,7 @@ def deduplicate_datasets(datasets: List[Dataset]) -> List[Dataset]:
 
 def write_datasets(datasets: List[Dataset]) -> None:
     data = [d.asdict for d in datasets]
-    open("datasets.json", "w").write(json.dumps(data))
+    open("datasets.json", "w").write(json.dumps(data, indent=2))
 
 
 def extract_slug(url: str) -> str:
