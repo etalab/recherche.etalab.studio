@@ -710,6 +710,16 @@
     "logo_url": "https://static.data.gouv.fr/avatars/0d/fbf5ebc89949178e2c926e682f2601-500.jpg"
   },
   {
+    "id": "5df9151d634f415c1a9c1df4",
+    "title": "Donn\u00e9es de consommations et habitudes alimentaires de l'\u00e9tude INCA 3",
+    "source": "Agence nationale de s\u00e9curit\u00e9 sanitaire, de l'alimentation, de l'environnement et du travail (Anses)",
+    "excerpt": "<p>\nLes \u00e9tudes INCA constituent un des outils indispensables \u00e0 l\u2019\u00e9valuation du risque. En effet, elles fournissent \u00e0 un moment donn\u00e9 une photographie des habitudes de consommations alimentaires de la population en France m\u00e9tropolitaine. Combin\u00e9es aux bases de donn\u00e9es de l\u2019Anses sur la composition et la contamination des aliments, ces donn\u00e9es\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-de-consommations-et-habitudes-alimentaires-de-letude-inca-3/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/06/75fedf299e42a5ae0eea17522ced09-100.png"
+  },
+  {
     "id": "562f498ac751df31f1dcc3f1",
     "title": "P\u00e9rim\u00e8tre de protection de monument historique",
     "source": "Direction D\u00e9partementale des Territoires du Bas-Rhin (67)",
@@ -920,6 +930,16 @@
     "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png"
   },
   {
+    "id": "5dfc123adee7e76b998c3ede",
+    "title": "Projet de loi de finances pour 2020 (PLF 2020), donn\u00e9es de l'annexe Jaune \u00ab Effort financier de l\u2019\u00c9tat en faveur des associations \u00bb",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>La liste des associations subventionn\u00e9es est diffus\u00e9e en tant qu\u2019annexe au projet de loi de finances aux assembl\u00e9es l\u00e9gislatives. Elle est disponible sur le forum de la performance parmi les annexes \u00ab jaunes \u00bb ( Cette liste est \u00e9galement diffus\u00e9e sur data.gouv.fr dans les conditions pr\u00e9vues par le code des\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2020-plf-2020-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+  },
+  {
     "id": "5dd4bba606e3e71a10832c58",
     "title": "Horaires des TGV",
     "source": "SNCF",
@@ -950,6 +970,16 @@
     "logo_url": "https://static.data.gouv.fr/avatars/4a/86c01447c8402a82f8cfedb5057278-100.png"
   },
   {
+    "id": "5e00c0766f444173066f7e48",
+    "title": "Consultation citoyenne en ligne sur les retraites ",
+    "source": "Minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9",
+    "excerpt": "<p>Lanc\u00e9e le 3 octobre par le pr\u00e9sident de la R\u00e9publique et pilot\u00e9e par Jean-Paul Delevoye, haut-commissaire aux Retraites, la \u00ab consultation citoyenne en ligne sur les retraites \u00bb a permis \u00e0 chacun de s\u2019informer et d\u2019exprimer ses interrogations, ses espoirs et ses inqui\u00e9tudes concernant le futur syst\u00e8me universel de retraites\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/consultation-citoyenne-en-ligne-sur-les-retraites-1/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png"
+  },
+  {
     "id": "58c984b088ee386cdb1261f3",
     "title": "Code Officiel G\u00e9ographique (COG)",
     "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
@@ -958,6 +988,16 @@
     "page": "https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg"
+  },
+  {
+    "id": "5df10df38b4c416cb1e9273e",
+    "title": "Consultation citoyenne en ligne sur les retraites",
+    "source": "Source inconnue",
+    "excerpt": "<p>Lanc\u00e9e le 3 octobre par le pr\u00e9sident de la R\u00e9publique et pilot\u00e9e par Jean-Paul Delevoye, haut-commissaire aux Retraites, la \u00ab consultation citoyenne en ligne sur les retraites \u00bb a permis \u00e0 chacun de s\u2019informer et d\u2019exprimer ses interrogations, ses espoirs et ses inqui\u00e9tudes concernant le futur syst\u00e8me universel de retraites\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/consultation-citoyenne-en-ligne-sur-les-retraites/",
+    "post_url": "",
+    "logo_url": ""
   },
   {
     "id": "53698f37a3a729239d2036a0",
@@ -978,6 +1018,16 @@
     "page": "https://www.data.gouv.fr/fr/datasets/budgets-primitifs-tous-budgets-confondus-de-la-ville-de-fort-de-france/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/f6/66803b8d944e05bee2bc4472b5e734-100.png"
+  },
+  {
+    "id": "5dfc47be06e3e75fd3fac9cf",
+    "title": "Indicateur sur la part des prestations dans les ressources des foyers par EPCI",
+    "source": "Caisse Nationale des Allocations familiales ",
+    "excerpt": "<p>A partir de 2018 les donn\u00e9es du mois de droit de d\u00e9cembre sont observ\u00e9es avec un recul de 6 mois (donn\u00e9es d\u00e9finitives) au lieu de 2 mois (donn\u00e9es semi d\u00e9finitives). Il s\u2019agit d\u2019estimer la part des prestations entrant dans les ressources des foyers allocataires. Pour ces donn\u00e9es portant sur les\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/indicateur-sur-la-part-des-prestations-dans-les-ressources-des-foyers-par-epci/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-07-02/a1bc08e4a4dc44a89cb29697800a83b5/new_logo-100.jpg"
   },
   {
     "id": "5dd1b01d8b4c413da2ab0a9d",

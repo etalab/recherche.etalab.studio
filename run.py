@@ -220,6 +220,10 @@ async def generate_data() -> None:
     playlists = [
         Playlist(
             slug="jeux-de-donnees-contenus-dans-les-articles-de-blog-de-www-data-gouv-fr",
+            title="Suivi des sorties - Décembre 2019",
+        ),
+        Playlist(
+            slug="jeux-de-donnees-contenus-dans-les-articles-de-blog-de-www-data-gouv-fr",
             title="Suivi des sorties - Novembre 2019",
         ),
         Playlist(slug="mes-playlists-13", title="SPD"),
