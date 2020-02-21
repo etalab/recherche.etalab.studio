@@ -1,5 +1,4 @@
 const template = document.querySelector('#search-container template').innerHTML
-const moreResultsButton = document.querySelector('#more-results')
 const index = elasticlunr(function () {
   this.use(lunr.fr)
   this.addField('acronym')
@@ -35,15 +34,17 @@ async function loadDatasets() {
 }
 
 function loadCards(datasets) {
-  datasets.splice(0, 6).forEach(dataset => {
+  for (const [i, dataset] of datasets.entries()) {
     index.addDoc(dataset)
     const content = template.replace(/\{\{\s*(.*)\s*}}/g, (_, match) => eval(match))
     cardsList.innerHTML += content.trim()
-  })
+    if (i >= 6) {
+      cardsList.lastChild.classList.add('hidden')
+    }
+  }
 }
 
 function updateInterface(q) {
-  moreResultsButton.href = moreResultsButton.dataset.href.replace('%s', q)
   window.history.pushState({}, '', `?q=${q}`)
 }
 
@@ -53,7 +54,7 @@ function resetCardsDisplay() {
 
 function updateCardsDisplay(visibleCards) {
   Array.from(cardsList.childNodes).filter(c => c.classList).forEach(card => card.classList.add('hidden'))
-  visibleCards.forEach(id => document.getElementById(id).classList.remove('hidden'))
+  visibleCards.splice(0, 6).forEach(id => document.getElementById(id).classList.remove('hidden'))
 }
 
 async function initCards () {
