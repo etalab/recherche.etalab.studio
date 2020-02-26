@@ -38,6 +38,7 @@ class Dataset:
     acronym: Optional[str]
     post_url: Optional[str]
     logo_url: Optional[str]
+    certified: bool
     description: str
     excerpt: Optional[str] = ""
 
@@ -81,6 +82,7 @@ class Dataset:
             "page": self.page,
             "post_url": self.post_url,
             "logo_url": self.logo_url,
+            "certified": self.certified,
         }
 
 
@@ -103,8 +105,10 @@ async def fetch_stats_for(url: str) -> dict:
         return response.json()
 
 
-async def fetch_json_data(url: str) -> dict:
-    async with httpx.AsyncClient(base_url="https://www.data.gouv.fr") as client:
+async def fetch_json_data(url: str, headers: Optional[dict] = None) -> dict:
+    async with httpx.AsyncClient(
+        base_url="https://www.data.gouv.fr", headers=headers
+    ) as client:
         try:
             response = await client.get(url, timeout=TIMEOUT)
         except httpx.exceptions.ReadTimeout:
@@ -142,7 +146,19 @@ def extract_logo_url(item: dict) -> str:
     return logo_url
 
 
-def convert_to_dataset(item: dict, index: int) -> Optional[Dataset]:
+async def extract_certified(item: dict) -> bool:
+    if item["organization"]:
+        organization_badges = await fetch_json_data(
+            f"/api/1/organizations/{item['organization']['slug']}/",
+            headers={"X-Fields": "badges"},
+        )
+        return any(
+            badge["kind"] == "certified" for badge in organization_badges["badges"]
+        )
+    return False
+
+
+async def convert_to_dataset(item: dict, index: int) -> Optional[Dataset]:
     return Dataset(
         nb_hits=item["metrics"].get("nb_hits", 0),
         default_order=index,
@@ -154,6 +170,7 @@ def convert_to_dataset(item: dict, index: int) -> Optional[Dataset]:
         page=item["page"],
         post_url="",
         logo_url=extract_logo_url(item),
+        certified=await extract_certified(item),
     )
 
 
@@ -179,7 +196,10 @@ def flatten(list_of_lists: List[List[Any]]) -> List[Any]:
 
 async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
     print(f"Fetching playlist {playlist.title}")
-    dataset = await fetch_json_data(f"/api/1/datasets/{playlist.slug}/")
+    dataset = await fetch_json_data(
+        f"/api/1/datasets/{playlist.slug}/",
+        headers={"X-Fields": "resources{title,url}"},
+    )
     for resource in dataset["resources"]:
         if resource["title"] == playlist.title:
             dataset_urls = await fetch_url_list(resource["url"])
@@ -191,9 +211,18 @@ async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
     datasets = []
     bar = ProgressBar(total=len(dataset_slugs))
     for i, dataset_slug in enumerate(bar.iter(dataset_slugs)):
-        data = await fetch_json_data(f"/api/1/datasets/{dataset_slug}/")
+        data = await fetch_json_data(
+            f"/api/1/datasets/{dataset_slug}/",
+            headers={
+                "X-Fields": (
+                    "id,title,metrics,description,acronym,page,"
+                    "owner{first_name,last_name,avatar_thumbnail},"
+                    "organization{name,slug,logo_thumbnail}"
+                )
+            },
+        )
         if data and "id" in data:
-            dataset = convert_to_dataset(data, i)
+            dataset = await convert_to_dataset(data, i)
             datasets.append(dataset)
     return datasets
 

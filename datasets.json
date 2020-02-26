@@ -7,17 +7,19 @@
     "acronym": "D\u00e9c\u00e8s",
     "page": "https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "certified": true
   },
   {
     "id": "58e53811c751df03df38f42d",
     "title": "R\u00e9pertoire National des Associations",
     "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>Le R\u00e9pertoire National des Associations (RNA) contient l\u2019ensemble des associations relevant de la loi 1901, \u00e0 savoir toutes les associations de France, dont le si\u00e8ge est d\u00e9clar\u00e9 en m\u00e9tropole ou dans les d\u00e9partements d\u2019outre-mer, sauf dans les d\u00e9partements de la Moselle, du Bas-Rhin et du Haut-Rhin, qui rel\u00e8vent du r\u00e9gime\u2026</p>",
+    "excerpt": "Que contient le RNA\u00a0?\n\n<p>Le RNA r\u00e9pertorie l\u2019ensemble des associations relevant de la loi du 1er juillet 1901 relative au contrat d\u2019association  dont le si\u00e8ge est en France (m\u00e9tropole et outre-mer) \u00e0 l\u2019exclusion des d\u00e9partements de la Moselle (57), du Bas-Rhin (67) et du Haut-Rhin (68) qui rel\u00e8vent\u2026</p>",
     "acronym": "RNA",
     "page": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
   },
   {
     "id": "5c4ae55a634f4117716d5656",
@@ -27,7 +29,8 @@
     "acronym": "DVF",
     "page": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "5b7ffc618b4c4169d30727e0",
@@ -37,7 +40,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "certified": true
   },
   {
     "id": "582c8978c751df788ec0bb7e",
@@ -47,7 +51,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/liste-publique-des-organismes-de-formation-l-6351-7-1-du-code-du-travail/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/dd/2812860f2947dca173902e1f877d4f-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/dd/2812860f2947dca173902e1f877d4f-100.png",
+    "certified": true
   },
   {
     "id": "545b55e1c751df52de9b6045",
@@ -57,7 +62,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/base-officielle-des-codes-postaux/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/95/5d400cd1d24e40aa2d6e970b77ac93-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/95/5d400cd1d24e40aa2d6e970b77ac93-100.jpg",
+    "certified": true
   },
   {
     "id": "5943d13588ee38742a95eb0c",
@@ -67,7 +73,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/zones-de-revitalisation-rurale-zrr/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/11/7d320c3ebc4048906eed0d200cbf73-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/11/7d320c3ebc4048906eed0d200cbf73-100.png",
+    "certified": true
   },
   {
     "id": "59b0020ec751df07d5f13bcf",
@@ -77,7 +84,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/cadastre/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
   },
   {
     "id": "53698f4ca3a729239d2036df",
@@ -87,17 +95,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png"
-  },
-  {
-    "id": "53699d0ea3a729239d205b2e",
-    "title": "Population",
-    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
-    "excerpt": "<p>Ce jeu de donn\u00e9es permet d'acc\u00e9der aux r\u00e9sultats des recensements de la population, \u00e0 des s\u00e9ries chronologiques de la Banque de Donn\u00e9es Macro-\u00e9conomiques de l'Insee sur le th\u00e8me de la population et \u00e0 d'autres donn\u00e9es issues notamment des statistiques de l'\u00e9tat civil. </p>\n<p>Le recensement de la population permet de conna\u00eetre\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/population/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
   },
   {
     "id": "58e5924b88ee3802ca255566",
@@ -107,7 +106,19 @@
     "acronym": "PCI",
     "page": "https://www.data.gouv.fr/fr/datasets/plan-cadastral-informatise/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
+  },
+  {
+    "id": "53699d0ea3a729239d205b2e",
+    "title": "Population",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<p>Ce jeu de donn\u00e9es permet d'acc\u00e9der aux r\u00e9sultats des recensements de la population, \u00e0 des s\u00e9ries chronologiques de la Banque de Donn\u00e9es Macro-\u00e9conomiques de l'Insee sur le th\u00e8me de la population et \u00e0 d'autres donn\u00e9es issues notamment des statistiques de l'\u00e9tat civil. </p>\n<p>Le recensement de la population permet de conna\u00eetre\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/population/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "certified": true
   },
   {
     "id": "54149eb5c751df1dc8fc95e3",
@@ -117,7 +128,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/le-calendrier-scolaire-format-ical/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png",
+    "certified": true
   },
   {
     "id": "53699fe5a3a729239d206232",
@@ -127,7 +139,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/service-public-fr-guide-vos-droits-et-demarches-particuliers/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png",
+    "certified": true
   },
   {
     "id": "58da857388ee384902e505f5",
@@ -137,7 +150,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/79/02694fd7de42b9901a0d220857e9fc-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/79/02694fd7de42b9901a0d220857e9fc-100.png",
+    "certified": true
   },
   {
     "id": "53698f1aa3a729239d203653",
@@ -147,7 +161,8 @@
     "acronym": "ARUP",
     "page": "https://www.data.gouv.fr/fr/datasets/associations-reconnues-d-utilite-publique/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
   },
   {
     "id": "5a561801c751df42d7fca9b6",
@@ -157,7 +172,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/quartiers-prioritaires-de-la-politique-de-la-ville-qpv/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/11/7d320c3ebc4048906eed0d200cbf73-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/11/7d320c3ebc4048906eed0d200cbf73-100.png",
+    "certified": true
   },
   {
     "id": "53699233a3a729239d203e69",
@@ -167,7 +183,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/c7/513a9d32e84c1dbcc6ac7e2ce42cb8-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/c7/513a9d32e84c1dbcc6ac7e2ce42cb8-100.png",
+    "certified": true
   },
   {
     "id": "5a5f4f6c88ee387da4d252a3",
@@ -177,7 +194,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/base-des-permis-de-construire-sitadel/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/10/47c4b217ff4a258df1bc6468f1bd4e-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/10/47c4b217ff4a258df1bc6468f1bd4e-100.png",
+    "certified": true
   },
   {
     "id": "5369a15fa3a729239d2065b7",
@@ -187,7 +205,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/table-de-composition-nutritionnelle-des-aliments-ciqual/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/06/75fedf299e42a5ae0eea17522ced09-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/06/75fedf299e42a5ae0eea17522ced09-100.png",
+    "certified": true
   },
   {
     "id": "5cc1b94a634f4165e96436c1",
@@ -197,7 +216,8 @@
     "acronym": "DVF g\u00e9olocalis\u00e9es",
     "page": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
   },
   {
     "id": "58d8d8a0c751df17537c66be",
@@ -207,7 +227,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif"
+    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
+    "certified": true
   },
   {
     "id": "53698e90a3a729239d2034d4",
@@ -217,7 +238,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/agriculture-biologique-2008-2011-productions-animales-bio-tetes-par-departement-30378956/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/fe/3a4e927b7e41199b04501e769ad967-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/fe/3a4e927b7e41199b04501e769ad967-100.png",
+    "certified": true
   },
   {
     "id": "53699dc4a3a729239d205cf7",
@@ -227,7 +249,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/prises-de-vue-aeriennes-dematerialisees-de-lign/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif"
+    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
+    "certified": true
   },
   {
     "id": "536993cca3a729239d2042b9",
@@ -237,17 +260,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/emplacement-des-distributeurs-de-preservatifs-rdl/",
     "post_url": "",
-    "logo_url": ""
-  },
-  {
-    "id": "570f655888ee3852094d8898",
-    "title": "Nomenclature combin\u00e9e \u00e0 8 chiffres (NC8) depuis 2016",
-    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
-    "excerpt": "<p>La nomenclature combin\u00e9e (NC) est un outil de classification des marchandises commune \u00e0 l'ensemble des \u00c9tats membres de l'Union europ\u00e9enne (UE) et est utilis\u00e9e pour : </p>\n<ul>\n<li>les d\u00e9clarations en douane pour les \u00e9changes avec les pays UE </li>\n<li>les d\u00e9clarations d'\u00e9changes de biens entre les pays de l'UE </li>\n<li>pr\u00e9senter les statistiques\u2026</li></ul>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/nomenclature-combinee-a-8-chiffres-nc8-depuis-2016/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "",
+    "certified": false
   },
   {
     "id": "5530fbacc751df5ff937dddb",
@@ -257,17 +271,19 @@
     "acronym": "BAN",
     "page": "https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/18/18b929a270482faefabb18f5d2b4fd-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/18/18b929a270482faefabb18f5d2b4fd-100.png",
+    "certified": true
   },
   {
-    "id": "5b320fa7c751df1d7a4febae",
-    "title": "Op\u00e9rations coordonn\u00e9es par les CROSS",
-    "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
-    "excerpt": "<p>Ce jeu de donn\u00e9es contient toutes les donn\u00e9es statistiques disponibles informatiquement sur les interventions d\u2019assistance et de sauvetage coordonn\u00e9es par les CROSS (Centres r\u00e9gionaux op\u00e9rationnels de surveillance et de sauvetage). Il renseigne, pour chaque op\u00e9ration d\u2019assistance ou de secours coordonn\u00e9e en eaux fran\u00e7aises :</p>\n<ul>\n<li>quel \u00e9tait le motif d\u2019intervention ;\u2026</li></ul>",
-    "acronym": "SECMAR",
-    "page": "https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/",
+    "id": "570f655888ee3852094d8898",
+    "title": "Nomenclature combin\u00e9e \u00e0 8 chiffres (NC8) depuis 2016",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>La nomenclature combin\u00e9e (NC) est un outil de classification des marchandises commune \u00e0 l'ensemble des \u00c9tats membres de l'Union europ\u00e9enne (UE) et est utilis\u00e9e pour : </p>\n<ul>\n<li>les d\u00e9clarations en douane pour les \u00e9changes avec les pays UE </li>\n<li>les d\u00e9clarations d'\u00e9changes de biens entre les pays de l'UE </li>\n<li>pr\u00e9senter les statistiques\u2026</li></ul>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/nomenclature-combinee-a-8-chiffres-nc8-depuis-2016/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "5c34c4d1634f4173183a64f1",
@@ -277,7 +293,19 @@
     "acronym": "RNE",
     "page": "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
+  },
+  {
+    "id": "5b320fa7c751df1d7a4febae",
+    "title": "Op\u00e9rations coordonn\u00e9es par les CROSS",
+    "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient toutes les donn\u00e9es statistiques disponibles informatiquement sur les interventions d\u2019assistance et de sauvetage coordonn\u00e9es par les CROSS (Centres r\u00e9gionaux op\u00e9rationnels de surveillance et de sauvetage). Il renseigne, pour chaque op\u00e9ration d\u2019assistance ou de secours coordonn\u00e9e en eaux fran\u00e7aises :</p>\n<ul>\n<li>quel \u00e9tait le motif d\u2019intervention ;\u2026</li></ul>",
+    "acronym": "SECMAR",
+    "page": "https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg",
+    "certified": true
   },
   {
     "id": "5aeae046c751df7e0000bc3a",
@@ -287,7 +315,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/dates-et-lieux-des-collectes-de-don-du-sang/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/96/c3f91a58b248c6a3e97d3a33dc029a-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/96/c3f91a58b248c6a3e97d3a33dc029a-100.png",
+    "certified": false
   },
   {
     "id": "53699fe4a3a729239d206227",
@@ -297,7 +326,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/service-public-fr-annuaire-de-l-administration-base-de-donnees-locales/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png",
+    "certified": true
   },
   {
     "id": "5710b9f088ee383cf54d8898",
@@ -307,7 +337,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/transparence-sante-1/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+    "certified": true
   },
   {
     "id": "54cb4f89c751df0c24467389",
@@ -317,37 +348,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/prix-des-terrains-a-batir-en-france/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-30/bd66df2ec1cc43098d906772ef4a0e81/logo_maison.Fr-100.jpg"
-  },
-  {
-    "id": "536991c5a3a729239d203d4b",
-    "title": "Correspondance entre les codes postaux et codes INSEE des communes Fran\u00e7aises.",
-    "source": "Opendatasoft",
-    "excerpt": "<p>Ce jeu de donn\u00e9es int\u00e8gre par ailleurs des donn\u00e9es de r\u00e9f\u00e9rence sur les communes:</p>\n<ul>\n<li>Population</li>\n<li>Superficie</li>\n<li>Altitude moyenne</li>\n<li>Forme g\u00e9ographique</li>\n</ul>\n<p>Ce jeu de donn\u00e9es a \u00e9t\u00e9 constitu\u00e9 \u00e0 partir des donn\u00e9es de la base GEOFLA\u00ae mise \u00e0 disposition par l'IGN (codes INSEE) ainsi qu'\u00e0 partir de donn\u00e9es Wikip\u00e9dia (codes postaux).</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/correspondance-entre-les-codes-postaux-et-codes-insee-des-communes-francaises/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/dc/d519edefd343eebb1f50b5b796ed05-100.png"
-  },
-  {
-    "id": "53834c53a3a72906c7ec5c4c",
-    "title": "Conna\u00eetre le potentiel radon de ma commune",
-    "source": "Institut de radioprotection et de s\u00fbret\u00e9 nucl\u00e9aire (IRSN)",
-    "excerpt": "<p>Le radon est un gaz radioactif produit par la d\u00e9sint\u00e9gration naturelle de l\u2019uranium pr\u00e9sent dans les roches. Canc\u00e9rig\u00e8ne pulmonaire, il peut pr\u00e9senter un risque pour la sant\u00e9 lorsqu\u2019il s\u2019accumule dans les b\u00e2timents. La connaissance des caract\u00e9ristiques des formations g\u00e9ologiques sur le territoire permet d\u2019identifier les zones sur lesquelles la pr\u00e9sence\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/connaitre-le-potentiel-radon-de-ma-commune/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/9f/deb42ce71b4e4f954cd3a5b02534e6-100.png"
-  },
-  {
-    "id": "5369986ba3a729239d204f55",
-    "title": "Police municipale : Effectifs par commune",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>Les fichiers recensent pour les ann\u00e9es 2012 \u00e0 2018 les communes de votre d\u00e9partement ayant un service de police municipale et contient :</p>\n<ul>\n<li>le nombre de policiers municipaux,</li>\n<li>le nombre d'agents de surveillance de la voie publique,</li>\n<li>le nombre de gardes-champ\u00eatres,</li>\n<li>le nombre de centres de supervision urbaine (CSU).</li>\n</ul>\n<p>Pour\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/police-municipale-effectifs-par-commune/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-30/bd66df2ec1cc43098d906772ef4a0e81/logo_maison.Fr-100.jpg",
+    "certified": false
   },
   {
     "id": "57868f03a3a7295d371add42",
@@ -357,7 +359,41 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/taux-de-logements-sociaux/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2014-10-27/89f0a54407ff4325a2db2546c6b6e26e/LogoCG92-vert-500x500-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/2014-10-27/89f0a54407ff4325a2db2546c6b6e26e/LogoCG92-vert-500x500-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "536991c5a3a729239d203d4b",
+    "title": "Correspondance entre les codes postaux et codes INSEE des communes Fran\u00e7aises.",
+    "source": "Opendatasoft",
+    "excerpt": "<p>Ce jeu de donn\u00e9es int\u00e8gre par ailleurs des donn\u00e9es de r\u00e9f\u00e9rence sur les communes:</p>\n<ul>\n<li>Population</li>\n<li>Superficie</li>\n<li>Altitude moyenne</li>\n<li>Forme g\u00e9ographique</li>\n</ul>\n<p>Ce jeu de donn\u00e9es a \u00e9t\u00e9 constitu\u00e9 \u00e0 partir des donn\u00e9es de la base GEOFLA\u00ae mise \u00e0 disposition par l'IGN (codes INSEE) ainsi qu'\u00e0 partir de donn\u00e9es Wikip\u00e9dia (codes postaux).</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/correspondance-entre-les-codes-postaux-et-codes-insee-des-communes-francaises/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/dc/d519edefd343eebb1f50b5b796ed05-100.png",
+    "certified": false
+  },
+  {
+    "id": "5369986ba3a729239d204f55",
+    "title": "Police municipale : Effectifs par commune",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Les fichiers recensent pour les ann\u00e9es 2012 \u00e0 2018 les communes de votre d\u00e9partement ayant un service de police municipale et contient :</p>\n<ul>\n<li>le nombre de policiers municipaux,</li>\n<li>le nombre d'agents de surveillance de la voie publique,</li>\n<li>le nombre de gardes-champ\u00eatres,</li>\n<li>le nombre de centres de supervision urbaine (CSU).</li>\n</ul>\n<p>Pour\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/police-municipale-effectifs-par-commune/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
+  },
+  {
+    "id": "53834c53a3a72906c7ec5c4c",
+    "title": "Conna\u00eetre le potentiel radon de ma commune",
+    "source": "Institut de radioprotection et de s\u00fbret\u00e9 nucl\u00e9aire (IRSN)",
+    "excerpt": "<p>Le radon est un gaz radioactif produit par la d\u00e9sint\u00e9gration naturelle de l\u2019uranium pr\u00e9sent dans les roches. Canc\u00e9rig\u00e8ne pulmonaire, il peut pr\u00e9senter un risque pour la sant\u00e9 lorsqu\u2019il s\u2019accumule dans les b\u00e2timents. La connaissance des caract\u00e9ristiques des formations g\u00e9ologiques sur le territoire permet d\u2019identifier les zones sur lesquelles la pr\u00e9sence\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/connaitre-le-potentiel-radon-de-ma-commune/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/9f/deb42ce71b4e4f954cd3a5b02534e6-100.png",
+    "certified": false
   },
   {
     "id": "5943d4c188ee38742a95eb0d",
@@ -367,17 +403,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/zone-daide-a-finalite-regionale-afr/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/11/7d320c3ebc4048906eed0d200cbf73-100.png"
-  },
-  {
-    "id": "59591ca4a3a7291dcf9c8150",
-    "title": "Correspondance Code INSEE - Code Postal",
-    "source": "R\u00e9gion \u00cele-de-France",
-    "excerpt": "<p>Un jeu de donn\u00e9es mis \u00e0 jour avec les donn\u00e9es 2015 est disponible.</p>\n<p>Correspondance entre les codes postaux et codes INSEE des communes Fran\u00e7aises.</p>\n<p>Ce jeu de donn\u00e9es a \u00e9t\u00e9 constitu\u00e9 \u00e0 partir des donn\u00e9es de la base GEOFLA\u00ae 2013 mise \u00e0 disposition par l'IGN (codes INSEE) ainsi qu'\u00e0 partir\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/correspondance-code-insee-code-postal/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/9b/01f5340aaa44ad8ead413ad8a29b6e-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/11/7d320c3ebc4048906eed0d200cbf73-100.png",
+    "certified": true
   },
   {
     "id": "53699569a3a729239d2046eb",
@@ -387,17 +414,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/finess-extraction-du-fichier-des-etablissements/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png"
-  },
-  {
-    "id": "53ba4c07a3a729219b7bead3",
-    "title": "Emissions de CO2 et de polluants des v\u00e9hicules commercialis\u00e9s en France ",
-    "source": "ADEME",
-    "excerpt": "<p>Depuis 2001, l\u2019ADEME acquiert tous les ans ces donn\u00e9es aupr\u00e8s de l\u2019Union Technique de l\u2019Automobile du motocycle et du Cycle UTAC (en charge de l\u2019homologation des v\u00e9hicules avant leur mise en vente) en accord avec le minist\u00e8re du d\u00e9veloppement durable.\nPour chaque v\u00e9hicule les donn\u00e9es d\u2019origine (transmises par l\u2019Utac)sont les\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/4a/86c01447c8402a82f8cfedb5057278-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+    "certified": true
   },
   {
     "id": "5369995ba3a729239d205221",
@@ -407,7 +425,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/listes-des-communes-geolocalisees-par-regions-departements-circonscriptions-nd/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/55/ae53576ff5482899020a1967a7490d-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/55/ae53576ff5482899020a1967a7490d-100.png",
+    "certified": false
   },
   {
     "id": "58c98b1888ee38770950152b",
@@ -417,7 +436,30 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/mon-reseau-mobile/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/71/d1d847d7ec45a8a5f7fc0845a6994c-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/71/d1d847d7ec45a8a5f7fc0845a6994c-100.png",
+    "certified": true
+  },
+  {
+    "id": "59591ca4a3a7291dcf9c8150",
+    "title": "Correspondance Code INSEE - Code Postal",
+    "source": "R\u00e9gion \u00cele-de-France",
+    "excerpt": "<p>Un jeu de donn\u00e9es mis \u00e0 jour avec les donn\u00e9es 2015 est disponible.</p>\n<p>Correspondance entre les codes postaux et codes INSEE des communes Fran\u00e7aises.</p>\n<p>Ce jeu de donn\u00e9es a \u00e9t\u00e9 constitu\u00e9 \u00e0 partir des donn\u00e9es de la base GEOFLA\u00ae 2013 mise \u00e0 disposition par l'IGN (codes INSEE) ainsi qu'\u00e0 partir\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/correspondance-code-insee-code-postal/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/9b/01f5340aaa44ad8ead413ad8a29b6e-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "53ba4c07a3a729219b7bead3",
+    "title": "Emissions de CO2 et de polluants des v\u00e9hicules commercialis\u00e9s en France ",
+    "source": "ADEME",
+    "excerpt": "<p>Depuis 2001, l\u2019ADEME acquiert tous les ans ces donn\u00e9es aupr\u00e8s de l\u2019Union Technique de l\u2019Automobile du motocycle et du Cycle UTAC (en charge de l\u2019homologation des v\u00e9hicules avant leur mise en vente) en accord avec le minist\u00e8re du d\u00e9veloppement durable.\nPour chaque v\u00e9hicule les donn\u00e9es d\u2019origine (transmises par l\u2019Utac)sont les\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/4a/86c01447c8402a82f8cfedb5057278-100.png",
+    "certified": true
   },
   {
     "id": "586a824588ee3835ec3f4e61",
@@ -427,17 +469,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/fichier-des-prenoms-edition-2016/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg"
-  },
-  {
-    "id": "53699e2aa3a729239d205dea",
-    "title": "Open Food Facts - Produits alimentaires : ingr\u00e9dients, nutrition, labels",
-    "source": "Open Food Facts",
-    "excerpt": "<p>Open Food Facts r\u00e9pertorie les informations sur les produits alimentaires : ingr\u00e9dients, informations nutritionnelles, labels etc.\nLes donn\u00e9es proviennent majoritairement de la collecte citoyenne (crowdsourcing) des informations.</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/open-food-facts-produits-alimentaires-ingredients-nutrition-labels/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/b3/9cc0c7e967416c8994d485701ae5e1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "certified": true
   },
   {
     "id": "53699580a3a729239d204738",
@@ -447,7 +480,19 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/fichier-fantoir-des-voies-et-lieux-dits/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
+  },
+  {
+    "id": "53699e2aa3a729239d205dea",
+    "title": "Open Food Facts - Produits alimentaires : ingr\u00e9dients, nutrition, labels",
+    "source": "Open Food Facts",
+    "excerpt": "<p>Open Food Facts r\u00e9pertorie les informations sur les produits alimentaires : ingr\u00e9dients, informations nutritionnelles, labels etc.\nLes donn\u00e9es proviennent majoritairement de la collecte citoyenne (crowdsourcing) des informations.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/open-food-facts-produits-alimentaires-ingredients-nutrition-labels/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/b3/9cc0c7e967416c8994d485701ae5e1-100.png",
+    "certified": false
   },
   {
     "id": "5863714388ee3863df3f4e5d",
@@ -457,7 +502,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/corine-land-cover-occupation-des-sols-en-france/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg"
+    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg",
+    "certified": true
   },
   {
     "id": "536991b0a3a729239d203d13",
@@ -467,7 +513,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/contours-des-departements-francais-issus-d-openstreetmap/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/c7/513a9d32e84c1dbcc6ac7e2ce42cb8-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/c7/513a9d32e84c1dbcc6ac7e2ce42cb8-100.png",
+    "certified": true
   },
   {
     "id": "598892dcc751df3eae8bd6ec",
@@ -477,7 +524,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/trafic-moyen-journalier-annuel-sur-le-reseau-routier-national/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg"
+    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg",
+    "certified": true
   },
   {
     "id": "5489cda0c751df35a24120e7",
@@ -487,7 +535,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/competence-territoriale-gendarmerie-et-police-nationales/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
   },
   {
     "id": "555b3ec7c751df4633190c7a",
@@ -497,17 +546,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/adresses-des-debits-de-tabac/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
-  },
-  {
-    "id": "5369965fa3a729239d204999",
-    "title": "Imp\u00f4ts locaux",
-    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
-    "excerpt": "<p>Vous pouvez consulter les taux vot\u00e9s ainsi que l'ensemble des donn\u00e9es (bases, taux et produits) par collectivit\u00e9 territoriale. Les donn\u00e9es sont disponibles en pi\u00e8ces jointes\u00a0et pour une partie sur le site : \n</p>\n<p>Statistiques sur les imp\u00f4ts locaux</p>\n<p>Bases, taux et produits r\u00e9gionaux de 2002 \u00e0 2009</p>\n\n<p>Bases, taux\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/impots-locaux/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "58481d2688ee384953c65bb4",
@@ -517,7 +557,19 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/etablissements-denseignement-superieur-2/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/24/b45e02791a456ba05ee985c40904f1-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/24/b45e02791a456ba05ee985c40904f1-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5369965fa3a729239d204999",
+    "title": "Imp\u00f4ts locaux",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Vous pouvez consulter les taux vot\u00e9s ainsi que l'ensemble des donn\u00e9es (bases, taux et produits) par collectivit\u00e9 territoriale. Les donn\u00e9es sont disponibles en pi\u00e8ces jointes\u00a0et pour une partie sur le site : \n</p>\n<p>Statistiques sur les imp\u00f4ts locaux</p>\n<p>Bases, taux et produits r\u00e9gionaux de 2002 \u00e0 2009</p>\n\n<p>Bases, taux\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/impots-locaux/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "547d8d7ac751df405d090fcb",
@@ -527,17 +579,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/le-marche-du-haut-et-tres-haut-debit-fixe-deploiements/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/71/d1d847d7ec45a8a5f7fc0845a6994c-100.png"
-  },
-  {
-    "id": "5a2d54f288ee382771f2cf4f",
-    "title": "R\u00e9gions, d\u00e9partements, villes et villages de France et d'outre-mer",
-    "source": "Stanislas Poisson",
-    "excerpt": "French Zip-Code\nA propos\n<p>L'objectif du d\u00e9p\u00f4t French zip-code est de maintenir une liste la plus \u00e0 jour possible des r\u00e9gions, d\u00e9partements, villes et villages Fran\u00e7ais en M\u00e9tropole, D\u00e9partement et R\u00e9gion d'Outre-Mer (DROM) et Collectivit\u00e9s d'Outre-Mer (COM).</p>\nOrigine des donn\u00e9es\n<p>Les donn\u00e9es utilis\u00e9es proviennent du site de l'INSEE :\n-\u2026</p>",
-    "acronym": "French-zip-code",
-    "page": "https://www.data.gouv.fr/fr/datasets/regions-departements-villes-et-villages-de-france-et-doutre-mer/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/69/cd41a5080f469baa1cb20fd07cbe9b-500.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/71/d1d847d7ec45a8a5f7fc0845a6994c-100.png",
+    "certified": true
   },
   {
     "id": "536c47bfa3a72933d8d1b3a6",
@@ -547,27 +590,19 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/monuments-historiques-liste-des-immeubles-proteges-au-titre-des-monuments-historiques/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/cf/f1ce1cb584470c8b83a9839dd9c83e-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/cf/f1ce1cb584470c8b83a9839dd9c83e-100.jpg",
+    "certified": true
   },
   {
-    "id": "547738bcc751df6b1372f5d6",
-    "title": "Liste de Pr\u00e9noms",
-    "source": "Hubert Goffin",
-    "excerpt": "<p>Description:\nLe fichier Pr\u00e9noms.txt pr\u00e9sente</p>\n11627 pr\u00e9noms\nleur sexe (m ou f)\nleur langage d'utilisation\nleur fr\u00e9quence par million d'occurences dans notre Frantext (les textes de Frantext publi\u00e9s apr\u00e8s 1950 interrog\u00e9s en avril 2000 ce qui constitue un corpus de 31,39 millions de mots).\n\n<p>Auteurs:\n    Mike Campbell et son merveilleux\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/liste-de-prenoms/",
+    "id": "5a2d54f288ee382771f2cf4f",
+    "title": "R\u00e9gions, d\u00e9partements, villes et villages de France et d'outre-mer",
+    "source": "Stanislas Poisson",
+    "excerpt": "French Zip-Code\nA propos\n<p>L'objectif du d\u00e9p\u00f4t French zip-code est de maintenir une liste la plus \u00e0 jour possible des r\u00e9gions, d\u00e9partements, villes et villages Fran\u00e7ais en M\u00e9tropole, D\u00e9partement et R\u00e9gion d'Outre-Mer (DROM) et Collectivit\u00e9s d'Outre-Mer (COM).</p>\nOrigine des donn\u00e9es\n<p>Les donn\u00e9es utilis\u00e9es proviennent du site de l'INSEE :\n-\u2026</p>",
+    "acronym": "French-zip-code",
+    "page": "https://www.data.gouv.fr/fr/datasets/regions-departements-villes-et-villages-de-france-et-doutre-mer/",
     "post_url": "",
-    "logo_url": null
-  },
-  {
-    "id": "564b592188ee387542e72046",
-    "title": "Octroi de mer dans les d\u00e9partements d'Outre-mer",
-    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
-    "excerpt": "<p>L\u2019octroi de mer est une imposition sp\u00e9cifique dans les d\u00e9partements d\u2019Outre-mer de Guadeloupe, de Guyane, de Martinique, de Mayotte et de La R\u00e9union : les op\u00e9rations soumises \u00e0 l\u2019octroi de mer sont les importations de biens et les livraisons de biens, faites \u00e0 titre on\u00e9reux, par des personnes qui y\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/octroi-de-mer-dans-les-departements-doutre-mer/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/69/cd41a5080f469baa1cb20fd07cbe9b-500.jpg",
+    "certified": false
   },
   {
     "id": "5af993b6c751df6e1a8c165d",
@@ -577,7 +612,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/liste-des-communes-situees-en-zone-b2-ou-c-eligibles-aux-dispositifs-dinvestissement-locatif-pinel-et-duflot-ayant-obtenu-un-agrement-prefectoral/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/10/47c4b217ff4a258df1bc6468f1bd4e-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/10/47c4b217ff4a258df1bc6468f1bd4e-100.png",
+    "certified": true
   },
   {
     "id": "5bb332a58b4c412e6f4179b1",
@@ -587,7 +623,19 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/base-documentaire-dgfip/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
+  },
+  {
+    "id": "547738bcc751df6b1372f5d6",
+    "title": "Liste de Pr\u00e9noms",
+    "source": "Hubert Goffin",
+    "excerpt": "<p>Description:\nLe fichier Pr\u00e9noms.txt pr\u00e9sente</p>\n11627 pr\u00e9noms\nleur sexe (m ou f)\nleur langage d'utilisation\nleur fr\u00e9quence par million d'occurences dans notre Frantext (les textes de Frantext publi\u00e9s apr\u00e8s 1950 interrog\u00e9s en avril 2000 ce qui constitue un corpus de 31,39 millions de mots).\n\n<p>Auteurs:\n    Mike Campbell et son merveilleux\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/liste-de-prenoms/",
+    "post_url": "",
+    "logo_url": null,
+    "certified": false
   },
   {
     "id": "5c926a7a634f410578005c68",
@@ -597,7 +645,19 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/organismes-ayant-designe-un-e-delegue-e-a-la-protection-des-donnees-dpd-dpo/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/43/4f3dcc999b4e34b7cccf57f64f0b17-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/43/4f3dcc999b4e34b7cccf57f64f0b17-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "564b592188ee387542e72046",
+    "title": "Octroi de mer dans les d\u00e9partements d'Outre-mer",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>L\u2019octroi de mer est une imposition sp\u00e9cifique dans les d\u00e9partements d\u2019Outre-mer de Guadeloupe, de Guyane, de Martinique, de Mayotte et de La R\u00e9union : les op\u00e9rations soumises \u00e0 l\u2019octroi de mer sont les importations de biens et les livraisons de biens, faites \u00e0 titre on\u00e9reux, par des personnes qui y\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/octroi-de-mer-dans-les-departements-doutre-mer/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "5a1dd4e5c751df02b116a0d6",
@@ -607,7 +667,8 @@
     "acronym": "RPLS",
     "page": "https://www.data.gouv.fr/fr/datasets/repertoire-des-logements-locatifs-des-bailleurs-sociaux/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg"
+    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg",
+    "certified": true
   },
   {
     "id": "5809e241c751df2646c562c5",
@@ -617,7 +678,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/geofla-r/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif"
+    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
+    "certified": true
   },
   {
     "id": "58b69b42a3a7295a7d8251cb",
@@ -627,7 +689,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/courbes-de-niveau-2/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/ae/7ec709120947b49d45ced43ae069d1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/ae/7ec709120947b49d45ced43ae069d1-100.png",
+    "certified": true
   },
   {
     "id": "575e9fac88ee38072a640390",
@@ -637,7 +700,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-catalogue-e-phy-des-produits-phytopharmaceutiques-matieres-fertilisantes-et-supports-de-culture-adjuvants-produits-mixtes-et-melanges/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/06/75fedf299e42a5ae0eea17522ced09-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/06/75fedf299e42a5ae0eea17522ced09-100.png",
+    "certified": true
   },
   {
     "id": "5429648588ee380327a59164",
@@ -647,7 +711,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/monuments-historiques-classes-a-saint-malo/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/71/d80c263317463ca8050811b5b22be6-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/71/d80c263317463ca8050811b5b22be6-100.png",
+    "certified": true
   },
   {
     "id": "559395f1c751df0f51a453b9",
@@ -657,7 +722,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/bodacc/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png",
+    "certified": true
   },
   {
     "id": "5551f561c751df7646190c78",
@@ -667,7 +733,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/balances-comptables-des-communes/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "5bcf4595634f412cc744840c",
@@ -677,7 +744,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/aires-de-covoiturage-en-france/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/c5/7f5d7dd7c640ccbfbe633693f3a3e0-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/c5/7f5d7dd7c640ccbfbe633693f3a3e0-100.jpg",
+    "certified": false
   },
   {
     "id": "57d6ded9c751df275ab8181a",
@@ -687,7 +755,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/hauteurs-deau-et-debits-des-cours-deau-observes-en-temps-reel-aux-stations-du-reseau-vigicrues/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-09-08/dac07399124f411eb6843d24df2fb567/logo_vigicrues-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-09-08/dac07399124f411eb6843d24df2fb567/logo_vigicrues-100.png",
+    "certified": true
   },
   {
     "id": "58da72bbc751df38734d8658",
@@ -697,7 +766,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/impots-locaux-fichier-de-recensement-des-elements-dimposition-a-la-fiscalite-directe-locale-rei-3/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "53dfde89a3a729110ca8d374",
@@ -707,17 +777,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/telepac-les-beneficiaires-de-la-pac/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/0d/fbf5ebc89949178e2c926e682f2601-500.jpg"
-  },
-  {
-    "id": "5df9151d634f415c1a9c1df4",
-    "title": "Donn\u00e9es de consommations et habitudes alimentaires de l'\u00e9tude INCA 3",
-    "source": "Agence nationale de s\u00e9curit\u00e9 sanitaire, de l'alimentation, de l'environnement et du travail (Anses)",
-    "excerpt": "<p>\nLes \u00e9tudes INCA constituent un des outils indispensables \u00e0 l\u2019\u00e9valuation du risque. En effet, elles fournissent \u00e0 un moment donn\u00e9 une photographie des habitudes de consommations alimentaires de la population en France m\u00e9tropolitaine. Combin\u00e9es aux bases de donn\u00e9es de l\u2019Anses sur la composition et la contamination des aliments, ces donn\u00e9es\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-de-consommations-et-habitudes-alimentaires-de-letude-inca-3/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/06/75fedf299e42a5ae0eea17522ced09-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/0d/fbf5ebc89949178e2c926e682f2601-500.jpg",
+    "certified": false
   },
   {
     "id": "562f498ac751df31f1dcc3f1",
@@ -727,7 +788,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/perimetre-de-protection-de-monument-historique/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/06/e52b8b93a846949cb1a9ea66d1e1f5-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/06/e52b8b93a846949cb1a9ea66d1e1f5-100.png",
+    "certified": false
   },
   {
     "id": "53ca2be2a3a7294a1ddd7847",
@@ -737,7 +799,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/associations-joafe/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png",
+    "certified": true
   },
   {
     "id": "538071a9a3a7297e4d35d6ce",
@@ -747,7 +810,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/base-d-adresses-nationale-ouverte-bano/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/c7/513a9d32e84c1dbcc6ac7e2ce42cb8-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/c7/513a9d32e84c1dbcc6ac7e2ce42cb8-100.png",
+    "certified": true
   },
   {
     "id": "536995ada3a729239d2047b3",
@@ -757,7 +821,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/fond-de-carte-des-codes-postaux/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/a2/bf56b46146466e87e92a159e8bd01d-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/a2/bf56b46146466e87e92a159e8bd01d-100.png",
+    "certified": false
   },
   {
     "id": "536995eca3a729239d204861",
@@ -767,7 +832,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/gares-du-reseau-ferre-d-ile-de-france-idf/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/9b/01f5340aaa44ad8ead413ad8a29b6e-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/9b/01f5340aaa44ad8ead413ad8a29b6e-100.jpg",
+    "certified": true
   },
   {
     "id": "5537bf2bc751df66296dd01b",
@@ -777,7 +843,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/balances-comptables-des-departements-depuis-2010/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "53698f50a3a729239d2036f5",
@@ -787,7 +854,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/base-de-donnees-publique-des-medicaments-base-officielle/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+    "certified": true
   },
   {
     "id": "5b3cc551c751df4822526c1c",
@@ -797,7 +865,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/jours-feries-en-france/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f1/76ab19a85a404ab4f108e1358e7207-500.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/f1/76ab19a85a404ab4f108e1358e7207-500.jpg",
+    "certified": false
   },
   {
     "id": "5c5c3236634f4155110aa4ea",
@@ -807,7 +876,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/donnees-ouvertes-du-grand-debat-national/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/b2/8b7173d1ec41b6a1935a5c74635d95-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/b2/8b7173d1ec41b6a1935a5c74635d95-100.png",
+    "certified": true
   },
   {
     "id": "5889d03ea3a72974cbf0d5b0",
@@ -817,7 +887,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/le-calendrier-scolaire/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png",
+    "certified": true
   },
   {
     "id": "5593aab9c751df35d8a453ba",
@@ -827,7 +898,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/e6/47661bd0b94c4eb5a95dc1ba348630-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/e6/47661bd0b94c4eb5a95dc1ba348630-100.png",
+    "certified": true
   },
   {
     "id": "5a981a1ac751df07a20cc5c2",
@@ -837,7 +909,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/les-consultations-citoyennes/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/e2/aceeaeef724544839ac48e2ae2732c-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/e2/aceeaeef724544839ac48e2ae2732c-100.jpg",
+    "certified": false
   },
   {
     "id": "5ceba293634f411427c7d613",
@@ -847,7 +920,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/resultats-des-elections-europeennes-2019/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
   },
   {
     "id": "5d5f9fc96f4441094179a94c",
@@ -857,7 +931,8 @@
     "acronym": "TF",
     "page": "https://www.data.gouv.fr/fr/datasets/code-source-des-taxes-foncieres-tf/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "5459fc50c751df5aa09b6045",
@@ -867,7 +942,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/diplome-national-du-brevet-par-etablissement/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png",
+    "certified": true
   },
   {
     "id": "5dd54e116f4441636deed758",
@@ -877,7 +953,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/compte-administratif-tous-budget-confondus-de-2014-a-2018-de-la-ville-de-fort-de-france/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f6/66803b8d944e05bee2bc4472b5e734-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/f6/66803b8d944e05bee2bc4472b5e734-100.png",
+    "certified": true
   },
   {
     "id": "5dc4559e6f444132e61f83b3",
@@ -887,7 +964,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-nature-de-voie-france-metropolitaine/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png",
+    "certified": true
   },
   {
     "id": "5dccd2aa06e3e70687832c57",
@@ -897,7 +975,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-gares/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f3/0b8ad932f74086a6ab3f291ee9243f-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/f3/0b8ad932f74086a6ab3f291ee9243f-100.png",
+    "certified": true
   },
   {
     "id": "5dd24d4a8b4c4146823e23f3",
@@ -907,7 +986,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/dispositifs-daides-financieres-a-la-renovation-energetique/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/4a/86c01447c8402a82f8cfedb5057278-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/4a/86c01447c8402a82f8cfedb5057278-100.png",
+    "certified": true
   },
   {
     "id": "5dceb39c634f416d5593c858",
@@ -917,7 +997,8 @@
     "acronym": "Camino",
     "page": "https://www.data.gouv.fr/fr/datasets/cadastre-minier/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg"
+    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg",
+    "certified": true
   },
   {
     "id": "5dc4559e6f4441331193b9cd",
@@ -927,7 +1008,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-autorite-proprietaire-france-metropolitaine/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png",
+    "certified": true
   },
   {
     "id": "5dfc123adee7e76b998c3ede",
@@ -937,7 +1019,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2020-plf-2020-donnees-de-lannexe-jaune-effort-financier-de-letat-en-faveur-des-associations/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
   },
   {
     "id": "5dd4bba606e3e71a10832c58",
@@ -947,7 +1030,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-tgv/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f3/0b8ad932f74086a6ab3f291ee9243f-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/f3/0b8ad932f74086a6ab3f291ee9243f-100.png",
+    "certified": true
   },
   {
     "id": "58e5842688ee386c65805755",
@@ -957,7 +1041,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif"
+    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
+    "certified": true
   },
   {
     "id": "5dd24d6b6f44416027709798",
@@ -967,7 +1052,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/couts-des-travaux-de-renovation-energetique/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/4a/86c01447c8402a82f8cfedb5057278-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/4a/86c01447c8402a82f8cfedb5057278-100.png",
+    "certified": true
   },
   {
     "id": "5e00c0766f444173066f7e48",
@@ -977,7 +1063,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/consultation-citoyenne-en-ligne-sur-les-retraites-1/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+    "certified": true
   },
   {
     "id": "58c984b088ee386cdb1261f3",
@@ -987,7 +1074,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "certified": true
   },
   {
     "id": "5df10df38b4c416cb1e9273e",
@@ -997,7 +1085,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/consultation-citoyenne-en-ligne-sur-les-retraites/",
     "post_url": "",
-    "logo_url": ""
+    "logo_url": "",
+    "certified": false
   },
   {
     "id": "53698f37a3a729239d2036a0",
@@ -1007,7 +1096,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/avis-et-conseils-de-la-cada/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/19/8d825fd63e408e8b287bbbb6070633-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/19/8d825fd63e408e8b287bbbb6070633-100.png",
+    "certified": true
   },
   {
     "id": "5dd54c436f4441608124bf41",
@@ -1017,7 +1107,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/budgets-primitifs-tous-budgets-confondus-de-la-ville-de-fort-de-france/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f6/66803b8d944e05bee2bc4472b5e734-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/f6/66803b8d944e05bee2bc4472b5e734-100.png",
+    "certified": true
   },
   {
     "id": "5dfc47be06e3e75fd3fac9cf",
@@ -1027,7 +1118,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/indicateur-sur-la-part-des-prestations-dans-les-ressources-des-foyers-par-epci/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-07-02/a1bc08e4a4dc44a89cb29697800a83b5/new_logo-100.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-07-02/a1bc08e4a4dc44a89cb29697800a83b5/new_logo-100.jpg",
+    "certified": true
   },
   {
     "id": "5dd1b01d8b4c413da2ab0a9d",
@@ -1037,7 +1129,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/taux-de-reponse-a-la-commission-dacces-aux-documents-administratifs/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f1/76ab19a85a404ab4f108e1358e7207-500.jpg"
+    "logo_url": "https://static.data.gouv.fr/avatars/f1/76ab19a85a404ab4f108e1358e7207-500.jpg",
+    "certified": false
   },
   {
     "id": "57343feb88ee3823b0d1b934",
@@ -1047,7 +1140,8 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png",
+    "certified": true
   },
   {
     "id": "5dc4559e6f4441330b578cc8",
@@ -1057,7 +1151,19 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-nombre-de-voies-france-metropolitaine/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png",
+    "certified": true
+  },
+  {
+    "id": "5df9151d634f415c1a9c1df4",
+    "title": "Donn\u00e9es de consommations et habitudes alimentaires de l'\u00e9tude INCA 3",
+    "source": "Agence nationale de s\u00e9curit\u00e9 sanitaire, de l'alimentation, de l'environnement et du travail (Anses)",
+    "excerpt": "<p>\nLes \u00e9tudes INCA constituent un des outils indispensables \u00e0 l\u2019\u00e9valuation du risque. En effet, elles fournissent \u00e0 un moment donn\u00e9 une photographie des habitudes de consommations alimentaires de la population en France m\u00e9tropolitaine. Combin\u00e9es aux bases de donn\u00e9es de l\u2019Anses sur la composition et la contamination des aliments, ces donn\u00e9es\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-de-consommations-et-habitudes-alimentaires-de-letude-inca-3/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/06/75fedf299e42a5ae0eea17522ced09-100.png",
+    "certified": true
   },
   {
     "id": "5dc455a06f4441330445e5a7",
@@ -1067,6 +1173,7 @@
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/reseau-de-transport-routier-categorie-de-revetement-france-metropolitaine/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png"
+    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png",
+    "certified": true
   }
 ]
