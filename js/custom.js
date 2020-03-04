@@ -1,4 +1,5 @@
 const template = document.querySelector('#search-container template').innerHTML
+const searchInput = document.getElementById('search')
 const index = elasticlunr(function () {
   this.use(lunr.fr)
   this.addField('acronym')
@@ -63,6 +64,6 @@ async function initCards () {
   const q = new URLSearchParams(location.search).get('q')
   if(q) {
     search(q)
-    document.getElementById('search').value = q
+    if (searchInput) searchInput.value = q
   }
 }
