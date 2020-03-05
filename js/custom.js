@@ -1,16 +1,17 @@
 const template = document.querySelector('#search-container template').innerHTML
 const searchInput = document.getElementById('search')
-const index = elasticlunr(function () {
-  this.use(lunr.fr)
-  this.addField('acronym')
-  this.addField('title')
-  this.addField('source')
-  this.addField('excerpt')
-  this.setRef('id')
-  this.pipeline.add(function (token, tokenIndex, tokens) {
-    return normalizeText(token)
+var index
+
+function initSearch(docs) {
+  return lunr(function () {
+    this.ref('id')
+    this.field('acronym')
+    this.field('title')
+    this.field('source')
+    this.field('excerpt')
+    docs.forEach(d => this.add(d))
   })
-})
+}
 
 function normalizeText(text) {
   return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
@@ -19,12 +20,7 @@ function normalizeText(text) {
 function search(text) {
   if(!text.trim()) return resetCardsDisplay()
   text = normalizeText(text)
-  const matches = index.search(text, { fields: {
-    acronym: { boost: 4 },
-    source: { boost: 3 },
-    title: { boost: 2 },
-    excerpt: { boost: 1 },
-  }})
+  const matches = index.search(text + '*')
   updateCardsDisplay(matches.map(m => m.ref))
   updateInterface(text)
 }
@@ -36,7 +32,6 @@ async function loadDatasets() {
 
 function loadCards(datasets) {
   for (const [i, dataset] of datasets.entries()) {
-    index.addDoc(dataset)
     const content = template.replace(/\{\{\s*(.*)\s*}}/g, (_, match) => eval(match))
     cardsList.innerHTML += content.trim()
     if (i >= 6) {
@@ -60,6 +55,7 @@ function updateCardsDisplay(visibleCards) {
 
 async function initCards () {
   const datasets = await loadDatasets()
+  index = initSearch(datasets)
   loadCards(datasets)
   const q = new URLSearchParams(location.search).get('q')
   if(q) {
