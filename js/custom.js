@@ -10,6 +10,7 @@ function initSearch(docs) {
     this.field('source')
     this.field('excerpt')
     docs.forEach(d => this.add(d))
+  })
 }
 
 function normalizeText(text) {
