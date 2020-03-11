@@ -49,13 +49,14 @@ function listenFocus() {
 }
 
 async function init() {
-  const datasets = await loadDatasets()
-  loadCards(datasets)
+  const populars = await loadPopularDatasets()
+  loadCards(populars)
   const q = new URLSearchParams(location.search).get('q')
-  // if(q) {
-  //   search(q)
-  //   if (searchInput) searchInput.value = q
-  // }
+  if(q) {
+    // search(q)
+    searchNode.value = q
+    searchNode.focus()
+  }
 }
 
 /**
@@ -66,7 +67,7 @@ function hackDom() {
   categoriesNode.id = 'categories-node'
 }
 
-async function loadDatasets() {
+async function loadPopularDatasets() {
   const response = await fetch(`https://recherche.etalab.studio/datasets.json`)
   return await response.json()
 }
