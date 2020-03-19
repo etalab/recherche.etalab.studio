@@ -27,3 +27,7 @@
 .search_sidebar .card-list > div {
   height: 140px;
 }
+
+.dataset-card {
+  overflow: hidden;
+}
