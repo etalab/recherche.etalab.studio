@@ -9,16 +9,16 @@ Object.assign(dom, {
   contribute: dom.container.querySelector('.call-to-action'),
 })
 Object.assign(dom, { cardsList: injectCardList() })
-const cardTemplate = `<div class="col-xs-12 col-md-4 col-sm-6" id="{{ dataset.id }}">
-<a class="card dataset-card" href="{{ dataset.page }}">
+const cardTemplate = `<div class="col-xs-12 col-md-4 col-sm-6" id="{{ id }}">
+<a class="card dataset-card" href="{{ page }}">
   <div class="card-logo">
-    <img alt="{{ dataset.title }}"
-      src="{{ dataset.logo_url }}" width="70" height="70">
+    <img alt="{{ title }}"
+      src="{{ logo_url }}" width="70" height="70">
   </div>
-  <img src="https://static.data.gouv.fr/_themes/gouvfr/img/certified-stamp.png?_=1.6.13" alt="certified" class="certified">
+  {{ certified_img }}
   <div class="card-body">
-    <h4>{{ dataset.title }}</h4>
-    <div class="clamp-3">{{ dataset.excerpt }}</div>
+    <h4>{{ title }}</h4>
+    <div class="clamp-3">{{ excerpt }}</div>
   </div>
 </a>
 </div>`
@@ -101,7 +101,18 @@ async function loadPopularDatasets() {
 
 function loadCards(datasets) {
   for (const [i, dataset] of datasets.entries()) {
-    const content = cardTemplate.replace(/\{\{\s*(.*)\s*}}/g, (_, match) => eval(match))
+    if (dataset.certified) {
+      dataset.certified_img = `<img
+        src="https://static.data.gouv.fr/_themes/gouvfr/img/certified-stamp.png"
+        alt="certified" class="certified"
+      >`
+    } else {
+      dataset.certified_img = ''
+    }
+    const content = cardTemplate.replace(
+      /\{\{\s*(.*)\s*}}/g,
+      (_, match) => dataset[match.trim()]
+    )
     dom.cardsList.innerHTML += content.trim()
     if (i >= 6) {
       dom.cardsList.lastChild.classList.add('hidden')
