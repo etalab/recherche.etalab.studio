@@ -1,11 +1,14 @@
+/**
+ * Declarations
+ */
 const remoteUrl = `//recherche.etalab.studio`
-const containerNode = document.querySelector('.navbar-static-top .container')
-const categoriesNode = containerNode.querySelector('nav.sidebar.panel.collapse.subnav-collapse')
-const cardsListNode = injectCardList()
-const contributeNode = containerNode.querySelector('.call-to-action')
-const searchNode = containerNode.querySelector('[type=search]')
-
-
+const dom = { container: document.querySelector('.navbar-static-top .container') }
+Object.assign(dom, {
+  search: dom.container.querySelector('[type=search]'),
+  categories: dom.container.querySelector('nav.sidebar.panel.collapse.subnav-collapse'),
+  contribute: dom.container.querySelector('.call-to-action'),
+})
+Object.assign(dom, { cardsList: injectCardList() })
 const cardTemplate = `<div class="col-xs-12 col-md-4 col-sm-6" id="{{ dataset.id }}">
 <a class="card dataset-card" href="{{ dataset.page }}">
   <div class="card-logo">
@@ -19,12 +22,15 @@ const cardTemplate = `<div class="col-xs-12 col-md-4 col-sm-6" id="{{ dataset.id
   </div>
 </a>
 </div>`
-
+const searcher = new LunrSearch()
 
 hackDom()
 injectStylesheet()
 listenFocus()
-init()
+injectLunr(() => {
+  init()
+  listenSearch()
+})
 
 function injectStylesheet() {
   const style = document.createElement('link')
@@ -33,39 +39,59 @@ function injectStylesheet() {
   document.head.appendChild(style)
 }
 
+function injectLunr(callback) {
+  const script = document.createElement('script')
+  script.src = `${remoteUrl}/js/lunr.js`
+  script.onload = callback
+  document.head.appendChild(script)
+}
+
 function injectCardList() {
   const div = document.createElement('div')
   div.classList.add('card-list', 'card-list--columned')
-  categoriesNode.parentNode.insertBefore(div, categoriesNode)
+  dom.categories.parentNode.insertBefore(div, dom.categories)
   return div
 }
 
 function listenFocus() {
-  searchNode.addEventListener('focus', () => {
-    containerNode.classList.add('focused')
-    categoriesNode.classList.add('fadeout')
-    contributeNode.classList.add('fadeout')
+  dom.search.addEventListener('focus', () => enableWidget)
+}
+
+function enableWidget() {
+  dom.container.classList.add('focused')
+  dom.categories.classList.add('fadeout')
+  dom.contribute.classList.add('fadeout')
+}
+
+function listenSearch() {
+  dom.search.addEventListener('keyup', () => {
+    const text = event.target.value
+    search(text)
+    updateInterface(text)
   })
 }
 
 async function init() {
   const populars = await loadPopularDatasets()
   loadCards(populars)
+  searcher.index(populars)
   const q = new URLSearchParams(location.search).get('q')
   if(q) {
-    // search(q)
-    searchNode.value = q
-    searchNode.focus()
+    dom.search.value = q
+    search(q)
+    enableWidget()
   }
 }
 
-/**
- * Some CSS in non-overridable due to `!important` which
- * heavy selectors
- */
 function hackDom() {
-  categoriesNode.id = 'categories-node'
+  // Some CSS in non-overridable due to `!important` which heavy selectors
+  dom.categories.id = 'categories-node'
+  // Deactivate the suggestion dropdown
+  dom.container.querySelector('.dropdown-menu.suggestion').remove()
+  // Unsassign Vue
+  dom.search.__v_model.unbind()
 }
+
 
 async function loadPopularDatasets() {
   const response = await fetch(`https://recherche.etalab.studio/datasets.json`)
@@ -76,9 +102,47 @@ async function loadPopularDatasets() {
 function loadCards(datasets) {
   for (const [i, dataset] of datasets.entries()) {
     const content = cardTemplate.replace(/\{\{\s*(.*)\s*}}/g, (_, match) => eval(match))
-    cardsListNode.innerHTML += content.trim()
+    dom.cardsList.innerHTML += content.trim()
     if (i >= 6) {
-      cardsListNode.lastChild.classList.add('hidden')
+      dom.cardsList.lastChild.classList.add('hidden')
     }
   }
+}
+
+function updateCardsDisplay(ids) {
+  Array.from(dom.cardsList.children).forEach(card => {
+    if(ids.includes(card.id)) card.classList.remove('hidden')
+    else card.classList.add('hidden')
+  })
+}
+
+function updateInterface(q) {
+  window.history.pushState({}, '', `?q=${q}`)
+}
+
+function search(text) {
+  const matches = searcher.search(text)
+  updateCardsDisplay(matches.slice(0, 12).map(m => m.ref))
+}
+
+function LunrSearch() {}
+
+LunrSearch.prototype.index = function(docs) {
+  this._index = lunr(function () {
+    this.ref('id')
+    this.field('acronym')
+    this.field('title')
+    this.field('source')
+    this.field('excerpt')
+    docs.forEach(d => this.add(d))
+  })
+}
+
+function normalizeText(text) {
+  return text && text.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+}
+
+LunrSearch.prototype.search = function(text) {
+  text = normalizeText(text)
+  return this._index.search(text + '*')
 }
