@@ -1,6 +1,4 @@
-# recherche.etalab.studio
-
-https://recherche.etalab.studio
+# Recherche Etalab Studio
 
 ## Intentions
 
@@ -9,6 +7,25 @@ Une expérimentation afin de rendre plus accessibles les jeux de données pour d
 Partant du constat que relativement peu de jeux de données semblent convenir à un large éventail de personnes visitant le site https://www.data.gouv.fr/fr/ l’objectif de cette exploration est de les rendre plus facile à trouver.
 
 Pour cela, cette interface combine les jeux de données les plus populaires ainsi que ceux ayant une pertinence au vu de l’actualité.
+
+
+### Code widget
+
+Afin d'activer cette interface prototype :
+
+1. rendez-vous sur https://data.gouv.fr (ou ses déclinaisons _demo_ ou _next_)
+2. ouvrir la console développeur, et coller le code de widget ci-dessous
+3. utiliser le champs de recherche par mots-clés
+
+Le code suivant invoque le widget de recherche augmentée et l'active sur la page d'accueil :
+
+```
+const script = document.createElement('script')
+script.src = 'https://recherche.etalab.studio/js/widget.js'
+document.head.appendChild(script)
+```
+
+La zone de recherche s'ouvre au _focus_ pour proposer une version étendue, focalisant sur les résultats.
 
 
 ## Données
