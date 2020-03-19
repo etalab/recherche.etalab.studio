@@ -54,7 +54,7 @@ function injectCardList() {
 }
 
 function listenFocus() {
-  dom.search.addEventListener('focus', () => enableWidget)
+  dom.search.addEventListener('focus', enableWidget)
 }
 
 function enableWidget() {
