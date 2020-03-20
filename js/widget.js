@@ -8,7 +8,7 @@ Object.assign(dom, {
   categories: dom.container.querySelector('nav.sidebar.panel.collapse.subnav-collapse'),
   contribute: dom.container.querySelector('.call-to-action'),
 })
-Object.assign(dom, { cardsList: injectCardList() })
+Object.assign(dom, { closeButton: injectCloseButton(), cardsList: injectCardList() })
 const cardTemplate = `<div class="col-xs-12 col-md-4 col-sm-6" id="{{ id }}">
 <a class="card dataset-card" href="{{ page }}">
   <div class="card-logo">
@@ -46,6 +46,15 @@ function injectLunr(callback) {
   document.head.appendChild(script)
 }
 
+function injectCloseButton() {
+  const button = document.createElement('button')
+  button.classList.add('close')
+  button.innerText = "╳"
+  dom.categories.parentNode.insertBefore(button, dom.categories)
+  button.addEventListener('click', disableWidget)
+  return button
+}
+
 function injectCardList() {
   const div = document.createElement('div')
   div.classList.add('card-list', 'card-list--columned')
@@ -61,6 +70,12 @@ function enableWidget() {
   dom.container.classList.add('focused')
   dom.categories.classList.add('fadeout')
   dom.contribute.classList.add('fadeout')
+}
+
+function disableWidget() {
+  dom.container.classList.remove('focused')
+  dom.categories.classList.remove('fadeout')
+  dom.contribute.classList.remove('fadeout')
 }
 
 function listenSearch() {
