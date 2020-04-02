@@ -41,27 +41,23 @@ function injectStylesheet() {
 }
 
 function injectLunr(callback) {
-  let countLoad = 0
-  function nextLoaded() {
-    countLoad++
-    if (countLoad == 2) callback()
+  // Lunr injection must be performed step by step.
+  const lunrScript = document.createElement('script')
+  lunrScript.src = `${remoteUrl}/js/lunr.js`
+  lunrScript.onload = loadStemmer
+  document.head.appendChild(lunrScript)
+  function loadStemmer() {
+    const lunrStemmerScript = document.createElement('script')
+    lunrStemmerScript.src = `${remoteUrl}/js/lunr.stemmer.support.js`
+    lunrStemmerScript.onload = loadLunrFr
+    document.head.appendChild(lunrStemmerScript)
   }
-  function loaded() {
-    const fragment = document.createDocumentFragment()
-    script = document.createElement('script')
-    script.src = `${remoteUrl}/js/lunr.stemmer.support.js`
-    fragment.appendChild(script)
-    script.onload = nextLoaded
-    script = document.createElement('script')
-    script.src = `${remoteUrl}/js/lunr.fr.js`
-    fragment.appendChild(script)
-    script.onload = nextLoaded
-    document.head.appendChild(fragment)
+  function loadLunrFr() {
+    const lunrFrScript = document.createElement('script')
+    lunrFrScript.src = `${remoteUrl}/js/lunr.fr.js`
+    lunrFrScript.onload = callback
+    document.head.appendChild(lunrFrScript)
   }
-  let script = document.createElement('script')
-  script.src = `${remoteUrl}/js/lunr.js`
-  script.onload = loaded
-  document.head.appendChild(script)
 }
 
 function injectCloseButton() {
