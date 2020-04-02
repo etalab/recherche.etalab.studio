@@ -2,7 +2,6 @@
 import itertools
 import json
 import re
-import string
 from dataclasses import dataclass
 from time import perf_counter
 from typing import Any, List, Optional
@@ -13,6 +12,7 @@ import markdown
 import minicli
 from jinja2 import Environment, FileSystemLoader
 from progressist import ProgressBar
+from selectolax import parser
 from truncate import Truncator
 
 environment = Environment(loader=FileSystemLoader("."))
@@ -117,13 +117,13 @@ async def fetch_json_data(url: str, headers: Optional[dict] = None) -> dict:
         return {} if "message" in result else result
 
 
-async def fetch_url_list(url: str) -> List[str]:
+async def fetch_datagouv_page(url: str) -> List[str]:
     async with httpx.AsyncClient(base_url="https://www.data.gouv.fr") as client:
         try:
             response = await client.get(url, timeout=TIMEOUT)
         except httpx.exceptions.ReadTimeout:
             raise Exception(f"Timeout from {client.base_url}{url}")
-        return response.text.split("\n")
+        return response.text
 
 
 def extract_source(item: dict) -> str:
@@ -178,9 +178,10 @@ def deduplicate_datasets(datasets: List[Dataset]) -> List[Dataset]:
     return set(datasets)
 
 
-def write_datasets(datasets: List[Dataset]) -> None:
+def write_datasets(datasets: List[Dataset], name="datasets.json") -> None:
+    print(f"Writing {len(datasets)} datasets to {name}")
     data = [d.asdict for d in datasets]
-    open("datasets.json", "w").write(json.dumps(data, indent=2))
+    open(name, "w").write(json.dumps(data, indent=2))
 
 
 def extract_slug(url: str) -> str:
@@ -194,15 +195,8 @@ def flatten(list_of_lists: List[List[Any]]) -> List[Any]:
     return list(itertools.chain(*list_of_lists))
 
 
-async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
-    print(f"Fetching playlist {playlist.title}")
-    dataset = await fetch_json_data(
-        f"/api/1/datasets/{playlist.slug}/",
-        headers={"X-Fields": "resources{title,url}"},
-    )
-    for resource in dataset["resources"]:
-        if resource["title"] == playlist.title:
-            dataset_urls = await fetch_url_list(resource["url"])
+async def fetch_datasets_from_urls(dataset_urls: List[str]) -> List[Dataset]:
+    print("Fetching datasets from URLs.")
     dataset_slugs = [
         extract_slug(dataset_url)
         for dataset_url in dataset_urls
@@ -227,6 +221,19 @@ async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
     return datasets
 
 
+async def fetch_playlist(playlist: Playlist) -> List[Dataset]:
+    print(f"Fetching playlist {playlist.title}")
+    dataset = await fetch_json_data(
+        f"/api/1/datasets/{playlist.slug}/",
+        headers={"X-Fields": "resources{title,url}"},
+    )
+    for resource in dataset["resources"]:
+        if resource["title"] == playlist.title:
+            dataset_urls = await fetch_datagouv_page(resource["url"])
+    datasets = await fetch_datasets_from_urls(dataset_urls.split("\n"))
+    return datasets
+
+
 async def fetch_playlists(playlists: List[Playlist]) -> List[Dataset]:
     return flatten([await fetch_playlist(playlist) for playlist in playlists])
 
@@ -247,14 +254,6 @@ async def fetch_statistics(datasets: List[Dataset]) -> List[Dataset]:
 @minicli.cli
 async def generate_data() -> None:
     playlists = [
-        Playlist(
-            slug="jeux-de-donnees-contenus-dans-les-articles-de-blog-de-www-data-gouv-fr",
-            title="Suivi des sorties - Décembre 2019",
-        ),
-        Playlist(
-            slug="jeux-de-donnees-contenus-dans-les-articles-de-blog-de-www-data-gouv-fr",
-            title="Suivi des sorties - Novembre 2019",
-        ),
         Playlist(slug="mes-playlists-13", title="SPD"),
         Playlist(
             slug="jeux-de-donnees-du-top-100",
@@ -262,10 +261,55 @@ async def generate_data() -> None:
         ),
     ]
     playlists_datasets = await fetch_playlists(playlists)
-    datasets = deduplicate_datasets(playlists_datasets)
+
+    suivi_posts_urls = await fetch_suivi_posts_urls()
+    datasets_urls = await fetch_datasets_urls_from_posts_urls(suivi_posts_urls)
+    posts_datasets = await fetch_datasets_from_urls(datasets_urls)
+
+    datasets = deduplicate_datasets(playlists_datasets + posts_datasets)
     datasets = await fetch_statistics(datasets)
-    print(f"Writing {len(datasets)} datasets to datasets.json")
     write_datasets(sorted(datasets, reverse=True))
+
+
+async def fetch_suivi_posts_urls():
+    print("Fetching lists of suivi posts URLs.")
+    posts_page = await fetch_datagouv_page("/fr/posts/")
+    posts_urls = {
+        post_link.attributes["href"]
+        for post_link in parser.HTMLParser(posts_page).css(
+            ".search-results .post-result a"
+        )
+        if "href" in post_link.attributes
+        and "suivi-des-sorties" in post_link.attributes["href"]
+    }
+    return posts_urls
+
+
+async def fetch_datasets_urls_from_posts_urls(suivi_posts_urls: List[str]) -> List[str]:
+    print("Discovering datasets URLs from posts.")
+    datasets_urls = []
+    for suivi_post_url in suivi_posts_urls:
+        post_page = await fetch_datagouv_page(suivi_post_url)
+        datasets_urls.append(
+            [
+                link.attributes["href"]
+                for link in parser.HTMLParser(post_page).css(".post-body a")
+                if "href" in link.attributes
+                and link.attributes["href"].startswith(
+                    "https://www.data.gouv.fr/fr/datasets/"
+                )
+            ]
+        )
+    return flatten(datasets_urls)
+
+
+@minicli.cli
+async def fetch_datagouv_posts() -> None:
+    suivi_posts_urls = await fetch_suivi_posts_urls()
+    datasets_urls = await fetch_datasets_urls_from_posts_urls(suivi_posts_urls)
+    datasets = await fetch_datasets_from_urls(datasets_urls)
+    datasets = await fetch_statistics(datasets)
+    write_datasets(sorted(datasets, reverse=True), name="datasets_posts.json")
 
 
 @minicli.wrap
