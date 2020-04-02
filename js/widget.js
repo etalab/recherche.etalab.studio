@@ -49,11 +49,11 @@ function injectLunr(callback) {
   function loaded() {
     const fragment = document.createDocumentFragment()
     script = document.createElement('script')
-    script.src = `${remote}/js/lunr.stemmer.support.js`
+    script.src = `${remoteUrl}/js/lunr.stemmer.support.js`
     fragment.appendChild(script)
     script.onload = nextLoaded
     script = document.createElement('script')
-    script.src = `${remote}/js/lunr.fr.js`
+    script.src = `${remoteUrl}/js/lunr.fr.js`
     fragment.appendChild(script)
     script.onload = nextLoaded
     document.head.appendChild(fragment)
