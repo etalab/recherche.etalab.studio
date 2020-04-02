@@ -251,26 +251,6 @@ async def fetch_statistics(datasets: List[Dataset]) -> List[Dataset]:
     return datasets
 
 
-@minicli.cli
-async def generate_data() -> None:
-    playlists = [
-        Playlist(slug="mes-playlists-13", title="SPD"),
-        Playlist(
-            slug="jeux-de-donnees-du-top-100",
-            title="Top 100 des jeux de données en 2019",
-        ),
-    ]
-    playlists_datasets = await fetch_playlists(playlists)
-
-    suivi_posts_urls = await fetch_suivi_posts_urls()
-    datasets_urls = await fetch_datasets_urls_from_posts_urls(suivi_posts_urls)
-    posts_datasets = await fetch_datasets_from_urls(datasets_urls)
-
-    datasets = deduplicate_datasets(playlists_datasets + posts_datasets)
-    datasets = await fetch_statistics(datasets)
-    write_datasets(sorted(datasets, reverse=True))
-
-
 async def fetch_suivi_posts_urls():
     print("Fetching lists of suivi posts URLs.")
     posts_page = await fetch_datagouv_page("/fr/posts/")
@@ -310,6 +290,80 @@ async def fetch_datagouv_posts() -> None:
     datasets = await fetch_datasets_from_urls(datasets_urls)
     datasets = await fetch_statistics(datasets)
     write_datasets(sorted(datasets, reverse=True), name="datasets_posts.json")
+
+
+async def fetch_matomo_crap() -> str:
+    """Warning: quite fragile, we assume that from this page:
+
+    https://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=109
+    &period=range&date=previous30#?idSite=109&period=year&date=today&segment=
+    &category=General_Actions&subcategory=General_Pages
+
+    The first one is `fr` and the second one is `datasets` which is the most probable.
+
+    This is the AJAX query performed by Matomo to display the data because the
+    Matomo API and its documentation are a nightmare.
+    """
+    async with httpx.AsyncClient(base_url="https://stats.data.gouv.fr") as client:
+        params = {
+            "idSite": MATOMO_SITE_ID,
+            "token_auth": "anonymous",
+            "date": "today",
+            "module": "Actions",
+            "action": "getPageUrls",
+            "period": "year",
+            "search_recursive": "1",
+            "keep_totals_row": "0",
+            "filter_sort_column": "nb_visits",
+            "filter_sort_order": "desc",
+            "idSubtable": "2",
+        }
+        try:
+            response = await client.get("/index.php", params=params, timeout=TIMEOUT)
+        except httpx.exceptions.ReadTimeout:
+            raise Exception(f"Timeout from {client.base_url}")
+        return response.text
+
+
+def dataset_slug_to_url(slug: str) -> str:
+    return f"https://www.data.gouv.fr/fr/datasets/{slug}/"
+
+
+async def fetch_popular_datasets_urls() -> List[str]:
+    print("Fetching popular datasets from Matomo")
+    matomo_crap = await fetch_matomo_crap()
+    # Let's make it look like a regular HTML page.
+    matomo_crap = (
+        f"<!doctype html><html><body><table>{matomo_crap}</table></body></html>"
+    )
+    datasets_urls = [
+        dataset_slug_to_url(dataset_slug.text().strip())
+        for dataset_slug in parser.HTMLParser(matomo_crap).css("tr td.first")
+        if not dataset_slug.text().strip().startswith("/")
+        and dataset_slug.text().strip() != "Others"
+    ]
+    return datasets_urls
+
+
+@minicli.cli
+async def generate_data() -> None:
+    playlists = [
+        Playlist(slug="mes-playlists-13", title="SPD"),
+    ]
+    playlists_datasets = await fetch_playlists(playlists)
+
+    suivi_posts_urls = await fetch_suivi_posts_urls()
+    suivi_datasets_urls = await fetch_datasets_urls_from_posts_urls(suivi_posts_urls)
+    posts_datasets = await fetch_datasets_from_urls(suivi_datasets_urls)
+
+    popular_datasets_urls = await fetch_popular_datasets_urls()
+    popular_datasets = await fetch_datasets_from_urls(popular_datasets_urls)
+
+    datasets = deduplicate_datasets(
+        playlists_datasets + posts_datasets + popular_datasets
+    )
+    datasets = await fetch_statistics(datasets)
+    write_datasets(sorted(datasets, reverse=True))
 
 
 @minicli.wrap

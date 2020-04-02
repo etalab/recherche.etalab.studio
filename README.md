@@ -30,12 +30,11 @@ La zone de recherche s’ouvre au _focus_ pour proposer une version étendue, fo
 
 ## Données
 
-Pour l’instant, les données sont issues de deux [playlists](https://playlists.etalab.studio/) distinctes :
+Pour l’instant, les données sont issues :
 
-* la première contenant les 9 jeux de données du Service Public de la Donnée ([SPD](https://www.data.gouv.fr/fr/search/?badge=spd))
-* la seconde contenant les 100 jeux de données les plus populaires sur l’année 2019
-
-Une troisième source de données consiste à récupérer les datasets liés depuis le suivi des sorties dans les billets éditoriaux publiés : https://www.data.gouv.fr/fr/posts/
+* d’une [playlist](https://playlists.etalab.studio/) contenant les 9 jeux de données du Service Public de la Donnée ([SPD](https://www.data.gouv.fr/fr/search/?badge=spd))
+* des 100 jeux de données les plus populaires cette année d’après Matomo ;
+* des datasets liés depuis le suivi des sorties dans les [billets éditoriaux publiés](https://www.data.gouv.fr/fr/posts/)
 
 Ces jeux de données une fois récupérés sont ensuite dédoublonnés et triés selon l’indicateur `nb_hits` fourni par Matomo (puis par défaut par l’API).
 
