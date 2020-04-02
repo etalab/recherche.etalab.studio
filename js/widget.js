@@ -99,7 +99,7 @@ function disableWidget() {
 function listenSearch() {
   dom.search.addEventListener('keyup', () => {
     const text = event.target.value
-    search(text)
+    if(search)search(text)
     updateInterface(text)
   })
 }
@@ -204,5 +204,11 @@ function normalizeText(text) {
 }
 
 LunrSearch.prototype.search = function(text) {
-  return this._index.search(text + '~2')
+  text = text.split(/\s+/g).reduce((acc, w) => {
+    const requirement = w.length > 3 ? '+' : ''
+    const fuzziness = w.length > 4 ? '~2' : ''
+    if(w) acc.push(`${requirement}${w}${fuzziness}`)
+    return acc
+  }, []).join(' ')
+  return this._index.search(text)
 }
