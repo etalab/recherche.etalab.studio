@@ -11,13 +11,13 @@ Pour cela, cette interface combine les jeux de données les plus populaires ains
 
 ### Code widget
 
-Afin d'activer cette interface prototype :
+Afin d’activer cette interface prototype :
 
 1. rendez-vous sur https://data.gouv.fr (ou ses déclinaisons _demo_ ou _next_)
 2. ouvrir la console développeur, et coller le code de widget ci-dessous
-3. utiliser le champs de recherche par mots-clés
+3. utiliser le champ de recherche par mots-clés
 
-Le code suivant invoque le widget de recherche augmentée et l'active sur la page d'accueil :
+Le code suivant invoque le widget de recherche augmentée et l’active sur la page d’accueil :
 
 ```
 const script = document.createElement('script')
@@ -25,16 +25,17 @@ script.src = 'https://recherche.etalab.studio/js/widget.js'
 document.head.appendChild(script)
 ```
 
-La zone de recherche s'ouvre au _focus_ pour proposer une version étendue, focalisant sur les résultats.
+La zone de recherche s’ouvre au _focus_ pour proposer une version étendue, focalisant sur les résultats.
 
 
 ## Données
 
-Pour l’instant, les données sont issues de trois [playlists](https://playlists.etalab.studio/) distinctes :
+Pour l’instant, les données sont issues de deux [playlists](https://playlists.etalab.studio/) distinctes :
 
 * la première contenant les 9 jeux de données du Service Public de la Donnée ([SPD](https://www.data.gouv.fr/fr/search/?badge=spd))
 * la seconde contenant les 100 jeux de données les plus populaires sur l’année 2019
-* la troisième contenant les jeux de données qui ont été liés lors du dernier article de blog
+
+Une troisième source de données consiste à récupérer les datasets liés depuis le suivi des sorties dans les billets éditoriaux publiés : https://www.data.gouv.fr/fr/posts/
 
 Ces jeux de données une fois récupérés sont ensuite dédoublonnés et triés selon l’indicateur `nb_hits` fourni par Matomo (puis par défaut par l’API).
 
@@ -50,7 +51,7 @@ Plusieurs interviews ont été réalisées de façon à itérer sur le produit e
 * le 4 février 2020 : [Edouard](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200204-edouard.md)
 * le 7 février 2020 : [Edwige](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/20200207-edwige.md)
 
-Une [synthèse des 5 interviews](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/synthese.md) de 2020 ressort les grandes idées qui en sont resorties.
+Une [synthèse des 5 interviews](https://github.com/etalab/recherche.etalab.studio/blob/master/interviews/synthese.md) de 2020 condense les grandes idées qui en sont sorties.
 
 N’hésitez pas à nous solliciter, par exemple [en créant une issue](https://github.com/etalab/recherche.etalab.studio/issues/new) si vous voulez être interviewé·e.
 
