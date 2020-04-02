@@ -206,7 +206,9 @@ function normalizeText(text) {
 LunrSearch.prototype.search = function(text) {
   text = text.split(/\s+/g).reduce((acc, w) => {
     const requirement = w.length > 3 ? '+' : ''
-    const fuzziness = w.length > 4 ? '~2' : ''
+    let fuzziness = ''
+    if(w.length <= 4 && acc.length > 0) fuzziness = '*'
+    else if(w.length > 4) fuzziness = '~2'
     if(w) acc.push(`${requirement}${w}${fuzziness}`)
     return acc
   }, []).join(' ')
