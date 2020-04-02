@@ -2,7 +2,7 @@
  * Declarations
  */
 const remoteUrl = `//recherche.etalab.studio`
-const datasetsUrl = '//localhost:8080/datasets.json'
+const datasetsUrl = `${remoteUrl}/datasets.json`
 const dom = { container: document.querySelector('.navbar-static-top .container') }
 Object.assign(dom, {
   search: dom.container.querySelector('[type=search]'),
@@ -49,11 +49,11 @@ function injectLunr(callback) {
   function loaded() {
     const fragment = document.createDocumentFragment()
     script = document.createElement('script')
-    script.src = `//localhost:8080/js/lunr.stemmer.support.js`
+    script.src = `${remote}/js/lunr.stemmer.support.js`
     fragment.appendChild(script)
     script.onload = nextLoaded
     script = document.createElement('script')
-    script.src = `//localhost:8080/js/lunr.fr.js`
+    script.src = `${remote}/js/lunr.fr.js`
     fragment.appendChild(script)
     script.onload = nextLoaded
     document.head.appendChild(fragment)
