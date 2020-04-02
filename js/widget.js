@@ -2,6 +2,7 @@
  * Declarations
  */
 const remoteUrl = `//recherche.etalab.studio`
+const datasetsUrl = '//localhost:8080/datasets.json'
 const dom = { container: document.querySelector('.navbar-static-top .container') }
 Object.assign(dom, {
   search: dom.container.querySelector('[type=search]'),
@@ -40,9 +41,26 @@ function injectStylesheet() {
 }
 
 function injectLunr(callback) {
-  const script = document.createElement('script')
+  let countLoad = 0
+  function nextLoaded() {
+    countLoad++
+    if (countLoad == 2) callback()
+  }
+  function loaded() {
+    const fragment = document.createDocumentFragment()
+    script = document.createElement('script')
+    script.src = `//localhost:8080/js/lunr.stemmer.support.js`
+    fragment.appendChild(script)
+    script.onload = nextLoaded
+    script = document.createElement('script')
+    script.src = `//localhost:8080/js/lunr.fr.js`
+    fragment.appendChild(script)
+    script.onload = nextLoaded
+    document.head.appendChild(fragment)
+  }
+  let script = document.createElement('script')
   script.src = `${remoteUrl}/js/lunr.js`
-  script.onload = callback
+  script.onload = loaded
   document.head.appendChild(script)
 }
 
@@ -109,7 +127,7 @@ function hackDom() {
 
 
 async function loadPopularDatasets() {
-  const response = await fetch(`https://recherche.etalab.studio/datasets.json`)
+  const response = await fetch(datasetsUrl)
   return await response.json()
 }
 
@@ -153,14 +171,31 @@ function search(text) {
 
 function LunrSearch() {}
 
+function cleanupDiacritic(builder) {
+  function pipelineFunction(token) {
+    return token.update(() => normalizeText(String(token)))
+  }
+  lunr.Pipeline.registerFunction(pipelineFunction, 'cleanupDiacritic')
+  builder.pipeline.after(lunr.stemmer, pipelineFunction)
+  builder.searchPipeline.before(lunr.stemmer, pipelineFunction)
+}
+
 LunrSearch.prototype.index = function(docs) {
   this._index = lunr(function () {
+    this.use(cleanupDiacritic)
     this.ref('id')
     this.field('acronym')
     this.field('title')
-    this.field('source')
     this.field('excerpt')
-    docs.forEach(d => this.add(d))
+    this.field('source')
+    docs.forEach(d => {
+      const tmp = {
+        id: d.id,
+        keywords: [d.source, d.title, d.source, d.excerpt].join(' ')
+      }
+      this.add(d)
+    })
+
   })
 }
 
@@ -169,6 +204,5 @@ function normalizeText(text) {
 }
 
 LunrSearch.prototype.search = function(text) {
-  text = normalizeText(text)
-  return this._index.search(text + '*')
+  return this._index.search(text + '~2')
 }

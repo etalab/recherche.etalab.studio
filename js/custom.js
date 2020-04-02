@@ -20,7 +20,7 @@ function normalizeText(text) {
 function search(text) {
   if(!text.trim()) return resetCardsDisplay()
   text = normalizeText(text)
-  const matches = index.search(text + '*')
+  const matches = index.search(text)
   updateCardsDisplay(matches.map(m => m.ref))
   updateInterface(text)
 }
