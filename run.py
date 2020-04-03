@@ -58,7 +58,7 @@ class Dataset:
 
     def populate_excerpt(self, html_description: str, num_words: int = 50) -> None:
         sanitized_description = bleach.clean(
-            html_description, tags=["p", "li", "ol", "ul",], strip=True,
+            html_description, tags=["h3", "p", "li", "ol", "ul"], strip=True,
         )
         truncated_description = Truncator(sanitized_description).words(
             num=num_words, truncate="…", html=True
@@ -69,6 +69,10 @@ class Dataset:
             truncated_description = Truncator(truncated_description).chars(
                 num=num_words * 10, truncate="…", html=True
             )
+        # We do not want to keep h3 tags but neither have untagged content.
+        truncated_description = truncated_description.replace("h3", "p")
+        # And we do not need newlines in resulting HTML.
+        truncated_description = truncated_description.replace("\n", "")
         self.excerpt = re.sub(r"http\S+", "", truncated_description)
 
     @property
