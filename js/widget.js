@@ -28,6 +28,7 @@ const searcher = new LunrSearch()
 hackDom()
 injectStylesheet()
 listenFocus()
+listenSubmit()
 injectLunr(() => {
   init()
   listenSearch()
@@ -79,11 +80,17 @@ function injectCardList() {
 function listenFocus() {
   dom.search.addEventListener('focus', enableWidget)
 }
+function listenSubmit() {
+  dom.search.closest('form').addEventListener('submit', (event) => {
+    trackEvent('press-enter', dom.search.value)
+  })
+}
 
 function enableWidget() {
   dom.container.classList.add('focused')
   dom.categories.classList.add('fadeout')
   dom.contribute.classList.add('fadeout')
+  trackEvent('enable-widget', 'recherche')
 }
 
 function disableWidget() {
@@ -97,12 +104,14 @@ function listenSearch() {
     const text = event.target.value
     if(search)search(text)
     updateInterface(text)
+    _paq.push(['trackEvent', 'recherche', 'search', text])
   })
 }
 
 async function init() {
   const populars = await loadPopularDatasets()
   loadCards(populars)
+  trackCardClick()
   searcher.index(populars)
   const q = new URLSearchParams(location.search).get('q')
   if(q) {
@@ -160,6 +169,14 @@ function updateInterface(q) {
   window.history.pushState({}, '', `?q=${q}`)
 }
 
+function trackCardClick() {
+  Array.from(dom.cardsList.querySelectorAll('a.card')).forEach(card => {
+    card.addEventListener('click', (event) => {
+      trackEvent('click-card', event.currentTarget.href)
+    })
+  })
+}
+
 function search(text) {
   const matches = searcher.search(text)
   updateCardsDisplay(matches.slice(0, 12).map(m => m.ref))
@@ -209,4 +226,9 @@ LunrSearch.prototype.search = function(text) {
     return acc
   }, []).join(' ')
   return this._index.search(text)
+}
+
+function trackEvent(action, value) {
+  const url = encodeURIComponent(document.location.href)
+  fetch(`https://stats.data.gouv.fr/piwik.php?rec=1&idsite=11&action_name=Recherche%2F${action}%2F${value}&url=${url}`, { method: 'POST' })
 }
