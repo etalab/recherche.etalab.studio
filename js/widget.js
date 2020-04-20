@@ -169,7 +169,10 @@ function updateCardsDisplay(ids) {
 }
 
 function updateInterface(q) {
-  window.history.pushState({}, '', `?q=${q}`)
+  const params = new URLSearchParams(location.search)
+  params.set('q', q)
+  const qs = Array.from(params).map(pair => `${pair[0]}=${pair[1]}`).join('&')
+  window.history.pushState({}, '', `?${qs}`)
 }
 
 function search(text) {
