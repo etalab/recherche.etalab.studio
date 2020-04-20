@@ -32,42 +32,12 @@ injectLunr(() => {
   init()
   listenSearch()
 })
-injectMatomo()
 
 function injectStylesheet() {
   const style = document.createElement('link')
   style.rel = 'stylesheet'
   style.href = `${remoteUrl}/css/widget.css`
   document.head.appendChild(style)
-}
-
-function injectMatomo() {
-  window._paq = window._paq || []
-  _paq.push(['setDomains', ['*.education-artistique-culturelle.fr']])
-  _paq.push(['trackPageView'])
-  _paq.push(['enableLinkTracking'])
-  var u = '//stats.data.gouv.fr/'
-  _paq.push(['setTrackerUrl', u + 'piwik.php'])
-  _paq.push(['setSiteId', '61'])
-  const currentUrl = 'recherche.etalab.studio'
-  _paq.push(['setReferrerUrl', currentUrl])
-  _paq.push(['setCustomUrl', currentUrl]);
-
-  _paq.push(['setDocumentTitle', 'Recheche page']);
-
-  _paq.push(['deleteCustomVariables', 'page']);
-
-  _paq.push(['setGenerationTimeMs', 0]);
-
-  _paq.push(['trackPageView']);
-
-  var content = document.querySelector('main');
-
-  _paq.push(['MediaAnalytics::scanForMedia', content]);
-
-  _paq.push(['FormAnalytics::scanForForms', content]);
-
-  _paq.push(['trackContentImpressionsWithinNode', content]);
 }
 
 function injectLunr(callback) {
@@ -114,12 +84,14 @@ function enableWidget() {
   dom.container.classList.add('focused')
   dom.categories.classList.add('fadeout')
   dom.contribute.classList.add('fadeout')
+  stats('widget', 'open')
 }
 
 function disableWidget() {
   dom.container.classList.remove('focused')
   dom.categories.classList.remove('fadeout')
   dom.contribute.classList.remove('fadeout')
+  stats('widget', 'close')
 }
 
 function listenSearch() {
@@ -130,9 +102,18 @@ function listenSearch() {
   })
 }
 
+function listenCardsClick() {
+  Array.from(dom.cardsList.querySelectorAll('a.card')).forEach(a => {
+    a.addEventListener('click', event => {
+      stats('click', event.currentTarget.href)
+    })
+  })
+}
+
 async function init() {
   const populars = await loadPopularDatasets()
   loadCards(populars)
+  listenCardsClick()
   searcher.index(populars)
   const q = new URLSearchParams(location.search).get('q')
   if(q) {
@@ -160,6 +141,7 @@ async function loadPopularDatasets() {
 
 function loadCards(datasets) {
   for (const [i, dataset] of datasets.entries()) {
+    if(!dataset.logo_url) dataset.logo_url = ''
     if (dataset.certified) {
       dataset.certified_img = `<img
         src="https://static.data.gouv.fr/_themes/gouvfr/img/certified-stamp.png"
@@ -192,6 +174,8 @@ function updateInterface(q) {
 
 function search(text) {
   const matches = searcher.search(text)
+  // Deactivated as search stats is already recording
+  // stats('search', text)
   updateCardsDisplay(matches.slice(0, 12).map(m => m.ref))
 }
 
@@ -239,4 +223,10 @@ LunrSearch.prototype.search = function(text) {
     return acc
   }, []).join(' ')
   return this._index.search(text)
+}
+
+function stats(category, action) {
+  if(!Piwik) return
+  const t = Piwik.getTracker()
+  t.trackEvent(`Recherche/${category}`, action)
 }
