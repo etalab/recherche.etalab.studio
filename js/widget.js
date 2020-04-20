@@ -84,12 +84,14 @@ function enableWidget() {
   dom.container.classList.add('focused')
   dom.categories.classList.add('fadeout')
   dom.contribute.classList.add('fadeout')
+  stats('widget', 'open')
 }
 
 function disableWidget() {
   dom.container.classList.remove('focused')
   dom.categories.classList.remove('fadeout')
   dom.contribute.classList.remove('fadeout')
+  stats('widget', 'close')
 }
 
 function listenSearch() {
@@ -100,9 +102,18 @@ function listenSearch() {
   })
 }
 
+function listenCardsClick() {
+  Array.from(dom.cardsList.querySelectorAll('a.card')).forEach(a => {
+    a.addEventListener('click', event => {
+      stats('click', event.currentTarget.href)
+    })
+  })
+}
+
 async function init() {
   const populars = await loadPopularDatasets()
   loadCards(populars)
+  listenCardsClick()
   searcher.index(populars)
   const q = new URLSearchParams(location.search).get('q')
   if(q) {
@@ -130,6 +141,7 @@ async function loadPopularDatasets() {
 
 function loadCards(datasets) {
   for (const [i, dataset] of datasets.entries()) {
+    if(!dataset.logo_url) dataset.logo_url = ''
     if (dataset.certified) {
       dataset.certified_img = `<img
         src="https://static.data.gouv.fr/_themes/gouvfr/img/certified-stamp.png"
@@ -162,6 +174,8 @@ function updateInterface(q) {
 
 function search(text) {
   const matches = searcher.search(text)
+  // Deactivated as search stats is already recording
+  // stats('search', text)
   updateCardsDisplay(matches.slice(0, 12).map(m => m.ref))
 }
 
@@ -209,4 +223,10 @@ LunrSearch.prototype.search = function(text) {
     return acc
   }, []).join(' ')
   return this._index.search(text)
+}
+
+function stats(category, action) {
+  if(!Piwik) return
+  const t = Piwik.getTracker()
+  t.trackEvent(`Recherche/${category}`, action)
 }
