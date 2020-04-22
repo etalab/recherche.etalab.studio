@@ -27,7 +27,6 @@
   margin-left: -14px;
   margin-right: -14px;
   justify-content: start;
-  padding-top: 3rem;
 }
 button.close {
   display: none;
@@ -35,13 +34,15 @@ button.close {
 .focused button.close {
   display: block;
   position: absolute;
-  top: 50px;
+  top: 1px;
   right: 16px;
-  z-index: 2;
-  background-color: white;
+  z-index: 3;
+  background: white no-repeat center center url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='35' height='35' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><line x1='18' y1='6' x2='6' y2='18'></line><line x1='6' y1='6' x2='18' y2='18'></line></svg>");
   padding: 1rem;
   cursor: pointer;
   opacity: 1;
+  width: 46px;
+  height: 46px;
 }
 
 .dataset-card {

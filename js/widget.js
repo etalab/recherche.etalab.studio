@@ -63,7 +63,6 @@ function injectLunr(callback) {
 function injectCloseButton() {
   const button = document.createElement('button')
   button.classList.add('close')
-  button.innerText = "╳"
   dom.categories.parentNode.insertBefore(button, dom.categories)
   button.addEventListener('click', disableWidget)
   return button
