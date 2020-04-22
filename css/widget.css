@@ -48,3 +48,8 @@ button.close {
 .dataset-card {
   overflow: hidden;
 }
+.dataset-card .card-body .clamp-3 {
+  display: flex;
+  flex-direction: column;
+  min-height: 4.9em;
+}
