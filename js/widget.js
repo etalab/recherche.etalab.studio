@@ -28,6 +28,7 @@ const searcher = new LunrSearch()
 hackDom()
 injectStylesheet()
 listenFocus()
+listenSubmit()
 injectLunr(() => {
   init()
   listenSearch()
@@ -79,6 +80,12 @@ function listenFocus() {
   dom.search.addEventListener('focus', enableWidget)
 }
 
+function listenSubmit() {
+  dom.search.closest('form').addEventListener('submit', (event) => {
+    stats('form', 'submit')
+  })
+}
+
 function enableWidget() {
   dom.container.classList.add('focused')
   dom.categories.classList.add('fadeout')
@@ -115,6 +122,7 @@ async function init() {
   listenCardsClick()
   searcher.index(populars)
   const q = new URLSearchParams(location.search).get('q')
+  stats('widget', 'load')
   if(q) {
     dom.search.value = q
     search(q)
@@ -176,8 +184,7 @@ function updateInterface(q) {
 
 function search(text) {
   const matches = searcher.search(text)
-  // Deactivated as search stats is already recording
-  // stats('search', text)
+  stats('search', text)
   updateCardsDisplay(matches.slice(0, 12).map(m => m.ref))
 }
 
