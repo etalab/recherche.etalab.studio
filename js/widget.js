@@ -235,7 +235,7 @@ LunrSearch.prototype.search = function(text) {
 }
 
 function stats(category, action) {
-  if(!Piwik) return
+  if(typeof Piwik === 'undefined') return
   const t = Piwik.getTracker()
   t.trackEvent(`Recherche/${category}`, action)
 }
