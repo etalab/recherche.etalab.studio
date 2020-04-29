@@ -13,7 +13,7 @@ Pour cela, cette interface combine les jeux de données les plus populaires ains
 
 Afin d’activer cette interface prototype :
 
-1. rendez-vous sur https://data.gouv.fr (ou ses déclinaisons _demo_ ou _next_)
+1. rendez-vous sur https://data.gouv.fr (ou sa déclinaison _demo_)
 2. ouvrir la console développeur, et coller le code de widget ci-dessous
 3. utiliser le champ de recherche par mots-clés
 
