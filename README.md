@@ -33,7 +33,7 @@ Après avoir édité `js/src/widget.js` :
 
 ```
 npm install
-npx babel js/src/widget.js --out-file js/widget.js
+npm run build
 ```
 
 NB: cette transpilation est faite automatiquement sur le dépôt Github.
