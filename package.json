@@ -1,0 +1,25 @@
+{
+  "name": "recherche.etalab.studio",
+  "version": "1.0.0",
+  "description": "## Intentions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etalab/recherche.etalab.studio.git"
+  },
+  "author": "Etalab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etalab/recherche.etalab.studio/issues"
+  },
+  "homepage": "https://github.com/etalab/recherche.etalab.studio#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-cli": "^6.26.0"
+  }
+}
