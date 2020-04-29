@@ -4,7 +4,8 @@
   "description": "## Intentions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel js/src/widget.js --out-file js/widget.js"
   },
   "repository": {
     "type": "git",
