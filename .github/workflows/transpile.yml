@@ -12,7 +12,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: bahmutov/npm-install@v1
       - name: Run babel (with cache)
-        run: npx babel js/src/widget.js --out-file js/widget.js
+        run: npm run build
       - uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
           commit_message: Transpile widget.js
