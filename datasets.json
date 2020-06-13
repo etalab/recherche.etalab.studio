@@ -374,17 +374,6 @@
     "certified": true
   },
   {
-    "id": "5cc1b94a634f4165e96436c1",
-    "title": "Demandes de valeurs fonci\u00e8res g\u00e9olocalis\u00e9es",
-    "source": "Etalab",
-    "excerpt": "<p>Ce jeu de donn\u00e9es est d\u00e9riv\u00e9 du jeu de donn\u00e9es Demandes de valeurs fonci\u00e8res diffus\u00e9 par la DGFiP.</p><p>Il propose un format alternatif, normalis\u00e9 et enrichi.</p><p>Am\u00e9liorations par rapport aux fichiers bruts</p><ul><li>CSV avec s\u00e9parateur virgule et encodage UTF-8</li><li>Mise \u00e0 jour avec les donn\u00e9es de r\u00e9f\u00e9rence les plus r\u00e9centes\u2026</li></ul>",
-    "acronym": "DVF g\u00e9olocalis\u00e9es",
-    "page": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
-    "certified": true
-  },
-  {
     "id": "5bb80ead06e3e71f03293ebd",
     "title": "Stationnement \u2013 Place en zone bleue",
     "source": "La Rochelle",
@@ -393,6 +382,17 @@
     "page": "https://www.data.gouv.fr/fr/datasets/stationnement-place-en-zone-bleue/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/a3/6bdcbdad5c4c959e3a99b12a94edcb-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5cc1b94a634f4165e96436c1",
+    "title": "Demandes de valeurs fonci\u00e8res g\u00e9olocalis\u00e9es",
+    "source": "Etalab",
+    "excerpt": "<p>Ce jeu de donn\u00e9es est d\u00e9riv\u00e9 du jeu de donn\u00e9es Demandes de valeurs fonci\u00e8res diffus\u00e9 par la DGFiP.</p><p>Il propose un format alternatif, normalis\u00e9 et enrichi.</p><p>Am\u00e9liorations par rapport aux fichiers bruts</p><ul><li>CSV avec s\u00e9parateur virgule et encodage UTF-8</li><li>Mise \u00e0 jour avec les donn\u00e9es de r\u00e9f\u00e9rence les plus r\u00e9centes\u2026</li></ul>",
+    "acronym": "DVF g\u00e9olocalis\u00e9es",
+    "page": "https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
     "certified": true
   },
   {
@@ -495,17 +495,6 @@
     "certified": true
   },
   {
-    "id": "5e755d61e041e790c628d859",
-    "title": "Evolution de la pandemie de COVID-19 en Corse",
-    "source": "Collectivit\u00e9 de Corse",
-    "excerpt": "<p>Sant\u00e9 Publique France publie un point quotidien indiquant le nombre de cas confirm\u00e9s d'infection au virus COVID-19 (\"Coronavirus\"), r\u00e9gion par r\u00e9gion (France m\u00e9tropolitaine, DROM et collectivit\u00e9s d'outre mer Saint Barth\u00e9l\u00e9my et Saint Martin). </p><p>Ce jeu de donn\u00e9es propose ces donn\u00e9es accumul\u00e9es au fil des jours depuis d\u00e9but mars 2020.</p><p>Enrichissement\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/evolution-de-la-pandemie-de-covid-19-en-corse/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/5a/41c4910576411b9d8d1ad4c8d90df4-100.png",
-    "certified": true
-  },
-  {
     "id": "5726ef67c751df48e1fcca0d",
     "title": "Carte des d\u00e9partements",
     "source": "Alexandre Lexman",
@@ -515,6 +504,17 @@
     "post_url": "",
     "logo_url": null,
     "certified": false
+  },
+  {
+    "id": "5e755d61e041e790c628d859",
+    "title": "Evolution de la pandemie de COVID-19 en Corse",
+    "source": "Collectivit\u00e9 de Corse",
+    "excerpt": "<p>Sant\u00e9 Publique France publie un point quotidien indiquant le nombre de cas confirm\u00e9s d'infection au virus COVID-19 (\"Coronavirus\"), r\u00e9gion par r\u00e9gion (France m\u00e9tropolitaine, DROM et collectivit\u00e9s d'outre mer Saint Barth\u00e9l\u00e9my et Saint Martin). </p><p>Ce jeu de donn\u00e9es propose ces donn\u00e9es accumul\u00e9es au fil des jours depuis d\u00e9but mars 2020.</p><p>Enrichissement\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/evolution-de-la-pandemie-de-covid-19-en-corse/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/5a/41c4910576411b9d8d1ad4c8d90df4-100.png",
+    "certified": true
   },
   {
     "id": "570f655888ee3852094d8898",
@@ -627,17 +627,6 @@
     "certified": true
   },
   {
-    "id": "5b320fa7c751df1d7a4febae",
-    "title": "Op\u00e9rations coordonn\u00e9es par les CROSS",
-    "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
-    "excerpt": "<p>Ce jeu de donn\u00e9es contient toutes les donn\u00e9es statistiques disponibles informatiquement sur les interventions d\u2019assistance et de sauvetage coordonn\u00e9es par les CROSS (Centres r\u00e9gionaux op\u00e9rationnels de surveillance et de sauvetage). Il renseigne, pour chaque op\u00e9ration d\u2019assistance ou de secours coordonn\u00e9e en eaux fran\u00e7aises :</p><ul><li>quel \u00e9tait le motif d\u2019intervention ;\u2026</li></ul>",
-    "acronym": "SECMAR",
-    "page": "https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg",
-    "certified": true
-  },
-  {
     "id": "547d8d7ac751df405d090fcb",
     "title": "Le march\u00e9 du haut et tr\u00e8s haut d\u00e9bit fixe (d\u00e9ploiements)",
     "source": "Autorit\u00e9 de r\u00e9gulation des communications \u00e9lectroniques et des postes (ARCEP)",
@@ -649,14 +638,14 @@
     "certified": true
   },
   {
-    "id": "5943d4c188ee38742a95eb0d",
-    "title": "Zone d'Aide \u00e0 Finalit\u00e9 R\u00e9gionale (AFR)",
-    "source": "Agence nationale de la coh\u00e9sion des territoires",
-    "excerpt": "<p>La Commission europ\u00e9enne a adopt\u00e9 la carte fran\u00e7aise des zones d\u2019aides \u00e0 finalit\u00e9 r\u00e9gionale (AFR) pour la p\u00e9riode 2014-2020, mise en \u0153uvre par le d\u00e9cret n\u00b0 2014-758 du 2 juillet 2014 relatif aux zones d'aide \u00e0 finalit\u00e9 r\u00e9gionale (AFR) et aux zones d'aide \u00e0 l'investissement des petites et moyennes entreprises\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/zone-daide-a-finalite-regionale-afr/",
+    "id": "5b320fa7c751df1d7a4febae",
+    "title": "Op\u00e9rations coordonn\u00e9es par les CROSS",
+    "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient toutes les donn\u00e9es statistiques disponibles informatiquement sur les interventions d\u2019assistance et de sauvetage coordonn\u00e9es par les CROSS (Centres r\u00e9gionaux op\u00e9rationnels de surveillance et de sauvetage). Il renseigne, pour chaque op\u00e9ration d\u2019assistance ou de secours coordonn\u00e9e en eaux fran\u00e7aises :</p><ul><li>quel \u00e9tait le motif d\u2019intervention ;\u2026</li></ul>",
+    "acronym": "SECMAR",
+    "page": "https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/89/fc13e2715c4c3fa38611760092752a-100.png",
+    "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg",
     "certified": true
   },
   {
@@ -671,6 +660,17 @@
     "certified": true
   },
   {
+    "id": "5943d4c188ee38742a95eb0d",
+    "title": "Zone d'Aide \u00e0 Finalit\u00e9 R\u00e9gionale (AFR)",
+    "source": "Agence nationale de la coh\u00e9sion des territoires",
+    "excerpt": "<p>La Commission europ\u00e9enne a adopt\u00e9 la carte fran\u00e7aise des zones d\u2019aides \u00e0 finalit\u00e9 r\u00e9gionale (AFR) pour la p\u00e9riode 2014-2020, mise en \u0153uvre par le d\u00e9cret n\u00b0 2014-758 du 2 juillet 2014 relatif aux zones d'aide \u00e0 finalit\u00e9 r\u00e9gionale (AFR) et aux zones d'aide \u00e0 l'investissement des petites et moyennes entreprises\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/zone-daide-a-finalite-regionale-afr/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/89/fc13e2715c4c3fa38611760092752a-100.png",
+    "certified": true
+  },
+  {
     "id": "5429648588ee380327a59164",
     "title": "Monuments historiques class\u00e9s \u00e0 Saint-Malo",
     "source": "Ville de Saint-Malo",
@@ -679,6 +679,17 @@
     "page": "https://www.data.gouv.fr/fr/datasets/monuments-historiques-classes-a-saint-malo/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/71/d80c263317463ca8050811b5b22be6-100.png",
+    "certified": true
+  },
+  {
+    "id": "58481d2688ee384953c65bb4",
+    "title": "Etablissements d'enseignement sup\u00e9rieur",
+    "source": "Office national d'information sur les enseignements et les professions",
+    "excerpt": "<p>Liste des \u00e9tablissements avec le code UAI (unit\u00e9 administrative immatricul\u00e9e), le type d'\u00e9tablissement, le nom, le sigle, le statut (public, priv\u00e9...), la tutelle (minist\u00e8res, chambres consulaires...), universit\u00e9 de rattachement, coordonn\u00e9es g\u00e9ographiques (adresse postale, commune, d\u00e9partement, acad\u00e9mie, r\u00e9gion, longitude X, latitude Y) et le lien d'acc\u00e8s direct sur le site Onisep\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/etablissements-denseignement-superieur-2/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/24/b45e02791a456ba05ee985c40904f1-100.jpg",
     "certified": true
   },
   {
@@ -693,14 +704,14 @@
     "certified": false
   },
   {
-    "id": "58481d2688ee384953c65bb4",
-    "title": "Etablissements d'enseignement sup\u00e9rieur",
-    "source": "Office national d'information sur les enseignements et les professions",
-    "excerpt": "<p>Liste des \u00e9tablissements avec le code UAI (unit\u00e9 administrative immatricul\u00e9e), le type d'\u00e9tablissement, le nom, le sigle, le statut (public, priv\u00e9...), la tutelle (minist\u00e8res, chambres consulaires...), universit\u00e9 de rattachement, coordonn\u00e9es g\u00e9ographiques (adresse postale, commune, d\u00e9partement, acad\u00e9mie, r\u00e9gion, longitude X, latitude Y) et le lien d'acc\u00e8s direct sur le site Onisep\u2026</p>",
+    "id": "5369986ba3a729239d204f55",
+    "title": "Police municipale : Effectifs par commune",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Les fichiers recensent pour les ann\u00e9es 2012 \u00e0 2018 les communes de votre d\u00e9partement ayant un service de police municipale et contient :</p><ul><li>le nombre de policiers municipaux,</li><li>le nombre d'agents de surveillance de la voie publique,</li><li>le nombre de gardes-champ\u00eatres,</li><li>le nombre de centres de supervision urbaine (CSU).</li></ul><p>Pour\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/etablissements-denseignement-superieur-2/",
+    "page": "https://www.data.gouv.fr/fr/datasets/police-municipale-effectifs-par-commune/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/24/b45e02791a456ba05ee985c40904f1-100.jpg",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
     "certified": true
   },
   {
@@ -713,17 +724,6 @@
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/95/48f2b01ab149038686794b9f9f6e7b-100.jpg",
     "certified": false
-  },
-  {
-    "id": "5369986ba3a729239d204f55",
-    "title": "Police municipale : Effectifs par commune",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>Les fichiers recensent pour les ann\u00e9es 2012 \u00e0 2018 les communes de votre d\u00e9partement ayant un service de police municipale et contient :</p><ul><li>le nombre de policiers municipaux,</li><li>le nombre d'agents de surveillance de la voie publique,</li><li>le nombre de gardes-champ\u00eatres,</li><li>le nombre de centres de supervision urbaine (CSU).</li></ul><p>Pour\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/police-municipale-effectifs-par-commune/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
-    "certified": true
   },
   {
     "id": "5e80dd1227d2c24eba21b60e",
@@ -759,17 +759,6 @@
     "certified": true
   },
   {
-    "id": "58c984b088ee386cdb1261f3",
-    "title": "Code Officiel G\u00e9ographique (COG)",
-    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
-    "excerpt": "<p>Chaque ann\u00e9e, l'Insee met \u00e0 disposition sur son site (insee.fr) le code officiel g\u00e9ographique qui rassemble les codes et libell\u00e9s des communes, des cantons, des arrondissements, des d\u00e9partements, des r\u00e9gions et des pays et territoires \u00e9trangers au 1er janvier.</p><p>Avertissement\u00a0:Les fichiers du COG ont sensiblement \u00e9volu\u00e9 dans leur\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
-    "certified": true
-  },
-  {
     "id": "5c6adbae634f4114a5c41776",
     "title": "Temps de parole des hommes et des femmes \u00e0 la t\u00e9l\u00e9vision et \u00e0 la radio",
     "source": "Institut national de l'audiovisuel",
@@ -781,23 +770,34 @@
     "certified": true
   },
   {
-    "id": "56051ff788ee3865ae5b59ef",
-    "title": "Elections municipales 2014 \u2013 R\u00e9sultats par bureaux de vote",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>R\u00e9sultats des \u00e9lections municipales 2014, tours 1 et 2, par bureaux de vote</p><p>Nota : le d\u00e9coupage communal, la nomenclature et les p\u00e9rim\u00e8tres des bureaux de vote enregistrent des \u00e9volutions entre les diff\u00e9rents scrutins</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2014-resultats-par-bureaux-de-vote/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
-    "certified": true
-  },
-  {
     "id": "5e7102d5ebe5d838b7581662",
     "title": "Elections municipales 2020 - r\u00e9sultats ",
     "source": "Minist\u00e8re de l'Int\u00e9rieur",
     "excerpt": "<p>R\u00e9sultats du premier tour des \u00e9lections municipales du 15 mars 2020</p><p>Ces donn\u00e9es sont publi\u00e9es sous r\u00e9serve :- des recours form\u00e9s devant le tribunal administratif ;- d'\u00e9ventuelles rectifications (erreurs mat\u00e9rielles, utilisation par les candidats de leur droit de rectification des donn\u00e9es personnelles les concernant)</p>",
     "acronym": null,
     "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-resultats/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
+  },
+  {
+    "id": "58c984b088ee386cdb1261f3",
+    "title": "Code Officiel G\u00e9ographique (COG)",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<p>Chaque ann\u00e9e, l'Insee met \u00e0 disposition sur son site (insee.fr) le code officiel g\u00e9ographique qui rassemble les codes et libell\u00e9s des communes, des cantons, des arrondissements, des d\u00e9partements, des r\u00e9gions et des pays et territoires \u00e9trangers au 1er janvier.</p><p>Avertissement\u00a0:Les fichiers du COG ont sensiblement \u00e9volu\u00e9 dans leur\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "56051ff788ee3865ae5b59ef",
+    "title": "Elections municipales 2014 \u2013 R\u00e9sultats par bureaux de vote",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>R\u00e9sultats des \u00e9lections municipales 2014, tours 1 et 2, par bureaux de vote</p><p>Nota : le d\u00e9coupage communal, la nomenclature et les p\u00e9rim\u00e8tres des bureaux de vote enregistrent des \u00e9volutions entre les diff\u00e9rents scrutins</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2014-resultats-par-bureaux-de-vote/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
     "certified": true
@@ -847,17 +847,6 @@
     "certified": true
   },
   {
-    "id": "53ba4c07a3a729219b7bead3",
-    "title": "Emissions de CO2 et de polluants des v\u00e9hicules commercialis\u00e9s en France ",
-    "source": "ADEME",
-    "excerpt": "<p>Depuis 2001, l\u2019ADEME acquiert tous les ans ces donn\u00e9es aupr\u00e8s de l\u2019Union Technique de l\u2019Automobile du motocycle et du Cycle UTAC (en charge de l\u2019homologation des v\u00e9hicules avant leur mise en vente) en accord avec le minist\u00e8re du d\u00e9veloppement durable.Pour chaque v\u00e9hicule les donn\u00e9es d\u2019origine (transmises par l\u2019Utac)sont les\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
-    "certified": true
-  },
-  {
     "id": "53698e90a3a729239d2034d3",
     "title": "Agriculture biologique 2008-2011 - nombre d'op\u00e9rateurs engag\u00e9s en agriculture biologique",
     "source": "Agence Bio",
@@ -866,6 +855,17 @@
     "page": "https://www.data.gouv.fr/fr/datasets/agriculture-biologique-2008-2011-nombre-d-operateurs-engages-en-agriculture-biologique-30378896/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/fe/3a4e927b7e41199b04501e769ad967-100.png",
+    "certified": true
+  },
+  {
+    "id": "53ba4c07a3a729219b7bead3",
+    "title": "Emissions de CO2 et de polluants des v\u00e9hicules commercialis\u00e9s en France ",
+    "source": "ADEME",
+    "excerpt": "<p>Depuis 2001, l\u2019ADEME acquiert tous les ans ces donn\u00e9es aupr\u00e8s de l\u2019Union Technique de l\u2019Automobile du motocycle et du Cycle UTAC (en charge de l\u2019homologation des v\u00e9hicules avant leur mise en vente) en accord avec le minist\u00e8re du d\u00e9veloppement durable.Pour chaque v\u00e9hicule les donn\u00e9es d\u2019origine (transmises par l\u2019Utac)sont les\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/emissions-de-co2-et-de-polluants-des-vehicules-commercialises-en-france/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
     "certified": true
   },
   {
@@ -913,17 +913,6 @@
     "certified": true
   },
   {
-    "id": "5e75351ccd625f3cf4233a8f",
-    "title": "#COVID19 Nouvelle-Cal\u00e9donie",
-    "source": "cagougeeks",
-    "excerpt": "<p>Contexte</p><p>L'\u00e9pid\u00e9mie de Coronavirus progresse rapidement en m\u00e9tropole qui dispose d'une plateforme Open-Data dont la qualit\u00e9 est certifi\u00e9e et dont le contenu est tr\u00e8s r\u00e9guli\u00e8rement mis \u00e0 jour.</p><p>Exemples:</p><ul><li>Cas confirm\u00e9s en Open Data du Gouvernement en m\u00e9tropole</li><li>Sant\u00e9 Publique France</li></ul><p>A ce jour, je peine \u00e0 trouver un jeu\u2026</p>",
-    "acronym": "#COVID19-NC",
-    "page": "https://www.data.gouv.fr/fr/datasets/covid19-nouvelle-caledonie/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/14/d6fdf9e0db4b7eae3ee0e5c195c251-100.png",
-    "certified": false
-  },
-  {
     "id": "53834c53a3a72906c7ec5c4c",
     "title": "Conna\u00eetre le potentiel radon de ma commune",
     "source": "Institut de radioprotection et de s\u00fbret\u00e9 nucl\u00e9aire (IRSN)",
@@ -932,6 +921,17 @@
     "page": "https://www.data.gouv.fr/fr/datasets/connaitre-le-potentiel-radon-de-ma-commune/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/9f/deb42ce71b4e4f954cd3a5b02534e6-100.png",
+    "certified": false
+  },
+  {
+    "id": "5e75351ccd625f3cf4233a8f",
+    "title": "#COVID19 Nouvelle-Cal\u00e9donie",
+    "source": "cagougeeks",
+    "excerpt": "<p>Contexte</p><p>L'\u00e9pid\u00e9mie de Coronavirus progresse rapidement en m\u00e9tropole qui dispose d'une plateforme Open-Data dont la qualit\u00e9 est certifi\u00e9e et dont le contenu est tr\u00e8s r\u00e9guli\u00e8rement mis \u00e0 jour.</p><p>Exemples:</p><ul><li>Cas confirm\u00e9s en Open Data du Gouvernement en m\u00e9tropole</li><li>Sant\u00e9 Publique France</li></ul><p>A ce jour, je peine \u00e0 trouver un jeu\u2026</p>",
+    "acronym": "#COVID19-NC",
+    "page": "https://www.data.gouv.fr/fr/datasets/covid19-nouvelle-caledonie/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/14/d6fdf9e0db4b7eae3ee0e5c195c251-100.png",
     "certified": false
   },
   {
@@ -977,61 +977,6 @@
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/42/45612b9947432a98d8856ec701e50e-100.jpg",
     "certified": false
-  },
-  {
-    "id": "5e1910499ce2e706c2a48bf2",
-    "title": "Cartographie des jeux de donn\u00e9es publiques Groupe BPCE",
-    "source": "Groupe BPCE",
-    "excerpt": "<p>Cartographie des jeux de donn\u00e9es publiques du groupe BPCE</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/cartographie-des-jeux-de-donnees-publiques-groupe-bpce/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d1/3e1b26bae144319b284c4b5512bea9-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5e5078409ce2e77f20d3bb02",
-    "title": "Statistiques utilisation des jeux de donn\u00e9es Open Data",
-    "source": "Groupe BPCE",
-    "excerpt": "<p>Statistiques d'utilisation des jeux de donn\u00e9es Open Data du Groupe BPCE (nombres d'appels API et de t\u00e9l\u00e9chargements) depuis leur premi\u00e8re publication.</p><p>Ce jeu est mis \u00e0 jour mensuellement.</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/statistiques-utilisation-des-jeux-de-donnees-open-data/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d1/3e1b26bae144319b284c4b5512bea9-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "574c51fe88ee385366d1b934",
-    "title": "Donn\u00e9es radiomaritimes",
-    "source": "Agence nationale des fr\u00e9quences",
-    "excerpt": "<p>Les donn\u00e9es mises \u00e0 disposition ciblent les \u00e9quipements radio\u00e9lectriques embarqu\u00e9s ainsi que les diff\u00e9rents identifiants li\u00e9s \u00e0 la s\u00e9curit\u00e9 (MMSI, indicatif d'appel, statut ouvert ou ferm\u00e9 de l'indicatif) et le statut des licences de station de navire. Ces informations sont regroup\u00e9es par num\u00e9ro d\u2019immatriculation du navire auquel est associ\u00e9 le\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-radiomaritimes/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/28/84a29053514049aa04bbad9e00f155-100.png",
-    "certified": true
-  },
-  {
-    "id": "5e54eb288b4c4132ac9ecb8b",
-    "title": "Evaluation des m\u00e9dicaments 2020",
-    "source": "Haute Autorit\u00e9 de sant\u00e9 (HAS)",
-    "excerpt": "<p>Le Service M\u00e9dical Rendu et l'Am\u00e9lioration du Service M\u00e9dical Rendu sont des notions permettant \u00e0 la Haute autorit\u00e9 de sant\u00e9 (HAS) de proposer l'inscription d'un m\u00e9dicament sur la liste des sp\u00e9cialit\u00e9s remboursables en ville et/ou h\u00f4pital. Aussi, seuls les m\u00e9dicaments pour lesquels le laboratoire qui les commercialise souhaite obtenir leur\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/evaluation-des-medicaments-2020/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/fd/a753642943453eaa9cc5ae003c0edd-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5e4e3d0f634f4151e037fc00",
-    "title": "Indicateurs de qualit\u00e9 et de s\u00e9curit\u00e9 des soins  - recueil 2019",
-    "source": "Haute Autorit\u00e9 de sant\u00e9 (HAS)",
-    "excerpt": "<p>La HAS met \u00e0 disposition des indicateurs de qualit\u00e9 et de s\u00e9curit\u00e9 des soins (IQSS). Ces indicateurs, d\u00e9velopp\u00e9s et valid\u00e9s avec les professionnels de sant\u00e9, les patients et les usagers permettent la comparaison inter-\u00e9tablissements. Aussi, ils sont utilis\u00e9s comme outils d\u2019am\u00e9lioration de la qualit\u00e9 des soins et de la s\u00e9curit\u00e9\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/indicateurs-de-qualite-et-de-securite-des-soins-recueil-2019/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/fd/a753642943453eaa9cc5ae003c0edd-100.jpg",
-    "certified": true
   },
   {
     "id": "5bc0d6e5634f4142b4581861",
@@ -1155,59 +1100,37 @@
     "certified": true
   },
   {
-    "id": "5cb5458a06e3e7191962e16a",
-    "title": "Comptages v\u00e9lo et pi\u00e9tons",
-    "source": "Rennes M\u00e9tropole en acc\u00e8s libre",
-    "excerpt": "<p>Donn\u00e9es issus des compteurs install\u00e9s par la Ville de Rennes sur plusieurs sites. Les comptages comprennent v\u00e9los et pietons.</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/comptages-velo-et-pietons/",
+    "id": "5e83c3ed38f46c1808801fbb",
+    "title": "PIAF - Le dataset francophone de Questions-R\u00e9ponses",
+    "source": "Etalab",
+    "excerpt": "<p>PIAF, construire un jeu de donn\u00e9es francophones ouvert pour l\u2019IA</p><p>Le recours \u00e0 l\u2019intelligence artificielle au sein de l\u2019action publique est souvent identifi\u00e9 comme une opportunit\u00e9 pour interroger des textes documentaires et r\u00e9aliser des outils de questions/r\u00e9ponses (QR) automatiques \u00e0 destination des usagers. Interroger le code du travail en langage\u2026</p>",
+    "acronym": "PIAF - Q&A",
+    "page": "https://www.data.gouv.fr/fr/datasets/piaf-le-dataset-francophone-de-questions-reponses/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/66/cb171cad4040edb21549eefeed27bc-100.png",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
     "certified": true
   },
   {
-    "id": "5cba644406e3e7623c6fc4f9",
-    "title": "Cartographie des jeux de donn\u00e9es Open Data utilis\u00e9s par le Groupe BPCE",
-    "source": "Groupe BPCE",
-    "excerpt": "<p>La liste des sources et jeux de donn\u00e9es utilis\u00e9s par les entit\u00e9s du Groupe BPCE, ce jeu inclut la fr\u00e9quence de mise \u00e0 jour par les diff\u00e9rents diffuseurs. </p><p>Cette liste a \u00e9t\u00e9 \u00e9labor\u00e9e sur la base des remont\u00e9es utilisateurs (m\u00e9tiers) mais \u00e9galement d'un recensement actif des Open Data sur le\u2026</p>",
+    "id": "5e3bf9f66f44410d2c83613b",
+    "title": "G\u00e9olocalisation des bureaux de vote",
+    "source": "Christian Quest",
+    "excerpt": "<p>Ce jeu de donn\u00e9e est une version g\u00e9ocod\u00e9e du fichier des bureaux de vote publi\u00e9 par l'INSEE.</p><p>Il a \u00e9t\u00e9 g\u00e9ocod\u00e9 \u00e0 l'aide de:- la Base Adresse Nationale (f\u00e9vrier 2020)- la BANO d'OpenStreetMap France (f\u00e9vrier 2020)- les points d'int\u00e9r\u00eat extraits d'OpenStreetMap</p><p>ATTENTION: Le g\u00e9ocodage est processus imparfait\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/cartographie-des-jeux-de-donnees-open-data-utilises-par-le-groupe-bpce/",
+    "page": "https://www.data.gouv.fr/fr/datasets/geolocalisation-des-bureaux-de-vote/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d1/3e1b26bae144319b284c4b5512bea9-100.jpg",
-    "certified": true
+    "logo_url": "https://static.data.gouv.fr/avatars/af/c9f6203b3e4b858973b4ab792e7643-500.jpg",
+    "certified": false
   },
   {
-    "id": "5cc1153206e3e776056fc4f9",
-    "title": "IPA situation en fonction de la classe de sortie",
-    "source": "Education Nationale",
-    "excerpt": "<p>L\u2019enqu\u00eate sur l\u2019insertion professionnelle des apprentis (IPA) de la DEPP existe depuis le d\u00e9but des ann\u00e9es 1990. Elle rend compte de l'insertion des jeunes en f\u00e9vrier de chaque ann\u00e9e, sept mois apr\u00e8s la fin de leur formation en apprentissage. Cette enqu\u00eate est r\u00e9alis\u00e9e avec le concours des acad\u00e9mies et des\u2026</p>",
+    "id": "5e870c8219cd4e437b686bac",
+    "title": " Inventaire des initiatives de la soci\u00e9t\u00e9 civile visant \u00e0 faire face \u00e0 la pand\u00e9mie de Covid-19",
+    "source": "Covid-initiatives",
+    "excerpt": "<p>La mission de Covid-initiatives</p><p>Covid-initiatives est un collectif b\u00e9n\u00e9vole qui a pour ambition de recenser un maximum d'initiatives de la soci\u00e9t\u00e9 civile visant \u00e0 faire face \u00e0 la pand\u00e9mie de Covid-19. Le collectif est \u00e0 l\u2019orgine de la plateforme covid-initiatives.org qui tente de donner \u00e0 voir de la mani\u00e8re la\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/ipa-situation-en-fonction-de-la-classe-de-sortie/",
+    "page": "https://www.data.gouv.fr/fr/datasets/inventaire-des-initiatives-de-la-societe-civile-visant-a-faire-face-a-la-pandemie-de-covid-19/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png",
-    "certified": true
-  },
-  {
-    "id": "5cc1154206e3e776056fc4fb",
-    "title": "IPA taux d'emploi en fonction du groupe de sp\u00e9cialit\u00e9",
-    "source": "Education Nationale",
-    "excerpt": "<p>L\u2019enqu\u00eate sur l\u2019insertion professionnelle des apprentis (IPA) de la DEPP existe depuis le d\u00e9but des ann\u00e9es 1990. Elle rend compte de l'insertion des jeunes en f\u00e9vrier de chaque ann\u00e9e, sept mois apr\u00e8s la fin de leur formation en apprentissage. Cette enqu\u00eate est r\u00e9alis\u00e9e avec le concours des acad\u00e9mies et des\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/ipa-taux-demploi-en-fonction-du-groupe-de-specialite/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png",
-    "certified": true
-  },
-  {
-    "id": "5cd95215634f417dff43508f",
-    "title": "Socle interminist\u00e9riel de logiciels libres",
-    "source": "Direction interminist\u00e9rielle du num\u00e9rique",
-    "excerpt": "<p>Le socle interminist\u00e9riel de logiciels libres (SILL) est une liste de logiciels libres recommand\u00e9s pour les administrations publiques.  Cette liste est \u00e9tablie par des agents publics qui sont volontaires pour \u00eatre r\u00e9f\u00e9rents aupr\u00e8s des autres administrations d'un ou plusieurs logiciels.  Les \u00ab r\u00e9f\u00e9rents SILL \u00bb \u00e9changent sur des listes de\u2026</p>",
-    "acronym": "SILL",
-    "page": "https://www.data.gouv.fr/fr/datasets/socle-interministeriel-de-logiciels-libres/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/58/1d2f3b9edc45428304e3ac3d1dd5fa-100.jpg",
-    "certified": true
+    "logo_url": "https://static.data.gouv.fr/avatars/30/3624ff029d41908d4b3d2c11dfa349-100.png",
+    "certified": false
   },
   {
     "id": "5dfc123adee7e76b998c3ede",
@@ -1254,100 +1177,243 @@
     "certified": true
   },
   {
-    "id": "5d5f9fc96f4441094179a94c",
-    "title": "Code source des taxes fonci\u00e8res (TF)",
-    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
-    "excerpt": "<p>Le code source des taxes fonci\u00e8res est produit par la Direction G\u00e9n\u00e9rale des Finances publiques. Ce code source est sous licence CeCILL v2.1(d\u00e9tail dans le fichier LICENSE.txt). Cette ouverture s\u2019inscrit dans la mise en \u0153uvre de la Loi pour une R\u00e9publique num\u00e9rique, qui a ajout\u00e9 \u00e0 l\u2019article L300-2 du Code\u2026</p>",
-    "acronym": "TF",
-    "page": "https://www.data.gouv.fr/fr/datasets/code-source-des-taxes-foncieres-tf/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
-    "certified": true
-  },
-  {
-    "id": "5d5134668b4c41192b34472e",
-    "title": "Indicateurs consommation espace 2019 issus des Fichiers Fonciers (Pnb-Action7)",
-    "source": "Cerema",
-    "excerpt": "<p>\u00ab\u00a0Tous les 10 ans, l\u2019\u00e9quivalent d\u2019un d\u00e9partement fran\u00e7ais dispara\u00eet sous le coup de l\u2019urbanisation\u00a0\u00bb. Cette formule-choc marque depuis 2010 les communications autour de la n\u00e9cessit\u00e9 de r\u00e9duire l\u2019artificialisation des terres.Cependant, les mesures du ph\u00e9nom\u00e8ne op\u00e9r\u00e9es au niveau national sont ne permettent pas de corroborer cette affirmation1, et\u2026</p>",
+    "id": "5b60645a06e3e73216e1d920",
+    "title": "Enqu\u00eate d\u00e9placements en Loire-Atlantique",
+    "source": "D\u00e9partement de Loire-Atlantique",
+    "excerpt": "<p>L'Enqu\u00eate D\u00e9placements Grand Territoire de Loire-Atlantique 2015, r\u00e9alis\u00e9e selon la m\u00e9thodologie nationale \u00e9labor\u00e9e par le CERTU (Centre d'\u00e9tudes sur les r\u00e9seaux de transport et l'urbanisme), est une enqu\u00eate portant sur le D\u00e9partement de Loire-Atlantique, six communes du Maine-et-Loire et trois communes du Morbihan. Ce territoire, compos\u00e9 de 230 communes pour\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/indicateurs-consommation-espace-2019-issus-des-fichiers-fonciers-pnb-action7/",
+    "page": "https://www.data.gouv.fr/fr/datasets/enquete-deplacements-en-loire-atlantique-2/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png",
+    "logo_url": "https://static.data.gouv.fr/avatars/b6/4f57b5268546dcb30cfe536a43d0b9-100.png",
     "certified": true
   },
   {
-    "id": "5d562cfd06e3e75179d78afe",
-    "title": "Comptage routier - Donn\u00e9es trafic issues des capteurs permanents",
-    "source": "Mairie de Paris",
-    "excerpt": "<p>Ce jeu de donn\u00e9es comprend l'ensemble des donn\u00e9es horaires de d\u00e9bit et taux d'occupation remont\u00e9es par les capteurs permanents de trafic install\u00e9s sur le r\u00e9seau renseign\u00e9 de la Ville de Paris (r\u00e9seau urbain et boulevard p\u00e9riph\u00e9rique) pour l'ann\u00e9e 2019.  </p><p>La p\u00e9riode couverte par l'API pour ce jeu de donn\u00e9es va\u2026</p>",
+    "id": "5e27c920dee7e70eee25e8d6",
+    "title": "Entreprises radi\u00e9es en 2020",
+    "source": "Infogreffe ",
+    "excerpt": "",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/comptage-routier-donnees-trafic-issues-des-capteurs-permanents/",
+    "page": "https://www.data.gouv.fr/fr/datasets/entreprises-radiees-en-2020/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/b2/0e83ec3699415a87640e97c51cb006-100.png",
+    "logo_url": "https://static.data.gouv.fr/avatars/46/ccf8461acc41bfad4be5d5bc6a9767-100.jpg",
     "certified": true
   },
   {
-    "id": "5d64ab839ce2e74ef0d00585",
-    "title": "Journ\u00e9es Europ\u00e9enes du Patrimoine - JEP 2019",
-    "source": "Minist\u00e8re de la Culture",
-    "excerpt": "<p>Programme pour la 36e \u00e9dition des Journ\u00e9es Europ\u00e9ennes du Patrimoine qui auront lieu les 21 et 22 septembre 2019 .Pour en savoir plus.</p><p>Le fichier est mis \u00e0 jour quotidiennement.</p>",
+    "id": "5e27c92106e3e73792ce8d48",
+    "title": "Entreprises immatricul\u00e9es en 2020",
+    "source": "Infogreffe ",
+    "excerpt": "<p>Liste des soci\u00e9t\u00e9s commerciales immatricul\u00e9es au registre du commerce et des soci\u00e9t\u00e9s en 2020.</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/journees-europeenes-du-patrimoine-jep-2019/",
+    "page": "https://www.data.gouv.fr/fr/datasets/entreprises-immatriculees-en-2020-1/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/cf/f1ce1cb584470c8b83a9839dd9c83e-100.jpg",
+    "logo_url": "https://static.data.gouv.fr/avatars/46/ccf8461acc41bfad4be5d5bc6a9767-100.jpg",
     "certified": true
   },
   {
-    "id": "5b98b648634f415309d52a50",
-    "title": "Donn\u00e9es \u00ab temps r\u00e9el \u00bb de mesure des concentrations de polluants atmosph\u00e9riques r\u00e9glement\u00e9s ",
-    "source": "Laboratoire Central de Surveillance de la Qualit\u00e9 de l'Air",
-    "excerpt": "<p>La surveillance de la qualit\u00e9 de l\u2019air ambiant en France est confi\u00e9e aux 18 Associations Agr\u00e9\u00e9es de Surveillance de la Qualit\u00e9 de l\u2019Air (AASQA). Les stations de mesure de la qualit\u00e9 de l\u2019air qui participent \u00e0 cette surveillance sont op\u00e9r\u00e9es et g\u00e9r\u00e9es par les AASQA.Les donn\u00e9es mesur\u00e9es sur ces\u2026</p>",
+    "id": "5e174be4634f414cd8a244f1",
+    "title": "Crit\u00e8res de r\u00e9partition des dotations vers\u00e9es par l\u2019Etat aux collectivit\u00e9s territoriales",
+    "source": "Direction g\u00e9n\u00e9rale des collectivit\u00e9s locales",
+    "excerpt": "<p>Ce jeu de donn\u00e9es vous permet d\u2019acc\u00e9der aux principaux crit\u00e8res physiques et financiers utilis\u00e9s pour la r\u00e9partition des fonds nationaux de p\u00e9r\u00e9quation et pour la r\u00e9partition des dotations de l\u2019\u00c9tat aux collectivit\u00e9s territoriales. Ces principaux crit\u00e8res physiques et financiers sont consultables pour l\u2019ensemble des collectivit\u00e9s territoriales en format csv.</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-temps-reel-de-mesure-des-concentrations-de-polluants-atmospheriques-reglementes-1/",
+    "page": "https://www.data.gouv.fr/fr/datasets/criteres-de-repartition-des-dotations-versees-par-letat-aux-collectivites-territoriales/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/54/4e6d93328c4f5e8b657fe6b8e72ac4-100.jpg",
+    "logo_url": "https://static.data.gouv.fr/avatars/f6/f5fd45c7fd4a59b317325fb5d275ea-100.png",
+    "certified": false
+  },
+  {
+    "id": "5e1462e28b4c414163b4dc4b",
+    "title": "Les donn\u00e9es contextuelles des intercommunalit\u00e9s et autres structures territoriales",
+    "source": "Direction g\u00e9n\u00e9rale des collectivit\u00e9s locales",
+    "excerpt": "<p>Dans le cadre de ses activit\u00e9s, la Direction g\u00e9n\u00e9rale des collectivit\u00e9s locales (DGCL) op\u00e8re le portail d'Acc\u00e8s des services publics aux informations sur les collectivit\u00e9s (ASPIC). Sont saisies dans ce portail des donn\u00e9es \u00e0 propos des intercommunalit\u00e9s. </p>Les donn\u00e9es des intercommunalit\u00e9s<p>Parmi les donn\u00e9es contenues dans ASPIC figure la base\u2026</p>",
+    "acronym": "ASPIC",
+    "page": "https://www.data.gouv.fr/fr/datasets/les-donnees-contextuelles-des-intercommunalites-et-autres-structures-territoriales/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/f6/f5fd45c7fd4a59b317325fb5d275ea-100.png",
+    "certified": false
+  },
+  {
+    "id": "5e1f20058b4c414d3f94460d",
+    "title": "Base nationale sur les intercommunalit\u00e9s",
+    "source": "Direction g\u00e9n\u00e9rale des collectivit\u00e9s locales",
+    "excerpt": "<p>Les donn\u00e9es de la base nationale sur les intercommunalit\u00e9s (BANATIC) comportent des informations sur les intercommunalit\u00e9s.</p><p>Vous trouverez plusieurs fichiers :- Liste des groupements : la situation g\u00e9ographique, la nature juridique, la date de cr\u00e9ation, le p\u00e9rim\u00e8tre, le profil financier ;- Coordonn\u00e9es des groupements : des moyens pour\u2026</p>",
+    "acronym": "BANATIC",
+    "page": "https://www.data.gouv.fr/fr/datasets/base-nationale-sur-les-intercommunalites/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/f6/f5fd45c7fd4a59b317325fb5d275ea-100.png",
+    "certified": false
+  },
+  {
+    "id": "5e32e1cc634f41228eaf091d",
+    "title": "Transparence sur la qualit\u00e9 des services publics",
+    "source": "Direction Interminist\u00e9rielle de la Transformation Publique",
+    "excerpt": "<p>Ce jeu de donn\u00e9es comprend les r\u00e9sultats de qualit\u00e9 de services des services publics issus du programme Transparence :Les donn\u00e9es sont en ligne sur resultats-services-publics.fr</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/transparence-sur-la-qualite-des-services-publics/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/23/6afe2cc8e24acaa8791a7e168bfcda-100.png",
+    "certified": false
+  },
+  {
+    "id": "5e1910499ce2e706c2a48bf2",
+    "title": "Cartographie des jeux de donn\u00e9es publiques Groupe BPCE",
+    "source": "Groupe BPCE",
+    "excerpt": "<p>Cartographie des jeux de donn\u00e9es publiques du groupe BPCE</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/cartographie-des-jeux-de-donnees-publiques-groupe-bpce/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/d1/3e1b26bae144319b284c4b5512bea9-100.jpg",
     "certified": true
   },
   {
-    "id": "5e83c3ed38f46c1808801fbb",
-    "title": "PIAF - Le dataset francophone de Questions-R\u00e9ponses",
+    "id": "5e5078409ce2e77f20d3bb02",
+    "title": "Statistiques utilisation des jeux de donn\u00e9es Open Data",
+    "source": "Groupe BPCE",
+    "excerpt": "<p>Statistiques d'utilisation des jeux de donn\u00e9es Open Data du Groupe BPCE (nombres d'appels API et de t\u00e9l\u00e9chargements) depuis leur premi\u00e8re publication.</p><p>Ce jeu est mis \u00e0 jour mensuellement.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/statistiques-utilisation-des-jeux-de-donnees-open-data/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/d1/3e1b26bae144319b284c4b5512bea9-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "574c51fe88ee385366d1b934",
+    "title": "Donn\u00e9es radiomaritimes",
+    "source": "Agence nationale des fr\u00e9quences",
+    "excerpt": "<p>Les donn\u00e9es mises \u00e0 disposition ciblent les \u00e9quipements radio\u00e9lectriques embarqu\u00e9s ainsi que les diff\u00e9rents identifiants li\u00e9s \u00e0 la s\u00e9curit\u00e9 (MMSI, indicatif d'appel, statut ouvert ou ferm\u00e9 de l'indicatif) et le statut des licences de station de navire. Ces informations sont regroup\u00e9es par num\u00e9ro d\u2019immatriculation du navire auquel est associ\u00e9 le\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-radiomaritimes/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/28/84a29053514049aa04bbad9e00f155-100.png",
+    "certified": true
+  },
+  {
+    "id": "5e54eb288b4c4132ac9ecb8b",
+    "title": "Evaluation des m\u00e9dicaments 2020",
+    "source": "Haute Autorit\u00e9 de sant\u00e9 (HAS)",
+    "excerpt": "<p>Le Service M\u00e9dical Rendu et l'Am\u00e9lioration du Service M\u00e9dical Rendu sont des notions permettant \u00e0 la Haute autorit\u00e9 de sant\u00e9 (HAS) de proposer l'inscription d'un m\u00e9dicament sur la liste des sp\u00e9cialit\u00e9s remboursables en ville et/ou h\u00f4pital. Aussi, seuls les m\u00e9dicaments pour lesquels le laboratoire qui les commercialise souhaite obtenir leur\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/evaluation-des-medicaments-2020/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/fd/a753642943453eaa9cc5ae003c0edd-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5e4e3d0f634f4151e037fc00",
+    "title": "Indicateurs de qualit\u00e9 et de s\u00e9curit\u00e9 des soins  - recueil 2019",
+    "source": "Haute Autorit\u00e9 de sant\u00e9 (HAS)",
+    "excerpt": "<p>La HAS met \u00e0 disposition des indicateurs de qualit\u00e9 et de s\u00e9curit\u00e9 des soins (IQSS). Ces indicateurs, d\u00e9velopp\u00e9s et valid\u00e9s avec les professionnels de sant\u00e9, les patients et les usagers permettent la comparaison inter-\u00e9tablissements. Aussi, ils sont utilis\u00e9s comme outils d\u2019am\u00e9lioration de la qualit\u00e9 des soins et de la s\u00e9curit\u00e9\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/indicateurs-de-qualite-et-de-securite-des-soins-recueil-2019/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/fd/a753642943453eaa9cc5ae003c0edd-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5cb5458a06e3e7191962e16a",
+    "title": "Comptages v\u00e9lo et pi\u00e9tons",
+    "source": "Rennes M\u00e9tropole en acc\u00e8s libre",
+    "excerpt": "<p>Donn\u00e9es issus des compteurs install\u00e9s par la Ville de Rennes sur plusieurs sites. Les comptages comprennent v\u00e9los et pietons.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/comptages-velo-et-pietons/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/66/cb171cad4040edb21549eefeed27bc-100.png",
+    "certified": true
+  },
+  {
+    "id": "5cba644406e3e7623c6fc4f9",
+    "title": "Cartographie des jeux de donn\u00e9es Open Data utilis\u00e9s par le Groupe BPCE",
+    "source": "Groupe BPCE",
+    "excerpt": "<p>La liste des sources et jeux de donn\u00e9es utilis\u00e9s par les entit\u00e9s du Groupe BPCE, ce jeu inclut la fr\u00e9quence de mise \u00e0 jour par les diff\u00e9rents diffuseurs. </p><p>Cette liste a \u00e9t\u00e9 \u00e9labor\u00e9e sur la base des remont\u00e9es utilisateurs (m\u00e9tiers) mais \u00e9galement d'un recensement actif des Open Data sur le\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/cartographie-des-jeux-de-donnees-open-data-utilises-par-le-groupe-bpce/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/d1/3e1b26bae144319b284c4b5512bea9-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5cc1153206e3e776056fc4f9",
+    "title": "IPA situation en fonction de la classe de sortie",
+    "source": "Education Nationale",
+    "excerpt": "<p>L\u2019enqu\u00eate sur l\u2019insertion professionnelle des apprentis (IPA) de la DEPP existe depuis le d\u00e9but des ann\u00e9es 1990. Elle rend compte de l'insertion des jeunes en f\u00e9vrier de chaque ann\u00e9e, sept mois apr\u00e8s la fin de leur formation en apprentissage. Cette enqu\u00eate est r\u00e9alis\u00e9e avec le concours des acad\u00e9mies et des\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/ipa-situation-en-fonction-de-la-classe-de-sortie/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png",
+    "certified": true
+  },
+  {
+    "id": "5cc1154206e3e776056fc4fb",
+    "title": "IPA taux d'emploi en fonction du groupe de sp\u00e9cialit\u00e9",
+    "source": "Education Nationale",
+    "excerpt": "<p>L\u2019enqu\u00eate sur l\u2019insertion professionnelle des apprentis (IPA) de la DEPP existe depuis le d\u00e9but des ann\u00e9es 1990. Elle rend compte de l'insertion des jeunes en f\u00e9vrier de chaque ann\u00e9e, sept mois apr\u00e8s la fin de leur formation en apprentissage. Cette enqu\u00eate est r\u00e9alis\u00e9e avec le concours des acad\u00e9mies et des\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/ipa-taux-demploi-en-fonction-du-groupe-de-specialite/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/84/3194d831264f769fa817e58813d413-100.png",
+    "certified": true
+  },
+  {
+    "id": "5ea7d2e5c479ae52c2b9a38f",
+    "title": "Projets financ\u00e9s (hors PIA) 2005-2019",
+    "source": "Agence Nationale de la Recherche",
+    "excerpt": "<p>Projets financ\u00e9s (hors PIA) 2005-2019, la notice d\u00e9taille le contenu des champs</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/projets-finances-hors-pia-2005-2019/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/5d/93a65f5a264f44a4f7784be9fa3c40-100.png",
+    "certified": true
+  },
+  {
+    "id": "5e9dc6fb50e78562fdf2d2a5",
+    "title": "SINOE \u00ae - Tonnage d\u00e9ch\u00e8teries par type de d\u00e9chet et d\u00e9partement",
+    "source": "ADEME",
+    "excerpt": "<p>R\u00e9partition des tonnages de d\u00e9chets collect\u00e9s en d\u00e9ch\u00e8terie par type de d\u00e9chet et par d\u00e9partement. </p><p></p><p>Le jeu de donn\u00e9es \"Tonnage de d\u00e9chets collect\u00e9s en d\u00e9ch\u00e8terie par type de d\u00e9chets\" contient, pour les ann\u00e9es impaires de 2009 \u00e0 2017, les tonnages de d\u00e9chets collect\u00e9s par type de d\u00e9chets et par d\u00e9partement.\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/sinoe-r-tonnage-decheteries-par-type-de-dechet-et-departement/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5ebc257e4694940a16d181d3",
+    "title": "Donn\u00e9es relatives aux reports d'\u00e9ch\u00e9ances fiscales accord\u00e9s dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19",
     "source": "Etalab",
-    "excerpt": "<p>PIAF, construire un jeu de donn\u00e9es francophones ouvert pour l\u2019IA</p><p>Le recours \u00e0 l\u2019intelligence artificielle au sein de l\u2019action publique est souvent identifi\u00e9 comme une opportunit\u00e9 pour interroger des textes documentaires et r\u00e9aliser des outils de questions/r\u00e9ponses (QR) automatiques \u00e0 destination des usagers. Interroger le code du travail en langage\u2026</p>",
-    "acronym": "PIAF - Q&A",
-    "page": "https://www.data.gouv.fr/fr/datasets/piaf-le-dataset-francophone-de-questions-reponses/",
+    "excerpt": "<p>Les reports d'\u00e9ch\u00e9ances fiscales durant la crise du  COVID-19</p><p>Le Gouvernement a annonc\u00e9 le report des principales \u00e9ch\u00e9ances fiscales des professionnels afin de tenir compte de leurs difficult\u00e9s li\u00e9es \u00e0 la crise sanitaire du coronavirus.</p><p>Le report d'\u00e9ch\u00e9ance fiscale concerne :</p><ul><li>Les entreprises ou les experts-comptables qui interviennent pour des\u2026</li></ul>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
     "certified": true
   },
   {
-    "id": "5e3bf9f66f44410d2c83613b",
-    "title": "G\u00e9olocalisation des bureaux de vote",
-    "source": "Christian Quest",
-    "excerpt": "<p>Ce jeu de donn\u00e9e est une version g\u00e9ocod\u00e9e du fichier des bureaux de vote publi\u00e9 par l'INSEE.</p><p>Il a \u00e9t\u00e9 g\u00e9ocod\u00e9 \u00e0 l'aide de:- la Base Adresse Nationale (f\u00e9vrier 2020)- la BANO d'OpenStreetMap France (f\u00e9vrier 2020)- les points d'int\u00e9r\u00eat extraits d'OpenStreetMap</p><p>ATTENTION: Le g\u00e9ocodage est processus imparfait\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/geolocalisation-des-bureaux-de-vote/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/af/c9f6203b3e4b858973b4ab792e7643-500.jpg",
-    "certified": false
-  },
-  {
-    "id": "5e870c8219cd4e437b686bac",
-    "title": " Inventaire des initiatives de la soci\u00e9t\u00e9 civile visant \u00e0 faire face \u00e0 la pand\u00e9mie de Covid-19",
-    "source": "Covid-initiatives",
-    "excerpt": "<p>La mission de Covid-initiatives</p><p>Covid-initiatives est un collectif b\u00e9n\u00e9vole qui a pour ambition de recenser un maximum d'initiatives de la soci\u00e9t\u00e9 civile visant \u00e0 faire face \u00e0 la pand\u00e9mie de Covid-19. Le collectif est \u00e0 l\u2019orgine de la plateforme covid-initiatives.org qui tente de donner \u00e0 voir de la mani\u00e8re la\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/inventaire-des-initiatives-de-la-societe-civile-visant-a-faire-face-a-la-pandemie-de-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/30/3624ff029d41908d4b3d2c11dfa349-100.png",
-    "certified": false
-  },
-  {
-    "id": "5d13a8b6634f41070a43dff3",
-    "title": "Catalogue des donn\u00e9es de data.gouv.fr",
+    "id": "5ebc1ab7e5d3010d32ca8260",
+    "title": "Donn\u00e9es relatives aux pr\u00eats garantis par l\u2019Etat dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19",
     "source": "Etalab",
-    "excerpt": "<p>La plateforme data.gouv.fr est le portail unique interminist\u00e9riel destin\u00e9 \u00e0 rassembler et \u00e0 mettre \u00e0 disposition librement l\u2019ensemble des informations publiques de l\u2019\u00c9tat, de ses \u00e9tablissements publics administratifs, des collectivit\u00e9s territoriales et des personnes de droit public ou de droit priv\u00e9 charg\u00e9es d\u2019une mission de service public.</p><p>Ce jeu de\u2026</p>",
+    "excerpt": "<p>Les pr\u00eats garantis par l'Etat durant la crise du  COVID-19</p><p>Le Gouvernement met en \u0153uvre un dispositif exceptionnel de garanties permettant de soutenir le financement bancaire des entreprises, \u00e0 hauteur de 300 milliards d\u2019euros.</p><p>Jusqu\u2019au 31 d\u00e9cembre prochain, les entreprises de toute taille, quelle que soit la forme juridique de\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/",
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5e9dbdbe71589194c8f7b42f",
+    "title": "Donn\u00e9es relatives au fonds de solidarit\u00e9 mis en place dans le cadre de l'\u00e9pid\u00e9mie de COVID-19",
+    "source": "Etalab",
+    "excerpt": "<p>Le fonds de solidarit\u00e9</p><p>Dans le contexte de l'\u00e9pid\u00e9mie de COVID-19, l\u2019Etat a mis en place, avec les R\u00e9gions, un fonds de solidarit\u00e9 dot\u00e9 d\u20191,7 milliard d\u2019euros pour le mois de mars 2020 qui permettra le versement d\u2019une aide d\u00e9fiscalis\u00e9e allant jusqu\u2019\u00e0 1500 euros aux plus petites entreprises, aux ind\u00e9pendants,\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5ea2db4e4df5f1871c9229be",
+    "title": "Transferts de patients atteints de COVID-19",
+    "source": "Etalab",
+    "excerpt": "<p>Contexte</p><p>Pour r\u00e9pondre \u00e0 la crise sanitaire et \u00e0 la mise en tension du syst\u00e8me de sant\u00e9 fran\u00e7ais, le gouvernement op\u00e8re depuis le 18 mars 2020 des transferts de patients entre \u00e9tablissements hospitaliers. Ce dispositif a pour objectif de d\u00e9sengorger les \u00e9tablissements les plus touch\u00e9s par l'\u00e9pid\u00e9mie de COVID-19. </p><p>Mode\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/transferts-de-patients-atteints-de-covid-19/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
     "certified": true
@@ -1408,6 +1474,17 @@
     "certified": true
   },
   {
+    "id": "5d8e16106f44410332a79994",
+    "title": "Donn\u00e9es carroy\u00e9es issues du dispositif sur les revenus localis\u00e9s fiscaux et sociaux (FiLoSoFi)",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<p>Ces donn\u00e9es proviennent du dispositif sur les revenus localis\u00e9s sociaux et fiscaux (FiLoSoFi).- Les bases contiennent 26 variables sur la structure par \u00e2ge des individus, sur les caract\u00e9ristiques des m\u00e9nages et des logements et sur les revenus per\u00e7us au cours de l\u2019ann\u00e9e 2015. Le champ g\u00e9ographique est constitu\u00e9 de\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-carroyees-issues-du-dispositif-sur-les-revenus-localises-fiscaux-et-sociaux-filosofi/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "certified": true
+  },
+  {
     "id": "5d1b7aa36f444175f0d04005",
     "title": "Les finances publiques locales 2019 - Fascicule 1",
     "source": "Cour des comptes",
@@ -1427,6 +1504,72 @@
     "page": "https://www.data.gouv.fr/fr/datasets/les-finances-publiques-locales-2019/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/ac/83f761a23f4263be8b3401b01625e8-100.png",
+    "certified": true
+  },
+  {
+    "id": "5cd95215634f417dff43508f",
+    "title": "Socle interminist\u00e9riel de logiciels libres",
+    "source": "Direction interminist\u00e9rielle du num\u00e9rique",
+    "excerpt": "<p>Le socle interminist\u00e9riel de logiciels libres (SILL) est une liste de logiciels libres recommand\u00e9s pour les administrations publiques.  Cette liste est \u00e9tablie par des agents publics qui sont volontaires pour \u00eatre r\u00e9f\u00e9rents aupr\u00e8s des autres administrations d'un ou plusieurs logiciels.  Les \u00ab r\u00e9f\u00e9rents SILL \u00bb \u00e9changent sur des listes de\u2026</p>",
+    "acronym": "SILL",
+    "page": "https://www.data.gouv.fr/fr/datasets/socle-interministeriel-de-logiciels-libres/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/58/1d2f3b9edc45428304e3ac3d1dd5fa-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5d5f9fc96f4441094179a94c",
+    "title": "Code source des taxes fonci\u00e8res (TF)",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Le code source des taxes fonci\u00e8res est produit par la Direction G\u00e9n\u00e9rale des Finances publiques. Ce code source est sous licence CeCILL v2.1(d\u00e9tail dans le fichier LICENSE.txt). Cette ouverture s\u2019inscrit dans la mise en \u0153uvre de la Loi pour une R\u00e9publique num\u00e9rique, qui a ajout\u00e9 \u00e0 l\u2019article L300-2 du Code\u2026</p>",
+    "acronym": "TF",
+    "page": "https://www.data.gouv.fr/fr/datasets/code-source-des-taxes-foncieres-tf/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
+  },
+  {
+    "id": "5d5134668b4c41192b34472e",
+    "title": "Indicateurs consommation espace 2019 issus des Fichiers Fonciers (Pnb-Action7)",
+    "source": "Cerema",
+    "excerpt": "<p>\u00ab\u00a0Tous les 10 ans, l\u2019\u00e9quivalent d\u2019un d\u00e9partement fran\u00e7ais dispara\u00eet sous le coup de l\u2019urbanisation\u00a0\u00bb. Cette formule-choc marque depuis 2010 les communications autour de la n\u00e9cessit\u00e9 de r\u00e9duire l\u2019artificialisation des terres.Cependant, les mesures du ph\u00e9nom\u00e8ne op\u00e9r\u00e9es au niveau national sont ne permettent pas de corroborer cette affirmation1, et\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/indicateurs-consommation-espace-2019-issus-des-fichiers-fonciers-pnb-action7/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/b7/f2d8054adf4585a733745d0ba7dafa-100.png",
+    "certified": true
+  },
+  {
+    "id": "5d562cfd06e3e75179d78afe",
+    "title": "Comptage routier - Donn\u00e9es trafic issues des capteurs permanents",
+    "source": "Mairie de Paris",
+    "excerpt": "<p>Ce jeu de donn\u00e9es comprend l'ensemble des donn\u00e9es horaires de d\u00e9bit et taux d'occupation remont\u00e9es par les capteurs permanents de trafic install\u00e9s sur le r\u00e9seau renseign\u00e9 de la Ville de Paris (r\u00e9seau urbain et boulevard p\u00e9riph\u00e9rique) pour l'ann\u00e9e 2019.  </p><p>La p\u00e9riode couverte par l'API pour ce jeu de donn\u00e9es va\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/comptage-routier-donnees-trafic-issues-des-capteurs-permanents/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/b2/0e83ec3699415a87640e97c51cb006-100.png",
+    "certified": true
+  },
+  {
+    "id": "5d64ab839ce2e74ef0d00585",
+    "title": "Journ\u00e9es Europ\u00e9enes du Patrimoine - JEP 2019",
+    "source": "Minist\u00e8re de la Culture",
+    "excerpt": "<p>Programme pour la 36e \u00e9dition des Journ\u00e9es Europ\u00e9ennes du Patrimoine qui auront lieu les 21 et 22 septembre 2019 .Pour en savoir plus.</p><p>Le fichier est mis \u00e0 jour quotidiennement.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/journees-europeenes-du-patrimoine-jep-2019/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/cf/f1ce1cb584470c8b83a9839dd9c83e-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5b98b648634f415309d52a50",
+    "title": "Donn\u00e9es \u00ab temps r\u00e9el \u00bb de mesure des concentrations de polluants atmosph\u00e9riques r\u00e9glement\u00e9s ",
+    "source": "Laboratoire Central de Surveillance de la Qualit\u00e9 de l'Air",
+    "excerpt": "<p>La surveillance de la qualit\u00e9 de l\u2019air ambiant en France est confi\u00e9e aux 18 Associations Agr\u00e9\u00e9es de Surveillance de la Qualit\u00e9 de l\u2019Air (AASQA). Les stations de mesure de la qualit\u00e9 de l\u2019air qui participent \u00e0 cette surveillance sont op\u00e9r\u00e9es et g\u00e9r\u00e9es par les AASQA.Les donn\u00e9es mesur\u00e9es sur ces\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-temps-reel-de-mesure-des-concentrations-de-polluants-atmospheriques-reglementes-1/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/54/4e6d93328c4f5e8b657fe6b8e72ac4-100.jpg",
     "certified": true
   },
   {
@@ -1518,6 +1661,17 @@
     "certified": true
   },
   {
+    "id": "58e5842688ee386c65805755",
+    "title": "R\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE)",
+    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
+    "excerpt": "<p>L'\u00c9tat a confi\u00e9 \u00e0 l'IGN le d\u00e9veloppement du r\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE). Pour ce faire, il fait appel \u00e0 ses moyens propres ainsi qu\u2019\u00e0 des partenariats avec des producteurs principalement de la sph\u00e8re publique. Le RGE est constitu\u00e9 des composantes orthophotographique, topographique et adresse, parcellaire et altim\u00e9trique.</p><p>Sp\u00e9cifications du\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
+    "certified": true
+  },
+  {
     "id": "5dc455a06f4441330445e5a7",
     "title": "R\u00e9seau de transport routier - Cat\u00e9gorie de rev\u00eatement - France m\u00e9tropolitaine",
     "source": "Cerema",
@@ -1562,160 +1716,6 @@
     "certified": true
   },
   {
-    "id": "5dccd2aa06e3e70687832c57",
-    "title": "Horaires des gares",
-    "source": "SNCF",
-    "excerpt": "<p>Ce jeu de donn\u00e9es contient les horaires d'ouverture au public des gares de voyageurs en France.</p><p>Chaque gare est identifi\u00e9e dans la colonne \"UIC\" par son code UIC (identifiant unique).</p><p>Les horaires sont mentionn\u00e9s pour chaque jour de la semaine dans la colonne \"Horaire en jour normal\". </p><p>Si, pour certains\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-gares/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f3/0b8ad932f74086a6ab3f291ee9243f-100.png",
-    "certified": true
-  },
-  {
-    "id": "5ea7d2e5c479ae52c2b9a38f",
-    "title": "Projets financ\u00e9s (hors PIA) 2005-2019",
-    "source": "Agence Nationale de la Recherche",
-    "excerpt": "<p>Projets financ\u00e9s (hors PIA) 2005-2019, la notice d\u00e9taille le contenu des champs</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/projets-finances-hors-pia-2005-2019/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/5d/93a65f5a264f44a4f7784be9fa3c40-100.png",
-    "certified": true
-  },
-  {
-    "id": "5e9dc6fb50e78562fdf2d2a5",
-    "title": "SINOE \u00ae - Tonnage d\u00e9ch\u00e8teries par type de d\u00e9chet et d\u00e9partement",
-    "source": "ADEME",
-    "excerpt": "<p>R\u00e9partition des tonnages de d\u00e9chets collect\u00e9s en d\u00e9ch\u00e8terie par type de d\u00e9chet et par d\u00e9partement. </p><p></p><p>Le jeu de donn\u00e9es \"Tonnage de d\u00e9chets collect\u00e9s en d\u00e9ch\u00e8terie par type de d\u00e9chets\" contient, pour les ann\u00e9es impaires de 2009 \u00e0 2017, les tonnages de d\u00e9chets collect\u00e9s par type de d\u00e9chets et par d\u00e9partement.\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/sinoe-r-tonnage-decheteries-par-type-de-dechet-et-departement/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5ebc257e4694940a16d181d3",
-    "title": "Donn\u00e9es relatives aux reports d'\u00e9ch\u00e9ances fiscales accord\u00e9s dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19",
-    "source": "Etalab",
-    "excerpt": "<p>Les reports d'\u00e9ch\u00e9ances fiscales durant la crise du  COVID-19</p><p>Le Gouvernement a annonc\u00e9 le report des principales \u00e9ch\u00e9ances fiscales des professionnels afin de tenir compte de leurs difficult\u00e9s li\u00e9es \u00e0 la crise sanitaire du coronavirus.</p><p>Le report d'\u00e9ch\u00e9ance fiscale concerne :</p><ul><li>Les entreprises ou les experts-comptables qui interviennent pour des\u2026</li></ul>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5ebc1ab7e5d3010d32ca8260",
-    "title": "Donn\u00e9es relatives aux pr\u00eats garantis par l\u2019Etat dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19",
-    "source": "Etalab",
-    "excerpt": "<p>Les pr\u00eats garantis par l'Etat durant la crise du  COVID-19</p><p>Le Gouvernement met en \u0153uvre un dispositif exceptionnel de garanties permettant de soutenir le financement bancaire des entreprises, \u00e0 hauteur de 300 milliards d\u2019euros.</p><p>Jusqu\u2019au 31 d\u00e9cembre prochain, les entreprises de toute taille, quelle que soit la forme juridique de\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5e9dbdbe71589194c8f7b42f",
-    "title": "Donn\u00e9es relatives au fonds de solidarit\u00e9 mis en place dans le cadre de l'\u00e9pid\u00e9mie de COVID-19",
-    "source": "Etalab",
-    "excerpt": "<p>Le fonds de solidarit\u00e9</p><p>Dans le contexte de l'\u00e9pid\u00e9mie de COVID-19, l\u2019Etat a mis en place, avec les R\u00e9gions, un fonds de solidarit\u00e9 dot\u00e9 d\u20191,7 milliard d\u2019euros pour le mois de mars 2020 qui permettra le versement d\u2019une aide d\u00e9fiscalis\u00e9e allant jusqu\u2019\u00e0 1500 euros aux plus petites entreprises, aux ind\u00e9pendants,\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-fonds-de-solidarite-mis-en-place-dans-le-cadre-de-lepidemie-de-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5ea2db4e4df5f1871c9229be",
-    "title": "Transferts de patients atteints de COVID-19",
-    "source": "Etalab",
-    "excerpt": "<p>Contexte</p><p>Pour r\u00e9pondre \u00e0 la crise sanitaire et \u00e0 la mise en tension du syst\u00e8me de sant\u00e9 fran\u00e7ais, le gouvernement op\u00e8re depuis le 18 mars 2020 des transferts de patients entre \u00e9tablissements hospitaliers. Ce dispositif a pour objectif de d\u00e9sengorger les \u00e9tablissements les plus touch\u00e9s par l'\u00e9pid\u00e9mie de COVID-19. </p><p>Mode\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/transferts-de-patients-atteints-de-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5b60645a06e3e73216e1d920",
-    "title": "Enqu\u00eate d\u00e9placements en Loire-Atlantique",
-    "source": "D\u00e9partement de Loire-Atlantique",
-    "excerpt": "<p>L'Enqu\u00eate D\u00e9placements Grand Territoire de Loire-Atlantique 2015, r\u00e9alis\u00e9e selon la m\u00e9thodologie nationale \u00e9labor\u00e9e par le CERTU (Centre d'\u00e9tudes sur les r\u00e9seaux de transport et l'urbanisme), est une enqu\u00eate portant sur le D\u00e9partement de Loire-Atlantique, six communes du Maine-et-Loire et trois communes du Morbihan. Ce territoire, compos\u00e9 de 230 communes pour\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/enquete-deplacements-en-loire-atlantique-2/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/b6/4f57b5268546dcb30cfe536a43d0b9-100.png",
-    "certified": true
-  },
-  {
-    "id": "5d8e16106f44410332a79994",
-    "title": "Donn\u00e9es carroy\u00e9es issues du dispositif sur les revenus localis\u00e9s fiscaux et sociaux (FiLoSoFi)",
-    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
-    "excerpt": "<p>Ces donn\u00e9es proviennent du dispositif sur les revenus localis\u00e9s sociaux et fiscaux (FiLoSoFi).- Les bases contiennent 26 variables sur la structure par \u00e2ge des individus, sur les caract\u00e9ristiques des m\u00e9nages et des logements et sur les revenus per\u00e7us au cours de l\u2019ann\u00e9e 2015. Le champ g\u00e9ographique est constitu\u00e9 de\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-carroyees-issues-du-dispositif-sur-les-revenus-localises-fiscaux-et-sociaux-filosofi/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "58e5842688ee386c65805755",
-    "title": "R\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE)",
-    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
-    "excerpt": "<p>L'\u00c9tat a confi\u00e9 \u00e0 l'IGN le d\u00e9veloppement du r\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE). Pour ce faire, il fait appel \u00e0 ses moyens propres ainsi qu\u2019\u00e0 des partenariats avec des producteurs principalement de la sph\u00e8re publique. Le RGE est constitu\u00e9 des composantes orthophotographique, topographique et adresse, parcellaire et altim\u00e9trique.</p><p>Sp\u00e9cifications du\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
-    "certified": true
-  },
-  {
-    "id": "5e27c920dee7e70eee25e8d6",
-    "title": "Entreprises radi\u00e9es en 2020",
-    "source": "Infogreffe ",
-    "excerpt": "",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/entreprises-radiees-en-2020/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/46/ccf8461acc41bfad4be5d5bc6a9767-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5e27c92106e3e73792ce8d48",
-    "title": "Entreprises immatricul\u00e9es en 2020",
-    "source": "Infogreffe ",
-    "excerpt": "<p>Liste des soci\u00e9t\u00e9s commerciales immatricul\u00e9es au registre du commerce et des soci\u00e9t\u00e9s en 2020.</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/entreprises-immatriculees-en-2020-1/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/46/ccf8461acc41bfad4be5d5bc6a9767-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5e174be4634f414cd8a244f1",
-    "title": "Crit\u00e8res de r\u00e9partition des dotations vers\u00e9es par l\u2019Etat aux collectivit\u00e9s territoriales",
-    "source": "Direction g\u00e9n\u00e9rale des collectivit\u00e9s locales",
-    "excerpt": "<p>Ce jeu de donn\u00e9es vous permet d\u2019acc\u00e9der aux principaux crit\u00e8res physiques et financiers utilis\u00e9s pour la r\u00e9partition des fonds nationaux de p\u00e9r\u00e9quation et pour la r\u00e9partition des dotations de l\u2019\u00c9tat aux collectivit\u00e9s territoriales. Ces principaux crit\u00e8res physiques et financiers sont consultables pour l\u2019ensemble des collectivit\u00e9s territoriales en format csv.</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/criteres-de-repartition-des-dotations-versees-par-letat-aux-collectivites-territoriales/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f6/f5fd45c7fd4a59b317325fb5d275ea-100.png",
-    "certified": false
-  },
-  {
-    "id": "5e1462e28b4c414163b4dc4b",
-    "title": "Les donn\u00e9es contextuelles des intercommunalit\u00e9s et autres structures territoriales",
-    "source": "Direction g\u00e9n\u00e9rale des collectivit\u00e9s locales",
-    "excerpt": "<p>Dans le cadre de ses activit\u00e9s, la Direction g\u00e9n\u00e9rale des collectivit\u00e9s locales (DGCL) op\u00e8re le portail d'Acc\u00e8s des services publics aux informations sur les collectivit\u00e9s (ASPIC). Sont saisies dans ce portail des donn\u00e9es \u00e0 propos des intercommunalit\u00e9s. </p>Les donn\u00e9es des intercommunalit\u00e9s<p>Parmi les donn\u00e9es contenues dans ASPIC figure la base\u2026</p>",
-    "acronym": "ASPIC",
-    "page": "https://www.data.gouv.fr/fr/datasets/les-donnees-contextuelles-des-intercommunalites-et-autres-structures-territoriales/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f6/f5fd45c7fd4a59b317325fb5d275ea-100.png",
-    "certified": false
-  },
-  {
     "id": "57343feb88ee3823b0d1b934",
     "title": "R\u00e9f\u00e9rentiel de l'organisation administrative de l'Etat",
     "source": "Premier ministre",
@@ -1727,25 +1727,25 @@
     "certified": true
   },
   {
-    "id": "5e1f20058b4c414d3f94460d",
-    "title": "Base nationale sur les intercommunalit\u00e9s",
-    "source": "Direction g\u00e9n\u00e9rale des collectivit\u00e9s locales",
-    "excerpt": "<p>Les donn\u00e9es de la base nationale sur les intercommunalit\u00e9s (BANATIC) comportent des informations sur les intercommunalit\u00e9s.</p><p>Vous trouverez plusieurs fichiers :- Liste des groupements : la situation g\u00e9ographique, la nature juridique, la date de cr\u00e9ation, le p\u00e9rim\u00e8tre, le profil financier ;- Coordonn\u00e9es des groupements : des moyens pour\u2026</p>",
-    "acronym": "BANATIC",
-    "page": "https://www.data.gouv.fr/fr/datasets/base-nationale-sur-les-intercommunalites/",
+    "id": "5dccd2aa06e3e70687832c57",
+    "title": "Horaires des gares",
+    "source": "SNCF",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient les horaires d'ouverture au public des gares de voyageurs en France.</p><p>Chaque gare est identifi\u00e9e dans la colonne \"UIC\" par son code UIC (identifiant unique).</p><p>Les horaires sont mentionn\u00e9s pour chaque jour de la semaine dans la colonne \"Horaire en jour normal\". </p><p>Si, pour certains\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/horaires-des-gares/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/f6/f5fd45c7fd4a59b317325fb5d275ea-100.png",
-    "certified": false
+    "logo_url": "https://static.data.gouv.fr/avatars/f3/0b8ad932f74086a6ab3f291ee9243f-100.png",
+    "certified": true
   },
   {
-    "id": "5e32e1cc634f41228eaf091d",
-    "title": "Transparence sur la qualit\u00e9 des services publics",
-    "source": "Direction Interminist\u00e9rielle de la Transformation Publique",
-    "excerpt": "<p>Ce jeu de donn\u00e9es comprend les r\u00e9sultats de qualit\u00e9 de services des services publics issus du programme Transparence :Les donn\u00e9es sont en ligne sur resultats-services-publics.fr</p>",
+    "id": "5d13a8b6634f41070a43dff3",
+    "title": "Catalogue des donn\u00e9es de data.gouv.fr",
+    "source": "Etalab",
+    "excerpt": "<p>La plateforme data.gouv.fr est le portail unique interminist\u00e9riel destin\u00e9 \u00e0 rassembler et \u00e0 mettre \u00e0 disposition librement l\u2019ensemble des informations publiques de l\u2019\u00c9tat, de ses \u00e9tablissements publics administratifs, des collectivit\u00e9s territoriales et des personnes de droit public ou de droit priv\u00e9 charg\u00e9es d\u2019une mission de service public.</p><p>Ce jeu de\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/transparence-sur-la-qualite-des-services-publics/",
+    "page": "https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/23/6afe2cc8e24acaa8791a7e168bfcda-100.png",
-    "certified": false
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
   }
 ]
