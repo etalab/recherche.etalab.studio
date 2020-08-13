@@ -275,17 +275,6 @@
     "certified": true
   },
   {
-    "id": "53698f1aa3a729239d203653",
-    "title": "Associations Reconnues d'Utilit\u00e9 Publique",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>Ce jeu de donn\u00e9es contient la liste des associations reconnues d'utilit\u00e9 publique avec le code de l'association, son nom, son objet, sa cat\u00e9gorie, sa date de reconnaissance, son adresse, son code postal et la ville correspondante.</p><p>Il ne contient pas les f\u00e9d\u00e9rations sportives. Agr\u00e9\u00e9es par le ministre charg\u00e9 des sports,\u2026</p>",
-    "acronym": "ARUP",
-    "page": "https://www.data.gouv.fr/fr/datasets/associations-reconnues-d-utilite-publique/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
-    "certified": true
-  },
-  {
     "id": "5d8da992634f414b1c98117b",
     "title": "Base des installations class\u00e9es (ICPE)",
     "source": "Christian Quest",
@@ -295,6 +284,17 @@
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/af/c9f6203b3e4b858973b4ab792e7643-500.jpg",
     "certified": false
+  },
+  {
+    "id": "53698f1aa3a729239d203653",
+    "title": "Associations Reconnues d'Utilit\u00e9 Publique",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Ce jeu de donn\u00e9es contient la liste des associations reconnues d'utilit\u00e9 publique avec le code de l'association, son nom, son objet, sa cat\u00e9gorie, sa date de reconnaissance, son adresse, son code postal et la ville correspondante.</p><p>Il ne contient pas les f\u00e9d\u00e9rations sportives. Agr\u00e9\u00e9es par le ministre charg\u00e9 des sports,\u2026</p>",
+    "acronym": "ARUP",
+    "page": "https://www.data.gouv.fr/fr/datasets/associations-reconnues-d-utilite-publique/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
   },
   {
     "id": "5369a15fa3a729239d2065b7",
@@ -352,17 +352,6 @@
     "certified": true
   },
   {
-    "id": "53699dc4a3a729239d205cf7",
-    "title": "Prises de vue a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es de l'IGN",
-    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
-    "excerpt": "<p>Les photographies a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es du territoire fran\u00e7ais peuvent, apr\u00e8s d\u00e9mat\u00e9rialisation, \u00eatre visualis\u00e9es en ligne et t\u00e9l\u00e9charg\u00e9es gratuitement. Sont \u00e9galement propos\u00e9s des tirages papier ou la duplication sur CD-ROM de plus de 4 millions de clich\u00e9s.</p><p>Photographie a\u00e9rienne t\u00e9l\u00e9chargeable</p><p></p><p>Outil de s\u00e9lection G\u00e9oportail</p><p>![outil de s\u00e9lection G\u00e9oportail]( \"outil de s\u00e9lection\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/prises-de-vue-aeriennes-dematerialisees-de-lign/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
-    "certified": true
-  },
-  {
     "id": "5ed117db6c161bd5baf070be",
     "title": "Donn\u00e9es relatives aux r\u00e9sultats des tests virologiques COVID-19",
     "source": "Sant\u00e9 publique France",
@@ -371,6 +360,17 @@
     "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/79/7e94cd7a8d43d39544d4018666e646-100.png",
+    "certified": true
+  },
+  {
+    "id": "53699dc4a3a729239d205cf7",
+    "title": "Prises de vue a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es de l'IGN",
+    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
+    "excerpt": "<p>Les photographies a\u00e9riennes d\u00e9mat\u00e9rialis\u00e9es du territoire fran\u00e7ais peuvent, apr\u00e8s d\u00e9mat\u00e9rialisation, \u00eatre visualis\u00e9es en ligne et t\u00e9l\u00e9charg\u00e9es gratuitement. Sont \u00e9galement propos\u00e9s des tirages papier ou la duplication sur CD-ROM de plus de 4 millions de clich\u00e9s.</p><p>Photographie a\u00e9rienne t\u00e9l\u00e9chargeable</p><p></p><p>Outil de s\u00e9lection G\u00e9oportail</p><p>![outil de s\u00e9lection G\u00e9oportail]( \"outil de s\u00e9lection\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/prises-de-vue-aeriennes-dematerialisees-de-lign/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
     "certified": true
   },
   {
@@ -583,17 +583,6 @@
     "certified": true
   },
   {
-    "id": "5a2d54f288ee382771f2cf4f",
-    "title": "R\u00e9gions, d\u00e9partements, villes et villages de France et d'outre-mer",
-    "source": "Stanislas Poisson",
-    "excerpt": "French Zip-CodeA propos<p>L'objectif du d\u00e9p\u00f4t French zip-code est de maintenir une liste la plus \u00e0 jour possible des r\u00e9gions, d\u00e9partements, villes et villages Fran\u00e7ais en M\u00e9tropole, D\u00e9partement et R\u00e9gion d'Outre-Mer (DROM) et Collectivit\u00e9s d'Outre-Mer (COM).</p>Origine des donn\u00e9es<p>Les donn\u00e9es utilis\u00e9es proviennent du site de l'INSEE :-\u2026</p>",
-    "acronym": "French-zip-code",
-    "page": "https://www.data.gouv.fr/fr/datasets/regions-departements-villes-et-villages-de-france-et-doutre-mer/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/69/cd41a5080f469baa1cb20fd07cbe9b-500.jpg",
-    "certified": false
-  },
-  {
     "id": "5863714388ee3863df3f4e5d",
     "title": "CORINE Land Cover - Occupation des sols en France",
     "source": "Minist\u00e8re de la Transition \u00e9cologique et solidaire",
@@ -603,6 +592,17 @@
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/e7/31d2ab370142c6b6a5611b55768dd6-100.jpeg",
     "certified": true
+  },
+  {
+    "id": "5a2d54f288ee382771f2cf4f",
+    "title": "R\u00e9gions, d\u00e9partements, villes et villages de France et d'outre-mer",
+    "source": "Stanislas Poisson",
+    "excerpt": "French Zip-CodeA propos<p>L'objectif du d\u00e9p\u00f4t French zip-code est de maintenir une liste la plus \u00e0 jour possible des r\u00e9gions, d\u00e9partements, villes et villages Fran\u00e7ais en M\u00e9tropole, D\u00e9partement et R\u00e9gion d'Outre-Mer (DROM) et Collectivit\u00e9s d'Outre-Mer (COM).</p>Origine des donn\u00e9es<p>Les donn\u00e9es utilis\u00e9es proviennent du site de l'INSEE :-\u2026</p>",
+    "acronym": "French-zip-code",
+    "page": "https://www.data.gouv.fr/fr/datasets/regions-departements-villes-et-villages-de-france-et-doutre-mer/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/69/cd41a5080f469baa1cb20fd07cbe9b-500.jpg",
+    "certified": false
   },
   {
     "id": "5eebbc067a14b6fecc9c9976",
@@ -627,17 +627,6 @@
     "certified": false
   },
   {
-    "id": "58481d2688ee384953c65bb4",
-    "title": "Etablissements d'enseignement sup\u00e9rieur",
-    "source": "Office national d'information sur les enseignements et les professions",
-    "excerpt": "<p>Liste des \u00e9tablissements avec le code UAI (unit\u00e9 administrative immatricul\u00e9e), le type d'\u00e9tablissement, le nom, le sigle, le statut (public, priv\u00e9...), la tutelle (minist\u00e8res, chambres consulaires...), universit\u00e9 de rattachement, coordonn\u00e9es g\u00e9ographiques (adresse postale, commune, d\u00e9partement, acad\u00e9mie, r\u00e9gion, longitude X, latitude Y) et le lien d'acc\u00e8s direct sur le site Onisep\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/etablissements-denseignement-superieur-2/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/24/b45e02791a456ba05ee985c40904f1-100.jpg",
-    "certified": true
-  },
-  {
     "id": "5ee9df5003284f565d561278",
     "title": "Indicateurs de suivi de l\u2019\u00e9pid\u00e9mie de COVID-19",
     "source": "Minist\u00e8re des Solidarit\u00e9s et de la Sant\u00e9",
@@ -646,6 +635,17 @@
     "page": "https://www.data.gouv.fr/fr/datasets/indicateurs-de-suivi-de-lepidemie-de-covid-19/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+    "certified": true
+  },
+  {
+    "id": "58481d2688ee384953c65bb4",
+    "title": "Etablissements d'enseignement sup\u00e9rieur",
+    "source": "Office national d'information sur les enseignements et les professions",
+    "excerpt": "<p>Liste des \u00e9tablissements avec le code UAI (unit\u00e9 administrative immatricul\u00e9e), le type d'\u00e9tablissement, le nom, le sigle, le statut (public, priv\u00e9...), la tutelle (minist\u00e8res, chambres consulaires...), universit\u00e9 de rattachement, coordonn\u00e9es g\u00e9ographiques (adresse postale, commune, d\u00e9partement, acad\u00e9mie, r\u00e9gion, longitude X, latitude Y) et le lien d'acc\u00e8s direct sur le site Onisep\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/etablissements-denseignement-superieur-2/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/24/b45e02791a456ba05ee985c40904f1-100.jpg",
     "certified": true
   },
   {
@@ -715,17 +715,6 @@
     "certified": true
   },
   {
-    "id": "5bf42c958b4c4144b0110ce8",
-    "title": "Ficher  des pr\u00e9noms de 1900 \u00e0 2018",
-    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
-    "excerpt": "<p>Les fichiers propos\u00e9s en t\u00e9l\u00e9chargement recensent les naissances et non pas les personnes vivantes une ann\u00e9e donn\u00e9e. Ils sont propos\u00e9s dans deux formats (DBASE et CSV). Pour utiliser ces fichiers volumineux, il est recommand\u00e9 d'utiliser un gestionnaire de bases de donn\u00e9es ou un logiciel statistique. Le fichier au niveau national\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/ficher-des-prenoms-de-1900-a-2018/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
-    "certified": true
-  },
-  {
     "id": "536993cca3a729239d2042b9",
     "title": "Emplacement des distributeurs de pr\u00e9servatifs",
     "source": "Source inconnue",
@@ -737,14 +726,14 @@
     "certified": false
   },
   {
-    "id": "53699035a3a729239d203942",
-    "title": "Cartes des r\u00e9gions et d\u00e9partements issus d'OpenStreetMap",
-    "source": "OpenStreetMap",
-    "excerpt": "<p>Fichiers SVG du d\u00e9coupage des r\u00e9gions et d\u00e9partements m\u00e9tropolitains issus des donn\u00e9es OpenStreetMap.</p><p>Ils ont \u00e9t\u00e9 produits \u00e0 partir de donn\u00e9es sous licence ODbL issues du crowdsourcing effectu\u00e9 par les contributeurs au projet OpenStreetMap.</p><p>La simplification g\u00e9om\u00e9trique a \u00e9t\u00e9 faite avec mapshaper.</p>",
+    "id": "5bf42c958b4c4144b0110ce8",
+    "title": "Ficher  des pr\u00e9noms de 1900 \u00e0 2018",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<p>Les fichiers propos\u00e9s en t\u00e9l\u00e9chargement recensent les naissances et non pas les personnes vivantes une ann\u00e9e donn\u00e9e. Ils sont propos\u00e9s dans deux formats (DBASE et CSV). Pour utiliser ces fichiers volumineux, il est recommand\u00e9 d'utiliser un gestionnaire de bases de donn\u00e9es ou un logiciel statistique. Le fichier au niveau national\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/cartes-des-regions-et-departements-issus-d-openstreetmap/",
+    "page": "https://www.data.gouv.fr/fr/datasets/ficher-des-prenoms-de-1900-a-2018/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/c7/513a9d32e84c1dbcc6ac7e2ce42cb8-100.png",
+    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
     "certified": true
   },
   {
@@ -756,6 +745,17 @@
     "page": "https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "53699035a3a729239d203942",
+    "title": "Cartes des r\u00e9gions et d\u00e9partements issus d'OpenStreetMap",
+    "source": "OpenStreetMap",
+    "excerpt": "<p>Fichiers SVG du d\u00e9coupage des r\u00e9gions et d\u00e9partements m\u00e9tropolitains issus des donn\u00e9es OpenStreetMap.</p><p>Ils ont \u00e9t\u00e9 produits \u00e0 partir de donn\u00e9es sous licence ODbL issues du crowdsourcing effectu\u00e9 par les contributeurs au projet OpenStreetMap.</p><p>La simplification g\u00e9om\u00e9trique a \u00e9t\u00e9 faite avec mapshaper.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/cartes-des-regions-et-departements-issus-d-openstreetmap/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/c7/513a9d32e84c1dbcc6ac7e2ce42cb8-100.png",
     "certified": true
   },
   {
@@ -847,6 +847,17 @@
     "certified": true
   },
   {
+    "id": "536c3e38a3a72933d8d1b393",
+    "title": "Cartes anciennes d\u00e9mat\u00e9rialis\u00e9es",
+    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
+    "excerpt": "<p>L'IGN d\u00e9mat\u00e9rialise son fond patrimonial pour faciliter la mise \u00e0 disposition sous forme num\u00e9rique des diff\u00e9rentes s\u00e9ries cartographiques historiques.</p><p>Les s\u00e9ries de cartes historiques sont propos\u00e9es sur le site d\u00e9di\u00e9 Remonter le Temps \u00e0 mesure que leur num\u00e9risation est achev\u00e9.</p><p>La premi\u00e8re s\u00e9rie t\u00e9l\u00e9chargeable a \u00e9t\u00e9 la carte de l'\u00e9tat-major,\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/cartes-anciennes-dematerialisees/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
+    "certified": true
+  },
+  {
     "id": "5e5d61e88b4c410efe6a2f26",
     "title": "Elections municipales 2020 - Candidatures au 1er tour",
     "source": "Minist\u00e8re de l'Int\u00e9rieur",
@@ -877,17 +888,6 @@
     "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2014-resultats-par-bureaux-de-vote/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
-    "certified": true
-  },
-  {
-    "id": "536c3e38a3a72933d8d1b393",
-    "title": "Cartes anciennes d\u00e9mat\u00e9rialis\u00e9es",
-    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
-    "excerpt": "<p>L'IGN d\u00e9mat\u00e9rialise son fond patrimonial pour faciliter la mise \u00e0 disposition sous forme num\u00e9rique des diff\u00e9rentes s\u00e9ries cartographiques historiques.</p><p>Les s\u00e9ries de cartes historiques sont propos\u00e9es sur le site d\u00e9di\u00e9 Remonter le Temps \u00e0 mesure que leur num\u00e9risation est achev\u00e9.</p><p>La premi\u00e8re s\u00e9rie t\u00e9l\u00e9chargeable a \u00e9t\u00e9 la carte de l'\u00e9tat-major,\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/cartes-anciennes-dematerialisees/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
     "certified": true
   },
   {
@@ -968,168 +968,234 @@
     "certified": true
   },
   {
-    "id": "5e83c3ed38f46c1808801fbb",
-    "title": "PIAF - Le dataset francophone de Questions-R\u00e9ponses",
-    "source": "Etalab",
-    "excerpt": "<p>PIAF, construire un jeu de donn\u00e9es francophones ouvert pour l\u2019IA</p><p>Le recours \u00e0 l\u2019intelligence artificielle au sein de l\u2019action publique est souvent identifi\u00e9 comme une opportunit\u00e9 pour interroger des textes documentaires et r\u00e9aliser des outils de questions/r\u00e9ponses (QR) automatiques \u00e0 destination des usagers. Interroger le code du travail en langage\u2026</p>",
-    "acronym": "PIAF - Q&A",
-    "page": "https://www.data.gouv.fr/fr/datasets/piaf-le-dataset-francophone-de-questions-reponses/",
+    "id": "53699396a3a729239d20422d",
+    "title": "Elections municipales 2014 \u2013 Candidatures - Listes d\u00e9taill\u00e9es dans les communes de 1 000 habitants et plus",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Elections municipales 2014 \u2013 Candidatures - Liste d\u00e9taill\u00e9es dans les communes de 1 000 habitants et plus.</p><p>Ces listes sont publi\u00e9es sous r\u00e9serve : . des recours de candidats form\u00e9s devant le tribunal administratif . des refus de r\u00e9c\u00e9piss\u00e9s d\u00e9finitifs non encore d\u00e9livr\u00e9s . des erreurs de saisies \u00e9ventuelles.</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2014-candidatures-listes-detaillees-dans-les-communes-de-1-000-habitants-et-pl/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
     "certified": true
   },
   {
-    "id": "5e3bf9f66f44410d2c83613b",
-    "title": "G\u00e9olocalisation des bureaux de vote",
+    "id": "597f948088ee38639e1c679e",
+    "title": "BD Ortho 5m - photographie a\u00e9rienne (reformat\u00e9e)",
     "source": "Christian Quest",
-    "excerpt": "<p>Ce jeu de donn\u00e9e est une version g\u00e9ocod\u00e9e du fichier des bureaux de vote publi\u00e9 par l'INSEE.</p><p>Il a \u00e9t\u00e9 g\u00e9ocod\u00e9 \u00e0 l'aide de:- la Base Adresse Nationale (f\u00e9vrier 2020)- la BANO d'OpenStreetMap France (f\u00e9vrier 2020)- les points d'int\u00e9r\u00eat extraits d'OpenStreetMap</p><p>ATTENTION: Le g\u00e9ocodage est processus imparfait\u2026</p>",
+    "excerpt": "<p>Les fichiers d'origine diffus\u00e9s par l'IGN sur  sous Licence Ouverte sont:- en projection l\u00e9gale (Lambert 93 en m\u00e9tropole et autres projection sp\u00e9cifique pour chaque DOM)- au format JPEG2000 \"lossless\" par dalle de 10km x 10km- compress\u00e9 sous forme d'une archive 7z (longue \u00e0 d\u00e9compresser pour un\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/geolocalisation-des-bureaux-de-vote/",
+    "page": "https://www.data.gouv.fr/fr/datasets/bd-ortho-5m-photographie-aerienne-reformatee/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/af/c9f6203b3e4b858973b4ab792e7643-500.jpg",
     "certified": false
   },
   {
-    "id": "5e7102d5ebe5d838b7581662",
-    "title": "Elections municipales 2020 - r\u00e9sultats 1er tour",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>R\u00e9sultats du premier tour des \u00e9lections municipales du 15 mars 2020</p><p>Ces donn\u00e9es sont publi\u00e9es sous r\u00e9serve :- des recours form\u00e9s devant le tribunal administratif ;- d'\u00e9ventuelles rectifications (erreurs mat\u00e9rielles, utilisation par les candidats de leur droit de rectification des donn\u00e9es personnelles les concernant)</p>",
+    "id": "5ef2c1c5a45a99a69b581150",
+    "title": "Insertion professionnelle des dipl\u00f4m\u00e9s de doctorat par \u00e9tablissement",
+    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
+    "excerpt": "<p>En application de la loi relative \u00e0 l\u2019enseignement sup\u00e9rieur et la recherche du 12 juillet 2013, les \u00e9tablissements d\u2019enseignement sup\u00e9rieur et de recherche ont mis en place des dispositifs statistiques permettant d\u2019observer la situation professionnelle des docteurs. Les donn\u00e9es pr\u00e9sent\u00e9es sont issues de l\u2019un d\u2019eux, l\u2019enqu\u00eate IP Doc (Insertion Professionnelle\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-resultats-1er-tour/",
+    "page": "https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-doctorat-par-etablissement/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
     "certified": true
   },
   {
-    "id": "5e870c8219cd4e437b686bac",
-    "title": " Inventaire des initiatives de la soci\u00e9t\u00e9 civile visant \u00e0 faire face \u00e0 la pand\u00e9mie de Covid-19",
-    "source": "Covid-initiatives",
-    "excerpt": "<p>La mission de Covid-initiatives</p><p>Covid-initiatives est un collectif b\u00e9n\u00e9vole qui a pour ambition de recenser un maximum d'initiatives de la soci\u00e9t\u00e9 civile visant \u00e0 faire face \u00e0 la pand\u00e9mie de Covid-19. Le collectif est \u00e0 l\u2019orgine de la plateforme covid-initiatives.org qui tente de donner \u00e0 voir de la mani\u00e8re la\u2026</p>",
+    "id": "5ef2c1c5a45a99a69b58114f",
+    "title": "Insertion professionnelle des dipl\u00f4m\u00e9s de doctorat par ensemble universitaire",
+    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
+    "excerpt": "<p>En application de la loi relative \u00e0 l\u2019enseignement sup\u00e9rieur et la recherche du 12 juillet 2013, les \u00e9tablissements d\u2019enseignement sup\u00e9rieur et de recherche ont mis en place des dispositifs statistiques permettant d\u2019observer la situation professionnelle des docteurs. Les donn\u00e9es pr\u00e9sent\u00e9es sont issues de l\u2019un d\u2019eux, l\u2019enqu\u00eate IP Doc (Insertion Professionnelle\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/inventaire-des-initiatives-de-la-societe-civile-visant-a-faire-face-a-la-pandemie-de-covid-19/",
+    "page": "https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-doctorat-par-ensemble-universitaire/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/30/3624ff029d41908d4b3d2c11dfa349-100.png",
+    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
+    "certified": true
+  },
+  {
+    "id": "5ef2c1c657bc8b47b64fc1c2",
+    "title": "Insertion professionnelle des dipl\u00f4m\u00e9s de doctorat - donn\u00e9es nationales sexu\u00e9es par disciplines d\u00e9taill\u00e9es",
+    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
+    "excerpt": "<p>En application de la loi relative \u00e0 l\u2019enseignement sup\u00e9rieur et la recherche du 12 juillet 2013, les \u00e9tablissements d\u2019enseignement sup\u00e9rieur et de recherche ont mis en place des dispositifs statistiques permettant d\u2019observer la situation professionnelle des docteurs. Les donn\u00e9es pr\u00e9sent\u00e9es sont issues de l\u2019un d\u2019eux, l\u2019enqu\u00eate IP Doc (Insertion Professionnelle\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-doctorat-donnees-nationales-sexuees-par-disciplines-detaillees/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
+    "certified": true
+  },
+  {
+    "id": "5ee80c9afc19dc2ff8179ef2",
+    "title": "Somme des dix r\u00e9mun\u00e9rations les plus \u00e9lev\u00e9es",
+    "source": "D\u00e9partement du Doubs",
+    "excerpt": "<p>Conform\u00e9ment \u00e0 la loi n\u00b0 2019-828 du 6 ao\u00fbt 2019 de transformation de la fonction publique, le D\u00e9partement publie chaque ann\u00e9e la somme des dix r\u00e9mun\u00e9rations bruts globales les plus \u00e9lev\u00e9es des agents relevant de son p\u00e9rim\u00e8tre</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/somme-des-dix-remunerations-les-plus-elevees/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/a9/73afe6d75e47df8d714ba616f1ba4d-100.jpg",
     "certified": false
   },
   {
-    "id": "5bc0d6e5634f4142b4581861",
-    "title": "Inventaire des d\u00e9p\u00f4ts de code source des organismes publics ",
-    "source": "Etalab",
-    "excerpt": "<p>Ce jeu de donn\u00e9es propose des informations sur la liste des d\u00e9p\u00f4ts de code source accessibles depuis les comptes d'organisation des organismes publics.</p><p>Pour parcourir ces donn\u00e9es, rendez-vous sur code.etalab.gouv.fr.</p>Collecte des donn\u00e9es<p>Ce jeu de donn\u00e9es n'est pas exhaustif car la liste des comptes d'organisation n'est pas compl\u00e8te. Sont\u2026</p>",
+    "id": "5e85f45c21d139adf8b243db",
+    "title": "Les 10 r\u00e9mun\u00e9rations les plus \u00e9lev\u00e9es au sein de la Ville d'Antibes",
+    "source": "Ville d'Antibes",
+    "excerpt": "<p>L\u2019article 37 de la loi n\u00b02019-828 du 6 ao\u00fbt 2019 de transformation de la fonction publique pr\u00e9voit que les d\u00e9partements minist\u00e9riels, les r\u00e9gions, les d\u00e9partements, les collectivit\u00e9s territoriales de plus de 80 000 habitants, les \u00e9tablissements publics de coop\u00e9ration intercommunale \u00e0 fiscalit\u00e9 propre de plus de 80 000 habitants et\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/inventaire-des-depots-de-code-source-des-organismes-publics/",
+    "page": "https://www.data.gouv.fr/fr/datasets/les-10-remunerations-les-plus-elevees-au-sein-de-la-ville-dantibes/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/c8/533a5ea1e8440097785a6324644503-100.png",
+    "certified": true
+  },
+  {
+    "id": "5ed77a45b10ec70af273f990",
+    "title": "Les 10 r\u00e9mun\u00e9rations les plus \u00e9lev\u00e9es au sein de Grand Besan\u00e7on M\u00e9tropole",
+    "source": "GRAND BESANCON METROPOLE",
+    "excerpt": "<p>L\u2019article 37 de la loi n\u00b02019-828 du 6 ao\u00fbt 2019 de transformation de la fonction publique pr\u00e9voit que les collectivit\u00e9s territoriales de plus de 80 000 habitants et les \u00e9tablissements publics de coop\u00e9ration intercommunale \u00e0 fiscalit\u00e9 propre de plus de 80 000 habitants publient chaque ann\u00e9e, sur leur site internet,\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/les-10-remunerations-les-plus-elevees-au-sein-de-grand-besancon-metropole/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/c8/1a0dd03058451683dd51d169573f00-100.png",
+    "certified": true
+  },
+  {
+    "id": "5ed778e37f511ace8ecc755a",
+    "title": "Les 10 r\u00e9mun\u00e9rations les plus \u00e9lev\u00e9es au sein de la Ville de Besan\u00e7on",
+    "source": "Ville de Besancon",
+    "excerpt": "<p>L\u2019article 37 de la loi n\u00b02019-828 du 6 ao\u00fbt 2019 de transformation de la fonction publique pr\u00e9voit que les collectivit\u00e9s territoriales de plus de 80 000 habitants et les \u00e9tablissements publics de coop\u00e9ration intercommunale \u00e0 fiscalit\u00e9 propre de plus de 80 000 habitants publient chaque ann\u00e9e, sur leur site internet,\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/les-10-remunerations-les-plus-elevees-au-sein-de-la-ville-de-besancon/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/07/34108075d6490d8c0d51da51ecb678-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5ed720621bca55ea7d179ef6",
+    "title": "Somme des dix plus hautes r\u00e9mun\u00e9rations directement vers\u00e9es par le minist\u00e8re de la Culture",
+    "source": "Minist\u00e8re de la Culture",
+    "excerpt": "<p>Dans le cadre de la loi n\u00b02019-828 du 6 ao\u00fbt 2019 de transformation de la Fonction publique, les minist\u00e8res doivent publier la somme des 10 plus hautes r\u00e9mun\u00e9rations qu\u2019ils versent directement (cf pi\u00e8ce jointe).</p><p>Ce jeu de donn\u00e9es comprend la somme des dix plus hautes r\u00e9mun\u00e9rations directement vers\u00e9es par le\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/somme-des-dix-plus-hautes-remunerations-directement-versees-par-le-ministere-de-la-culture/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/cf/f1ce1cb584470c8b83a9839dd9c83e-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5edb06c17e87436446179ef2",
+    "title": "Financements publics de projets de recherche en rapport avec la crise sanitaire du COVID-19",
+    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
+    "excerpt": "<p>Financements publics de projets de recherche en rapport avec la crise sanitaire du COVID-19 (situation \u00e0 date)</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/financements-publics-de-projets-de-recherche-en-rapport-avec-la-crise-sanitaire-du-covid-19/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
+    "certified": true
+  },
+  {
+    "id": "5edb06c22f8db78a99179ef3",
+    "title": "Publications fran\u00e7aises #Covid19 r\u00e9f\u00e9renc\u00e9es dans Pubmed",
+    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
+    "excerpt": "<p>Ce jeu de donn\u00e9es recense les publications fran\u00e7aises (c'est-\u00e0-dire avec au moins une affiliation fran\u00e7aise) li\u00e9es au Covid19 et r\u00e9ferenc\u00e9es dans Pubmed.</p><p>La requ\u00eate Pubmed est la suivante, reprise de la page Pubmed consacr\u00e9e au Sars-CoV-2 :</p><p>((wuhan[All Fields] AND (\"coronavirus\"[MeSH Terms] OR \"coronavirus\"[All Fields])) AND 2019/12[PDAT] : 2030[PDAT]) OR\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/publications-francaises-covid19-referencees-dans-pubmed/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
+    "certified": true
+  },
+  {
+    "id": "5efd242c510fc9619aadc547",
+    "title": "Mesures exceptionnelles Covid-19 : reports de cotisations Urssaf (TI), France enti\u00e8re x secteur NA88",
+    "source": "Unions de Recouvrement des cotisations de S\u00e9curit\u00e9 Sociale et d'Allocations Familiales",
+    "excerpt": "<p>Donn\u00e9es France enti\u00e8re par d'activit\u00e9 (selon la nomenclature agr\u00e9g\u00e9e en 88 postes de la NAF) relatives aux reports de cotisations des travailleurs ind\u00e9pendants dans le cadre des mesures Urssaf exceptionnelles li\u00e9es \u00e0 la crise du Covid-19 (\u00e9ch\u00e9ances du 20 mars, du 5 avril, du 20 avril 2020, du 5 mai,\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-ti-france-entiere-x-secteur-na88/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/0c/473d172ebd40fc8ef13eb18a26b25b-100.jpg",
+    "certified": false
+  },
+  {
+    "id": "5efd242c3fc863ce24adc547",
+    "title": "Mesures exceptionnelles Covid-19 : reports de cotisations Urssaf (TI), par d\u00e9partement x grand secteur",
+    "source": "Unions de Recouvrement des cotisations de S\u00e9curit\u00e9 Sociale et d'Allocations Familiales",
+    "excerpt": "<p>Donn\u00e9es par d\u00e9partement et grand secteur d'activit\u00e9 relatives aux reports de cotisations des travailleurs ind\u00e9pendants dans le cadre des mesures Urssaf exceptionnelles li\u00e9es \u00e0 la crise du Covid-19 (\u00e9ch\u00e9ances du 20 mars, du 5 avril, du 20 avril 2020, du 5 mai, du 20 mai, du 5 juin, du 20\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-ti-par-departement-x-grand-secteur/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/0c/473d172ebd40fc8ef13eb18a26b25b-100.jpg",
+    "certified": false
+  },
+  {
+    "id": "5ee4173084de55b24f179ef2",
+    "title": "Aide exceptionnelle \u00ab CPSTI RCI COVID-19 \u00bb",
+    "source": "Unions de Recouvrement des cotisations de S\u00e9curit\u00e9 Sociale et d'Allocations Familiales",
+    "excerpt": "<p>Donn\u00e9es par d\u00e9partement et secteur d'activit\u00e9 relatives \u00e0 l'aide cr\u00e9\u00e9e par le Conseil de la protection sociale des travailleurs ind\u00e9pendants (CPSTI) en faveur des artisans/commer\u00e7ants et leurs conjoints collaborateurs relevant du R\u00e9gime Compl\u00e9mentaire des Ind\u00e9pendants (RCI) dans le cadre de la crise du Covid-19.</p><p>Les donn\u00e9es retracent les montants effectivement\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/aide-exceptionnelle-cpsti-rci-covid-19/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/0c/473d172ebd40fc8ef13eb18a26b25b-100.jpg",
+    "certified": false
+  },
+  {
+    "id": "5ee355a4e3720820f5deab8a",
+    "title": "Donn\u00e9es relatives au dispositif d'activit\u00e9 partielle mis en oeuvre dans le cadre de l'\u00e9pid\u00e9mie de COVID-19",
+    "source": "Etalab",
+    "excerpt": "<p>Le dispositif d'activit\u00e9 partielleFace \u00e0 l\u2019ampleur de la crise sanitaire li\u00e9e au COVID-19, le Gouvernement a d\u00e9cid\u00e9 de transformer structurellement le dispositif d\u2019activit\u00e9 partielle, pour doter la France du syst\u00e8me le plus protecteur d\u2019Europe.</p><p>L\u2019activit\u00e9 partielle est un outil au service de la politique publique de pr\u00e9vention des licenciements\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
     "certified": true
   },
   {
-    "id": "5dada2a7634f41668690a256",
-    "title": "Zones d'activit\u00e9s \u00e9conomiques en Bretagne",
-    "source": "DREAL Bretagne",
-    "excerpt": "<p>Zones d&#x27;activit\u00e9s \u00e9conomiques (ZAE) en Bretagne, pour une connaissance de la consommation d&#x27;espaces du territoireCette donn\u00e9e est le r\u00e9sultat d&#x27;une co-construction entre producteurs locaux: C\u00f4tes d&#x27;Armor D\u00e9veloppement - CCI Morbihan - CCI C\u00f4tes d&#x27;Armor - CCI Rennes - CCI Saint-Malo Foug\u00e8res - CCI Morlaix - CCI Quimper Cornouaille -\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/zones-dactivites-economiques-en-bretagne/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-07-24/b551348e86d94f6e8ef12dc7842481bc/logo_fr_dreal-100.png",
-    "certified": true
-  },
-  {
-    "id": "5dada2a38b4c4127a7949aa0",
-    "title": "Artificialisation des sols en Bretagne",
-    "source": "DREAL Bretagne",
-    "excerpt": "<p>Une surface est artificialis\u00e9e lorsqu\u2019elle est destin\u00e9e aux habitations, activit\u00e9s, r\u00e9seaux de transport et espaces associ\u00e9s, par opposition aux surfaces agricoles et naturelles. La part et l&#x27;\u00e9volution de l&#x27;artificialisation sont calcul\u00e9es \u00e0 partir des fichiers fonciers redress\u00e9s de la DGFIP (Base Majic) pour la partie cadastr\u00e9e, et la bdtopo IGN\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/artificialisation-des-sols-en-bretagne/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-07-24/b551348e86d94f6e8ef12dc7842481bc/logo_fr_dreal-100.png",
-    "certified": true
-  },
-  {
-    "id": "5da92b1b06e3e7517d29a306",
-    "title": "Barom\u00e8tre de la science ouverte",
-    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
-    "excerpt": "<p>Ce jeu de donn\u00e9es recense les donn\u00e9es sous-jacentes au barom\u00e8tre fran\u00e7ais de la Science Ouverte, avec pour le moment un focus sur l'Acc\u00e8s Ouvert.</p><p>Le site  offre une vision globale des r\u00e9sultats du barom\u00e8tre de la science ouverte.</p><p>Ce jeu de donn\u00e9es liste les publications scientifiques avec une affiliation\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/barometre-de-la-science-ouverte/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
-    "certified": true
-  },
-  {
-    "id": "5db9a016634f4118b8386ec7",
-    "title": "EM 2019-27 La d\u00e9livrance de visas aux \u00e9trangers au 15 janvier 2019",
+    "id": "5eda3b6f52f4c2bf118dbdc8",
+    "title": "Elections municipales 2020 - Liste des candidats \u00e9lus au T1 et liste des communes enti\u00e8rement pourvues",
     "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>La d\u00e9livrance des visas aux \u00e9trangers comprend les visas de court s\u00e9jour Schengen, valables pour la m\u00e9tropole et parfois pour les DOM et, sauf rares exceptions, pour le territoire de tous les autres \u00c9tats Schengen, ainsi que les visas de long s\u00e9jour valables pour la m\u00e9tropole et les DOM.</p><p>Le\u2026</p>",
+    "excerpt": "<p>Liste des candidats \u00e9lus lors du T1 des \u00e9lections municipales de 2020 et liste des communes dont le conseil municipal a \u00e9t\u00e9 enti\u00e8rement pourvu lors du premier tour des \u00e9lections municipales et communautaires organis\u00e9es le 15 mars 2020</p><p>Ces donn\u00e9es sont publi\u00e9es sous r\u00e9serve :- des recours form\u00e9s devant\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-27-la-delivrance-de-visas-aux-etrangers-au-15-janvier-2019/",
+    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-liste-des-candidats-elus-au-t1-et-liste-des-communes-entierement-pourvues/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
     "certified": true
   },
   {
-    "id": "5dc42a76634f41222801d281",
-    "title": "EM 2019-36 L'acc\u00e8s \u00e0 la nationalit\u00e9 fran\u00e7aise au 12 juin 2019",
+    "id": "5eda3e7400d5f1f95aef153b",
+    "title": "Elections municipales 2020 - Candidatures au second tour",
     "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>En 2018, le flux annuel des acquisitions de la nationalit\u00e9 fran\u00e7aise, avec 110 014 nouveaux Fran\u00e7ais, conna\u00eet une baisse (\u2013 3,7 %), r\u00e9sultat d\u2019une baisse des acquisitions de la nationalit\u00e9 par d\u00e9cret (\u2013 15,0 %) et d\u2019une hausse des acquisitions de la nationalit\u00e9 par d\u00e9claration (+ 12,2 %).</p>",
+    "excerpt": "<p>Deux jeux de donn\u00e9es sont disponibles : l'\u00e9tat d\u00e9taill\u00e9 des listes de candidats dans les communes de 1 000 habitants et plus et l'\u00e9tat d\u00e9taill\u00e9 des candidats dans les communes de moins de 1 000 habitants.</p><p>Ces donn\u00e9es sont publi\u00e9es sous r\u00e9serve :- des recours form\u00e9s devant le tribunal\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-36-lacces-a-la-nationalite-francaise-au-12-juin-2019/",
+    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-candidatures-au-second-tour/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
     "certified": true
   },
   {
-    "id": "5dc4286d634f411d4cbfb9f7",
-    "title": "EM 2019-35 Demandes d'asile, publication du 12 juin 2019",
+    "id": "5efa23afd85990251fc9a197",
+    "title": "Municipales 2020 - R\u00e9sultats 2nd tour",
     "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>En 2018, 123 625 demandes ont \u00e9t\u00e9 enregistr\u00e9es \u00e0 l\u2019OFPRA, dont 114 226 premi\u00e8res demandes (mineurs accompagnants inclus) et 9 399 r\u00e9examens (dont 293 r\u00e9ouvertures de dossiers). 93 598 d\u00e9cisions, hors mineurs accompagnants, ont \u00e9t\u00e9 prises, soit une augmentation de 4,8 % par rapport \u00e0 2017. L\u2019OFPRA a pris 24\u2026</p>",
+    "excerpt": "<p>R\u00e9sultats du second tour des \u00e9lections municipales du 28 juin 2020</p><p>Ces donn\u00e9es sont publi\u00e9es sous r\u00e9serve :</p>des recours form\u00e9s devant le tribunal administratif ;d'\u00e9ventuelles rectifications (erreurs mat\u00e9rielles, utilisation par les candidats de leur droit de rectification des donn\u00e9es personnelles les concernant)",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-35-demandes-dasile-publication-du-12-juin-2019/",
+    "page": "https://www.data.gouv.fr/fr/datasets/municipales-2020-resultats-2nd-tour/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
     "certified": true
   },
   {
-    "id": "5dc42155634f4104163b8844",
-    "title": "EM 2019-34 Les \u00e9loignements 2018 au 12 juin 2019",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>Le d\u00e9compte des \u00e9loignements d\u2019\u00e9trangers en situation irr\u00e9guli\u00e8re fait l\u2019objet d\u2019une ventilation selon trois types d\u2019\u00e9loignements refl\u00e9tant des modalit\u00e9s diff\u00e9rentes de prise en charge de l\u2019immigration irr\u00e9guli\u00e8re :</p><ol><li>Les \u00e9loignements forc\u00e9s, caract\u00e9ris\u00e9s par la prise d\u2019une d\u00e9cision d\u2019\u00e9loignement et sa mise en \u0153uvre par la contrainte, qui regroupent les cat\u00e9gories\u2026</li></ol>",
+    "id": "5ee2391763c79811ddfbc86a",
+    "title": "Diagnostics de performance \u00e9nerg\u00e9tique pour les logements par habitation",
+    "source": "ADEME",
+    "excerpt": "<p>Le diagnostic de performance \u00e9nerg\u00e9tique (DPE) renseigne sur la performance \u00e9nerg\u00e9tique d\u2019un logement ou d\u2019un b\u00e2timent, en \u00e9valuant sa consommation d\u2019\u00e9nergie et son impact en terme d\u2019\u00e9missions de gaz \u00e0 effet de serre.</p><p>Le contenu et les modalit\u00e9s d\u2019\u00e9tablissement du DPE sont r\u00e9glement\u00e9s.</p><p>Le DPE d\u00e9crit le b\u00e2timent ou le\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-34-les-eloignements-2018-au-12-juin-2019/",
+    "page": "https://www.data.gouv.fr/fr/datasets/diagnostics-de-performance-energetique-pour-les-logements-par-habitation/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
     "certified": true
   },
   {
-    "id": "5db9a22c634f412150c57c7a",
-    "title": "EM 2019-25 les titres de s\u00e9jour, publication du 15 janvier 2019",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>Les d\u00e9livrances de premiers titres de s\u00e9jour correspondent aux titres d\u00e9livr\u00e9s aux \u00e9trangers majeurs \u00e0 la suite d'une premi\u00e8re demande de s\u00e9jour, mais ne prennent pas en compte les renouvellements de titres m\u00eame lorsque ceux-ci changent de nature (par exemple, un \u00e9tranger entr\u00e9 sur le motif \"\u00e9tudiant\" qui passerait en\u2026</p>",
+    "id": "5e45343c8b4c415ddfdb180c",
+    "title": "Diagnostics de performance \u00e9nerg\u00e9tique pour les b\u00e2timents publics",
+    "source": "ADEME",
+    "excerpt": "<p>Le diagnostic de performance \u00e9nerg\u00e9tique (DPE) renseigne sur la performance \u00e9nerg\u00e9tique d\u2019un logement ou d\u2019un b\u00e2timent, en \u00e9valuant sa consommation d\u2019\u00e9nergie et son impact en terme d\u2019\u00e9missions de gaz \u00e0 effet de serre. Il s\u2019inscrit dans le cadre de la politique \u00e9nerg\u00e9tique d\u00e9finie au niveau europ\u00e9en afin de r\u00e9duire la\u2026</p>",
     "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-25-les-titres-de-sejour-publication-du-15-janvier-2019/",
+    "page": "https://www.data.gouv.fr/fr/datasets/diagnostics-de-performance-energetique-pour-les-batiments-publics/",
     "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
-    "certified": true
-  },
-  {
-    "id": "5da901289ce2e7311252078d",
-    "title": "Projet de loi de finances pour 2020 (PLF 2020), donn\u00e9es du PLF et des annexes projet annuel de performance (PAP)",
-    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
-    "excerpt": "<p>Donn\u00e9es issues du projet de loi de finances (PLF) pour 2020 et de ses annexes, \u00e0 savoir :</p><p>- Nomenclatures </p><p>- Cr\u00e9dits suivant l'axe destination (mission / programme / action) et l'axe nature (titre / cat\u00e9gorie) pour le budget g\u00e9n\u00e9ral (BG, les comptes d'affection sp\u00e9ciale (CAS) et les comptes de\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2020-plf-2020-donnees-du-plf-et-des-annexes-projet-annuel-de-performance-pap/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
-    "certified": true
-  },
-  {
-    "id": "5da141da06e3e726b029a305",
-    "title": "Parcoursup 2019 - v\u0153ux de poursuite d'\u00e9tudes et de r\u00e9orientation dans l'enseignement sup\u00e9rieur et r\u00e9ponses des \u00e9tablissements",
-    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
-    "excerpt": "<p>Ce jeu de donn\u00e9es pr\u00e9sente les v\u0153ux de poursuite d\u2019\u00e9tudes et de r\u00e9orientation dans l\u2019enseignement sup\u00e9rieur ainsi que les propositions des \u00e9tablissements pour chaque formation \u2013 hors apprentissage \u2013 \u00e0 la fin du processus d\u2019affectation de la plateforme Parcoursup pour la session 2019 (du 22 janvier au 14 septembre 2019).\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/parcoursup-2019-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
+    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
     "certified": true
   },
   {
@@ -1174,72 +1240,6 @@
     "page": "https://www.data.gouv.fr/fr/datasets/consultation-citoyenne-en-ligne-sur-les-retraites-1/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
-    "certified": true
-  },
-  {
-    "id": "5ea7d2e5c479ae52c2b9a38f",
-    "title": "Projets financ\u00e9s (hors PIA) 2005-2019",
-    "source": "Agence Nationale de la Recherche",
-    "excerpt": "<p>Projets financ\u00e9s (hors PIA) 2005-2019, la notice d\u00e9taille le contenu des champs</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/projets-finances-hors-pia-2005-2019/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/5d/93a65f5a264f44a4f7784be9fa3c40-100.png",
-    "certified": true
-  },
-  {
-    "id": "5e9dc6fb50e78562fdf2d2a5",
-    "title": "SINOE \u00ae - Tonnage d\u00e9ch\u00e8teries par type de d\u00e9chet et d\u00e9partement",
-    "source": "ADEME",
-    "excerpt": "<p>R\u00e9partition des tonnages de d\u00e9chets collect\u00e9s en d\u00e9ch\u00e8terie par type de d\u00e9chet et par d\u00e9partement. </p><p></p><p>Le jeu de donn\u00e9es \"Tonnage de d\u00e9chets collect\u00e9s en d\u00e9ch\u00e8terie par type de d\u00e9chets\" contient, pour les ann\u00e9es impaires de 2009 \u00e0 2017, les tonnages de d\u00e9chets collect\u00e9s par type de d\u00e9chets et par d\u00e9partement.\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/sinoe-r-tonnage-decheteries-par-type-de-dechet-et-departement/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5ebc257e4694940a16d181d3",
-    "title": "Donn\u00e9es relatives aux reports d'\u00e9ch\u00e9ances fiscales accord\u00e9s dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19",
-    "source": "Etalab",
-    "excerpt": "<p>Les reports d'\u00e9ch\u00e9ances fiscales durant la crise du  COVID-19</p><p>Le Gouvernement a annonc\u00e9 le report des principales \u00e9ch\u00e9ances fiscales des professionnels afin de tenir compte de leurs difficult\u00e9s li\u00e9es \u00e0 la crise sanitaire du coronavirus.</p><p>Le report d'\u00e9ch\u00e9ance fiscale concerne :</p><ul><li>Les entreprises ou les experts-comptables qui interviennent pour des\u2026</li></ul>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5ebc1ab7e5d3010d32ca8260",
-    "title": "Donn\u00e9es relatives aux pr\u00eats garantis par l\u2019Etat dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19",
-    "source": "Etalab",
-    "excerpt": "<p>Les pr\u00eats garantis par l'Etat durant la crise du  COVID-19</p><p>Le Gouvernement met en \u0153uvre un dispositif exceptionnel de garanties permettant de soutenir le financement bancaire des entreprises, \u00e0 hauteur de 300 milliards d\u2019euros.</p><p>Jusqu\u2019au 31 d\u00e9cembre prochain, les entreprises de toute taille, quelle que soit la forme juridique de\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5ea2db4e4df5f1871c9229be",
-    "title": "Transferts de patients atteints de COVID-19",
-    "source": "Etalab",
-    "excerpt": "<p>Contexte</p><p>Pour r\u00e9pondre \u00e0 la crise sanitaire et \u00e0 la mise en tension du syst\u00e8me de sant\u00e9 fran\u00e7ais, le gouvernement op\u00e8re depuis le 18 mars 2020 des transferts de patients entre \u00e9tablissements hospitaliers. Ce dispositif a pour objectif de d\u00e9sengorger les \u00e9tablissements les plus touch\u00e9s par l'\u00e9pid\u00e9mie de COVID-19. </p><p>Mode\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/transferts-de-patients-atteints-de-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5cd95215634f417dff43508f",
-    "title": "Socle interminist\u00e9riel de logiciels libres",
-    "source": "Direction interminist\u00e9rielle du num\u00e9rique",
-    "excerpt": "<p>Le socle interminist\u00e9riel de logiciels libres (SILL) est une liste de logiciels libres recommand\u00e9s pour les administrations publiques.  Cette liste est \u00e9tablie par des agents publics qui sont volontaires pour \u00eatre r\u00e9f\u00e9rents aupr\u00e8s des autres administrations d'un ou plusieurs logiciels.  Les \u00ab r\u00e9f\u00e9rents SILL \u00bb \u00e9changent sur des listes de\u2026</p>",
-    "acronym": "SILL",
-    "page": "https://www.data.gouv.fr/fr/datasets/socle-interministeriel-de-logiciels-libres/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/a0/16eb04d7754b989b7dcd21d77699bd-100.png",
     "certified": true
   },
   {
@@ -1529,6 +1529,182 @@
     "certified": true
   },
   {
+    "id": "5bc0d6e5634f4142b4581861",
+    "title": "Inventaire des d\u00e9p\u00f4ts de code source des organismes publics ",
+    "source": "Etalab",
+    "excerpt": "<p>Ce jeu de donn\u00e9es propose des informations sur la liste des d\u00e9p\u00f4ts de code source accessibles depuis les comptes d'organisation des organismes publics.</p><p>Pour parcourir ces donn\u00e9es, rendez-vous sur code.etalab.gouv.fr.</p>Collecte des donn\u00e9es<p>Ce jeu de donn\u00e9es n'est pas exhaustif car la liste des comptes d'organisation n'est pas compl\u00e8te. Sont\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/inventaire-des-depots-de-code-source-des-organismes-publics/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5dada2a7634f41668690a256",
+    "title": "Zones d'activit\u00e9s \u00e9conomiques en Bretagne",
+    "source": "DREAL Bretagne",
+    "excerpt": "<p>Zones d&#x27;activit\u00e9s \u00e9conomiques (ZAE) en Bretagne, pour une connaissance de la consommation d&#x27;espaces du territoireCette donn\u00e9e est le r\u00e9sultat d&#x27;une co-construction entre producteurs locaux: C\u00f4tes d&#x27;Armor D\u00e9veloppement - CCI Morbihan - CCI C\u00f4tes d&#x27;Armor - CCI Rennes - CCI Saint-Malo Foug\u00e8res - CCI Morlaix - CCI Quimper Cornouaille -\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/zones-dactivites-economiques-en-bretagne/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-07-24/b551348e86d94f6e8ef12dc7842481bc/logo_fr_dreal-100.png",
+    "certified": true
+  },
+  {
+    "id": "5dada2a38b4c4127a7949aa0",
+    "title": "Artificialisation des sols en Bretagne",
+    "source": "DREAL Bretagne",
+    "excerpt": "<p>Une surface est artificialis\u00e9e lorsqu\u2019elle est destin\u00e9e aux habitations, activit\u00e9s, r\u00e9seaux de transport et espaces associ\u00e9s, par opposition aux surfaces agricoles et naturelles. La part et l&#x27;\u00e9volution de l&#x27;artificialisation sont calcul\u00e9es \u00e0 partir des fichiers fonciers redress\u00e9s de la DGFIP (Base Majic) pour la partie cadastr\u00e9e, et la bdtopo IGN\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/artificialisation-des-sols-en-bretagne/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-07-24/b551348e86d94f6e8ef12dc7842481bc/logo_fr_dreal-100.png",
+    "certified": true
+  },
+  {
+    "id": "5da92b1b06e3e7517d29a306",
+    "title": "Barom\u00e8tre de la science ouverte",
+    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
+    "excerpt": "<p>Ce jeu de donn\u00e9es recense les donn\u00e9es sous-jacentes au barom\u00e8tre fran\u00e7ais de la Science Ouverte, avec pour le moment un focus sur l'Acc\u00e8s Ouvert.</p><p>Le site  offre une vision globale des r\u00e9sultats du barom\u00e8tre de la science ouverte.</p><p>Ce jeu de donn\u00e9es liste les publications scientifiques avec une affiliation\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/barometre-de-la-science-ouverte/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
+    "certified": true
+  },
+  {
+    "id": "5db9a016634f4118b8386ec7",
+    "title": "EM 2019-27 La d\u00e9livrance de visas aux \u00e9trangers au 15 janvier 2019",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>La d\u00e9livrance des visas aux \u00e9trangers comprend les visas de court s\u00e9jour Schengen, valables pour la m\u00e9tropole et parfois pour les DOM et, sauf rares exceptions, pour le territoire de tous les autres \u00c9tats Schengen, ainsi que les visas de long s\u00e9jour valables pour la m\u00e9tropole et les DOM.</p><p>Le\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-27-la-delivrance-de-visas-aux-etrangers-au-15-janvier-2019/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
+  },
+  {
+    "id": "5dc42a76634f41222801d281",
+    "title": "EM 2019-36 L'acc\u00e8s \u00e0 la nationalit\u00e9 fran\u00e7aise au 12 juin 2019",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>En 2018, le flux annuel des acquisitions de la nationalit\u00e9 fran\u00e7aise, avec 110 014 nouveaux Fran\u00e7ais, conna\u00eet une baisse (\u2013 3,7 %), r\u00e9sultat d\u2019une baisse des acquisitions de la nationalit\u00e9 par d\u00e9cret (\u2013 15,0 %) et d\u2019une hausse des acquisitions de la nationalit\u00e9 par d\u00e9claration (+ 12,2 %).</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-36-lacces-a-la-nationalite-francaise-au-12-juin-2019/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
+  },
+  {
+    "id": "5dc4286d634f411d4cbfb9f7",
+    "title": "EM 2019-35 Demandes d'asile, publication du 12 juin 2019",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>En 2018, 123 625 demandes ont \u00e9t\u00e9 enregistr\u00e9es \u00e0 l\u2019OFPRA, dont 114 226 premi\u00e8res demandes (mineurs accompagnants inclus) et 9 399 r\u00e9examens (dont 293 r\u00e9ouvertures de dossiers). 93 598 d\u00e9cisions, hors mineurs accompagnants, ont \u00e9t\u00e9 prises, soit une augmentation de 4,8 % par rapport \u00e0 2017. L\u2019OFPRA a pris 24\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-35-demandes-dasile-publication-du-12-juin-2019/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
+  },
+  {
+    "id": "5dc42155634f4104163b8844",
+    "title": "EM 2019-34 Les \u00e9loignements 2018 au 12 juin 2019",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Le d\u00e9compte des \u00e9loignements d\u2019\u00e9trangers en situation irr\u00e9guli\u00e8re fait l\u2019objet d\u2019une ventilation selon trois types d\u2019\u00e9loignements refl\u00e9tant des modalit\u00e9s diff\u00e9rentes de prise en charge de l\u2019immigration irr\u00e9guli\u00e8re :</p><ol><li>Les \u00e9loignements forc\u00e9s, caract\u00e9ris\u00e9s par la prise d\u2019une d\u00e9cision d\u2019\u00e9loignement et sa mise en \u0153uvre par la contrainte, qui regroupent les cat\u00e9gories\u2026</li></ol>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-34-les-eloignements-2018-au-12-juin-2019/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
+  },
+  {
+    "id": "5db9a22c634f412150c57c7a",
+    "title": "EM 2019-25 les titres de s\u00e9jour, publication du 15 janvier 2019",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>Les d\u00e9livrances de premiers titres de s\u00e9jour correspondent aux titres d\u00e9livr\u00e9s aux \u00e9trangers majeurs \u00e0 la suite d'une premi\u00e8re demande de s\u00e9jour, mais ne prennent pas en compte les renouvellements de titres m\u00eame lorsque ceux-ci changent de nature (par exemple, un \u00e9tranger entr\u00e9 sur le motif \"\u00e9tudiant\" qui passerait en\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/em-2019-25-les-titres-de-sejour-publication-du-15-janvier-2019/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
+  },
+  {
+    "id": "5da901289ce2e7311252078d",
+    "title": "Projet de loi de finances pour 2020 (PLF 2020), donn\u00e9es du PLF et des annexes projet annuel de performance (PAP)",
+    "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
+    "excerpt": "<p>Donn\u00e9es issues du projet de loi de finances (PLF) pour 2020 et de ses annexes, \u00e0 savoir :</p><p>- Nomenclatures </p><p>- Cr\u00e9dits suivant l'axe destination (mission / programme / action) et l'axe nature (titre / cat\u00e9gorie) pour le budget g\u00e9n\u00e9ral (BG, les comptes d'affection sp\u00e9ciale (CAS) et les comptes de\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/projet-de-loi-de-finances-pour-2020-plf-2020-donnees-du-plf-et-des-annexes-projet-annuel-de-performance-pap/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/68/0660a939e7495d94117e0d9845d6f1-100.png",
+    "certified": true
+  },
+  {
+    "id": "5da141da06e3e726b029a305",
+    "title": "Parcoursup 2019 - v\u0153ux de poursuite d'\u00e9tudes et de r\u00e9orientation dans l'enseignement sup\u00e9rieur et r\u00e9ponses des \u00e9tablissements",
+    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
+    "excerpt": "<p>Ce jeu de donn\u00e9es pr\u00e9sente les v\u0153ux de poursuite d\u2019\u00e9tudes et de r\u00e9orientation dans l\u2019enseignement sup\u00e9rieur ainsi que les propositions des \u00e9tablissements pour chaque formation \u2013 hors apprentissage \u2013 \u00e0 la fin du processus d\u2019affectation de la plateforme Parcoursup pour la session 2019 (du 22 janvier au 14 septembre 2019).\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/parcoursup-2019-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
+    "certified": true
+  },
+  {
+    "id": "5cd95215634f417dff43508f",
+    "title": "Socle interminist\u00e9riel de logiciels libres",
+    "source": "Direction interminist\u00e9rielle du num\u00e9rique",
+    "excerpt": "<p>Le socle interminist\u00e9riel de logiciels libres (SILL) est une liste de logiciels libres recommand\u00e9s pour les administrations publiques.  Cette liste est \u00e9tablie par des agents publics qui sont volontaires pour \u00eatre r\u00e9f\u00e9rents aupr\u00e8s des autres administrations d'un ou plusieurs logiciels.  Les \u00ab r\u00e9f\u00e9rents SILL \u00bb \u00e9changent sur des listes de\u2026</p>",
+    "acronym": "SILL",
+    "page": "https://www.data.gouv.fr/fr/datasets/socle-interministeriel-de-logiciels-libres/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/a0/16eb04d7754b989b7dcd21d77699bd-100.png",
+    "certified": true
+  },
+  {
+    "id": "5e83c3ed38f46c1808801fbb",
+    "title": "PIAF - Le dataset francophone de Questions-R\u00e9ponses",
+    "source": "Etalab",
+    "excerpt": "<p>PIAF, construire un jeu de donn\u00e9es francophones ouvert pour l\u2019IA</p><p>Le recours \u00e0 l\u2019intelligence artificielle au sein de l\u2019action publique est souvent identifi\u00e9 comme une opportunit\u00e9 pour interroger des textes documentaires et r\u00e9aliser des outils de questions/r\u00e9ponses (QR) automatiques \u00e0 destination des usagers. Interroger le code du travail en langage\u2026</p>",
+    "acronym": "PIAF - Q&A",
+    "page": "https://www.data.gouv.fr/fr/datasets/piaf-le-dataset-francophone-de-questions-reponses/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5e3bf9f66f44410d2c83613b",
+    "title": "G\u00e9olocalisation des bureaux de vote",
+    "source": "Christian Quest",
+    "excerpt": "<p>Ce jeu de donn\u00e9e est une version g\u00e9ocod\u00e9e du fichier des bureaux de vote publi\u00e9 par l'INSEE.</p><p>Il a \u00e9t\u00e9 g\u00e9ocod\u00e9 \u00e0 l'aide de:- la Base Adresse Nationale (f\u00e9vrier 2020)- la BANO d'OpenStreetMap France (f\u00e9vrier 2020)- les points d'int\u00e9r\u00eat extraits d'OpenStreetMap</p><p>ATTENTION: Le g\u00e9ocodage est processus imparfait\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/geolocalisation-des-bureaux-de-vote/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/af/c9f6203b3e4b858973b4ab792e7643-500.jpg",
+    "certified": false
+  },
+  {
+    "id": "5e7102d5ebe5d838b7581662",
+    "title": "Elections municipales 2020 - r\u00e9sultats 1er tour",
+    "source": "Minist\u00e8re de l'Int\u00e9rieur",
+    "excerpt": "<p>R\u00e9sultats du premier tour des \u00e9lections municipales du 15 mars 2020</p><p>Ces donn\u00e9es sont publi\u00e9es sous r\u00e9serve :- des recours form\u00e9s devant le tribunal administratif ;- d'\u00e9ventuelles rectifications (erreurs mat\u00e9rielles, utilisation par les candidats de leur droit de rectification des donn\u00e9es personnelles les concernant)</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-resultats-1er-tour/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
+    "certified": true
+  },
+  {
+    "id": "5e870c8219cd4e437b686bac",
+    "title": " Inventaire des initiatives de la soci\u00e9t\u00e9 civile visant \u00e0 faire face \u00e0 la pand\u00e9mie de Covid-19",
+    "source": "Covid-initiatives",
+    "excerpt": "<p>La mission de Covid-initiatives</p><p>Covid-initiatives est un collectif b\u00e9n\u00e9vole qui a pour ambition de recenser un maximum d'initiatives de la soci\u00e9t\u00e9 civile visant \u00e0 faire face \u00e0 la pand\u00e9mie de Covid-19. Le collectif est \u00e0 l\u2019orgine de la plateforme covid-initiatives.org qui tente de donner \u00e0 voir de la mani\u00e8re la\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/inventaire-des-initiatives-de-la-societe-civile-visant-a-faire-face-a-la-pandemie-de-covid-19/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/30/3624ff029d41908d4b3d2c11dfa349-100.png",
+    "certified": false
+  },
+  {
     "id": "5d5f9fc96f4441094179a94c",
     "title": "Code source des taxes fonci\u00e8res (TF)",
     "source": "Minist\u00e8re de l'\u00e9conomie et des finances",
@@ -1650,6 +1826,61 @@
     "certified": false
   },
   {
+    "id": "5ea7d2e5c479ae52c2b9a38f",
+    "title": "Projets financ\u00e9s (hors PIA) 2005-2019",
+    "source": "Agence Nationale de la Recherche",
+    "excerpt": "<p>Projets financ\u00e9s (hors PIA) 2005-2019, la notice d\u00e9taille le contenu des champs</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/projets-finances-hors-pia-2005-2019/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/5d/93a65f5a264f44a4f7784be9fa3c40-100.png",
+    "certified": true
+  },
+  {
+    "id": "5e9dc6fb50e78562fdf2d2a5",
+    "title": "SINOE \u00ae - Tonnage d\u00e9ch\u00e8teries par type de d\u00e9chet et d\u00e9partement",
+    "source": "ADEME",
+    "excerpt": "<p>R\u00e9partition des tonnages de d\u00e9chets collect\u00e9s en d\u00e9ch\u00e8terie par type de d\u00e9chet et par d\u00e9partement. </p><p></p><p>Le jeu de donn\u00e9es \"Tonnage de d\u00e9chets collect\u00e9s en d\u00e9ch\u00e8terie par type de d\u00e9chets\" contient, pour les ann\u00e9es impaires de 2009 \u00e0 2017, les tonnages de d\u00e9chets collect\u00e9s par type de d\u00e9chets et par d\u00e9partement.\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/sinoe-r-tonnage-decheteries-par-type-de-dechet-et-departement/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5ebc257e4694940a16d181d3",
+    "title": "Donn\u00e9es relatives aux reports d'\u00e9ch\u00e9ances fiscales accord\u00e9s dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19",
+    "source": "Etalab",
+    "excerpt": "<p>Les reports d'\u00e9ch\u00e9ances fiscales durant la crise du  COVID-19</p><p>Le Gouvernement a annonc\u00e9 le report des principales \u00e9ch\u00e9ances fiscales des professionnels afin de tenir compte de leurs difficult\u00e9s li\u00e9es \u00e0 la crise sanitaire du coronavirus.</p><p>Le report d'\u00e9ch\u00e9ance fiscale concerne :</p><ul><li>Les entreprises ou les experts-comptables qui interviennent pour des\u2026</li></ul>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-reports-decheances-fiscales-accordes-dans-le-cadre-de-lepidemie-de-covid-19/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5ebc1ab7e5d3010d32ca8260",
+    "title": "Donn\u00e9es relatives aux pr\u00eats garantis par l\u2019Etat dans le cadre de l\u2019\u00e9pid\u00e9mie de COVID-19",
+    "source": "Etalab",
+    "excerpt": "<p>Les pr\u00eats garantis par l'Etat durant la crise du  COVID-19</p><p>Le Gouvernement met en \u0153uvre un dispositif exceptionnel de garanties permettant de soutenir le financement bancaire des entreprises, \u00e0 hauteur de 300 milliards d\u2019euros.</p><p>Jusqu\u2019au 31 d\u00e9cembre prochain, les entreprises de toute taille, quelle que soit la forme juridique de\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-prets-garantis-par-letat-dans-le-cadre-de-lepidemie-de-covid-19/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "5ea2db4e4df5f1871c9229be",
+    "title": "Transferts de patients atteints de COVID-19",
+    "source": "Etalab",
+    "excerpt": "<p>Contexte</p><p>Pour r\u00e9pondre \u00e0 la crise sanitaire et \u00e0 la mise en tension du syst\u00e8me de sant\u00e9 fran\u00e7ais, le gouvernement op\u00e8re depuis le 18 mars 2020 des transferts de patients entre \u00e9tablissements hospitaliers. Ce dispositif a pour objectif de d\u00e9sengorger les \u00e9tablissements les plus touch\u00e9s par l'\u00e9pid\u00e9mie de COVID-19. </p><p>Mode\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/transferts-de-patients-atteints-de-covid-19/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
+    "certified": true
+  },
+  {
     "id": "5d65327a8b4c411e9a3a7b1a",
     "title": "Lieux et horaires des collectes de sang",
     "source": "Etablissement Fran\u00e7ais du Sang",
@@ -1670,6 +1901,17 @@
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/b7/055c41389540f8bbcccfc56f9b3ec0-100.png",
     "certified": false
+  },
+  {
+    "id": "58e5842688ee386c65805755",
+    "title": "R\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE)",
+    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
+    "excerpt": "<p>L'\u00c9tat a confi\u00e9 \u00e0 l'IGN le d\u00e9veloppement du r\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE). Pour ce faire, il fait appel \u00e0 ses moyens propres ainsi qu\u2019\u00e0 des partenariats avec des producteurs principalement de la sph\u00e8re publique. Le RGE est constitu\u00e9 des composantes orthophotographique, topographique et adresse, parcellaire et altim\u00e9trique.</p><p>Sp\u00e9cifications du\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
+    "certified": true
   },
   {
     "id": "5cd57bf68b4c4179299eb0e9",
@@ -1705,6 +1947,28 @@
     "certified": true
   },
   {
+    "id": "5d8e16106f44410332a79994",
+    "title": "Donn\u00e9es carroy\u00e9es issues du dispositif sur les revenus localis\u00e9s fiscaux et sociaux (FiLoSoFi)",
+    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
+    "excerpt": "<p>Ces donn\u00e9es proviennent du dispositif sur les revenus localis\u00e9s sociaux et fiscaux (FiLoSoFi).- Les bases contiennent 26 variables sur la structure par \u00e2ge des individus, sur les caract\u00e9ristiques des m\u00e9nages et des logements et sur les revenus per\u00e7us au cours de l\u2019ann\u00e9e 2015. Le champ g\u00e9ographique est constitu\u00e9 de\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/donnees-carroyees-issues-du-dispositif-sur-les-revenus-localises-fiscaux-et-sociaux-filosofi/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
+    "certified": true
+  },
+  {
+    "id": "57343feb88ee3823b0d1b934",
+    "title": "R\u00e9f\u00e9rentiel de l'organisation administrative de l'Etat",
+    "source": "Premier ministre",
+    "excerpt": "<p>Le d\u00e9cret du 14 mars 2017 a institu\u00e9 le Service Public de la Donn\u00e9e.</p><p>Celui-ci met \u00e0 la disposition du public 9 jeux de  donn\u00e9es de r\u00e9f\u00e9rence parmi lesquels la base nationale de l\u2019organisation administrative de l\u2019Etat, produite et diffus\u00e9e par la Dila sur son site service-public.fr.</p><p>Le R\u00e9f\u00e9rentiel de\u2026</p>",
+    "acronym": null,
+    "page": "https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/",
+    "post_url": "",
+    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png",
+    "certified": true
+  },
+  {
     "id": "5d1b7aa36f444175f0d04005",
     "title": "Les finances publiques locales 2019 - Fascicule 1",
     "source": "Cour des comptes",
@@ -1724,270 +1988,6 @@
     "page": "https://www.data.gouv.fr/fr/datasets/les-finances-publiques-locales-2019/",
     "post_url": "",
     "logo_url": "https://static.data.gouv.fr/avatars/ac/83f761a23f4263be8b3401b01625e8-100.png",
-    "certified": true
-  },
-  {
-    "id": "53699396a3a729239d20422d",
-    "title": "Elections municipales 2014 \u2013 Candidatures - Listes d\u00e9taill\u00e9es dans les communes de 1 000 habitants et plus",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>Elections municipales 2014 \u2013 Candidatures - Liste d\u00e9taill\u00e9es dans les communes de 1 000 habitants et plus.</p><p>Ces listes sont publi\u00e9es sous r\u00e9serve : . des recours de candidats form\u00e9s devant le tribunal administratif . des refus de r\u00e9c\u00e9piss\u00e9s d\u00e9finitifs non encore d\u00e9livr\u00e9s . des erreurs de saisies \u00e9ventuelles.</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2014-candidatures-listes-detaillees-dans-les-communes-de-1-000-habitants-et-pl/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
-    "certified": true
-  },
-  {
-    "id": "597f948088ee38639e1c679e",
-    "title": "BD Ortho 5m - photographie a\u00e9rienne (reformat\u00e9e)",
-    "source": "Christian Quest",
-    "excerpt": "<p>Les fichiers d'origine diffus\u00e9s par l'IGN sur  sous Licence Ouverte sont:- en projection l\u00e9gale (Lambert 93 en m\u00e9tropole et autres projection sp\u00e9cifique pour chaque DOM)- au format JPEG2000 \"lossless\" par dalle de 10km x 10km- compress\u00e9 sous forme d'une archive 7z (longue \u00e0 d\u00e9compresser pour un\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/bd-ortho-5m-photographie-aerienne-reformatee/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/af/c9f6203b3e4b858973b4ab792e7643-500.jpg",
-    "certified": false
-  },
-  {
-    "id": "5d8e16106f44410332a79994",
-    "title": "Donn\u00e9es carroy\u00e9es issues du dispositif sur les revenus localis\u00e9s fiscaux et sociaux (FiLoSoFi)",
-    "source": "Institut National de la Statistique et des Etudes Economiques (Insee)",
-    "excerpt": "<p>Ces donn\u00e9es proviennent du dispositif sur les revenus localis\u00e9s sociaux et fiscaux (FiLoSoFi).- Les bases contiennent 26 variables sur la structure par \u00e2ge des individus, sur les caract\u00e9ristiques des m\u00e9nages et des logements et sur les revenus per\u00e7us au cours de l\u2019ann\u00e9e 2015. Le champ g\u00e9ographique est constitu\u00e9 de\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-carroyees-issues-du-dispositif-sur-les-revenus-localises-fiscaux-et-sociaux-filosofi/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/db/fbfd745ae543f6856ed59e3d44eb71-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5ef2c1c5a45a99a69b581150",
-    "title": "Insertion professionnelle des dipl\u00f4m\u00e9s de doctorat par \u00e9tablissement",
-    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
-    "excerpt": "<p>En application de la loi relative \u00e0 l\u2019enseignement sup\u00e9rieur et la recherche du 12 juillet 2013, les \u00e9tablissements d\u2019enseignement sup\u00e9rieur et de recherche ont mis en place des dispositifs statistiques permettant d\u2019observer la situation professionnelle des docteurs. Les donn\u00e9es pr\u00e9sent\u00e9es sont issues de l\u2019un d\u2019eux, l\u2019enqu\u00eate IP Doc (Insertion Professionnelle\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-doctorat-par-etablissement/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
-    "certified": true
-  },
-  {
-    "id": "5ef2c1c5a45a99a69b58114f",
-    "title": "Insertion professionnelle des dipl\u00f4m\u00e9s de doctorat par ensemble universitaire",
-    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
-    "excerpt": "<p>En application de la loi relative \u00e0 l\u2019enseignement sup\u00e9rieur et la recherche du 12 juillet 2013, les \u00e9tablissements d\u2019enseignement sup\u00e9rieur et de recherche ont mis en place des dispositifs statistiques permettant d\u2019observer la situation professionnelle des docteurs. Les donn\u00e9es pr\u00e9sent\u00e9es sont issues de l\u2019un d\u2019eux, l\u2019enqu\u00eate IP Doc (Insertion Professionnelle\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-doctorat-par-ensemble-universitaire/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
-    "certified": true
-  },
-  {
-    "id": "5ef2c1c657bc8b47b64fc1c2",
-    "title": "Insertion professionnelle des dipl\u00f4m\u00e9s de doctorat - donn\u00e9es nationales sexu\u00e9es par disciplines d\u00e9taill\u00e9es",
-    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
-    "excerpt": "<p>En application de la loi relative \u00e0 l\u2019enseignement sup\u00e9rieur et la recherche du 12 juillet 2013, les \u00e9tablissements d\u2019enseignement sup\u00e9rieur et de recherche ont mis en place des dispositifs statistiques permettant d\u2019observer la situation professionnelle des docteurs. Les donn\u00e9es pr\u00e9sent\u00e9es sont issues de l\u2019un d\u2019eux, l\u2019enqu\u00eate IP Doc (Insertion Professionnelle\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/insertion-professionnelle-des-diplomes-de-doctorat-donnees-nationales-sexuees-par-disciplines-detaillees/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
-    "certified": true
-  },
-  {
-    "id": "5ee80c9afc19dc2ff8179ef2",
-    "title": "Somme des dix r\u00e9mun\u00e9rations les plus \u00e9lev\u00e9es",
-    "source": "D\u00e9partement du Doubs",
-    "excerpt": "<p>Conform\u00e9ment \u00e0 la loi n\u00b0 2019-828 du 6 ao\u00fbt 2019 de transformation de la fonction publique, le D\u00e9partement publie chaque ann\u00e9e la somme des dix r\u00e9mun\u00e9rations bruts globales les plus \u00e9lev\u00e9es des agents relevant de son p\u00e9rim\u00e8tre</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/somme-des-dix-remunerations-les-plus-elevees/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/a9/73afe6d75e47df8d714ba616f1ba4d-100.jpg",
-    "certified": false
-  },
-  {
-    "id": "5e85f45c21d139adf8b243db",
-    "title": "Les 10 r\u00e9mun\u00e9rations les plus \u00e9lev\u00e9es au sein de la Ville d'Antibes",
-    "source": "Ville d'Antibes",
-    "excerpt": "<p>L\u2019article 37 de la loi n\u00b02019-828 du 6 ao\u00fbt 2019 de transformation de la fonction publique pr\u00e9voit que les d\u00e9partements minist\u00e9riels, les r\u00e9gions, les d\u00e9partements, les collectivit\u00e9s territoriales de plus de 80 000 habitants, les \u00e9tablissements publics de coop\u00e9ration intercommunale \u00e0 fiscalit\u00e9 propre de plus de 80 000 habitants et\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/les-10-remunerations-les-plus-elevees-au-sein-de-la-ville-dantibes/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/c8/533a5ea1e8440097785a6324644503-100.png",
-    "certified": true
-  },
-  {
-    "id": "5ed77a45b10ec70af273f990",
-    "title": "Les 10 r\u00e9mun\u00e9rations les plus \u00e9lev\u00e9es au sein de Grand Besan\u00e7on M\u00e9tropole",
-    "source": "GRAND BESANCON METROPOLE",
-    "excerpt": "<p>L\u2019article 37 de la loi n\u00b02019-828 du 6 ao\u00fbt 2019 de transformation de la fonction publique pr\u00e9voit que les collectivit\u00e9s territoriales de plus de 80 000 habitants et les \u00e9tablissements publics de coop\u00e9ration intercommunale \u00e0 fiscalit\u00e9 propre de plus de 80 000 habitants publient chaque ann\u00e9e, sur leur site internet,\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/les-10-remunerations-les-plus-elevees-au-sein-de-grand-besancon-metropole/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/c8/1a0dd03058451683dd51d169573f00-100.png",
-    "certified": true
-  },
-  {
-    "id": "5ed778e37f511ace8ecc755a",
-    "title": "Les 10 r\u00e9mun\u00e9rations les plus \u00e9lev\u00e9es au sein de la Ville de Besan\u00e7on",
-    "source": "Ville de Besancon",
-    "excerpt": "<p>L\u2019article 37 de la loi n\u00b02019-828 du 6 ao\u00fbt 2019 de transformation de la fonction publique pr\u00e9voit que les collectivit\u00e9s territoriales de plus de 80 000 habitants et les \u00e9tablissements publics de coop\u00e9ration intercommunale \u00e0 fiscalit\u00e9 propre de plus de 80 000 habitants publient chaque ann\u00e9e, sur leur site internet,\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/les-10-remunerations-les-plus-elevees-au-sein-de-la-ville-de-besancon/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/07/34108075d6490d8c0d51da51ecb678-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5ed720621bca55ea7d179ef6",
-    "title": "Somme des dix plus hautes r\u00e9mun\u00e9rations directement vers\u00e9es par le minist\u00e8re de la Culture",
-    "source": "Minist\u00e8re de la Culture",
-    "excerpt": "<p>Dans le cadre de la loi n\u00b02019-828 du 6 ao\u00fbt 2019 de transformation de la Fonction publique, les minist\u00e8res doivent publier la somme des 10 plus hautes r\u00e9mun\u00e9rations qu\u2019ils versent directement (cf pi\u00e8ce jointe).</p><p>Ce jeu de donn\u00e9es comprend la somme des dix plus hautes r\u00e9mun\u00e9rations directement vers\u00e9es par le\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/somme-des-dix-plus-hautes-remunerations-directement-versees-par-le-ministere-de-la-culture/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/cf/f1ce1cb584470c8b83a9839dd9c83e-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "5edb06c17e87436446179ef2",
-    "title": "Financements publics de projets de recherche en rapport avec la crise sanitaire du COVID-19",
-    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
-    "excerpt": "<p>Financements publics de projets de recherche en rapport avec la crise sanitaire du COVID-19 (situation \u00e0 date)</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/financements-publics-de-projets-de-recherche-en-rapport-avec-la-crise-sanitaire-du-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
-    "certified": true
-  },
-  {
-    "id": "5edb06c22f8db78a99179ef3",
-    "title": "Publications fran\u00e7aises #Covid19 r\u00e9f\u00e9renc\u00e9es dans Pubmed",
-    "source": "Minist\u00e8re de l'Enseignement sup\u00e9rieur, de la Recherche et de l'Innovation",
-    "excerpt": "<p>Ce jeu de donn\u00e9es recense les publications fran\u00e7aises (c'est-\u00e0-dire avec au moins une affiliation fran\u00e7aise) li\u00e9es au Covid19 et r\u00e9ferenc\u00e9es dans Pubmed.</p><p>La requ\u00eate Pubmed est la suivante, reprise de la page Pubmed consacr\u00e9e au Sars-CoV-2 :</p><p>((wuhan[All Fields] AND (\"coronavirus\"[MeSH Terms] OR \"coronavirus\"[All Fields])) AND 2019/12[PDAT] : 2030[PDAT]) OR\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/publications-francaises-covid19-referencees-dans-pubmed/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/d0/f1674862c341f7adc7c73bef74cc23-100.png",
-    "certified": true
-  },
-  {
-    "id": "5efd242c510fc9619aadc547",
-    "title": "Mesures exceptionnelles Covid-19 : reports de cotisations Urssaf (TI), France enti\u00e8re x secteur NA88",
-    "source": "Unions de Recouvrement des cotisations de S\u00e9curit\u00e9 Sociale et d'Allocations Familiales",
-    "excerpt": "<p>Donn\u00e9es France enti\u00e8re par d'activit\u00e9 (selon la nomenclature agr\u00e9g\u00e9e en 88 postes de la NAF) relatives aux reports de cotisations des travailleurs ind\u00e9pendants dans le cadre des mesures Urssaf exceptionnelles li\u00e9es \u00e0 la crise du Covid-19 (\u00e9ch\u00e9ances du 20 mars, du 5 avril, du 20 avril 2020, du 5 mai,\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-ti-france-entiere-x-secteur-na88/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/0c/473d172ebd40fc8ef13eb18a26b25b-100.jpg",
-    "certified": false
-  },
-  {
-    "id": "5efd242c3fc863ce24adc547",
-    "title": "Mesures exceptionnelles Covid-19 : reports de cotisations Urssaf (TI), par d\u00e9partement x grand secteur",
-    "source": "Unions de Recouvrement des cotisations de S\u00e9curit\u00e9 Sociale et d'Allocations Familiales",
-    "excerpt": "<p>Donn\u00e9es par d\u00e9partement et grand secteur d'activit\u00e9 relatives aux reports de cotisations des travailleurs ind\u00e9pendants dans le cadre des mesures Urssaf exceptionnelles li\u00e9es \u00e0 la crise du Covid-19 (\u00e9ch\u00e9ances du 20 mars, du 5 avril, du 20 avril 2020, du 5 mai, du 20 mai, du 5 juin, du 20\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/mesures-exceptionnelles-covid-19-reports-de-cotisations-urssaf-ti-par-departement-x-grand-secteur/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/0c/473d172ebd40fc8ef13eb18a26b25b-100.jpg",
-    "certified": false
-  },
-  {
-    "id": "5ee4173084de55b24f179ef2",
-    "title": "Aide exceptionnelle \u00ab CPSTI RCI COVID-19 \u00bb",
-    "source": "Unions de Recouvrement des cotisations de S\u00e9curit\u00e9 Sociale et d'Allocations Familiales",
-    "excerpt": "<p>Donn\u00e9es par d\u00e9partement et secteur d'activit\u00e9 relatives \u00e0 l'aide cr\u00e9\u00e9e par le Conseil de la protection sociale des travailleurs ind\u00e9pendants (CPSTI) en faveur des artisans/commer\u00e7ants et leurs conjoints collaborateurs relevant du R\u00e9gime Compl\u00e9mentaire des Ind\u00e9pendants (RCI) dans le cadre de la crise du Covid-19.</p><p>Les donn\u00e9es retracent les montants effectivement\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/aide-exceptionnelle-cpsti-rci-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/0c/473d172ebd40fc8ef13eb18a26b25b-100.jpg",
-    "certified": false
-  },
-  {
-    "id": "5ee355a4e3720820f5deab8a",
-    "title": "Donn\u00e9es relatives au dispositif d'activit\u00e9 partielle mis en oeuvre dans le cadre de l'\u00e9pid\u00e9mie de COVID-19",
-    "source": "Etalab",
-    "excerpt": "<p>Le dispositif d'activit\u00e9 partielleFace \u00e0 l\u2019ampleur de la crise sanitaire li\u00e9e au COVID-19, le Gouvernement a d\u00e9cid\u00e9 de transformer structurellement le dispositif d\u2019activit\u00e9 partielle, pour doter la France du syst\u00e8me le plus protecteur d\u2019Europe.</p><p>L\u2019activit\u00e9 partielle est un outil au service de la politique publique de pr\u00e9vention des licenciements\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/donnees-relatives-au-dispositif-dactivite-partielle-mis-en-oeuvre-dans-le-cadre-de-lepidemie-de-covid-19/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/2015-01-12/8ebc26cca2394e089a8b065fe0ae2659/etalab-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "58e5842688ee386c65805755",
-    "title": "R\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE)",
-    "source": "Institut National de l'Information G\u00e9ographique et Foresti\u00e8re",
-    "excerpt": "<p>L'\u00c9tat a confi\u00e9 \u00e0 l'IGN le d\u00e9veloppement du r\u00e9f\u00e9rentiel \u00e0 grande \u00e9chelle (RGE). Pour ce faire, il fait appel \u00e0 ses moyens propres ainsi qu\u2019\u00e0 des partenariats avec des producteurs principalement de la sph\u00e8re publique. Le RGE est constitu\u00e9 des composantes orthophotographique, topographique et adresse, parcellaire et altim\u00e9trique.</p><p>Sp\u00e9cifications du\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/referentiel-a-grande-echelle-rge/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/1b/e4985396724faf9f6e1122baa7b65c-100.gif",
-    "certified": true
-  },
-  {
-    "id": "5eda3b6f52f4c2bf118dbdc8",
-    "title": "Elections municipales 2020 - Liste des candidats \u00e9lus au T1 et liste des communes enti\u00e8rement pourvues",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>Liste des candidats \u00e9lus lors du T1 des \u00e9lections municipales de 2020 et liste des communes dont le conseil municipal a \u00e9t\u00e9 enti\u00e8rement pourvu lors du premier tour des \u00e9lections municipales et communautaires organis\u00e9es le 15 mars 2020</p><p>Ces donn\u00e9es sont publi\u00e9es sous r\u00e9serve :- des recours form\u00e9s devant\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-liste-des-candidats-elus-au-t1-et-liste-des-communes-entierement-pourvues/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
-    "certified": true
-  },
-  {
-    "id": "5eda3e7400d5f1f95aef153b",
-    "title": "Elections municipales 2020 - Candidatures au second tour",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>Deux jeux de donn\u00e9es sont disponibles : l'\u00e9tat d\u00e9taill\u00e9 des listes de candidats dans les communes de 1 000 habitants et plus et l'\u00e9tat d\u00e9taill\u00e9 des candidats dans les communes de moins de 1 000 habitants.</p><p>Ces donn\u00e9es sont publi\u00e9es sous r\u00e9serve :- des recours form\u00e9s devant le tribunal\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/elections-municipales-2020-candidatures-au-second-tour/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
-    "certified": true
-  },
-  {
-    "id": "5efa23afd85990251fc9a197",
-    "title": "Municipales 2020 - R\u00e9sultats 2nd tour",
-    "source": "Minist\u00e8re de l'Int\u00e9rieur",
-    "excerpt": "<p>R\u00e9sultats du second tour des \u00e9lections municipales du 28 juin 2020</p><p>Ces donn\u00e9es sont publi\u00e9es sous r\u00e9serve :</p>des recours form\u00e9s devant le tribunal administratif ;d'\u00e9ventuelles rectifications (erreurs mat\u00e9rielles, utilisation par les candidats de leur droit de rectification des donn\u00e9es personnelles les concernant)",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/municipales-2020-resultats-2nd-tour/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/8e/0925ee5c44429d9e37131258773cb7-100.png",
-    "certified": true
-  },
-  {
-    "id": "5ee2391763c79811ddfbc86a",
-    "title": "Diagnostics de performance \u00e9nerg\u00e9tique pour les logements par habitation",
-    "source": "ADEME",
-    "excerpt": "<p>Le diagnostic de performance \u00e9nerg\u00e9tique (DPE) renseigne sur la performance \u00e9nerg\u00e9tique d\u2019un logement ou d\u2019un b\u00e2timent, en \u00e9valuant sa consommation d\u2019\u00e9nergie et son impact en terme d\u2019\u00e9missions de gaz \u00e0 effet de serre.</p><p>Le contenu et les modalit\u00e9s d\u2019\u00e9tablissement du DPE sont r\u00e9glement\u00e9s.</p><p>Le DPE d\u00e9crit le b\u00e2timent ou le\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/diagnostics-de-performance-energetique-pour-les-logements-par-habitation/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
-    "certified": true
-  },
-  {
-    "id": "57343feb88ee3823b0d1b934",
-    "title": "R\u00e9f\u00e9rentiel de l'organisation administrative de l'Etat",
-    "source": "Premier ministre",
-    "excerpt": "<p>Le d\u00e9cret du 14 mars 2017 a institu\u00e9 le Service Public de la Donn\u00e9e.</p><p>Celui-ci met \u00e0 la disposition du public 9 jeux de  donn\u00e9es de r\u00e9f\u00e9rence parmi lesquels la base nationale de l\u2019organisation administrative de l\u2019Etat, produite et diffus\u00e9e par la Dila sur son site service-public.fr.</p><p>Le R\u00e9f\u00e9rentiel de\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/referentiel-de-lorganisation-administrative-de-letat/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/08/98902e29244685862bcdd3198cef7b-100.png",
-    "certified": true
-  },
-  {
-    "id": "5e45343c8b4c415ddfdb180c",
-    "title": "Diagnostics de performance \u00e9nerg\u00e9tique pour les b\u00e2timents publics",
-    "source": "ADEME",
-    "excerpt": "<p>Le diagnostic de performance \u00e9nerg\u00e9tique (DPE) renseigne sur la performance \u00e9nerg\u00e9tique d\u2019un logement ou d\u2019un b\u00e2timent, en \u00e9valuant sa consommation d\u2019\u00e9nergie et son impact en terme d\u2019\u00e9missions de gaz \u00e0 effet de serre. Il s\u2019inscrit dans le cadre de la politique \u00e9nerg\u00e9tique d\u00e9finie au niveau europ\u00e9en afin de r\u00e9duire la\u2026</p>",
-    "acronym": null,
-    "page": "https://www.data.gouv.fr/fr/datasets/diagnostics-de-performance-energetique-pour-les-batiments-publics/",
-    "post_url": "",
-    "logo_url": "https://static.data.gouv.fr/avatars/9d/0ab926e5a94c838b7c8ad25401e774-100.jpg",
     "certified": true
   }
 ]
