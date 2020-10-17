@@ -2,10 +2,10 @@
   "name": "recherche.etalab.studio",
   "version": "1.0.0",
   "description": "## Intentions",
-  "main": "index.js",
+  "main": "js/src/widget.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel js/src/widget.js --out-file js/widget.js"
+    "build": "parcel build js/src/widget.js -d js/"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,6 @@
   },
   "homepage": "https://github.com/etalab/recherche.etalab.studio#readme",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5"
+    "parcel-bundler": "^1.12.4"
   }
 }
