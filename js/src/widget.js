@@ -3,7 +3,7 @@
  */
 const remoteUrl = `//recherche.etalab.studio`
 const datasetsUrl = `${remoteUrl}/datasets.json`
-const dom = { container: document.querySelector('.navbar-static-top .container') }
+const dom = { container: document.querySelector('.navbar-static-top.subnav-large .container') }
 Object.assign(dom, {
   search: dom.container.querySelector('[type=search]'),
   categories: dom.container.querySelector('nav.sidebar.panel.collapse.subnav-collapse'),
