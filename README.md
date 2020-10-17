@@ -27,6 +27,16 @@ document.head.appendChild(script)
 
 La zone de recherche s’ouvre au _focus_ pour proposer une version étendue, focalisant sur les résultats.
 
+#### Transpiler le code du widget
+
+Après avoir édité `js/src/widget.js` :
+
+```
+npm install
+npm run build
+```
+
+NB: cette transpilation est faite automatiquement sur le dépôt Github.
 
 ## Données
 

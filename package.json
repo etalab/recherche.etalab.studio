@@ -1,0 +1,23 @@
+{
+  "name": "recherche.etalab.studio",
+  "version": "1.0.0",
+  "description": "## Intentions",
+  "main": "js/src/widget.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build js/src/widget.js -d js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etalab/recherche.etalab.studio.git"
+  },
+  "author": "Etalab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etalab/recherche.etalab.studio/issues"
+  },
+  "homepage": "https://github.com/etalab/recherche.etalab.studio#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

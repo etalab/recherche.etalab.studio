@@ -1,0 +1,20 @@
+name: Transpile widget.js
+# This workflow is triggered on pushes to the repository.
+on: [push]
+
+jobs:
+  build:
+    name: Transpile widget.js
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: bahmutov/npm-install@v1
+      - name: Run parcel (with cache)
+        run: npm run build
+      - uses: stefanzweifel/git-auto-commit-action@v4.1.6
+        with:
+          commit_message: Transpile widget.js
+          file_pattern: js/widget.js
+          branch: ${{ github.head_ref }}
